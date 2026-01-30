@@ -117,7 +117,7 @@
       gap:10px;
       margin:4px 0 12px;
     }
-    .section-title h2{margin:0; font-size:15px}
+    .section-title h2{margin:0; font-size:25px}
     .hint{font-size:12px; color:var(--muted)}
 
     /* FAQ (Accordion) */
@@ -128,16 +128,31 @@
       padding:10px 12px;
       margin:10px 0;
     }
-    summary{
+
+    /* 질문(summary) - 헤더처럼 보이게 + 구분선 */
+    details > summary{
       cursor:pointer;
-      font-weight:700;
+      font-weight:800;
       color: var(--text);
       outline:none;
       list-style:none;
       display:flex; align-items:center; justify-content:space-between;
       gap:12px;
+
+      font-size: 17.5px; 
+
+      /* ✨ 추가 */
+      background: rgba(11,17,28,.45);
+      padding:10px 12px;
+      border-radius:10px;
+
+      /* ✨ 추가: 답변과 분리 */
+      margin:-2px -2px 8px;                 /* 배경이 더 꽉 차 보이게 */
+      border-bottom:1px solid rgba(31,42,61,.75);
     }
-    summary::-webkit-details-marker{display:none}
+
+    details > summary::-webkit-details-marker{display:none}
+
     .chev{
       color: var(--muted);
       font-size:12px;
@@ -147,11 +162,22 @@
       background: rgba(11,17,28,.35);
       white-space:nowrap;
     }
-    details[open] .chev{color: var(--text); border-color: rgba(77,163,255,.35); background: rgba(77,163,255,.10)}
+    details[open] .chev{
+      color: var(--text);
+      border-color: rgba(77,163,255,.35);
+      background: rgba(77,163,255,.10)
+    }
+
+    /* 답변 - 왼쪽 포인트 라인 + 여백 */
     .answer{
       color: var(--muted);
-      padding:10px 2px 2px;
+
+      /* 기존 padding 대신 ✨ 이렇게 추천 */
+      margin-top: 20px;
+      padding: 8px 2px 2px 10px;
+      border-left: 3px solid rgba(77,163,255,.35);
     }
+
     .answer code{
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       background: rgba(11,17,28,.55);
@@ -182,6 +208,12 @@
       text-indent: 0;             /* 혹시 모를 들여쓰기 제거 */
     }
 
+    /* 명령어 테이블 헤더 글씨 키우기 */
+    table th{
+      font-size: 18.5px;   /* 기본보다 살짝 큼 */
+      font-weight: 700; 
+    }
+
     /* Commands table */
     .tablewrap{
       overflow:auto;
@@ -197,12 +229,13 @@
     th, td{
       padding:10px 10px;
       border-bottom:1px solid rgba(31,42,61,.75);
+      border-right:1px solid rgba(31,42,61,.6);
       text-align:left;
       font-size:13px;
       vertical-align:top;
     }
     th{color:var(--muted); font-weight:700; background: rgba(11,17,28,.35)}
-    tr:last-child td{border-bottom:none}
+    th:last-child, td:last-child{ border-right:none; }
     .cmd{
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       color: var(--text);
@@ -227,6 +260,31 @@
       border-top:1px solid rgba(31,42,61,.75);
       background: rgba(11,17,28,.35);
     }
+
+    /* 명령어 목록 섹션 제목 */
+    .subhead{
+      margin: 14px 0 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: .2px;
+    }
+
+    .subhead.vip{
+      color: #d6ffe9; /* 너무 튀면 var(--text)로 */
+    }
+
+    /* 섹션 설명 */
+    .subnote{
+      margin: -6px 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* (선택) VIP 테이블을 살짝 다른 톤으로 */
+    .vip-table th{
+      border-bottom: 2px solid rgba(83,210,140,.35);
+    }
   </style>
 </head>
 
@@ -236,6 +294,7 @@
       <div class="title">
         <h1>RSS 좀비탈출서버</h1>
         <p>FAQ / 명령어 목록</p>
+        
       </div>
 
       <!-- 디스코드 링크: 여기 href만 바꾸면 됨 -->
@@ -268,8 +327,8 @@
           </summary>
 
           <div class="answer">
-            CS2에서 콘솔 열고 <code>exec menu_bind</code> 를 입력하세요.<br />
-            또는 아래 명령어를 콘솔에 입력해 단축키를 설정할 수도 있습니다.
+            CS2에서 콘솔창을 열고 <code>exec menu_bind</code> 를 입력하세요.<br />
+            또는 아래 명령어를 콘솔창에 입력해 단축키를 설정할 수도 있습니다.
 
             <pre><code>bind 1 "slot1; menuselect 1";
 bind 2 "slot2; menuselect 2";
@@ -300,7 +359,7 @@ bind 9 "slot9; menuselect 9";</code></pre>
             <span class="chev">열기/닫기</span>
           </summary>
           <div class="answer">
-            노래소리가 너무 커요 : <code>snd_musicvolume (0~2)</code>  콘솔창에 입력 <br />
+            노래 소리가 너무 커요 : <code>snd_musicvolume (0~2)</code>  콘솔창에 입력 <br />
             다른 사람 총소리가 너무 커요 : <code>!stopsound</code> 채팅창에 입력 <br />
           </div>
         </details>
@@ -315,6 +374,20 @@ bind 9 "slot9; menuselect 9";</code></pre>
           </div>
         </details>
 
+        <details>
+          <summary>
+            서버 규칙을 어디서 볼 수 있나요?
+            <span class="chev">열기/닫기</span>
+          </summary>
+          <div class="answer">
+            <a href="https://discord.com/channels/850664390779731978/1321861335520120882/1384827886946484245"
+              target="_blank"
+              rel="noopener noreferrer">
+              디스코드 링크
+            </a>로 들어와서 확인해주세요
+          </div>
+        </details>
+
         <footer>
           마지막 업데이트: <span id="lastUpdate">2026-01-30</span>
           <!-- 마지막 업데이트: <span id="lastUpdate">-</span> -->
@@ -325,11 +398,13 @@ bind 9 "slot9; menuselect 9";</code></pre>
       <section id="cmds" class="panel" role="tabpanel">
         <div class="section-title">
           <h2>명령어 목록</h2>
-          <div class="hint">원하는 대로 행을 추가하면 됩니다.</div>
+          <div class="hint">모든 명령어는 !와 / 둘 다 가능합니다.</div>
         </div>
 
+        <!-- 일반 사용자 -->
+        <h3 class="subhead">일반 사용자 명령어</h3>
         <div class="tablewrap">
-          <table>
+          <table class="cmd-table">
             <thead>
               <tr>
                 <th style="width: 28%;">명령어</th>
@@ -338,33 +413,85 @@ bind 9 "slot9; menuselect 9";</code></pre>
               </tr>
             </thead>
             <tbody>
-              <!-- 아래는 예시. 너 서버에 맞게 바꿔서 쓰면 됨 -->
-              <tr>
-                <td><span class="cmd">!help</span> <span class="tag">채팅</span></td>
-                <td>도움말/기본 명령어를 보여줍니다.</td>
-                <td><span class="cmd">!help</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!rules</span> <span class="tag">채팅</span></td>
-                <td>규칙 요약을 출력합니다.</td>
-                <td><span class="cmd">!rules</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!rtv</span> <span class="tag">투표</span></td>
-                <td>맵 변경 투표를 시작/참여합니다.</td>
-                <td><span class="cmd">!rtv</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!nominate</span> <span class="tag">투표</span></td>
-                <td>원하는 맵을 후보로 올립니다.</td>
-                <td><span class="cmd">!nominate ze_mapname</span></td>
-              </tr>
+            <tr>
+              <td><span class="cmd">!admins</span></td>
+              <td>접속중인 어드민 목록</td>
+              <td><span class="cmd">!admins</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!emote</span></td>
+              <td>춤, 감정표현 사용</td>
+              <td><span class="cmd">!emote, !dance</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!kev</span></td>
+              <td>방탄복을 구매합니다.</td>
+              <td><span class="cmd">!kev, !kevlar</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!mapcooldowns</span></td>
+              <td>쿨다운인 맵 목록을 출력합니다</td>
+              <td><span class="cmd">!mapcooldowns</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!noshake</span></td>
+              <td>화면 흔들림 효과를 제거합니다.</td>
+              <td><span class="cmd">!noshake</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!rtv</span></td>
+              <td>맵 변경에 동의합니다.</td>
+              <td><span class="cmd">!rtv</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!tp</span></td>
+              <td>3인칭 &lt;-&gt; 1인칭 전환</td>
+              <td><span class="cmd">!tp, !thirdperson</span></td>
+            </tr>
             </tbody>
           </table>
         </div>
 
+        <!-- VIP -->
+        <h3 class="subhead vip">후원자 전용 명령어</h3>
+        <p class="subnote">후원자 권한이 있는 유저만 사용할 수 있습니다.</p>
+        <div class="tablewrap">
+          <table class="cmd-table vip-table">
+            <thead>
+              <tr>
+                <th style="width: 28%;">명령어</th>
+                <th>설명</th>
+                <th style="width: 30%;">예시</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- VIP 명령어들 여기 -->
+            <tr>
+              <td><span class="cmd">!modelcolor</span></td>
+              <td>내 캐릭터의 색깔을 정합니다.</td>
+              <td><span class="cmd">!modelcolor 255 255 255</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!tag</span></td>
+              <td>채팅 태그를 설정합니다</td>
+              <td><span class="cmd">!tag 빛이나는솔로</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!tagcolor</span></td>
+              <td>채팅 태그의 색깔을 정합니다.</td>
+              <td><span class="cmd">!tagcolor [0~15]</span></td>
+            </tr>
+            <tr>
+              <td><span class="cmd">!vip</span></td>
+              <td>VIP 남은 기간을 확인합니다.</td>
+              <td><span class="cmd">!vip</span></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        
         <footer>
-          팁: 명령어가 많아지면 “분류(태그)”를 더 추가해서 보기 쉽게 만들 수 있어요.
+        모든 명령어를 확인하려면 디스코드를 확인해주세요.
         </footer>
       </section>
     </div>
