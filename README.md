@@ -60,9 +60,9 @@ VIP(Create)
 파일 작동 방식
 =======================
 
-rss_motd.html(뼈대) <- lang.js(언어파일) , script.js(스크립트파일) , style.css(스타일)
-lang에선 문자를 가져오고
-script에선 기능을 가져오고
-style에선 생긴 스타일을 가져온다
-rss_motd에는 뼈대이기에 뼈에 장기붙인다는 느낌에 가까움
+rss_motd.html(뼈대) <- lang.js(언어파일) , script.js(스크립트파일) , style.css(스타일)<br/>
+lang에선 문자를 가져오고<br/>
+script에선 기능을 가져오고<br/>
+style에선 생긴 스타일을 가져온다<br/>
+rss_motd에는 뼈대이기에 뼈에 장기붙인다는 느낌에 가까움<br/>
 
