@@ -24,7 +24,7 @@ FAQ(Create)
 마지막 업데이트 날짜 갱신(Update)
 일반 사용자(Create)
 VIP(Create)
-
+------------------------
 =======================
 보통 수정하면 건드려줘야되는 부분
 lang.js , rss_motd.html
