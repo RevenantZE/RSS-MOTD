@@ -19,31 +19,39 @@ rss_motd.html 부분
 찾기목록 (rss_motd.html)[검색하면됨]
 =======================
 
-FAQ(Create)
-마지막 업데이트 날짜 갱신(Update)
-일반 사용자(Create)
-VIP(Create)
+FAQ(Create)<br/>
+마지막 업데이트 날짜 갱신(Update)<br/>
+일반 사용자(Create)<br/>
+VIP(Create)<br/>
 
-=======================
+
 보통 수정하면 건드려줘야되는 부분
-lang.js , rss_motd.html
 =======================
+lang.js , rss_motd.html
+
 
 FAQ(Create) -> FAQ 부분
+=======================
 
 <img src="guide_image/readme_1.png" alt="설명" style="max-width: 100%;" />
 
 질문글을 추가할때 lang에서 위의 주석에서 코드에서 faq_4 처럼 해당되는 노드를 추가해주고 answer_4로 마찬가지로 구현해준다음에 위와같이 만들면됨.
 
-마지막 업데이트 날짜 갱신(Update) -> 업데이트 마지막 날짜 갱신
+마지막 업데이트 날짜 갱신(Update)
+=======================
+업데이트 마지막 날짜 갱신
 
-일반 사용자(Create) ->  명령어 리스트 추가 (일반 사용자)
+일반 사용자(Create)
+=======================
+명령어 리스트 추가 (일반 사용자)
 
 <img src="guide_image/readme_2.png" alt="설명" style="max-width: 100%;" />
 
 명령어 리스트를 추가할때 위와 같다. lang에 node를 추가해주고 cmd_1자리에 넣어주면된다.
 
-VIP(Create) -> 명령어 리스트 추가 (VIP 사용자)
+VIP(Create) 
+=======================
+명령어 리스트 추가 (VIP 사용자)
 
 일반 사용자 명령어 리스트 추가와 같음
 
