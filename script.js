@@ -2,6 +2,7 @@
 // 1. 탭 전환 및 URL 해시 지원
 const DEFAULT_LANG = "ko";
 const SUPPORTED_LANGS = new Set(["ko", "en", "jp"]);
+let commandGuideData = null;
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 
@@ -57,6 +58,22 @@ window.addEventListener("load", setLastUpdateFromGitHub);
 
 
 // 3. 다국어 스크립트
+function getCurrentLang() {
+  return document.documentElement.lang || DEFAULT_LANG;
+}
+
+function localizeText(value, lang = getCurrentLang()) {
+  if (value == null) return "";
+  if (typeof value === "string") return value;
+  return value[lang] || value[DEFAULT_LANG] || value.en || "";
+}
+
+function renderCommandGuide() {
+  const guide = document.getElementById("commandGuide");
+  if (!guide || !commandGuideData) return;
+  guide.replaceChildren(...commandGuideData.pages.map(createCommandPage));
+}
+
 function setLanguage(lang) {
   // 텍스트 교체
   document.querySelectorAll("[data-lang]").forEach(el => {
@@ -74,6 +91,7 @@ function setLanguage(lang) {
   // 선택한 언어 저장 및 HTML 문서속서를 반영
   localStorage.setItem("lang", lang);
   document.documentElement.lang = lang;
+  renderCommandGuide();
 }
 
 // 언어 버튼 클릭 이벤트 바인딩
@@ -100,8 +118,8 @@ async function loadCommandGuide() {
     const res = await fetch("commands.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`commands.json ${res.status}`);
 
-    const data = await res.json();
-    guide.replaceChildren(...data.pages.map(createCommandPage));
+    commandGuideData = await res.json();
+    renderCommandGuide();
   } catch (err) {
     console.error("command guide load failed:", err);
     guide.textContent = "Failed to load commands.json";
@@ -114,7 +132,7 @@ function createCommandPage(page) {
 
   const title = document.createElement("h3");
   title.className = "command-page-title";
-  title.textContent = page.title;
+  title.textContent = localizeText(page.title);
   pageEl.appendChild(title);
 
   page.sections.forEach(section => {
@@ -122,7 +140,7 @@ function createCommandPage(page) {
     sectionEl.className = "command-section";
 
     const heading = document.createElement("h4");
-    heading.textContent = section.title;
+    heading.textContent = localizeText(section.title);
     sectionEl.appendChild(heading);
 
     const list = document.createElement("div");
@@ -138,7 +156,7 @@ function createCommandPage(page) {
 
       const desc = document.createElement("div");
       desc.className = "command-desc";
-      desc.textContent = item.description;
+      desc.textContent = localizeText(item.description);
 
       row.append(command, desc);
       list.appendChild(row);
@@ -146,7 +164,7 @@ function createCommandPage(page) {
       if (item.note) {
         const note = document.createElement("div");
         note.className = "command-note";
-        note.textContent = item.note;
+        note.textContent = localizeText(item.note);
         list.appendChild(note);
       }
     });

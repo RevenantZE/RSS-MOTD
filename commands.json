@@ -1,110 +1,682 @@
-﻿{
+{
   "version": 1,
   "updatedAt": "2026-06-30",
   "pages": [
     {
       "id": "basic",
-      "title": "General Commands",
+      "title": {
+        "ko": "일반 명령어",
+        "en": "General Commands",
+        "jp": "一般コマンド"
+      },
       "sections": [
-        { "title": "Zombie", "commands": [ { "command": "/ztele", "description": "스폰지역으로 이동" } ] },
-        { "title": "Sound", "commands": [
-          { "command": "/stopsound", "description": "총소리 끄기, 켜기" },
-          { "command": "/stopmusic", "description": "음악 소리 끄기" },
-          { "command": "/music <0~100>", "description": "음악 소리 볼륨 조절" },
-          { "command": "/sfx <0~100>", "description": "sfx 소리 볼륨 조절" }
-        ] },
-        { "title": "Store", "commands": [
-          { "command": "/credit", "description": "크레딧 확인" },
-          { "command": "/token", "description": "토큰 확인" },
-          { "command": "/playtime", "description": "플탐 확인" },
-          { "command": "/store", "description": "스토어 메뉴 오픈" },
-          { "command": "/spray <number>", "description": "스프레이 뿌리기" },
-          { "command": "/sprayhide", "description": "스프레이 안 보이게 하기" },
-          { "command": "/tracerhide", "description": "트레이서 안 보이게 하기" },
-          { "command": "/vip", "description": "vip 기간 확인" }
-        ] },
-        { "title": "Utility", "commands": [
-          { "command": "/hide", "description": "하이드 메뉴 열기" },
-          { "command": "/hide <0~9999>", "description": "거리 안 쪽에 있는 사람 가리기" },
-          { "command": "/hideweapon", "description": "다른 사람의 무기 숨기기" },
-          { "command": "/noshake", "description": "화면 흔들림 끄기" },
-          { "command": "/toggledecals", "description": "핏자국 끄기" },
-          { "command": "/tp", "description": "3인칭 켜기, 끄기" },
-          { "command": "/spec", "description": "관전으로 이동" },
-          { "command": "/language <en|jp|ko>", "description": "언어 설정" },
-          { "command": "/setting", "description": "현재 적용된 세팅 확인" },
-          { "command": "/menubind", "description": "메뉴용 바인드 명령어 콘솔창에 출력" },
-          { "command": "/showname", "description": "바라보는 대상 이름 표시 끄기, 켜기" },
-          { "command": "/speed", "description": "현재 스피드 출력 끄기, 켜기" },
-          { "command": "/admins", "description": "접속중인 어드민 목록 확인" },
-          { "command": "/status", "description": "ban 상태 확인" },
-          { "command": "/bw", "description": "버튼 와치 모드 변경", "note": "0. 모두 끄기 / 1. 채팅 / 2. 콘솔 / 3. 채팅 + 콘솔" },
-          { "command": "/bosshud", "description": "보스허드 켜기, 끄기" }
-        ] },
-        { "title": "Map", "commands": [
-          { "command": "/nominate <map name>", "description": "맵 추천" },
-          { "command": "/nomlist", "description": "맵 추천 목록 보기" },
-          { "command": "/mapcooldowns", "description": "쿨 다운 목록 보기" },
-          { "command": "/nextmap", "description": "다음 맵 확인" },
-          { "command": "/maplist", "description": "맵 리스트 출력" }
-        ] },
-        { "title": "Vote", "commands": [
-          { "command": "/rtv", "description": "맵 넘기기 투표" },
-          { "command": "/unrtv", "description": "rtv 취소" },
-          { "command": "/ve", "description": "연장 투표" },
-          { "command": "/unve", "description": "연장 투표 취소" },
-          { "command": "/extendsleft", "description": "남은 연장 횟수 확인" },
-          { "command": "/timeleft", "description": "남은 시간 확인" },
-          { "command": "/revote", "description": "투표 다시하기" }
-        ] },
-        { "title": "EntWatch", "commands": [
-          { "command": "/hud", "description": "엔트와치 텍스트 활성화" },
-          { "command": "/hudepos <X> <Y>", "description": "허드 위치 변경" },
-          { "command": "/hudsize <size>", "description": "허드 글씨 크기 변경" },
-          { "command": "/hudcolor <0~255> <0~255> <0~255>", "description": "허드 글씨 색깔 변경" },
-          { "command": "/estatus", "description": "eban 상태 확인" }
-        ] }
+        {
+          "title": {
+            "ko": "좀비",
+            "en": "Zombie",
+            "jp": "ゾンビ"
+          },
+          "commands": [
+            {
+              "command": "/ztele",
+              "description": {
+                "ko": "스폰지역으로 이동",
+                "en": "Teleport to spawn",
+                "jp": "スポーン地点へ移動"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "소리",
+            "en": "Sound",
+            "jp": "サウンド"
+          },
+          "commands": [
+            {
+              "command": "/stopsound",
+              "description": {
+                "ko": "총소리 끄기, 켜기",
+                "en": "Toggle gun sounds",
+                "jp": "銃声のオン/オフ"
+              }
+            },
+            {
+              "command": "/stopmusic",
+              "description": {
+                "ko": "음악 소리 끄기",
+                "en": "Turn off music",
+                "jp": "音楽をオフ"
+              }
+            },
+            {
+              "command": "/music <0~100>",
+              "description": {
+                "ko": "음악 소리 볼륨 조절",
+                "en": "Set music volume",
+                "jp": "音楽の音量を設定"
+              }
+            },
+            {
+              "command": "/sfx <0~100>",
+              "description": {
+                "ko": "sfx 소리 볼륨 조절",
+                "en": "Set SFX volume",
+                "jp": "SFX音量を設定"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "스토어",
+            "en": "Store",
+            "jp": "ストア"
+          },
+          "commands": [
+            {
+              "command": "/credit",
+              "description": {
+                "ko": "크레딧 확인",
+                "en": "Check credits",
+                "jp": "クレジットを確認"
+              }
+            },
+            {
+              "command": "/token",
+              "description": {
+                "ko": "토큰 확인",
+                "en": "Check tokens",
+                "jp": "トークンを確認"
+              }
+            },
+            {
+              "command": "/playtime",
+              "description": {
+                "ko": "플탐 확인",
+                "en": "Check playtime",
+                "jp": "プレイ時間を確認"
+              }
+            },
+            {
+              "command": "/store",
+              "description": {
+                "ko": "스토어 메뉴 오픈",
+                "en": "Open store menu",
+                "jp": "ストアメニューを開く"
+              }
+            },
+            {
+              "command": "/spray <number>",
+              "description": {
+                "ko": "스프레이 뿌리기",
+                "en": "Use a spray",
+                "jp": "スプレーを使用"
+              }
+            },
+            {
+              "command": "/sprayhide",
+              "description": {
+                "ko": "스프레이 안 보이게 하기",
+                "en": "Hide sprays",
+                "jp": "スプレーを非表示"
+              }
+            },
+            {
+              "command": "/tracerhide",
+              "description": {
+                "ko": "트레이서 안 보이게 하기",
+                "en": "Hide tracers",
+                "jp": "トレーサーを非表示"
+              }
+            },
+            {
+              "command": "/vip",
+              "description": {
+                "ko": "vip 기간 확인",
+                "en": "Check VIP time remaining",
+                "jp": "VIP残り期間を確認"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "편의성",
+            "en": "Utility",
+            "jp": "便利機能"
+          },
+          "commands": [
+            {
+              "command": "/hide",
+              "description": {
+                "ko": "하이드 메뉴 열기",
+                "en": "Open hide menu",
+                "jp": "非表示メニューを開く"
+              }
+            },
+            {
+              "command": "/hide <0~9999>",
+              "description": {
+                "ko": "거리 안 쪽에 있는 사람 가리기",
+                "en": "Hide players within distance",
+                "jp": "指定距離内のプレイヤーを非表示"
+              }
+            },
+            {
+              "command": "/hideweapon",
+              "description": {
+                "ko": "다른 사람의 무기 숨기기",
+                "en": "Hide other players' weapons",
+                "jp": "他プレイヤーの武器を非表示"
+              }
+            },
+            {
+              "command": "/noshake",
+              "description": {
+                "ko": "화면 흔들림 끄기",
+                "en": "Disable screen shake",
+                "jp": "画面の揺れを無効化"
+              }
+            },
+            {
+              "command": "/toggledecals",
+              "description": {
+                "ko": "핏자국 끄기",
+                "en": "Toggle blood decals",
+                "jp": "血痕表示を切り替え"
+              }
+            },
+            {
+              "command": "/tp",
+              "description": {
+                "ko": "3인칭 켜기, 끄기",
+                "en": "Toggle third person",
+                "jp": "三人称視点を切り替え"
+              }
+            },
+            {
+              "command": "/spec",
+              "description": {
+                "ko": "관전으로 이동",
+                "en": "Move to spectator",
+                "jp": "観戦へ移動"
+              }
+            },
+            {
+              "command": "/language <en|jp|ko>",
+              "description": {
+                "ko": "언어 설정",
+                "en": "Set language",
+                "jp": "言語を設定"
+              }
+            },
+            {
+              "command": "/setting",
+              "description": {
+                "ko": "현재 적용된 세팅 확인",
+                "en": "Check current settings",
+                "jp": "現在の設定を確認"
+              }
+            },
+            {
+              "command": "/menubind",
+              "description": {
+                "ko": "메뉴용 바인드 명령어 콘솔창에 출력",
+                "en": "Print menu bind commands to console",
+                "jp": "メニュー用バインドをコンソールに表示"
+              }
+            },
+            {
+              "command": "/showname",
+              "description": {
+                "ko": "바라보는 대상 이름 표시 끄기, 켜기",
+                "en": "Toggle target name display",
+                "jp": "見ている対象の名前表示を切り替え"
+              }
+            },
+            {
+              "command": "/speed",
+              "description": {
+                "ko": "현재 스피드 출력 끄기, 켜기",
+                "en": "Toggle speed display",
+                "jp": "現在速度表示を切り替え"
+              }
+            },
+            {
+              "command": "/admins",
+              "description": {
+                "ko": "접속중인 어드민 목록 확인",
+                "en": "Show online admins",
+                "jp": "接続中の管理者を表示"
+              }
+            },
+            {
+              "command": "/status",
+              "description": {
+                "ko": "ban 상태 확인",
+                "en": "Check ban status",
+                "jp": "BAN状態を確認"
+              }
+            },
+            {
+              "command": "/bw",
+              "description": {
+                "ko": "버튼 와치 모드 변경",
+                "en": "Change button watch mode",
+                "jp": "ボタンウォッチモードを変更"
+              },
+              "note": {
+                "ko": "0. 모두 끄기 / 1. 채팅 / 2. 콘솔 / 3. 채팅 + 콘솔",
+                "en": "0. Off / 1. Chat / 2. Console / 3. Chat + Console",
+                "jp": "0. すべてオフ / 1. チャット / 2. コンソール / 3. チャット + コンソール"
+              }
+            },
+            {
+              "command": "/bosshud",
+              "description": {
+                "ko": "보스허드 켜기, 끄기",
+                "en": "Toggle boss HUD",
+                "jp": "ボスHUDを切り替え"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "맵",
+            "en": "Map",
+            "jp": "マップ"
+          },
+          "commands": [
+            {
+              "command": "/nominate <map name>",
+              "description": {
+                "ko": "맵 추천",
+                "en": "Nominate a map",
+                "jp": "マップを推薦"
+              }
+            },
+            {
+              "command": "/nomlist",
+              "description": {
+                "ko": "맵 추천 목록 보기",
+                "en": "Show nominated maps",
+                "jp": "推薦マップ一覧を表示"
+              }
+            },
+            {
+              "command": "/mapcooldowns",
+              "description": {
+                "ko": "쿨 다운 목록 보기",
+                "en": "Show map cooldowns",
+                "jp": "マップクールダウン一覧を表示"
+              }
+            },
+            {
+              "command": "/nextmap",
+              "description": {
+                "ko": "다음 맵 확인",
+                "en": "Check next map",
+                "jp": "次のマップを確認"
+              }
+            },
+            {
+              "command": "/maplist",
+              "description": {
+                "ko": "맵 리스트 출력",
+                "en": "Show map list",
+                "jp": "マップ一覧を表示"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "투표",
+            "en": "Vote",
+            "jp": "投票"
+          },
+          "commands": [
+            {
+              "command": "/rtv",
+              "description": {
+                "ko": "맵 넘기기 투표",
+                "en": "Vote to change map",
+                "jp": "マップ変更投票"
+              }
+            },
+            {
+              "command": "/unrtv",
+              "description": {
+                "ko": "rtv 취소",
+                "en": "Cancel RTV",
+                "jp": "RTVを取消"
+              }
+            },
+            {
+              "command": "/ve",
+              "description": {
+                "ko": "연장 투표",
+                "en": "Vote to extend",
+                "jp": "延長投票"
+              }
+            },
+            {
+              "command": "/unve",
+              "description": {
+                "ko": "연장 투표 취소",
+                "en": "Cancel extend vote",
+                "jp": "延長投票を取消"
+              }
+            },
+            {
+              "command": "/extendsleft",
+              "description": {
+                "ko": "남은 연장 횟수 확인",
+                "en": "Check extends left",
+                "jp": "残り延長回数を確認"
+              }
+            },
+            {
+              "command": "/timeleft",
+              "description": {
+                "ko": "남은 시간 확인",
+                "en": "Check time left",
+                "jp": "残り時間を確認"
+              }
+            },
+            {
+              "command": "/revote",
+              "description": {
+                "ko": "투표 다시하기",
+                "en": "Revote",
+                "jp": "再投票"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "엔트와치",
+            "en": "EntWatch",
+            "jp": "EntWatch"
+          },
+          "commands": [
+            {
+              "command": "/hud",
+              "description": {
+                "ko": "엔트와치 텍스트 활성화",
+                "en": "Toggle EntWatch text",
+                "jp": "EntWatchテキストを切り替え"
+              }
+            },
+            {
+              "command": "/hudepos <X> <Y>",
+              "description": {
+                "ko": "허드 위치 변경",
+                "en": "Change HUD position",
+                "jp": "HUD位置を変更"
+              }
+            },
+            {
+              "command": "/hudsize <size>",
+              "description": {
+                "ko": "허드 글씨 크기 변경",
+                "en": "Change HUD text size",
+                "jp": "HUD文字サイズを変更"
+              }
+            },
+            {
+              "command": "/hudcolor <0~255> <0~255> <0~255>",
+              "description": {
+                "ko": "허드 글씨 색깔 변경",
+                "en": "Change HUD text color",
+                "jp": "HUD文字色を変更"
+              }
+            },
+            {
+              "command": "/estatus",
+              "description": {
+                "ko": "eban 상태 확인",
+                "en": "Check eban status",
+                "jp": "eban状態を確認"
+              }
+            }
+          ]
+        }
       ]
     },
     {
       "id": "leader",
-      "title": "Leader / Top Defender",
+      "title": {
+        "ko": "리더 / 탑디펜더",
+        "en": "Leader / Top Defender",
+        "jp": "リーダー / トップディフェンダー"
+      },
       "sections": [
-        { "title": "Leader", "commands": [
-          { "command": "/c", "description": "오더핑 잡기" },
-          { "command": "/tc", "description": "번역 가능한 오더핑 잡기" },
-          { "command": "/uc", "description": "오더핑 빼기" },
-          { "command": "/leaderhelp", "description": "리더 관련 명령어 목록 확인" },
-          { "command": "/leaders", "description": "현재 리더 확인" },
-          { "command": "/leadercolor <0~255> <0~255> <0~255>", "description": "리더 색 지정" },
-          { "command": "/ping", "description": "리더 핑 생성" },
-          { "command": "/danger", "description": "위험핑 생성" },
-          { "command": "/gather", "description": "집결핑 생성" },
-          { "command": "/pingcustom", "description": "커스텀 핑 생성" },
-          { "command": "/beacon <name>", "description": "대상에게 비콘 활성화" },
-          { "command": "/beacons", "description": "비콘 목록 확인" },
-          { "command": "/glow <name>", "description": "대상에게 글로우 활성화" },
-          { "command": "/glows", "description": "글로우 목록 확인" }
-        ] },
-        { "title": "Top Defender", "commands": [
-          { "command": "/tdrank", "description": "현재 내 등수 확인" },
-          { "command": "/tdfind <name>", "description": "닉네임 등수 확인" }
-        ] }
+        {
+          "title": {
+            "ko": "리더",
+            "en": "Leader",
+            "jp": "リーダー"
+          },
+          "commands": [
+            {
+              "command": "/c",
+              "description": {
+                "ko": "오더핑 잡기",
+                "en": "Take leader ping",
+                "jp": "リーダーピングを取得"
+              }
+            },
+            {
+              "command": "/tc",
+              "description": {
+                "ko": "번역 가능한 오더핑 잡기",
+                "en": "Take translatable leader ping",
+                "jp": "翻訳可能なリーダーピングを取得"
+              }
+            },
+            {
+              "command": "/uc",
+              "description": {
+                "ko": "오더핑 빼기",
+                "en": "Remove leader ping",
+                "jp": "リーダーピングを解除"
+              }
+            },
+            {
+              "command": "/leaderhelp",
+              "description": {
+                "ko": "리더 관련 명령어 목록 확인",
+                "en": "Show leader commands",
+                "jp": "リーダーコマンド一覧を表示"
+              }
+            },
+            {
+              "command": "/leaders",
+              "description": {
+                "ko": "현재 리더 확인",
+                "en": "Show current leaders",
+                "jp": "現在のリーダーを表示"
+              }
+            },
+            {
+              "command": "/leadercolor <0~255> <0~255> <0~255>",
+              "description": {
+                "ko": "리더 색 지정",
+                "en": "Set leader color",
+                "jp": "リーダー色を設定"
+              }
+            },
+            {
+              "command": "/ping",
+              "description": {
+                "ko": "리더 핑 생성",
+                "en": "Create leader ping",
+                "jp": "リーダーピングを作成"
+              }
+            },
+            {
+              "command": "/danger",
+              "description": {
+                "ko": "위험핑 생성",
+                "en": "Create danger ping",
+                "jp": "危険ピングを作成"
+              }
+            },
+            {
+              "command": "/gather",
+              "description": {
+                "ko": "집결핑 생성",
+                "en": "Create gather ping",
+                "jp": "集合ピングを作成"
+              }
+            },
+            {
+              "command": "/pingcustom",
+              "description": {
+                "ko": "커스텀 핑 생성",
+                "en": "Create custom ping",
+                "jp": "カスタムピングを作成"
+              }
+            },
+            {
+              "command": "/beacon <name>",
+              "description": {
+                "ko": "대상에게 비콘 활성화",
+                "en": "Enable beacon on target",
+                "jp": "対象にビーコンを付与"
+              }
+            },
+            {
+              "command": "/beacons",
+              "description": {
+                "ko": "비콘 목록 확인",
+                "en": "Show beacon list",
+                "jp": "ビーコン一覧を表示"
+              }
+            },
+            {
+              "command": "/glow <name>",
+              "description": {
+                "ko": "대상에게 글로우 활성화",
+                "en": "Enable glow on target",
+                "jp": "対象にグローを付与"
+              }
+            },
+            {
+              "command": "/glows",
+              "description": {
+                "ko": "글로우 목록 확인",
+                "en": "Show glow list",
+                "jp": "グロー一覧を表示"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ko": "탑디펜더",
+            "en": "Top Defender",
+            "jp": "トップディフェンダー"
+          },
+          "commands": [
+            {
+              "command": "/tdrank",
+              "description": {
+                "ko": "현재 내 등수 확인",
+                "en": "Check your rank",
+                "jp": "自分の順位を確認"
+              }
+            },
+            {
+              "command": "/tdfind <name>",
+              "description": {
+                "ko": "닉네임 등수 확인",
+                "en": "Find rank by name",
+                "jp": "名前で順位を検索"
+              }
+            }
+          ]
+        }
       ]
     },
     {
       "id": "donator",
-      "title": "Donator",
+      "title": {
+        "ko": "후원자 명령어",
+        "en": "Donator Commands",
+        "jp": "ドネーターコマンド"
+      },
       "sections": [
-        { "title": "Donator", "commands": [
-          { "command": "/tag <value>", "description": "이름 앞에 붙일 태그 설정" },
-          { "command": "/tagcolor <0~15>", "description": "태그의 색깔 지정" },
-          { "command": "/modelcolor <0~255> <0~255> <0~255>", "description": "플레이어 모델 색깔 지정" },
-          { "command": "/rainbow", "description": "플레이어 모델 색깔을 무지개 색으로 변경" },
-          { "command": "/trail <0~255> <0~255> <0~255>", "description": "수류탄 트레일 색깔 지정" },
-          { "command": "/tracer <0~255> <0~255> <0~255>", "description": "트레이서 색깔 지정" },
-          { "command": "/dance", "description": "댄스(이모트) 메뉴 출력" }
-        ] }
+        {
+          "title": {
+            "ko": "후원자",
+            "en": "Donator",
+            "jp": "ドネーター"
+          },
+          "commands": [
+            {
+              "command": "/tag <value>",
+              "description": {
+                "ko": "이름 앞에 붙일 태그 설정",
+                "en": "Set tag before your name",
+                "jp": "名前の前に付けるタグを設定"
+              }
+            },
+            {
+              "command": "/tagcolor <0~15>",
+              "description": {
+                "ko": "태그의 색깔 지정",
+                "en": "Set tag color",
+                "jp": "タグ色を設定"
+              }
+            },
+            {
+              "command": "/modelcolor <0~255> <0~255> <0~255>",
+              "description": {
+                "ko": "플레이어 모델 색깔 지정",
+                "en": "Set player model color",
+                "jp": "プレイヤーモデル色を設定"
+              }
+            },
+            {
+              "command": "/rainbow",
+              "description": {
+                "ko": "플레이어 모델 색깔을 무지개 색으로 변경",
+                "en": "Change player model color to rainbow",
+                "jp": "プレイヤーモデル色を虹色に変更"
+              }
+            },
+            {
+              "command": "/trail <0~255> <0~255> <0~255>",
+              "description": {
+                "ko": "수류탄 트레일 색깔 지정",
+                "en": "Set grenade trail color",
+                "jp": "グレネードトレイル色を設定"
+              }
+            },
+            {
+              "command": "/tracer <0~255> <0~255> <0~255>",
+              "description": {
+                "ko": "트레이서 색깔 지정",
+                "en": "Set tracer color",
+                "jp": "トレーサー色を設定"
+              }
+            },
+            {
+              "command": "/dance",
+              "description": {
+                "ko": "댄스(이모트) 메뉴 출력",
+                "en": "Open dance/emote menu",
+                "jp": "ダンス/エモートメニューを開く"
+              }
+            }
+          ]
+        }
       ]
     }
   ]
