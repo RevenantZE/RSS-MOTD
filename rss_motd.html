@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-- 자바스크립트 연결 (번역 -> 스크립트) -->
-  <!-- 자바스크립트 언어(한국,영어,일본,중국) 스크립트 -->
+  <!-- 자바스크립트 언어(한국,영어,일본) 스크립트 -->
   <script src="lang.js" defer></script>
   <!-- 기능 스크립트 경로 -->
   <script src="script.js" defer></script>
@@ -29,7 +29,6 @@
         <button class="langbtn active" data-lang="ko">KR</button>
         <button class="langbtn" data-lang="en">EN</button>
         <button class="langbtn" data-lang="jp">JP</button>
-        <button class="langbtn" data-lang="cn">CN</button>
       </div>
       <!-- 디스코드 링크 -->
       <a class="discord" href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer">
@@ -47,6 +46,9 @@
         </button>
         <button class="tab" data-tab="cmds" role="tab" aria-selected="false">
           <span data-lang="tab_cmds">2) 명령어 목록</span>
+        </button>
+        <button class="tab" data-tab="guide" role="tab" aria-selected="false">
+          <span data-lang="tab_guide">3) 가이드</span>
         </button>
       </div>
 
@@ -196,104 +198,27 @@ bind 9 "slot9; menuselect 9";</code></pre>
           <div class="hint" data-lang="cmds_hint">모든 명령어는 !와 / 둘 다 가능합니다.</div>
         </div>
 
-<!-- 일반 사용자(Create) -->
-        <h3 class="subhead" data-lang="cmds_user">일반 사용자 명령어</h3>
-        <div class="tablewrap">
-          <table class="cmd-table">
-            <thead>
-              <tr>
-                <th style="width: 28%;" data-lang="th_cmd">명령어</th>
-                <th data-lang="th_desc">설명</th>
-                <th style="width: 30%;" data-lang="th_example">예시</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><span class="cmd">!admins</span></td>
-                <td><span data-lang="cmd_1">접속중인 어드민 목록</span></td>
-                <td><span class="cmd">!admins</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!emote</span></td>
-                <td><span data-lang="cmd_2">춤, 감정표현 사용</span></td>
-                <td><span class="cmd">!emote, !dance</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!getvip</span></td>
-                <td><span data-lang="cmd_3">VIP 구매 링크 안내</span></td>
-                <td><span class="cmd">!getvip</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!kev</span></td>
-                <td><span data-lang="cmd_4">방탄복을 구매합니다.</span></td>
-                <td><span class="cmd">!kev, !kevlar</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!mapcooldowns</span></td>
-                <td><span data-lang="cmd_5">쿨다운인 맵 목록을 출력합니다</span></td>
-                <td><span class="cmd">!mapcooldowns</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!noshake</span></td>
-                <td><span data-lang="cmd_6">화면 흔들림 효과를 제거합니다.</span></td>
-                <td><span class="cmd">!noshake</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!rtv</span></td>
-                <td><span data-lang="cmd_7">맵 변경에 동의합니다.</span></td>
-                <td><span class="cmd">!rtv</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!tp</span></td>
-                <td><span data-lang="cmd_8">3인칭 &lt;-&gt; 1인칭 전환</span></td>
-                <td><span class="cmd">!tp, !thirdperson</span></td>
-              </tr>
-            </tbody>
-          </table>
+        <div id="commandGuide" class="command-guide" aria-live="polite">
+          <p class="command-loading">Loading commands...</p>
         </div>
-
-        <!-- VIP(Create) -->
-        <h3 class="subhead vip" data-lang="cmds_vip">후원자 전용 명령어</h3>
-        <p class="subnote" data-lang="cmds_vip_note">후원자 권한이 있는 유저만 사용할 수 있습니다.</p>
-        <div class="tablewrap">
-          <table class="cmd-table vip-table">
-            <thead>
-              <tr>
-                <th style="width: 28%;" data-lang="th_cmd">명령어</th>
-                <th data-lang="th_desc">설명</th>
-                <th style="width: 30%;" data-lang="th_example">예시</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><span class="cmd">!modelcolor</span></td>
-                <td><span data-lang="cmd_vip_1">내 캐릭터의 색깔을 정합니다.</span></td>
-                <td><span class="cmd">!modelcolor 255 255 255</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!tag</span></td>
-                <td><span data-lang="cmd_vip_2">채팅 태그를 설정합니다</span></td>
-                <td><span class="cmd">!tag 빛이나는솔로</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!tagcolor</span></td>
-                <td><span data-lang="cmd_vip_3">채팅 태그의 색깔을 정합니다.</span></td>
-                <td><span class="cmd">!tagcolor [0~15]</span></td>
-              </tr>
-              <tr>
-                <td><span class="cmd">!vip</span></td>
-                <td><span data-lang="cmd_vip_4">VIP 남은 기간을 확인합니다.</span></td>
-                <td><span class="cmd">!vip</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        
         <footer>
           <span data-lang="cmds_footer">모든 명령어를 확인하려면 디스코드를 확인해주세요.</span>
         </footer>
+      </section>
+
+      <!-- 가이드 -->
+      <section id="guide" class="panel" role="tabpanel">
+        <div class="section-title">
+          <h2 data-lang="guide_title">가이드</h2>
+          <div class="hint" data-lang="guide_hint">PDF 버튼을 누르면 새 창으로 확인할 수 있습니다.</div>
+        </div>
+
+        <a class="image-link image-link-button" href="guide_image/guide_1.pdf" target="_blank" rel="noopener noreferrer">
+          <span data-lang="guide_1_label">guide_1 PDF 보기</span>
+        </a>
       </section>
     </div>
   </div>
 </body>
 </html>
+

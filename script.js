@@ -1,4 +1,4 @@
-
+﻿
 // 1. 탭 전환 및 URL 해시 지원
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
@@ -17,9 +17,11 @@ tabs.forEach(tab => {
   tab.addEventListener("click", () => openTab(tab.dataset.tab));
 });
 
+const validTabs = [...tabs].map(tab => tab.dataset.tab);
+
 window.addEventListener("load", () => {
   const hash = (location.hash || "").replace("#", "");
-  if (hash === "faq" || hash === "cmds") openTab(hash, false);
+  if (validTabs.includes(hash)) openTab(hash, false);
   else openTab("faq", false); // 기본은 FAQ
 });
 
@@ -86,7 +88,76 @@ window.addEventListener("load", () => {
 });
 
 
-// 4. 클립보드 명령어 복사 기능
+
+// 4. Command guide from JSON
+async function loadCommandGuide() {
+  const guide = document.getElementById("commandGuide");
+  if (!guide) return;
+
+  try {
+    const res = await fetch("commands.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`commands.json ${res.status}`);
+
+    const data = await res.json();
+    guide.replaceChildren(...data.pages.map(createCommandPage));
+  } catch (err) {
+    console.error("command guide load failed:", err);
+    guide.textContent = "Failed to load commands.json";
+  }
+}
+
+function createCommandPage(page) {
+  const pageEl = document.createElement("article");
+  pageEl.className = "command-page";
+
+  const title = document.createElement("h3");
+  title.className = "command-page-title";
+  title.textContent = page.title;
+  pageEl.appendChild(title);
+
+  page.sections.forEach(section => {
+    const sectionEl = document.createElement("section");
+    sectionEl.className = "command-section";
+
+    const heading = document.createElement("h4");
+    heading.textContent = section.title;
+    sectionEl.appendChild(heading);
+
+    const list = document.createElement("div");
+    list.className = "command-list";
+
+    section.commands.forEach(item => {
+      const row = document.createElement("div");
+      row.className = "command-row";
+
+      const command = document.createElement("code");
+      command.className = "cmd command-name";
+      command.textContent = item.command;
+
+      const desc = document.createElement("div");
+      desc.className = "command-desc";
+      desc.textContent = item.description;
+
+      row.append(command, desc);
+      list.appendChild(row);
+
+      if (item.note) {
+        const note = document.createElement("div");
+        note.className = "command-note";
+        note.textContent = item.note;
+        list.appendChild(note);
+      }
+    });
+
+    sectionEl.appendChild(list);
+    pageEl.appendChild(sectionEl);
+  });
+
+  return pageEl;
+}
+
+window.addEventListener("load", loadCommandGuide);
+// 5. 클립보드 명령어 복사 기능
 function copyCode(button) {
   // 버튼 옆의 pre code 태그 안의 텍스트 가져오기
   const codeText = document.getElementById("bindCommands").innerText;
@@ -107,3 +178,4 @@ function copyCode(button) {
     alert("복사에 실패했습니다. 수동으로 복사해주세요.");
   });
 }
+

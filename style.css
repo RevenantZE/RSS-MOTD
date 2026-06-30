@@ -331,3 +331,138 @@ footer{
   border-color: var(--accent2);
   color: var(--accent2);
 }
+/* 가이드 이미지 링크 */
+.image-link {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(31,42,61,.85);
+  border-radius: 8px;
+  background: rgba(7,10,15,.22);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.image-link:hover {
+  border-color: rgba(77,163,255,.45);
+  background: rgba(77,163,255,.08);
+  text-decoration: none;
+}
+
+.image-link img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  background: rgba(7,10,15,.45);
+}
+
+.image-link span {
+  display: block;
+  padding: 10px 12px;
+  border-top: 1px solid rgba(31,42,61,.75);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.image-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.image-link-button span {
+  padding: 0;
+  border-top: none;
+}
+.command-guide {
+  display: grid;
+  gap: 18px;
+}
+
+.command-page {
+  padding: 14px;
+  border: 1px solid rgba(31,42,61,.85);
+  border-radius: 14px;
+  background: rgba(7,10,15,.22);
+}
+
+.command-page-title {
+  margin: 0 0 14px;
+  font-size: 18px;
+  color: var(--text);
+}
+
+.command-section {
+  margin-top: 18px;
+}
+
+.command-section:first-of-type {
+  margin-top: 0;
+}
+
+.command-section h4 {
+  margin: 0 0 8px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(31,42,61,.85);
+  color: var(--text);
+  font-size: 15px;
+}
+
+.command-list {
+  display: grid;
+  gap: 6px;
+}
+
+.command-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 36%) 1fr;
+  gap: 18px;
+  align-items: start;
+  padding: 2px 0;
+}
+
+.command-name {
+  display: block;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.command-desc {
+  color: var(--muted);
+}
+
+.command-desc::before {
+  content: ": ";
+  color: var(--muted);
+}
+
+.command-note {
+  margin: -2px 0 4px;
+  padding-left: calc(36% + 18px);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.command-loading {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 700px) {
+  .command-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .command-desc::before {
+    content: "";
+  }
+
+  .command-note {
+    padding-left: 0;
+  }
+}

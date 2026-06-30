@@ -1,0 +1,111 @@
+﻿{
+  "version": 1,
+  "updatedAt": "2026-06-30",
+  "pages": [
+    {
+      "id": "basic",
+      "title": "General Commands",
+      "sections": [
+        { "title": "Zombie", "commands": [ { "command": "/ztele", "description": "스폰지역으로 이동" } ] },
+        { "title": "Sound", "commands": [
+          { "command": "/stopsound", "description": "총소리 끄기, 켜기" },
+          { "command": "/stopmusic", "description": "음악 소리 끄기" },
+          { "command": "/music <0~100>", "description": "음악 소리 볼륨 조절" },
+          { "command": "/sfx <0~100>", "description": "sfx 소리 볼륨 조절" }
+        ] },
+        { "title": "Store", "commands": [
+          { "command": "/credit", "description": "크레딧 확인" },
+          { "command": "/token", "description": "토큰 확인" },
+          { "command": "/playtime", "description": "플탐 확인" },
+          { "command": "/store", "description": "스토어 메뉴 오픈" },
+          { "command": "/spray <number>", "description": "스프레이 뿌리기" },
+          { "command": "/sprayhide", "description": "스프레이 안 보이게 하기" },
+          { "command": "/tracerhide", "description": "트레이서 안 보이게 하기" },
+          { "command": "/vip", "description": "vip 기간 확인" }
+        ] },
+        { "title": "Utility", "commands": [
+          { "command": "/hide", "description": "하이드 메뉴 열기" },
+          { "command": "/hide <0~9999>", "description": "거리 안 쪽에 있는 사람 가리기" },
+          { "command": "/hideweapon", "description": "다른 사람의 무기 숨기기" },
+          { "command": "/noshake", "description": "화면 흔들림 끄기" },
+          { "command": "/toggledecals", "description": "핏자국 끄기" },
+          { "command": "/tp", "description": "3인칭 켜기, 끄기" },
+          { "command": "/spec", "description": "관전으로 이동" },
+          { "command": "/language <en|jp|ko>", "description": "언어 설정" },
+          { "command": "/setting", "description": "현재 적용된 세팅 확인" },
+          { "command": "/menubind", "description": "메뉴용 바인드 명령어 콘솔창에 출력" },
+          { "command": "/showname", "description": "바라보는 대상 이름 표시 끄기, 켜기" },
+          { "command": "/speed", "description": "현재 스피드 출력 끄기, 켜기" },
+          { "command": "/admins", "description": "접속중인 어드민 목록 확인" },
+          { "command": "/status", "description": "ban 상태 확인" },
+          { "command": "/bw", "description": "버튼 와치 모드 변경", "note": "0. 모두 끄기 / 1. 채팅 / 2. 콘솔 / 3. 채팅 + 콘솔" },
+          { "command": "/bosshud", "description": "보스허드 켜기, 끄기" }
+        ] },
+        { "title": "Map", "commands": [
+          { "command": "/nominate <map name>", "description": "맵 추천" },
+          { "command": "/nomlist", "description": "맵 추천 목록 보기" },
+          { "command": "/mapcooldowns", "description": "쿨 다운 목록 보기" },
+          { "command": "/nextmap", "description": "다음 맵 확인" },
+          { "command": "/maplist", "description": "맵 리스트 출력" }
+        ] },
+        { "title": "Vote", "commands": [
+          { "command": "/rtv", "description": "맵 넘기기 투표" },
+          { "command": "/unrtv", "description": "rtv 취소" },
+          { "command": "/ve", "description": "연장 투표" },
+          { "command": "/unve", "description": "연장 투표 취소" },
+          { "command": "/extendsleft", "description": "남은 연장 횟수 확인" },
+          { "command": "/timeleft", "description": "남은 시간 확인" },
+          { "command": "/revote", "description": "투표 다시하기" }
+        ] },
+        { "title": "EntWatch", "commands": [
+          { "command": "/hud", "description": "엔트와치 텍스트 활성화" },
+          { "command": "/hudepos <X> <Y>", "description": "허드 위치 변경" },
+          { "command": "/hudsize <size>", "description": "허드 글씨 크기 변경" },
+          { "command": "/hudcolor <0~255> <0~255> <0~255>", "description": "허드 글씨 색깔 변경" },
+          { "command": "/estatus", "description": "eban 상태 확인" }
+        ] }
+      ]
+    },
+    {
+      "id": "leader",
+      "title": "Leader / Top Defender",
+      "sections": [
+        { "title": "Leader", "commands": [
+          { "command": "/c", "description": "오더핑 잡기" },
+          { "command": "/tc", "description": "번역 가능한 오더핑 잡기" },
+          { "command": "/uc", "description": "오더핑 빼기" },
+          { "command": "/leaderhelp", "description": "리더 관련 명령어 목록 확인" },
+          { "command": "/leaders", "description": "현재 리더 확인" },
+          { "command": "/leadercolor <0~255> <0~255> <0~255>", "description": "리더 색 지정" },
+          { "command": "/ping", "description": "리더 핑 생성" },
+          { "command": "/danger", "description": "위험핑 생성" },
+          { "command": "/gather", "description": "집결핑 생성" },
+          { "command": "/pingcustom", "description": "커스텀 핑 생성" },
+          { "command": "/beacon <name>", "description": "대상에게 비콘 활성화" },
+          { "command": "/beacons", "description": "비콘 목록 확인" },
+          { "command": "/glow <name>", "description": "대상에게 글로우 활성화" },
+          { "command": "/glows", "description": "글로우 목록 확인" }
+        ] },
+        { "title": "Top Defender", "commands": [
+          { "command": "/tdrank", "description": "현재 내 등수 확인" },
+          { "command": "/tdfind <name>", "description": "닉네임 등수 확인" }
+        ] }
+      ]
+    },
+    {
+      "id": "donator",
+      "title": "Donator",
+      "sections": [
+        { "title": "Donator", "commands": [
+          { "command": "/tag <value>", "description": "이름 앞에 붙일 태그 설정" },
+          { "command": "/tagcolor <0~15>", "description": "태그의 색깔 지정" },
+          { "command": "/modelcolor <0~255> <0~255> <0~255>", "description": "플레이어 모델 색깔 지정" },
+          { "command": "/rainbow", "description": "플레이어 모델 색깔을 무지개 색으로 변경" },
+          { "command": "/trail <0~255> <0~255> <0~255>", "description": "수류탄 트레일 색깔 지정" },
+          { "command": "/tracer <0~255> <0~255> <0~255>", "description": "트레이서 색깔 지정" },
+          { "command": "/dance", "description": "댄스(이모트) 메뉴 출력" }
+        ] }
+      ]
+    }
+  ]
+}
