@@ -1,5 +1,7 @@
-﻿
+
 // 1. 탭 전환 및 URL 해시 지원
+const DEFAULT_LANG = "ko";
+const SUPPORTED_LANGS = new Set(["ko", "en", "jp"]);
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 
@@ -83,8 +85,8 @@ document.querySelectorAll(".langbtn").forEach(btn => {
 
 // 로드 시 기존에 저장된언어 자동적용
 window.addEventListener("load", () => {
-  const saved = localStorage.getItem("lang") || "ko";
-  setLanguage(saved);
+  const saved = localStorage.getItem("lang");
+  setLanguage(SUPPORTED_LANGS.has(saved) ? saved : DEFAULT_LANG);
 });
 
 
@@ -178,4 +180,5 @@ function copyCode(button) {
     alert("복사에 실패했습니다. 수동으로 복사해주세요.");
   });
 }
+
 
