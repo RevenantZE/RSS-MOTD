@@ -30,7 +30,7 @@
               "description": {
                 "ko": "zm 맵에서만 사용 가능한 프롭 밀치기 명령어",
                 "en": "Push props command, only available on zm maps",
-                "jp": "zmマップでのみ使用できるプロップ押しコマンド"
+                "jp": "プロップを押します(zmマップ限定)"
               }
             }
           ]
@@ -55,7 +55,7 @@
               "description": {
                 "ko": "음악 소리 끄기",
                 "en": "Turn off music",
-                "jp": "音楽をオフ"
+                "jp": "音楽のオン/オフ"
               }
             },
             {
@@ -71,7 +71,7 @@
               "description": {
                 "ko": "sfx 소리 볼륨 조절",
                 "en": "Set SFX volume",
-                "jp": "SFX音量を設定"
+                "jp": "SFX音量(環境音)を設定"
               }
             },
             {
@@ -96,7 +96,7 @@
               "description": {
                 "ko": "하이드 메뉴 열기",
                 "en": "Open hide menu",
-                "jp": "非表示メニューを開く"
+                "jp": "プレイヤー表示切替メニューを開く"
               }
             },
             {
@@ -160,7 +160,7 @@
               "description": {
                 "ko": "현재 적용된 세팅 확인",
                 "en": "Check current settings",
-                "jp": "現在の設定を確認"
+                "jp": "現在のマップ設定を確認"
               }
             },
             {
@@ -176,7 +176,7 @@
               "description": {
                 "ko": "바라보는 대상 이름 표시 끄기, 켜기",
                 "en": "Toggle target name display",
-                "jp": "見ている対象の名前表示を切り替え"
+                "jp": "見ているプレイヤーの名前表示を切り替え"
               }
             },
             {
@@ -184,7 +184,7 @@
               "description": {
                 "ko": "현재 스피드 출력 끄기, 켜기",
                 "en": "Toggle speed display",
-                "jp": "現在速度表示を切り替え"
+                "jp": "プレイヤー速度表示を切り替え"
               }
             },
             {
@@ -329,7 +329,7 @@
               "description": {
                 "ko": "맵 추천",
                 "en": "Nominate a map",
-                "jp": "マップを推薦"
+                "jp": "マップをノミネート"
               }
             },
             {
@@ -337,7 +337,7 @@
               "description": {
                 "ko": "맵 추천 목록 보기",
                 "en": "Show nominated maps",
-                "jp": "推薦マップ一覧を表示"
+                "jp": "ノミネートマップ一覧を表示"
               }
             },
             {
@@ -361,7 +361,7 @@
               "description": {
                 "ko": "맵 리스트 출력",
                 "en": "Show map list",
-                "jp": "マップ一覧を表示"
+                "jp": "マップ一覧をコンソールに表示"
               }
             }
           ]
@@ -378,7 +378,7 @@
               "description": {
                 "ko": "맵 넘기기 투표",
                 "en": "Vote to change map",
-                "jp": "マップ変更投票"
+                "jp": "マップ変更へ投票"
               }
             },
             {
@@ -394,7 +394,7 @@
               "description": {
                 "ko": "연장 투표",
                 "en": "Vote to extend",
-                "jp": "延長投票"
+                "jp": "マップ延長へ投票"
               }
             },
             {
@@ -502,7 +502,7 @@
               "description": {
                 "ko": "오더핑 잡기",
                 "en": "Take leader ping",
-                "jp": "リーダーピングを取得"
+                "jp": "リーダー権限を取得"
               }
             },
             {
@@ -510,7 +510,7 @@
               "description": {
                 "ko": "번역 가능한 오더핑 잡기",
                 "en": "Take translatable leader ping",
-                "jp": "翻訳可能なリーダーピングを取得"
+                "jp": "翻訳可能なリーダー権限を取得"
               }
             },
             {
@@ -518,7 +518,7 @@
               "description": {
                 "ko": "오더핑 빼기",
                 "en": "Remove leader ping",
-                "jp": "リーダーピングを解除"
+                "jp": "リーダー権限を放棄"
               }
             },
             {
@@ -542,7 +542,7 @@
               "description": {
                 "ko": "리더 색 지정",
                 "en": "Set leader color",
-                "jp": "リーダー色を設定"
+                "jp": "リーダーのプレイヤーカラーを設定"
               }
             },
             {
@@ -550,7 +550,7 @@
               "description": {
                 "ko": "리더 핑 생성",
                 "en": "Create leader ping",
-                "jp": "リーダーピングを作成"
+                "jp": "リーダーピンを作成"
               }
             },
             {
@@ -558,7 +558,7 @@
               "description": {
                 "ko": "위험핑 생성",
                 "en": "Create danger ping",
-                "jp": "危険ピングを作成"
+                "jp": "危険ピンを作成"
               }
             },
             {
@@ -566,7 +566,7 @@
               "description": {
                 "ko": "집결핑 생성",
                 "en": "Create gather ping",
-                "jp": "集合ピングを作成"
+                "jp": "集合ピンを作成"
               }
             },
             {
@@ -574,7 +574,7 @@
               "description": {
                 "ko": "커스텀 핑 생성",
                 "en": "Create custom ping",
-                "jp": "カスタムピングを作成"
+                "jp": "カスタムピンを作成"
               }
             },
             {
@@ -666,7 +666,7 @@
               "description": {
                 "ko": "태그의 색깔 지정",
                 "en": "Set tag color",
-                "jp": "タグ色を設定"
+                "jp": "タグの色を設定"
               }
             },
             {
@@ -674,7 +674,7 @@
               "description": {
                 "ko": "플레이어 모델 색깔 지정",
                 "en": "Set player model color",
-                "jp": "プレイヤーモデル色を設定"
+                "jp": "プレイヤーモデルの色を設定"
               }
             },
             {
@@ -682,7 +682,7 @@
               "description": {
                 "ko": "플레이어 모델 색깔을 무지개 색으로 변경",
                 "en": "Change player model color to rainbow",
-                "jp": "プレイヤーモデル色を虹色に変更"
+                "jp": "プレイヤーモデルの色を虹色に変更"
               }
             },
             {
@@ -690,7 +690,7 @@
               "description": {
                 "ko": "수류탄 트레일 색깔 지정",
                 "en": "Set grenade trail color",
-                "jp": "グレネードトレイル色を設定"
+                "jp": "グレネードトレイルの色を設定"
               }
             },
             {
@@ -698,7 +698,7 @@
               "description": {
                 "ko": "트레이서 색깔 지정",
                 "en": "Set tracer color",
-                "jp": "トレーサー色を設定"
+                "jp": "トレーサーの色を設定"
               }
             },
             {
