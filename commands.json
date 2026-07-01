@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-30",
+  "updatedAt": "2026-07-01",
   "pages": [
     {
       "id": "basic",
       "title": {
-        "ko": "일반 명령어",
-        "en": "General Commands",
-        "jp": "一般コマンド"
+        "ko": "기본 / 소리 / 편의성",
+        "en": "Basic / Sound / Utility",
+        "jp": "基本 / サウンド / 便利機能"
       },
       "sections": [
         {
@@ -64,79 +64,6 @@
                 "ko": "sfx 소리 볼륨 조절",
                 "en": "Set SFX volume",
                 "jp": "SFX音量を設定"
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "ko": "스토어",
-            "en": "Store",
-            "jp": "ストア"
-          },
-          "commands": [
-            {
-              "command": "/credit",
-              "description": {
-                "ko": "크레딧 확인",
-                "en": "Check credits",
-                "jp": "クレジットを確認"
-              }
-            },
-            {
-              "command": "/token",
-              "description": {
-                "ko": "토큰 확인",
-                "en": "Check tokens",
-                "jp": "トークンを確認"
-              }
-            },
-            {
-              "command": "/playtime",
-              "description": {
-                "ko": "플탐 확인",
-                "en": "Check playtime",
-                "jp": "プレイ時間を確認"
-              }
-            },
-            {
-              "command": "/store",
-              "description": {
-                "ko": "스토어 메뉴 오픈",
-                "en": "Open store menu",
-                "jp": "ストアメニューを開く"
-              }
-            },
-            {
-              "command": "/spray <number>",
-              "description": {
-                "ko": "스프레이 뿌리기",
-                "en": "Use a spray",
-                "jp": "スプレーを使用"
-              }
-            },
-            {
-              "command": "/sprayhide",
-              "description": {
-                "ko": "스프레이 안 보이게 하기",
-                "en": "Hide sprays",
-                "jp": "スプレーを非表示"
-              }
-            },
-            {
-              "command": "/tracerhide",
-              "description": {
-                "ko": "트레이서 안 보이게 하기",
-                "en": "Hide tracers",
-                "jp": "トレーサーを非表示"
-              }
-            },
-            {
-              "command": "/vip",
-              "description": {
-                "ko": "vip 기간 확인",
-                "en": "Check VIP time remaining",
-                "jp": "VIP残り期間を確認"
               }
             }
           ]
@@ -279,6 +206,89 @@
                 "ko": "보스허드 켜기, 끄기",
                 "en": "Toggle boss HUD",
                 "jp": "ボスHUDを切り替え"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "title": {
+        "ko": "스토어 / 맵 / 투표 / 엔트와치",
+        "en": "Store / Map / Vote / EntWatch",
+        "jp": "ストア / マップ / 投票 / EntWatch"
+      },
+      "sections": [
+        {
+          "title": {
+            "ko": "스토어",
+            "en": "Store",
+            "jp": "ストア"
+          },
+          "commands": [
+            {
+              "command": "/credit",
+              "description": {
+                "ko": "크레딧 확인",
+                "en": "Check credits",
+                "jp": "クレジットを確認"
+              }
+            },
+            {
+              "command": "/token",
+              "description": {
+                "ko": "토큰 확인",
+                "en": "Check tokens",
+                "jp": "トークンを確認"
+              }
+            },
+            {
+              "command": "/playtime",
+              "description": {
+                "ko": "플탐 확인",
+                "en": "Check playtime",
+                "jp": "プレイ時間を確認"
+              }
+            },
+            {
+              "command": "/store",
+              "description": {
+                "ko": "스토어 메뉴 오픈",
+                "en": "Open store menu",
+                "jp": "ストアメニューを開く"
+              }
+            },
+            {
+              "command": "/spray <number>",
+              "description": {
+                "ko": "스프레이 뿌리기",
+                "en": "Use a spray",
+                "jp": "スプレーを使用"
+              }
+            },
+            {
+              "command": "/sprayhide",
+              "description": {
+                "ko": "스프레이 안 보이게 하기",
+                "en": "Hide sprays",
+                "jp": "スプレーを非表示"
+              }
+            },
+            {
+              "command": "/tracerhide",
+              "description": {
+                "ko": "트레이서 안 보이게 하기",
+                "en": "Hide tracers",
+                "jp": "トレーサーを非表示"
+              }
+            },
+            {
+              "command": "/vip",
+              "description": {
+                "ko": "vip 기간 확인",
+                "en": "Check VIP time remaining",
+                "jp": "VIP残り期間を確認"
               }
             }
           ]
