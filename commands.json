@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-01",
+  "updatedAt": "2026-07-04",
   "pages": [
     {
       "id": "basic",
@@ -55,31 +55,63 @@
               "description": {
                 "ko": "음악 소리 끄기",
                 "en": "Turn off music",
-                "jp": "音楽のオン/オフ"
+                "jp": "音楽をオフにする"
               }
             },
             {
               "command": "/music <0~100>",
               "description": {
-                "ko": "음악 소리 볼륨 조절",
+                "ko": "음악 소리 볼륨 설정",
                 "en": "Set music volume",
                 "jp": "音楽の音量を設定"
               }
             },
             {
-              "command": "/sfx <0~100>",
+              "command": "/sfx",
               "description": {
-                "ko": "sfx 소리 볼륨 조절",
-                "en": "Set SFX volume",
-                "jp": "SFX音量(環境音)を設定"
+                "ko": "sfx 사운드 메뉴 열기",
+                "en": "Open sound menu",
+                "jp": "サウンドメニューを開く"
               }
             },
             {
               "command": "/zvolume <0~100>",
               "description": {
-                "ko": "zombie와 관련된 사운드 볼륨 조절",
-                "en": "Adjust volume for zombie-related sounds",
-                "jp": "ゾンビ関連サウンドの音量を調整"
+                "ko": "좀비 사운드 볼륨 설정",
+                "en": "Set zombie sound volume",
+                "jp": "ゾンビサウンドの音量を設定"
+              }
+            },
+            {
+              "command": "/radiosfx <0~100>",
+              "description": {
+                "ko": "커스텀 라디오 SFX 볼륨 설정",
+                "en": "Set custom radio SFX volume",
+                "jp": "カスタムラジオの音量を設定"
+              }
+            },
+            {
+              "command": "/hitmarkersfx <0~100>",
+              "description": {
+                "ko": "히트마커 SFX 볼륨 설정",
+                "en": "Set hitmarker SFX volume",
+                "jp": "ヒットマーカーの音量を設定"
+              }
+            },
+            {
+              "command": "/hitsoundsfx <0~100>",
+              "description": {
+                "ko": "피격음 SFX 볼륨 설정",
+                "en": "Set hit sound SFX volume",
+                "jp": "ヒットサウンドの音量を設定"
+              }
+            },
+            {
+              "command": "/firesound",
+              "description": {
+                "ko": "내 발사음 숨김 켜기/끄기",
+                "en": "Toggle hiding your own fire sound",
+                "jp": "自身の銃声のオン/オフを切り替え"
               }
             }
           ]
