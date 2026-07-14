@@ -8,9 +8,9 @@ let commandGuideData = null;
 let faqData = null;
 let termGuideData = null;
 let globalSearchQuery = "";
-let commandSearchQuery = "";
 let commandPageFilter = "all";
 let favoriteCommandsOnly = false;
+let toastTimer = null;
 const favoriteCommands = new Set(JSON.parse(localStorage.getItem("favoriteCommands") || "[]"));
 const FAQ_FALLBACK = {
   version: 1,
@@ -164,25 +164,52 @@ function deepLinkId(type, value) {
   return `${type}-${slugify(value)}`;
 }
 
-function makeShareButton(targetId, extraClass = "") {
+function showToast(message) {
+  const toast = document.getElementById("toast");
+  if (!toast) return;
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove("show"), 1800);
+}
+
+async function copyText(text) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+  } catch (_error) {
+    // Use the selection fallback below when clipboard permission is unavailable.
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  if (!copied) throw new Error("copy failed");
+}
+
+function makeShareButton(targetId, itemLabel, extraClass = "") {
   const button = document.createElement("button");
   button.type = "button";
   button.className = `share-button ${extraClass}`.trim();
-  button.textContent = window.LANG?.[getCurrentLang()]?.share_link || "Copy link";
-  button.title = button.textContent;
-  button.setAttribute("aria-label", button.textContent);
+  button.textContent = "#";
+  const label = window.LANG?.[getCurrentLang()]?.share_link || "Copy link";
+  button.title = label;
+  button.setAttribute("aria-label", `${itemLabel} ${label}`.trim());
   button.addEventListener("click", event => {
     event.preventDefault();
     event.stopPropagation();
     const url = new URL(location.href);
     url.hash = targetId;
-    navigator.clipboard.writeText(url.toString()).then(() => {
-      button.textContent = window.LANG?.[getCurrentLang()]?.share_done || "Link copied";
-      button.setAttribute("aria-label", button.textContent);
-      setTimeout(() => {
-        button.textContent = window.LANG?.[getCurrentLang()]?.share_link || "Copy link";
-        button.setAttribute("aria-label", button.textContent);
-      }, 1500);
+    copyText(url.toString()).then(() => {
+      showToast(window.LANG?.[getCurrentLang()]?.share_done || "Link copied");
     }).catch(() => window.prompt("Copy link", url.toString()));
   });
   return button;
@@ -543,7 +570,7 @@ function createFaqItem(item) {
 
   const answer = document.createElement("div");
   answer.className = "answer";
-  answer.appendChild(makeShareButton(details.id, "faq-share"));
+  answer.appendChild(makeShareButton(details.id, localizeContent(item.question), "faq-share"));
   (item.body || []).forEach(block => answer.appendChild(createFaqBlock(block)));
 
   details.append(summary, answer);
@@ -571,7 +598,7 @@ function createFaqBlock(block) {
         const button = document.createElement("button");
         button.className = "copy-btn";
         button.type = "button";
-        button.textContent = window.LANG?.[getCurrentLang()]?.copy || "Copy";
+        button.textContent = window.LANG?.[getCurrentLang()]?.command_copy || "Copy";
         button.setAttribute("aria-label", button.textContent);
         button.addEventListener("click", () => copyCode(button));
         container.appendChild(button);
@@ -643,11 +670,7 @@ function createCommandPage(page) {
 
   let commandCount = 0;
   page.sections.forEach(section => {
-    const commands = section.commands.filter(item => {
-      const searchText = [item.command, localizeText(item.description), localizeText(item.note)].join(" ");
-      return (!commandSearchQuery || matchesSearch(searchText, commandSearchQuery))
-        && (!favoriteCommandsOnly || favoriteCommands.has(item.command));
-    });
+    const commands = section.commands.filter(item => !favoriteCommandsOnly || favoriteCommands.has(item.command));
     if (!commands.length) return;
     const sectionEl = document.createElement("section");
     sectionEl.className = "command-section";
@@ -687,8 +710,8 @@ function createCommandPage(page) {
       copy.className = "command-action";
       copy.textContent = window.LANG?.[getCurrentLang()]?.command_copy || "Copy";
       copy.setAttribute("aria-label", `${copy.textContent}: ${item.command}`);
-      copy.addEventListener("click", () => copyCommand(item.command, copy));
-      actions.append(favorite, copy, makeShareButton(row.id));
+      copy.addEventListener("click", () => copyCommand(item.command));
+      actions.append(favorite, copy, makeShareButton(row.id, item.command));
 
       row.append(command, desc, actions);
       list.appendChild(row);
@@ -716,18 +739,12 @@ function toggleFavoriteCommand(command) {
   renderCommandGuide();
 }
 
-function copyCommand(command, button) {
-  navigator.clipboard.writeText(command).then(() => {
-    const original = button.textContent;
-    button.textContent = window.LANG?.[getCurrentLang()]?.command_copied || "Copied";
-    setTimeout(() => { button.textContent = original; }, 1500);
+function copyCommand(command) {
+  copyText(command).then(() => {
+    showToast(window.LANG?.[getCurrentLang()]?.copy_done || "Copied to clipboard.");
   }).catch(() => window.prompt("Copy command", command));
 }
 
-document.getElementById("commandSearch")?.addEventListener("input", event => {
-  commandSearchQuery = (event.target.value || "").trim().toLocaleLowerCase(getCurrentLang());
-  renderCommandGuide();
-});
 document.getElementById("favoriteCommandsOnly")?.addEventListener("change", event => {
   favoriteCommandsOnly = event.target.checked;
   renderCommandGuide();
@@ -815,7 +832,7 @@ function createTermSection(section) {
       aliases.textContent = item.aliases.join(" · ");
       name.appendChild(aliases);
     }
-    name.appendChild(makeShareButton(row.id));
+    name.appendChild(makeShareButton(row.id, item.term));
 
     const description = document.createElement("td");
     description.textContent = item.description || "";
@@ -842,16 +859,13 @@ if ("serviceWorker" in navigator) {
 function copyCode(button) {
   const code = button.closest(".code-container")?.querySelector("pre code") || document.getElementById("bindCommands");
   const codeText = code?.innerText || "";
-  const originalText = button.textContent;
 
-  navigator.clipboard.writeText(codeText).then(() => {
-    button.textContent = window.LANG?.[getCurrentLang()]?.copy_done || "Copied!";
+  copyText(codeText).then(() => {
     button.classList.add("copied");
-
+    showToast(window.LANG?.[getCurrentLang()]?.copy_done || "Copied to clipboard.");
     setTimeout(() => {
-      button.textContent = originalText || window.LANG?.[getCurrentLang()]?.copy || "Copy";
       button.classList.remove("copied");
-    }, 2000);
+    }, 1500);
   }).catch(err => {
     console.error("copy failed:", err);
     alert("Copy failed. Please copy manually.");

@@ -1,4 +1,4 @@
-const CACHE_NAME = "rss-ze-guide-v1";
+const CACHE_NAME = "rss-ze-guide-v3";
 const CORE_ASSETS = [
   "./",
   "./index.html",
