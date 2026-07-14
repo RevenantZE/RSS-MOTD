@@ -1,9 +1,13 @@
 
+import { getChoseong } from "https://cdn.jsdelivr.net/npm/es-hangul@2.4.0/+esm";
+
 // 1. 탭 전환 및 URL 해시 지원
 const DEFAULT_LANG = "ko";
 const SUPPORTED_LANGS = new Set(["ko", "en", "jp"]);
 let commandGuideData = null;
 let faqData = null;
+let termGuideData = null;
+let termSearchQuery = "";
 const FAQ_FALLBACK = {
   version: 1,
   updatedAt: "",
@@ -79,13 +83,7 @@ const FAQ_FALLBACK = {
     }
   ]
 };
-const scriptBase = (() => {
-  const current = document.currentScript;
-  if (current && current.getAttribute("src")) {
-    return new URL(current.getAttribute("src"), location.href);
-  }
-  return new URL(location.href);
-})();
+const scriptBase = new URL("./", import.meta.url);
 
 function assetUrl(filename) {
   return new URL(filename, scriptBase).toString();
@@ -210,9 +208,15 @@ function setLanguage(lang) {
   // 텍스트 교체
   document.querySelectorAll("[data-lang]").forEach(el => {
     const key = el.dataset.lang;
-    const value = window.LANG?.[lang]?.[key] || LANG?.[lang]?.[key]; 
+    const value = window.LANG?.[lang]?.[key];
     
     if (value != null) el.textContent = value;
+  });
+
+  document.querySelectorAll("[data-lang-placeholder]").forEach(el => {
+    const key = el.dataset.langPlaceholder;
+    const value = window.LANG?.[lang]?.[key];
+    if (value != null) el.placeholder = value;
   });
 
   // 버튼 상태 클래스 토글 (함수 내부로 격리)
@@ -225,6 +229,7 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
   renderCommandGuide();
   renderFaq();
+  renderTermGuide();
 }
 
 // 언어 버튼 클릭 이벤트 바인딩
@@ -430,6 +435,114 @@ function createCommandPage(page) {
 }
 
 window.addEventListener("load", loadCommandGuide);
+
+// 5. Glossary from JSON
+async function loadTermGuide() {
+  const guide = document.getElementById("termGuide");
+  if (!guide) return;
+
+  try {
+    termGuideData = await fetchJsonWithFallback("terms.json");
+    renderTermGuide();
+  } catch (err) {
+    console.error("term guide load failed:", err);
+    guide.textContent = window.LANG?.[getCurrentLang()]?.term_unavailable || "Glossary unavailable";
+    guide.title = `terms.json load failed: ${err.message}`;
+  }
+}
+
+function renderTermGuide() {
+  const guide = document.getElementById("termGuide");
+  if (!guide || !termGuideData) return;
+
+  const lang = getCurrentLang();
+  const locale = termGuideData.locales?.[lang];
+
+  if (!locale) {
+    const message = document.createElement("p");
+    message.className = "term-empty";
+    message.textContent = window.LANG?.[lang]?.term_unavailable || "Glossary unavailable";
+    guide.replaceChildren(message);
+    return;
+  }
+
+  const query = termSearchQuery.trim().toLocaleLowerCase(lang);
+  const sections = (locale.sections || []).map(section => ({
+    ...section,
+    terms: (section.terms || []).filter(item => {
+      if (!query) return true;
+      const names = [item.term, ...(item.aliases || [])].join(" ").toLocaleLowerCase(lang);
+      const searchable = [names, item.description].join(" ").toLocaleLowerCase(lang);
+      const choseongQuery = query.replace(/\s+/g, "");
+      const isChoseongQuery = choseongQuery.length > 0 && /^[ㄱ-ㅎ]+$/.test(choseongQuery);
+      return searchable.includes(query) || (isChoseongQuery && getChoseong(names).replace(/\s+/g, "").includes(choseongQuery));
+    })
+  })).filter(section => section.terms.length > 0);
+
+  if (sections.length === 0) {
+    const message = document.createElement("p");
+    message.className = "term-empty";
+    message.textContent = window.LANG?.[lang]?.term_empty || "No matching terms";
+    guide.replaceChildren(message);
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+  sections.forEach(section => fragment.appendChild(createTermSection(section)));
+
+  if (!query && locale.notice) {
+    const notice = document.createElement("p");
+    notice.className = "term-notice";
+    notice.textContent = locale.notice;
+    fragment.appendChild(notice);
+  }
+
+  guide.replaceChildren(fragment);
+}
+
+function createTermSection(section) {
+  const sectionEl = document.createElement("section");
+  sectionEl.className = "term-section";
+  sectionEl.dataset.termSection = section.id || "";
+
+  const heading = document.createElement("h3");
+  heading.textContent = section.title || "";
+  sectionEl.appendChild(heading);
+
+  const list = document.createElement("dl");
+  list.className = "term-list";
+
+  section.terms.forEach(item => {
+    const row = document.createElement("div");
+    row.className = "term-row";
+
+    const name = document.createElement("dt");
+    name.textContent = item.term || "";
+
+    if (item.aliases?.length) {
+      const aliases = document.createElement("span");
+      aliases.className = "term-aliases";
+      aliases.textContent = item.aliases.join(" · ");
+      name.appendChild(aliases);
+    }
+
+    const description = document.createElement("dd");
+    description.textContent = item.description || "";
+
+    row.append(name, description);
+    list.appendChild(row);
+  });
+
+  sectionEl.appendChild(list);
+  return sectionEl;
+}
+
+document.getElementById("termSearch")?.addEventListener("input", event => {
+  termSearchQuery = event.target.value || "";
+  renderTermGuide();
+});
+
+window.addEventListener("load", loadTermGuide);
 // 5. 클립보드 명령어 복사 기능
 function copyCode(button) {
   const code = button.closest(".code-container")?.querySelector("pre code") || document.getElementById("bindCommands");

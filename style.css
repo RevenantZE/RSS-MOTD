@@ -476,3 +476,103 @@ footer{
   border-radius: 6px;
   background: #fff;
 }
+
+/* 용어 사전 */
+.term-search-label{
+  display:block;
+  margin:0 0 6px;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:700;
+}
+
+.term-search{
+  width:100%;
+  margin:0 0 18px;
+  padding:11px 13px;
+  border:1px solid rgba(31,42,61,.9);
+  border-radius:12px;
+  outline:none;
+  background:rgba(7,10,15,.32);
+  color:var(--text);
+  font:inherit;
+}
+
+.term-search::placeholder{color:var(--muted)}
+.term-search:focus{
+  border-color:rgba(77,163,255,.65);
+  box-shadow:0 0 0 3px rgba(77,163,255,.10);
+}
+
+.term-guide{
+  display:grid;
+  gap:18px;
+}
+
+.term-section{
+  overflow:hidden;
+  border:1px solid rgba(31,42,61,.85);
+  border-radius:14px;
+  background:rgba(7,10,15,.22);
+}
+
+.term-section h3{
+  margin:0;
+  padding:10px 13px;
+  border-bottom:1px solid rgba(31,42,61,.85);
+  background:rgba(77,163,255,.11);
+  color:var(--text);
+  font-size:16px;
+}
+
+.term-list{margin:0}
+
+.term-row{
+  display:grid;
+  grid-template-columns:minmax(180px, 24%) 1fr;
+  border-bottom:1px solid rgba(31,42,61,.68);
+}
+
+.term-row:last-child{border-bottom:none}
+
+.term-row dt,
+.term-row dd{
+  margin:0;
+  padding:10px 13px;
+}
+
+.term-row dt{
+  color:var(--text);
+  font-weight:800;
+  background:rgba(11,17,28,.32);
+}
+
+.term-row dd{color:var(--muted)}
+
+.term-aliases{
+  display:block;
+  margin-top:2px;
+  color:var(--accent);
+  font-size:11px;
+  font-weight:600;
+  overflow-wrap:anywhere;
+}
+
+.term-notice,
+.term-empty,
+.term-loading{
+  margin:0;
+  padding:12px 14px;
+  border:1px solid rgba(31,42,61,.75);
+  border-radius:12px;
+  color:var(--muted);
+  background:rgba(11,17,28,.28);
+}
+
+.term-footer{margin-top:18px}
+
+@media (max-width:700px){
+  .term-row{grid-template-columns:1fr}
+  .term-row dt{padding-bottom:5px}
+  .term-row dd{padding-top:5px}
+}

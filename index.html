@@ -13,7 +13,7 @@
   <!-- 자바스크립트 언어(한국,영어,일본) 스크립트 -->
   <script src="lang.js" defer></script>
   <!-- 기능 스크립트 경로 -->
-  <script src="script.js" defer></script>
+  <script type="module" src="script.js"></script>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
           <span data-lang="tab_cmds">2) 명령어 목록</span>
         </button>
         <button class="tab" data-tab="guide" role="tab" aria-selected="false">
-          <span data-lang="tab_guide">3) 가이드</span>
+          <span data-lang="tab_guide">3) 용어 사전</span>
         </button>
       </div>
 
@@ -81,16 +81,23 @@
         </footer>
       </section>
 
-      <!-- 가이드 -->
+      <!-- 용어 사전 -->
       <section id="guide" class="panel" role="tabpanel">
         <div class="section-title">
-          <h2 data-lang="guide_title">가이드</h2>
-          <div class="hint" data-lang="guide_hint">PDF 버튼을 누르면 새 창으로 확인할 수 있습니다.</div>
+          <h2 data-lang="guide_title">좀비탈출 용어 사전</h2>
+          <div class="hint" data-lang="guide_hint">용어 또는 설명을 검색할 수 있습니다.</div>
         </div>
 
-        <a class="image-link image-link-button" href="guide_image/guide_1.pdf" target="_blank" rel="noopener noreferrer">
-          <span data-lang="guide_1_label">guide_1 PDF 보기</span>
-        </a>
+        <label class="term-search-label" for="termSearch" data-lang="term_search_label">용어 검색</label>
+        <input id="termSearch" class="term-search" type="search" data-lang-placeholder="term_search_placeholder" placeholder="용어 또는 설명 검색" autocomplete="off" />
+
+        <div id="termGuide" class="term-guide" aria-live="polite">
+          <p class="term-loading" data-lang="term_loading">Loading terms...</p>
+        </div>
+
+        <footer class="term-footer">
+          <a href="guide_image/guide_1.pdf" target="_blank" rel="noopener noreferrer" data-lang="guide_1_label">원본 PDF 보기</a>
+        </footer>
       </section>
     </div>
   </div>
