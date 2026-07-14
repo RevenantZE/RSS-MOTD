@@ -454,7 +454,14 @@ document.addEventListener("keydown", event => {
   const target = event.target;
   const isEditing = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target?.isContentEditable;
   const search = document.getElementById("globalSearch");
-  if (event.key === "/" && !isEditing) {
+  if (!event.defaultPrevented && !isEditing && (event.key === "ArrowLeft" || event.key === "ArrowRight")) {
+    const current = [...tabs].findIndex(tab => tab.getAttribute("aria-selected") === "true");
+    const offset = event.key === "ArrowRight" ? 1 : -1;
+    const next = (current + offset + tabs.length) % tabs.length;
+    event.preventDefault();
+    openTab(tabs[next].dataset.tab);
+    tabs[next].focus();
+  } else if (event.key === "/" && !isEditing) {
     event.preventDefault();
     search?.focus();
   } else if (event.key === "Escape" && document.activeElement === search && search?.value) {
