@@ -24,7 +24,8 @@ body{
 a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
 
-.wrap{max-width:980px; margin:0 auto; padding:18px 18px 70px}
+.wrap{max-width:980px; margin:0 auto; padding:18px 18px 70px; transition:max-width .2s ease}
+body[data-active-tab="guide"] .wrap{max-width:1160px}
 header{
   position:sticky; top:0; z-index:20;
   backdrop-filter: blur(10px);
@@ -615,10 +616,10 @@ footer a{color:var(--accent)}
 }
 
 .term-table-wrap{margin:0}
-.term-table{margin:0}
+.term-table{margin:0; min-width:760px}
 .term-table th{
-  width:24%;
-  min-width:180px;
+  width:30%;
+  min-width:240px;
   color:var(--text);
   font-weight:800;
   vertical-align:top;
@@ -626,13 +627,34 @@ footer a{color:var(--accent)}
 
 .term-table td{color:var(--muted)}
 
+.term-heading{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+}
+
+.term-label{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  gap:3px 7px;
+  min-width:0;
+}
+
+.term-name{white-space:nowrap}
+
 .term-aliases{
-  display:block;
-  margin-top:2px;
+  display:inline-block;
+  padding:1px 6px;
+  border:1px solid rgba(77,163,255,.22);
+  border-radius:999px;
+  background:rgba(77,163,255,.07);
   color:var(--accent);
   font-size:11px;
   font-weight:600;
-  overflow-wrap:anywhere;
+  line-height:1.4;
+  white-space:nowrap;
 }
 
 .term-notice,
@@ -649,5 +671,7 @@ footer a{color:var(--accent)}
 .term-footer{margin-top:18px}
 
 @media (max-width:700px){
-  .term-table th{min-width:140px}
+  .term-table{min-width:620px}
+  .term-table th{width:32%; min-width:170px}
+  .term-aliases{white-space:normal}
 }

@@ -141,6 +141,7 @@ const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 
 function openTab(name, pushHash = true) {
+  document.body.dataset.activeTab = name;
   tabs.forEach(t => {
     const active = t.dataset.tab === name;
     t.classList.toggle("active", active);
@@ -824,15 +825,26 @@ function createTermSection(section) {
 
     const name = document.createElement("th");
     name.scope = "row";
-    name.textContent = item.term || "";
+
+    const heading = document.createElement("div");
+    heading.className = "term-heading";
+
+    const label = document.createElement("div");
+    label.className = "term-label";
+
+    const termName = document.createElement("span");
+    termName.className = "term-name";
+    termName.textContent = item.term || "";
+    label.appendChild(termName);
 
     if (item.aliases?.length) {
       const aliases = document.createElement("span");
       aliases.className = "term-aliases";
       aliases.textContent = item.aliases.join(" · ");
-      name.appendChild(aliases);
+      label.appendChild(aliases);
     }
-    name.appendChild(makeShareButton(row.id, item.term));
+    heading.append(label, makeShareButton(row.id, item.term));
+    name.appendChild(heading);
 
     const description = document.createElement("td");
     description.textContent = item.description || "";
