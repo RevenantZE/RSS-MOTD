@@ -8,6 +8,7 @@ let commandGuideData = null;
 let faqData = null;
 let termGuideData = null;
 let termSearchQuery = "";
+let globalSearchQuery = "";
 const FAQ_FALLBACK = {
   version: 1,
   updatedAt: "",
@@ -230,7 +231,114 @@ function setLanguage(lang) {
   renderCommandGuide();
   renderFaq();
   renderTermGuide();
+  renderGlobalSearch();
 }
+
+function faqSearchText(item) {
+  const blocks = (item.body || []).map(block => {
+    if (block.type === "text" || block.type === "link") return localizeContent(block.text);
+    if (block.type === "inlineCode" || block.type === "code") return block.value || "";
+    return "";
+  });
+  return [localizeContent(item.question), ...blocks].join(" ");
+}
+
+function matchesSearch(text, query) {
+  const normalized = String(text || "").toLocaleLowerCase(getCurrentLang());
+  if (normalized.includes(query)) return true;
+  const compact = query.replace(/\s+/g, "");
+  return compact.length > 0 && /^[ㄱ-ㅎ]+$/.test(compact)
+    && getChoseong(normalized).replace(/\s+/g, "").includes(compact);
+}
+
+function makeGlobalSearchItem(type, title, snippet, tab, onOpen) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "global-search-item";
+
+  const badge = document.createElement("span");
+  badge.className = "global-search-type";
+  badge.textContent = window.LANG?.[getCurrentLang()]?.[`search_type_${type}`] || type;
+
+  const heading = document.createElement("span");
+  heading.className = "global-search-title";
+  heading.textContent = title;
+
+  const description = document.createElement("span");
+  description.className = "global-search-snippet";
+  description.textContent = snippet;
+
+  button.append(badge, heading, description);
+  button.addEventListener("click", () => {
+    openTab(tab);
+    onOpen?.();
+  });
+  return button;
+}
+
+function renderGlobalSearch() {
+  const results = document.getElementById("globalSearchResults");
+  if (!results) return;
+  const query = globalSearchQuery.trim().toLocaleLowerCase(getCurrentLang());
+
+  if (!query) {
+    const hint = document.createElement("p");
+    hint.className = "global-search-summary";
+    hint.textContent = window.LANG?.[getCurrentLang()]?.global_search_hint || "Search across every guide.";
+    results.replaceChildren(hint);
+    return;
+  }
+
+  const faqMatches = (faqData?.items || []).filter(item => matchesSearch(faqSearchText(item), query));
+  const commandMatches = (commandGuideData?.pages || []).flatMap(page =>
+    (page.sections || []).flatMap(section => (section.commands || []).map(item => ({ item, section })))
+  ).filter(({ item }) => matchesSearch([item.command, localizeText(item.description), localizeText(item.note)].join(" "), query));
+  const locale = termGuideData?.locales?.[getCurrentLang()];
+  const termMatches = (locale?.sections || []).flatMap(section =>
+    (section.terms || []).map(item => ({ item, section }))
+  ).filter(({ item }) => matchesSearch([item.term, ...(item.aliases || []), item.description].join(" "), query));
+
+  const summaryTemplate = window.LANG?.[getCurrentLang()]?.global_search_summary || "FAQ {faq} · Commands {commands} · Terms {terms}";
+  const summary = document.createElement("p");
+  summary.className = "global-search-summary";
+  summary.textContent = summaryTemplate
+    .replace("{faq}", faqMatches.length)
+    .replace("{commands}", commandMatches.length)
+    .replace("{terms}", termMatches.length);
+
+  const list = document.createElement("div");
+  list.className = "global-search-list";
+
+  faqMatches.slice(0, 6).forEach(item => list.appendChild(makeGlobalSearchItem(
+    "faq", localizeContent(item.question), faqSearchText(item).slice(0, 140), "faq", () => {
+      const details = document.querySelector(`[data-faq-id="${CSS.escape(item.id || "")}"]`);
+      if (details) { details.open = true; details.scrollIntoView({ behavior: "smooth", block: "center" }); }
+    }
+  )));
+  commandMatches.slice(0, 10).forEach(({ item, section }) => list.appendChild(makeGlobalSearchItem(
+    "command", item.command, `${localizeText(section.title)} · ${localizeText(item.description)}`, "cmds"
+  )));
+  termMatches.slice(0, 10).forEach(({ item, section }) => list.appendChild(makeGlobalSearchItem(
+    "term", item.term, `${section.title} · ${item.description}`, "guide", () => {
+      const input = document.getElementById("termSearch");
+      if (input) { input.value = item.term; termSearchQuery = item.term; renderTermGuide(); input.scrollIntoView({ behavior: "smooth", block: "center" }); }
+    }
+  )));
+
+  if (!list.childElementCount) {
+    const empty = document.createElement("p");
+    empty.className = "term-empty";
+    empty.textContent = window.LANG?.[getCurrentLang()]?.global_search_empty || "No matching results.";
+    results.replaceChildren(summary, empty);
+    return;
+  }
+  results.replaceChildren(summary, list);
+}
+
+document.getElementById("globalSearch")?.addEventListener("input", event => {
+  globalSearchQuery = event.target.value || "";
+  renderGlobalSearch();
+});
 
 // 언어 버튼 클릭 이벤트 바인딩
 document.querySelectorAll(".langbtn").forEach(btn => {
@@ -255,6 +363,7 @@ async function loadFaq() {
   try {
     faqData = await fetchJsonWithFallback("faq.json");
     renderFaq();
+    renderGlobalSearch();
   } catch (err) {
     console.error("FAQ load failed:", err);
     faqData = FAQ_FALLBACK;
@@ -377,6 +486,7 @@ async function loadCommandGuide() {
   try {
     commandGuideData = await fetchJsonWithFallback("commands.json");
     renderCommandGuide();
+    renderGlobalSearch();
   } catch (err) {
     console.error("command guide load failed:", err);
     guide.textContent = "Failed to load commands.json";
@@ -444,6 +554,7 @@ async function loadTermGuide() {
   try {
     termGuideData = await fetchJsonWithFallback("terms.json");
     renderTermGuide();
+    renderGlobalSearch();
   } catch (err) {
     console.error("term guide load failed:", err);
     guide.textContent = window.LANG?.[getCurrentLang()]?.term_unavailable || "Glossary unavailable";
