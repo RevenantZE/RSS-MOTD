@@ -1,69 +1,99 @@
-﻿# RSS_MOTD
-rss에서 사용하는 motd 웹페이지 파일로 현재는 정적 페이지로 구현.
+# RSS 좀비탈출서버 가이드
 
-한국어 , English , 日本語 , 中文으로 구현되어있음.
+RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitHub Pages에서 별도 서버 없이 동작하며 FAQ, 명령어 목록, 좀비탈출 용어 사전을 제공합니다.
 
-index.html = html 메인 html 파일(css 및 js 파일을 불러옴)<br/>
-style.css = html에서 웹페이지를 구현할때 배경을 만들어줌. (상자같은거)<br/>
-lang.js = 언어 파일<br/>
-script.js = 클립보드 , 열기/닫기 , 목록 등.. 버튼에대한 스크립트 구현<br/>
+- 사이트: https://sj58320.github.io/test/
+- 지원 UI 언어: 한국어, English, 日本語
+- 용어 사전 데이터: 현재 한국어만 제공
 
-추가 및 수정 시 참고사항
-==============================================================
+## 주요 기능
 
-index.html 부분
+- FAQ·명령어·용어를 한 번에 찾는 통합 검색
+- 한국어 초성 검색 (`ㄱㅈ` → `고좀`)
+- 명령어 카테고리 필터와 브라우저별 즐겨찾기
+- 명령어, 코드, 항목 링크 복사와 다국어 완료 알림
+- URL 해시를 이용한 FAQ·명령어·용어 바로가기
+- 키보드 좌우 방향키 탭 이동
+- 오프라인 캐시와 홈 화면 설치 지원
 
-양식만 지키면 쉬움
-아래와 같은 주석 처리된 부분 아래쪽을 설정하면된다.
+즐겨찾기는 브라우저의 `localStorage`에 저장됩니다. 다른 기기나 브라우저와 동기화되지 않으며 사이트 데이터를 삭제하면 함께 사라집니다.
 
-찾기목록 (index.html)[앞은 코드내부 주석 , 뒤는 무슨 기능에 들어가는것인지]
-=======================
+## 파일 구조
 
-FAQ(Create) = 질문 및 답글<br/>
-마지막 업데이트 날짜 갱신(Update) = 단순 업데이트 날짜 갱신<br/>
-일반 사용자(Create) = 명령어리스트<br/>
-VIP(Create) = 명령어리스트<br/>
+| 파일 | 역할 |
+| --- | --- |
+| `index.html` | 페이지 구조와 검색·탭·푸터 UI |
+| `style.css` | 전체 화면 스타일과 반응형 UI |
+| `script.js` | 검색, 탭, JSON 렌더링, 즐겨찾기, 복사 기능 |
+| `lang.js` | 고정 UI와 FAQ 문구의 한국어·영어·일본어 번역 |
+| `faq.json` | FAQ 항목과 답변 블록 |
+| `commands.json` | 명령어 카테고리, 명령어, 설명 |
+| `terms.json` | 언어별 용어 사전 |
+| `manifest.webmanifest` | 설치형 웹 앱 정보 |
+| `sw.js` | 오프라인 캐시 |
+| `icon.svg` | 파비콘과 설치 아이콘 |
+| `vendor/` | PicoCSS와 `es-hangul` 로컬 파일 |
+| `guide_image/` | FAQ 이미지와 공유 미리보기 이미지 |
 
+## 콘텐츠 수정 방법
 
-보통 수정하면 건드려줘야되는 부분
-=======================
-lang.js , index.html
+콘텐츠를 수정한 뒤 해당 JSON 파일의 `updatedAt`을 `YYYY-MM-DD` 형식으로 함께 변경합니다.
 
+### FAQ
 
-FAQ(Create) -> FAQ 부분
-=======================
+FAQ 구조는 `faq.json`에서 관리하고 번역 문구는 `lang.js`에서 관리합니다.
 
-<img src="guide_image/readme_1.png" alt="설명" style="max-width: 100%;" />
+```json
+{
+  "id": "example",
+  "question": { "langKey": "faq_example" },
+  "body": [
+    { "type": "text", "text": { "langKey": "answer_example" } },
+    { "type": "inlineCode", "value": "!example" }
+  ]
+}
+```
 
-질문글을 추가할때 lang에서 위의 주석에서 코드에서 faq_4 처럼 해당되는 노드를 추가해주고 answer_4로 마찬가지로 구현해준다음에 위와같이 만들면됨.
+사용 가능한 답변 블록은 `text`, `inlineCode`, `code`, `link`, `image`, `break`, `spacer`입니다. `langKey`를 사용했다면 `lang.js`의 `ko`, `en`, `jp`에 같은 키를 추가합니다.
 
-마지막 업데이트 날짜 갱신(Update)
-=======================
-업데이트 마지막 날짜 갱신
+### 명령어
 
-일반 사용자(Create)
-=======================
-명령어 리스트 추가 (일반 사용자)
+명령어는 `commands.json`의 `pages → sections → commands` 구조로 관리합니다. 제목과 설명은 항목 안에서 언어별로 작성합니다.
 
-<img src="guide_image/readme_2.png" alt="설명" style="max-width: 100%;" />
+```json
+{
+  "command": "/ztele",
+  "description": {
+    "ko": "스폰지역으로 이동",
+    "en": "Teleport to spawn",
+    "jp": "スポーン地点へ移動"
+  }
+}
+```
 
-명령어 리스트를 추가할때 위와 같다. lang.js에 node를 추가해주고 cmd_1자리에 새로만든 노드를 넣어주면된다.
+### 용어 사전
 
-VIP(Create) 
-=======================
-명령어 리스트 추가 (VIP 사용자)
+용어는 `terms.json`의 `locales → 언어 → sections → terms` 구조로 관리합니다.
 
-일반 사용자 명령어 리스트 추가와 같음
+```json
+{
+  "term": "난트",
+  "aliases": ["난간트롤", "edge"],
+  "description": "용어 설명"
+}
+```
 
-이미지파일을 넣는 방식은 index.html에서 경로를 그대로 따라간다. 현재사용중인 폴더 (guide_image)
+현재는 `locales.ko`만 있습니다. 영어와 일본어 내용은 한국어와 다를 수 있으므로 자동 번역하지 않고, 준비된 언어만 `locales.en` 또는 `locales.jp`로 별도 추가합니다.
 
-파일 작동 방식
-=======================
+## 로컬에서 확인하기
 
-index.html(뼈대) <- lang.js(언어파일) , script.js(스크립트파일) , style.css(스타일)<br/>
-lang에선 문자를 가져오고<br/>
-script에선 기능을 가져오고<br/>
-style에선 생긴 스타일을 가져온다<br/>
-rss_motd에는 뼈대이기에 뼈에 장기붙인다는 느낌에 가까움<br/>
+JSON을 불러오므로 `index.html`을 파일로 직접 열기보다 로컬 웹 서버를 사용해야 합니다.
 
+- VS Code: 프로젝트 폴더에서 **Open with Live Server**
+- Python: `python -m http.server 8000`
 
+그다음 `http://localhost:8000`에서 확인합니다. 서비스 워커 캐시 때문에 변경 내용이 바로 보이지 않으면 페이지를 새로고침하거나 사이트 데이터를 지운 뒤 다시 확인합니다.
+
+## 배포
+
+GitHub Pages는 `main` 브랜치를 기준으로 배포합니다. 기능 브랜치의 변경 사항을 검토한 뒤 `main`에 병합하면 사이트에 반영됩니다.
