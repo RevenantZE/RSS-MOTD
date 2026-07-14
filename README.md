@@ -28,9 +28,8 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `faq.json` | FAQ 항목과 답변 블록 |
 | `commands.json` | 명령어 카테고리, 명령어, 설명 |
 | `terms.json` | 언어별 용어 사전 |
-| `icon.svg` | 파비콘과 설치 아이콘 |
 | `vendor/` | PicoCSS와 `es-hangul` 로컬 파일 |
-| `guide_image/` | FAQ 이미지와 공유 미리보기 이미지 |
+| `guide_image/` | FAQ에 사용하는 안내 이미지 |
 
 ## 콘텐츠 수정 방법
 
