@@ -54,8 +54,8 @@
       </div>
 
       <div class="global-search-wrap">
-        <label for="globalSearch" data-lang="global_search_label">전체 검색</label>
-        <input id="globalSearch" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어 검색" autocomplete="off" />
+        <label class="term-search-label" for="globalSearch" data-lang="global_search_label">전체 검색</label>
+        <input id="globalSearch" class="term-search" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어 검색" autocomplete="off" />
         <div id="globalSearchResults" class="global-search-results" aria-live="polite"></div>
       </div>
 
@@ -102,9 +102,6 @@
           <h2 data-lang="guide_title">좀비탈출 용어 사전</h2>
           <div class="hint" data-lang="guide_hint">용어 또는 설명을 검색할 수 있습니다.</div>
         </div>
-
-        <label class="term-search-label" for="termSearch" data-lang="term_search_label">용어 검색</label>
-        <input id="termSearch" class="term-search" type="search" data-lang-placeholder="term_search_placeholder" placeholder="용어 또는 설명 검색" autocomplete="off" />
 
         <div id="termGuide" class="term-guide" aria-live="polite">
           <p class="term-loading" data-lang="term_loading">Loading terms...</p>

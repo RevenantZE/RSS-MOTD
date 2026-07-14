@@ -7,7 +7,6 @@ const SUPPORTED_LANGS = new Set(["ko", "en", "jp"]);
 let commandGuideData = null;
 let faqData = null;
 let termGuideData = null;
-let termSearchQuery = "";
 let globalSearchQuery = "";
 let commandSearchQuery = "";
 let commandPageFilter = "all";
@@ -354,8 +353,7 @@ function renderGlobalSearch() {
   )));
   termMatches.slice(0, 10).forEach(({ item, section }) => list.appendChild(makeGlobalSearchItem(
     "term", item.term, `${section.title} · ${item.description}`, "guide", () => {
-      const input = document.getElementById("termSearch");
-      if (input) { input.value = item.term; termSearchQuery = item.term; renderTermGuide(); input.scrollIntoView({ behavior: "smooth", block: "center" }); }
+      document.getElementById("termGuide")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   )));
 
@@ -659,31 +657,12 @@ function renderTermGuide() {
     return;
   }
 
-  const query = termSearchQuery.trim().toLocaleLowerCase(lang);
-  const sections = (locale.sections || []).map(section => ({
-    ...section,
-    terms: (section.terms || []).filter(item => {
-      if (!query) return true;
-      const names = [item.term, ...(item.aliases || [])].join(" ").toLocaleLowerCase(lang);
-      const searchable = [names, item.description].join(" ").toLocaleLowerCase(lang);
-      const choseongQuery = query.replace(/\s+/g, "");
-      const isChoseongQuery = choseongQuery.length > 0 && /^[ㄱ-ㅎ]+$/.test(choseongQuery);
-      return searchable.includes(query) || (isChoseongQuery && getChoseong(names).replace(/\s+/g, "").includes(choseongQuery));
-    })
-  })).filter(section => section.terms.length > 0);
-
-  if (sections.length === 0) {
-    const message = document.createElement("p");
-    message.className = "term-empty";
-    message.textContent = window.LANG?.[lang]?.term_empty || "No matching terms";
-    guide.replaceChildren(message);
-    return;
-  }
+  const sections = locale.sections || [];
 
   const fragment = document.createDocumentFragment();
   sections.forEach(section => fragment.appendChild(createTermSection(section)));
 
-  if (!query && locale.notice) {
+  if (locale.notice) {
     const notice = document.createElement("p");
     notice.className = "term-notice";
     notice.textContent = locale.notice;
@@ -737,11 +716,6 @@ function createTermSection(section) {
   sectionEl.appendChild(tableWrap);
   return sectionEl;
 }
-
-document.getElementById("termSearch")?.addEventListener("input", event => {
-  termSearchQuery = event.target.value || "";
-  renderTermGuide();
-});
 
 window.addEventListener("load", loadTermGuide);
 // 5. 클립보드 명령어 복사 기능

@@ -101,17 +101,9 @@ header{
 }
 
 .global-search-wrap{
-  padding:12px 16px 4px;
-  border-bottom:1px solid rgba(31,42,61,.55);
+  padding:16px 16px 0;
 }
-.global-search-wrap > label{
-  display:block;
-  margin-bottom:6px;
-  color:var(--muted);
-  font-size:12px;
-  font-weight:700;
-}
-#globalSearch{width:100%; margin:0}
+.global-search-wrap .term-search{margin-bottom:0}
 .global-search-results{margin-top:8px}
 .global-search-summary{
   margin:0 0 8px;
