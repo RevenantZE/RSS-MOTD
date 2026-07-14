@@ -1,0 +1,19 @@
+{
+  "name": "RSS 좀비탈출서버 가이드",
+  "short_name": "RSS ZE 가이드",
+  "description": "RSS 좀비탈출서버 FAQ, 명령어 목록, 용어 사전",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070a0f",
+  "theme_color": "#0b111c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

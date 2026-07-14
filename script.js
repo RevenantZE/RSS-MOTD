@@ -824,6 +824,13 @@ function createTermSection(section) {
 }
 
 window.addEventListener("load", loadTermGuide);
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(error => console.warn("service worker registration failed:", error));
+  });
+}
+
 // 5. 클립보드 명령어 복사 기능
 function copyCode(button) {
   const code = button.closest(".code-container")?.querySelector("pre code") || document.getElementById("bindCommands");
