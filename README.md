@@ -14,7 +14,6 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 - 명령어, 코드, 항목 링크 복사와 다국어 완료 알림
 - URL 해시를 이용한 FAQ·명령어·용어 바로가기
 - 키보드 좌우 방향키 탭 이동
-- 오프라인 캐시와 홈 화면 설치 지원
 
 즐겨찾기는 브라우저의 `localStorage`에 저장됩니다. 다른 기기나 브라우저와 동기화되지 않으며 사이트 데이터를 삭제하면 함께 사라집니다.
 
@@ -29,8 +28,6 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `faq.json` | FAQ 항목과 답변 블록 |
 | `commands.json` | 명령어 카테고리, 명령어, 설명 |
 | `terms.json` | 언어별 용어 사전 |
-| `manifest.webmanifest` | 설치형 웹 앱 정보 |
-| `sw.js` | 오프라인 캐시 |
 | `icon.svg` | 파비콘과 설치 아이콘 |
 | `vendor/` | PicoCSS와 `es-hangul` 로컬 파일 |
 | `guide_image/` | FAQ 이미지와 공유 미리보기 이미지 |
@@ -92,7 +89,7 @@ JSON을 불러오므로 `index.html`을 파일로 직접 열기보다 로컬 웹
 - VS Code: 프로젝트 폴더에서 **Open with Live Server**
 - Python: `python -m http.server 8000`
 
-그다음 `http://localhost:8000`에서 확인합니다. 서비스 워커 캐시 때문에 변경 내용이 바로 보이지 않으면 페이지를 새로고침하거나 사이트 데이터를 지운 뒤 다시 확인합니다.
+그다음 `http://localhost:8000`에서 확인합니다.
 
 ## 배포
 

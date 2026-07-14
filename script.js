@@ -849,9 +849,20 @@ function createTermSection(section) {
 
 window.addEventListener("load", loadTermGuide);
 
+// Remove service workers and caches created by older versions of this site.
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("./sw.js").catch(error => console.warn("service worker registration failed:", error));
+  window.addEventListener("load", async () => {
+    try {
+      const siteScope = new URL("./", document.baseURI).href;
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(registrations.filter(registration => registration.scope === siteScope).map(registration => registration.unregister()));
+      if ("caches" in window) {
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.filter(name => name.startsWith("rss-ze-guide-")).map(name => caches.delete(name)));
+      }
+    } catch (error) {
+      console.warn("legacy cache cleanup failed:", error);
+    }
   });
 }
 
