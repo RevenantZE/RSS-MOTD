@@ -1,5 +1,5 @@
 
-import { getChoseong } from "https://cdn.jsdelivr.net/npm/es-hangul@2.4.0/+esm";
+import { getChoseong } from "./vendor/es-hangul.mjs";
 
 // 1. 탭 전환 및 URL 해시 지원
 const DEFAULT_LANG = "ko";
