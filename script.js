@@ -501,7 +501,7 @@ function renderTermGuide() {
 }
 
 function createTermSection(section) {
-  const sectionEl = document.createElement("section");
+  const sectionEl = document.createElement("article");
   sectionEl.className = "term-section";
   sectionEl.dataset.termSection = section.id || "";
 
@@ -509,14 +509,20 @@ function createTermSection(section) {
   heading.textContent = section.title || "";
   sectionEl.appendChild(heading);
 
-  const list = document.createElement("dl");
-  list.className = "term-list";
+  const tableWrap = document.createElement("div");
+  tableWrap.className = "term-table-wrap overflow-auto";
+
+  const table = document.createElement("table");
+  table.className = "term-table striped";
+
+  const body = document.createElement("tbody");
 
   section.terms.forEach(item => {
-    const row = document.createElement("div");
+    const row = document.createElement("tr");
     row.className = "term-row";
 
-    const name = document.createElement("dt");
+    const name = document.createElement("th");
+    name.scope = "row";
     name.textContent = item.term || "";
 
     if (item.aliases?.length) {
@@ -526,14 +532,16 @@ function createTermSection(section) {
       name.appendChild(aliases);
     }
 
-    const description = document.createElement("dd");
+    const description = document.createElement("td");
     description.textContent = item.description || "";
 
     row.append(name, description);
-    list.appendChild(row);
+    body.appendChild(row);
   });
 
-  sectionEl.appendChild(list);
+  table.appendChild(body);
+  tableWrap.appendChild(table);
+  sectionEl.appendChild(tableWrap);
   return sectionEl;
 }
 
