@@ -352,7 +352,9 @@ function setLanguage(lang) {
 
   // 버튼 상태 클래스 토글 (함수 내부로 격리)
   document.querySelectorAll(".langbtn").forEach(b => {
-    b.classList.toggle("active", b.dataset.lang === lang);
+    const isActive = b.dataset.lang === lang;
+    b.classList.toggle("active", isActive);
+    b.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 
   // 선택한 언어 저장 및 HTML 문서속서를 반영
@@ -373,12 +375,39 @@ function faqSearchText(item) {
   return [localizeContent(item.question), ...blocks].join(" ");
 }
 
+function normalizeSearchText(value) {
+  const locale = getCurrentLang() === "jp" ? "ja" : getCurrentLang();
+  return String(value || "").trim().replace(/\s+/g, " ").toLocaleLowerCase(locale);
+}
+
+function normalizeCommandSearchText(value) {
+  return normalizeSearchText(value).replace(/^[!/]/, "");
+}
+
+function normalizeCommandPrefixes(value) {
+  return normalizeSearchText(value).replace(/(^|\s)[!/](?=\S)/g, "$1/");
+}
+
 function matchesSearch(text, query) {
-  const normalized = String(text || "").toLocaleLowerCase(getCurrentLang());
-  if (normalized.includes(query)) return true;
-  const compact = query.replace(/\s+/g, "");
+  const normalized = normalizeCommandPrefixes(text);
+  const normalizedQuery = normalizeCommandPrefixes(query);
+  if (normalized.includes(normalizedQuery)) return true;
+  const compact = normalizedQuery.replace(/\s+/g, "");
   return compact.length > 0 && /^[ㄱ-ㅎ]+$/.test(compact)
     && getChoseong(normalized).replace(/\s+/g, "").includes(compact);
+}
+
+function getSearchScore({ primary, aliases = [], details = [], query, command = false }) {
+  const normalizePrimary = command ? normalizeCommandSearchText : normalizeSearchText;
+  const normalizedQuery = normalizePrimary(query);
+  const normalizedPrimary = normalizePrimary(primary);
+  if (!normalizedQuery) return null;
+  if (normalizedPrimary === normalizedQuery) return 0;
+  if (normalizedPrimary.startsWith(normalizedQuery)) return 1;
+  if (aliases.some(alias => matchesSearch(alias, query))) return 2;
+  if (matchesSearch(primary, command ? normalizedQuery : query)) return 3;
+  if (details.some(detail => matchesSearch(detail, query))) return 4;
+  return null;
 }
 
 function makeGlobalSearchItem(type, title, snippet, tab, onOpen) {
@@ -419,7 +448,7 @@ function navigateToDeepLink(targetId) {
 function renderGlobalSearch() {
   const results = document.getElementById("globalSearchResults");
   if (!results) return;
-  const query = globalSearchQuery.trim().toLocaleLowerCase(getCurrentLang());
+  const query = normalizeSearchText(globalSearchQuery);
 
   if (!query) {
     const hint = document.createElement("p");
@@ -429,14 +458,49 @@ function renderGlobalSearch() {
     return;
   }
 
-  const faqMatches = (faqData?.items || []).filter(item => matchesSearch(faqSearchText(item), query));
+  const faqMatches = (faqData?.items || []).map(item => ({
+    item,
+    score: getSearchScore({
+      primary: localizeContent(item.question),
+      details: [faqSearchText(item)],
+      query
+    })
+  })).filter(result => result.score != null).sort((a, b) => a.score - b.score);
   const commandMatches = (commandGuideData?.pages || []).flatMap(page =>
-    (page.sections || []).flatMap(section => (section.commands || []).map(item => ({ item, section })))
-  ).filter(({ item }) => matchesSearch([item.command, localizeText(item.description), localizeText(item.note)].join(" "), query));
+    (page.sections || []).flatMap(section => (section.commands || []).map(item => {
+      const aliases = [...(item.aliases || []), ...(item.keywords || [])].map(value => localizeText(value));
+      return {
+        item,
+        page,
+        section,
+        score: getSearchScore({
+          primary: item.command,
+          aliases,
+          details: [
+            localizeText(item.description),
+            localizeText(item.note),
+            localizeText(page.title),
+            localizeText(section.title)
+          ],
+          query,
+          command: true
+        })
+      };
+    }))
+  ).filter(result => result.score != null).sort((a, b) => a.score - b.score);
   const locale = termGuideData?.locales?.[getCurrentLang()];
   const termMatches = (locale?.sections || []).flatMap(section =>
-    (section.terms || []).map(item => ({ item, section }))
-  ).filter(({ item }) => matchesSearch([item.term, ...(item.aliases || []), item.description].join(" "), query));
+    (section.terms || []).map(item => ({
+      item,
+      section,
+      score: getSearchScore({
+        primary: item.term,
+        aliases: item.aliases || [],
+        details: [item.description, section.title],
+        query
+      })
+    }))
+  ).filter(result => result.score != null).sort((a, b) => a.score - b.score);
 
   const summaryTemplate = window.LANG?.[getCurrentLang()]?.global_search_summary || "FAQ {faq} · Commands {commands} · Terms {terms}";
   const summary = document.createElement("p");
@@ -449,19 +513,33 @@ function renderGlobalSearch() {
   const list = document.createElement("div");
   list.className = "global-search-list";
 
-  faqMatches.slice(0, 6).forEach(item => list.appendChild(makeGlobalSearchItem(
-    "faq", localizeContent(item.question), faqSearchText(item).slice(0, 140), "faq",
-    () => navigateToDeepLink(deepLinkId("faq", item.id || localizeContent(item.question)))
-  )));
-  commandMatches.slice(0, 10).forEach(({ item, section }) => list.appendChild(makeGlobalSearchItem(
-    "command", item.command, `${localizeText(section.title)} · ${localizeText(item.description)}`, "cmds",
-    () => navigateToDeepLink(deepLinkId("command", item.command))
-  )));
-  termMatches.slice(0, 10).forEach(({ item, section }) => list.appendChild(makeGlobalSearchItem(
-    "term", item.term, `${section.title} · ${item.description}`, "guide", () => {
-      navigateToDeepLink(deepLinkId("term", item.term));
-    }
-  )));
+  const displayedMatches = [
+    ...faqMatches.slice(0, 6).map(({ item, score }) => ({
+      score,
+      element: makeGlobalSearchItem(
+        "faq", localizeContent(item.question), faqSearchText(item).slice(0, 140), "faq",
+        () => navigateToDeepLink(deepLinkId("faq", item.id || localizeContent(item.question)))
+      )
+    })),
+    ...commandMatches.slice(0, 10).map(({ item, page, section, score }) => ({
+      score,
+      element: makeGlobalSearchItem(
+        "command",
+        item.command,
+        `${localizeText(page.title)} · ${localizeText(section.title)} · ${localizeText(item.description)}`,
+        "cmds",
+        () => navigateToDeepLink(deepLinkId("command", item.command))
+      )
+    })),
+    ...termMatches.slice(0, 10).map(({ item, section, score }) => ({
+      score,
+      element: makeGlobalSearchItem(
+        "term", item.term, `${section.title} · ${item.description}`, "guide",
+        () => navigateToDeepLink(deepLinkId("term", item.term))
+      )
+    }))
+  ].sort((a, b) => a.score - b.score);
+  list.append(...displayedMatches.map(result => result.element));
 
   if (!list.childElementCount) {
     const empty = document.createElement("p");
@@ -482,14 +560,7 @@ document.addEventListener("keydown", event => {
   const target = event.target;
   const isEditing = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target?.isContentEditable;
   const search = document.getElementById("globalSearch");
-  if (!event.defaultPrevented && !isEditing && (event.key === "ArrowLeft" || event.key === "ArrowRight")) {
-    const current = [...tabs].findIndex(tab => tab.getAttribute("aria-selected") === "true");
-    const offset = event.key === "ArrowRight" ? 1 : -1;
-    const next = (current + offset + tabs.length) % tabs.length;
-    event.preventDefault();
-    openTab(tabs[next].dataset.tab);
-    tabs[next].focus();
-  } else if (event.key === "/" && !isEditing) {
+  if (event.key === "/" && !isEditing) {
     event.preventDefault();
     search?.focus();
   } else if (event.key === "Escape" && document.activeElement === search && search?.value) {
