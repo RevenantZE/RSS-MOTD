@@ -838,10 +838,48 @@ function createTermSection(section) {
     label.appendChild(termName);
 
     if (item.aliases?.length) {
-      const aliases = document.createElement("span");
-      aliases.className = "term-aliases";
-      aliases.textContent = item.aliases.join(" · ");
-      label.appendChild(aliases);
+      const aliasWrap = document.createElement("span");
+      aliasWrap.className = "term-alias-wrap";
+
+      const trigger = document.createElement("button");
+      trigger.type = "button";
+      trigger.className = "term-alias-trigger";
+      trigger.textContent = `+${item.aliases.length}`;
+      const aliasLabel = window.LANG?.[getCurrentLang()]?.term_alias_label || "{count} aliases for {term}";
+      trigger.setAttribute("aria-label", aliasLabel.replace("{term}", item.term).replace("{count}", item.aliases.length));
+      trigger.setAttribute("aria-expanded", "false");
+
+      const popover = document.createElement("span");
+      popover.id = `${row.id}-aliases`;
+      popover.className = "term-alias-popover";
+      popover.setAttribute("role", "tooltip");
+      popover.textContent = item.aliases.join(" · ");
+      trigger.setAttribute("aria-describedby", popover.id);
+
+      const toggleAliasPopover = () => {
+        const willOpen = !aliasWrap.classList.contains("open");
+        closeAliasPopovers(aliasWrap);
+        aliasWrap.classList.toggle("open", willOpen);
+        trigger.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      };
+
+      trigger.addEventListener("click", event => {
+        event.stopPropagation();
+        toggleAliasPopover();
+      });
+      trigger.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          event.stopPropagation();
+          toggleAliasPopover();
+        } else if (event.key === "Escape") {
+          aliasWrap.classList.remove("open");
+          trigger.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      aliasWrap.append(trigger, popover);
+      label.appendChild(aliasWrap);
     }
     heading.append(label, makeShareButton(row.id, item.term));
     name.appendChild(heading);
@@ -858,6 +896,18 @@ function createTermSection(section) {
   sectionEl.appendChild(tableWrap);
   return sectionEl;
 }
+
+function closeAliasPopovers(except = null) {
+  document.querySelectorAll(".term-alias-wrap.open").forEach(aliasWrap => {
+    if (aliasWrap === except) return;
+    aliasWrap.classList.remove("open");
+    aliasWrap.querySelector(".term-alias-trigger")?.setAttribute("aria-expanded", "false");
+  });
+}
+
+document.addEventListener("click", event => {
+  if (!event.target.closest(".term-alias-wrap")) closeAliasPopovers();
+});
 
 window.addEventListener("load", loadTermGuide);
 
