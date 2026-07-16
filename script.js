@@ -540,6 +540,7 @@ function makeGlobalSearchItem(type, title, snippet, tab, onOpen) {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "global-search-item";
+  button.dataset.searchType = type;
 
   const badge = document.createElement("span");
   badge.className = "global-search-type";
@@ -560,6 +561,29 @@ function makeGlobalSearchItem(type, title, snippet, tab, onOpen) {
     onOpen?.();
   });
   return button;
+}
+
+function makeGlobalSearchGroup(type, total, items) {
+  if (!items.length) return null;
+
+  const section = document.createElement("section");
+  section.className = "global-search-group";
+  section.dataset.searchType = type;
+
+  const header = document.createElement("div");
+  header.className = "global-search-group-header";
+  const heading = document.createElement("h3");
+  heading.textContent = window.LANG?.[getCurrentLang()]?.[`search_type_${type}`] || type;
+  const count = document.createElement("span");
+  count.className = "global-search-group-count";
+  count.textContent = String(total);
+  header.append(heading, count);
+
+  const itemList = document.createElement("div");
+  itemList.className = "global-search-group-list";
+  itemList.append(...items);
+  section.append(header, itemList);
+  return section;
 }
 
 function setContentUpdatedAt(elementId, data) {
@@ -664,53 +688,48 @@ function renderGlobalSearch() {
   const list = document.createElement("div");
   list.className = "global-search-list";
 
-  const displayedMatches = [
-    ...faqMatches.slice(0, 6).map(({ item, score }) => ({
-      score,
-      element: makeGlobalSearchItem(
+  const groups = [
+    makeGlobalSearchGroup("faq", faqMatches.length, faqMatches.slice(0, 6).map(({ item }) =>
+      makeGlobalSearchItem(
         "faq", localizeContent(item.question), faqSearchText(item).slice(0, 140), "faq",
         () => navigateToDeepLink(deepLinkId("faq", item.id || localizeContent(item.question)))
       )
-    })),
-    ...commandMatches.slice(0, 10).map(({ item, page, section, score }) => ({
-      score,
-      element: makeGlobalSearchItem(
+    )),
+    makeGlobalSearchGroup("command", commandMatches.length, commandMatches.slice(0, 10).map(({ item, page, section }) =>
+      makeGlobalSearchItem(
         "command",
         item.command,
         `${localizeText(page.title)} · ${localizeText(section.title)} · ${localizeText(item.description)}`,
         "cmds",
         () => navigateToDeepLink(deepLinkId("command", item.command))
       )
-    })),
-    ...termMatches.slice(0, 10).map(({ item, section, score }) => ({
-      score,
-      element: makeGlobalSearchItem(
+    )),
+    makeGlobalSearchGroup("term", termMatches.length, termMatches.slice(0, 10).map(({ item, section }) =>
+      makeGlobalSearchItem(
         "term", item.term, `${section.title} · ${item.description}`, "guide",
         () => navigateToDeepLink(deepLinkId("term", item.term))
       )
-    })),
-    ...newsMatches.slice(0, 10).map(({ item, score }) => ({
-      score,
-      element: makeGlobalSearchItem(
+    )),
+    makeGlobalSearchGroup("news", newsMatches.length, newsMatches.slice(0, 10).map(({ item }) =>
+      makeGlobalSearchItem(
         "news",
         item.title || "Announcement",
         normalizeSearchText(item.content || item.summary || item.author || "").slice(0, 180),
         "news",
         () => navigateToDeepLink(deepLinkId("news", item.id || item.title || item.publishedAt))
       )
-    })),
-    ...skinMatches.slice(0, 10).map(({ item, score }) => ({
-      score,
-      element: makeGlobalSearchItem(
+    )),
+    makeGlobalSearchGroup("skin", skinMatches.length, skinMatches.slice(0, 10).map(({ item }) =>
+      makeGlobalSearchItem(
         "skin",
         item.name || item.nameKo,
         item.nameKo || "",
         "skins",
         () => navigateToDeepLink(deepLinkId("skin", item.id || item.name))
       )
-    }))
-  ].sort((a, b) => a.score - b.score);
-  list.append(...displayedMatches.map(result => result.element));
+    ))
+  ].filter(Boolean);
+  list.append(...groups);
 
   if (!list.childElementCount) {
     const empty = document.createElement("p");

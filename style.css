@@ -122,30 +122,75 @@ header{
 }
 .global-search-list{
   display:grid;
-  gap:6px;
+  gap:10px;
   margin:0 0 12px;
 }
-.global-search-item{
+.global-search-group,
+.global-search-item{--search-rgb:77,163,255}
+[data-search-type="command"]{--search-rgb:83,210,140}
+[data-search-type="term"]{--search-rgb:194,140,255}
+[data-search-type="news"]{--search-rgb:255,180,84}
+[data-search-type="skin"]{--search-rgb:255,122,168}
+.global-search-group{
+  display:grid;
+  gap:7px;
+  padding:9px;
+  border:1px solid rgba(var(--search-rgb),.24);
+  border-radius:12px;
+  background:rgba(var(--search-rgb),.035);
+}
+.global-search-group-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 3px;
+}
+.global-search-group-header h3{
+  margin:0;
+  color:rgb(var(--search-rgb));
+  font-size:12px;
+  font-weight:800;
+}
+.global-search-group-count{
+  display:grid;
+  min-width:24px;
+  height:20px;
+  padding:0 6px;
+  place-items:center;
+  border-radius:999px;
+  color:rgb(var(--search-rgb));
+  background:rgba(var(--search-rgb),.13);
+  font-size:10px;
+  font-weight:800;
+}
+.global-search-group-list{display:grid; gap:6px}
+.global-search-results button.global-search-item{
   display:grid;
   grid-template-columns:auto 1fr;
   gap:6px 10px;
   width:100%;
+  margin:0;
   padding:9px 11px;
-  border:1px solid var(--line);
+  border:1px solid rgba(var(--search-rgb),.24);
+  border-left:3px solid rgba(var(--search-rgb),.72);
   border-radius:10px;
-  background:rgba(7,10,15,.3);
+  background-color:rgba(7,10,15,.46);
   color:var(--text);
   text-align:left;
   cursor:pointer;
+  transition:border-color .15s ease,background-color .15s ease;
 }
-.global-search-item:hover{border-color:rgba(77,163,255,.55)}
+.global-search-results button.global-search-item:hover{
+  border-color:rgba(var(--search-rgb),.68);
+  background-color:rgba(var(--search-rgb),.09);
+}
 .global-search-type{
   grid-row:1 / span 2;
   align-self:start;
   padding:2px 7px;
   border-radius:999px;
-  background:rgba(77,163,255,.14);
-  color:var(--accent);
+  background:rgba(var(--search-rgb),.14);
+  color:rgb(var(--search-rgb));
   font-size:11px;
   font-weight:700;
 }
