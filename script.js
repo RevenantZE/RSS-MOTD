@@ -383,13 +383,16 @@ function setLanguage(lang, syncUrl = true) {
   renderGlobalSearch();
 }
 
-function faqSearchText(item) {
-  const blocks = (item.body || []).map(block => {
+function faqAnswerText(item) {
+  return (item.body || []).map(block => {
     if (block.type === "text" || block.type === "link") return localizeContent(block.text);
     if (block.type === "inlineCode" || block.type === "code") return block.value || "";
     return "";
-  });
-  return [localizeContent(item.question), ...blocks].join(" ");
+  }).join(" ").trim();
+}
+
+function faqSearchText(item) {
+  return [localizeContent(item.question), faqAnswerText(item)].join(" ");
 }
 
 function normalizeSearchText(value) {
@@ -630,6 +633,7 @@ function renderFaq() {
   if (!faqList || !faqData) return;
 
   faqList.replaceChildren(...faqData.items.map(createFaqItem));
+  renderQuickStart();
   applyDeepLink();
 }
 
@@ -642,6 +646,107 @@ function localizeContent(value, lang = getCurrentLang()) {
     : localizeText(value, lang);
 
   return `${value.prefix || ""}${base}${value.suffix || ""}`;
+}
+
+function findCommandItem(commandId) {
+  for (const page of commandGuideData?.pages || []) {
+    for (const section of page.sections || []) {
+      const item = (section.commands || []).find(command => command.command === commandId);
+      if (item) return item;
+    }
+  }
+  return null;
+}
+
+function resolveGuideReference(reference) {
+  if (reference?.type === "faq") {
+    const item = faqData?.items?.find(faq => faq.id === reference.id);
+    if (!item) return null;
+    return {
+      type: "faq",
+      typeLabel: window.LANG?.[getCurrentLang()]?.search_type_faq || "FAQ",
+      title: localizeContent(item.question),
+      snippet: faqAnswerText(item),
+      targetId: deepLinkId("faq", item.id)
+    };
+  }
+  if (reference?.type === "command") {
+    const item = findCommandItem(reference.id);
+    if (!item) return null;
+    return {
+      type: "command",
+      typeLabel: window.LANG?.[getCurrentLang()]?.search_type_command || "Command",
+      title: item.command,
+      snippet: localizeText(item.description),
+      targetId: deepLinkId("command", item.command)
+    };
+  }
+  return null;
+}
+
+function createRelatedLinks(references, extraClass = "") {
+  const items = (references || []).map(resolveGuideReference).filter(Boolean);
+  if (!items.length) return null;
+
+  const container = document.createElement("aside");
+  container.className = `related-links ${extraClass}`.trim();
+  const label = document.createElement("span");
+  label.className = "related-label";
+  label.textContent = window.LANG?.[getCurrentLang()]?.related_items || "Related";
+  container.appendChild(label);
+  items.forEach(item => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "related-link";
+    button.textContent = item.title;
+    button.title = `${item.typeLabel}: ${item.title}`;
+    button.addEventListener("click", () => navigateToDeepLink(item.targetId));
+    container.appendChild(button);
+  });
+  return container;
+}
+
+function renderQuickStart() {
+  const container = document.getElementById("quickStart");
+  if (!container || !faqData?.quickStart) return;
+  if (faqData.quickStart.some(item => item.type === "command") && !commandGuideData) {
+    container.replaceChildren();
+    return;
+  }
+  const items = faqData.quickStart.map(resolveGuideReference).filter(Boolean);
+  if (!items.length) {
+    container.replaceChildren();
+    return;
+  }
+
+  const heading = document.createElement("div");
+  heading.className = "quick-start-heading";
+  const title = document.createElement("h3");
+  title.id = "quickStartTitle";
+  title.textContent = window.LANG?.[getCurrentLang()]?.quick_start_title || "Quick start";
+  const description = document.createElement("p");
+  description.textContent = window.LANG?.[getCurrentLang()]?.quick_start_description || "Start with these essentials.";
+  heading.append(title, description);
+
+  const list = document.createElement("div");
+  list.className = "quick-start-list";
+  items.forEach(item => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quick-start-item";
+    const badge = document.createElement("span");
+    badge.className = "quick-start-badge";
+    badge.textContent = item.typeLabel;
+    const itemTitle = document.createElement("strong");
+    itemTitle.textContent = item.title;
+    const snippet = document.createElement("span");
+    snippet.className = "quick-start-snippet";
+    snippet.textContent = item.snippet;
+    button.append(badge, itemTitle, snippet);
+    button.addEventListener("click", () => navigateToDeepLink(item.targetId));
+    list.appendChild(button);
+  });
+  container.replaceChildren(heading, list);
 }
 
 function createFaqItem(item) {
@@ -665,6 +770,8 @@ function createFaqItem(item) {
   answer.className = "answer";
   answer.appendChild(makeShareButton(details.id, localizeContent(item.question), "faq-share"));
   (item.body || []).forEach(block => answer.appendChild(createFaqBlock(block)));
+  const related = createRelatedLinks(item.related, "faq-related");
+  if (related) answer.appendChild(related);
 
   details.append(summary, answer);
   return details;
@@ -744,6 +851,7 @@ async function loadCommandGuide() {
     commandGuideData = await fetchJsonWithFallback("commands.json");
     setContentUpdatedAt("commandLastUpdate", commandGuideData);
     renderCommandGuide();
+    if (faqData) renderFaq();
     renderGlobalSearch();
   } catch (err) {
     console.error("command guide load failed:", err);

@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-16",
+  "quickStart": [
+    { "type": "faq", "id": "console_howto" },
+    { "type": "command", "id": "/stopsound" },
+    { "type": "command", "id": "/hide <0~9999>" },
+    { "type": "faq", "id": "server_rules" }
+  ],
   "items": [
     {
       "id": "store_bind",
@@ -20,6 +26,9 @@
           "copy": true,
           "value": "bind 1 \"slot1; menuselect 1\";\nbind 2 \"slot2; menuselect 2\";\nbind 3 \"slot3; menuselect 3\";\nbind 4 \"slot4; menuselect 4\";\nbind 5 \"slot5; menuselect 5\";\nbind 6 \"slot6; menuselect 6\";\nbind 7 \"slot7; menuselect 7\";\nbind 8 \"slot8; menuselect 8\";\nbind 9 \"slot9; menuselect 9\";"
         }
+      ],
+      "related": [
+        { "type": "command", "id": "/menubind" }
       ]
     },
     {
@@ -32,6 +41,10 @@
         { "type": "text", "text": " " },
         { "type": "inlineCode", "value": "/hide 300" },
         { "type": "text", "text": { "langKey": "answer_2_2", "prefix": " " } }
+      ],
+      "related": [
+        { "type": "command", "id": "/stopsound" },
+        { "type": "command", "id": "/hide <0~9999>" }
       ]
     },
     {
@@ -45,6 +58,11 @@
         { "type": "text", "text": { "langKey": "answer_3_3" } },
         { "type": "inlineCode", "value": "/stopsound" },
         { "type": "text", "text": { "langKey": "answer_3_4", "prefix": " " } }
+      ],
+      "related": [
+        { "type": "command", "id": "/stopsound" },
+        { "type": "command", "id": "/music <0~100>" },
+        { "type": "command", "id": "/zvolume <0~100>" }
       ]
     },
     {
