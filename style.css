@@ -25,7 +25,8 @@ a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
 
 .wrap{max-width:980px; margin:0 auto; padding:18px 18px 70px; transition:max-width .2s ease}
-body[data-active-tab="guide"] .wrap{max-width:1160px}
+body[data-active-tab="guide"] .wrap,
+body[data-active-tab="news"] .wrap{max-width:1160px}
 header{
   position:sticky; top:0; z-index:20;
   backdrop-filter: blur(10px);
