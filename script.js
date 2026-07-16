@@ -8,6 +8,9 @@ let commandGuideData = null;
 let faqData = null;
 let termGuideData = null;
 let newsData = null;
+let skinData = null;
+let skinSearchQuery = "";
+let skinImageObserver = null;
 let globalSearchQuery = "";
 let commandPageFilter = "all";
 let favoriteCommandsOnly = false;
@@ -305,6 +308,7 @@ function applyDeepLink() {
     : hash.startsWith("command-") ? "cmds"
     : hash.startsWith("term-") ? "guide"
     : hash.startsWith("news-") ? "news"
+    : hash.startsWith("skin-") ? "skins"
     : null;
   if (!tab) return;
   openTab(tab, false);
@@ -315,6 +319,15 @@ function applyDeepLink() {
     if (favoritesOnly) favoritesOnly.checked = false;
     if (commandGuideData) {
       renderCommandGuide();
+      return;
+    }
+  }
+  if (tab === "skins" && skinSearchQuery) {
+    skinSearchQuery = "";
+    const search = document.getElementById("skinSearch");
+    if (search) search.value = "";
+    if (skinData) {
+      renderSkins();
       return;
     }
   }
@@ -348,7 +361,7 @@ const validTabs = [...tabs].map(tab => tab.dataset.tab);
 function applyLocationState() {
   const hash = (location.hash || "").replace("#", "");
   if (validTabs.includes(hash)) openTab(hash, false);
-  else if (/^(faq|command|term|news)-/.test(decodeURIComponent(hash))) applyDeepLink();
+  else if (/^(faq|command|term|news|skin)-/.test(decodeURIComponent(hash))) applyDeepLink();
   else openTab("faq", false); // 기본은 FAQ
 }
 window.addEventListener("load", applyLocationState);
@@ -467,6 +480,7 @@ function setLanguage(lang, syncUrl = true) {
   renderFaq();
   renderTermGuide();
   renderNews();
+  renderSkins();
   renderGlobalSearch();
 }
 
@@ -623,15 +637,24 @@ function renderGlobalSearch() {
       query
     })
   })).filter(result => result.score != null).sort((a, b) => a.score - b.score);
+  const skinMatches = (skinData?.items || []).map(item => ({
+    item,
+    score: getSearchScore({
+      primary: item.name || "",
+      aliases: [item.nameKo || ""],
+      query
+    })
+  })).filter(result => result.score != null).sort((a, b) => a.score - b.score);
 
-  const summaryTemplate = window.LANG?.[getCurrentLang()]?.global_search_summary || "FAQ {faq} · Commands {commands} · Terms {terms} · News {news}";
+  const summaryTemplate = window.LANG?.[getCurrentLang()]?.global_search_summary || "FAQ {faq} · Commands {commands} · Terms {terms} · News {news} · Skins {skins}";
   const summary = document.createElement("p");
   summary.className = "global-search-summary";
   summary.textContent = summaryTemplate
     .replace("{faq}", faqMatches.length)
     .replace("{commands}", commandMatches.length)
     .replace("{terms}", termMatches.length)
-    .replace("{news}", newsMatches.length);
+    .replace("{news}", newsMatches.length)
+    .replace("{skins}", skinMatches.length);
 
   const list = document.createElement("div");
   list.className = "global-search-list";
@@ -669,6 +692,16 @@ function renderGlobalSearch() {
         normalizeSearchText(item.content || item.summary || item.author || "").slice(0, 180),
         "news",
         () => navigateToDeepLink(deepLinkId("news", item.id || item.title || item.publishedAt))
+      )
+    })),
+    ...skinMatches.slice(0, 10).map(({ item, score }) => ({
+      score,
+      element: makeGlobalSearchItem(
+        "skin",
+        item.name || item.nameKo,
+        item.nameKo || "",
+        "skins",
+        () => navigateToDeepLink(deepLinkId("skin", item.id || item.name))
       )
     }))
   ].sort((a, b) => a.score - b.score);
@@ -1387,6 +1420,164 @@ function renderNews() {
 }
 
 window.addEventListener("load", loadNews);
+
+// 8. Human skin preview gallery from skins.json
+async function loadSkins() {
+  const grid = document.getElementById("skinGrid");
+  if (!grid) return;
+
+  try {
+    skinData = await fetchJsonWithFallback("skins.json");
+    const updatedAt = document.getElementById("skinLastUpdate");
+    if (updatedAt) updatedAt.textContent = formatNewsDate(skinData.updatedAt) || "-";
+    renderSkins();
+    renderGlobalSearch();
+  } catch (err) {
+    console.error("skins load failed:", err);
+    skinData = { updatedAt: "", items: [] };
+    renderSkins();
+    renderGlobalSearch();
+    grid.title = `skins.json load failed: ${err.message}`;
+  }
+}
+
+function createSkinFigure(view, label, skinName, eager = false) {
+  const figure = document.createElement("figure");
+  figure.className = "skin-preview";
+
+  const link = document.createElement("a");
+  link.href = assetUrl(view.src);
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  const image = document.createElement("img");
+  image.loading = eager ? "eager" : "lazy";
+  image.decoding = "async";
+  const imageUrl = assetUrl(view.src);
+  if (eager) image.src = imageUrl;
+  else image.dataset.src = imageUrl;
+  image.width = Number(view.width) || 800;
+  image.height = Number(view.height) || 800;
+  image.alt = `${skinName} - ${label}`;
+  link.appendChild(image);
+
+  const caption = document.createElement("figcaption");
+  caption.textContent = label;
+  figure.append(link, caption);
+  return figure;
+}
+
+function createSkinCard(item, index) {
+  const article = document.createElement("article");
+  article.className = "skin-card";
+  article.id = deepLinkId("skin", item.id || item.name);
+
+  const header = document.createElement("div");
+  header.className = "skin-card-header";
+
+  const number = document.createElement("span");
+  number.className = "skin-number";
+  number.textContent = String(item.order || index + 1).padStart(2, "0");
+
+  const names = document.createElement("div");
+  names.className = "skin-names";
+  const heading = document.createElement("h3");
+  heading.textContent = item.name || item.nameKo || "Skin";
+  names.appendChild(heading);
+  if (item.nameKo && item.nameKo !== item.name) {
+    const koreanName = document.createElement("p");
+    koreanName.textContent = item.nameKo;
+    names.appendChild(koreanName);
+  }
+
+  const actions = document.createElement("div");
+  actions.className = "skin-actions";
+  actions.appendChild(makeShareButton(article.id, heading.textContent));
+  const sourceUrl = safeHttpUrl(item.sourceUrl);
+  if (sourceUrl) {
+    const source = document.createElement("a");
+    source.href = sourceUrl;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = window.LANG?.[getCurrentLang()]?.skins_original || "View on Discord";
+    actions.appendChild(source);
+  }
+  header.append(number, names, actions);
+
+  const previews = document.createElement("div");
+  previews.className = "skin-previews";
+  const skinName = [item.name, item.nameKo].filter(Boolean).join(" / ");
+  previews.append(
+    createSkinFigure(
+      item.thirdPerson,
+      window.LANG?.[getCurrentLang()]?.skins_third_person || "Third-person",
+      skinName,
+      index < 2
+    ),
+    createSkinFigure(
+      item.firstPerson,
+      window.LANG?.[getCurrentLang()]?.skins_first_person || "First-person",
+      skinName,
+      index < 2
+    )
+  );
+
+  article.append(header, previews);
+  return article;
+}
+
+function renderSkins() {
+  const grid = document.getElementById("skinGrid");
+  if (!grid || !skinData) return;
+
+  const query = normalizeSearchText(skinSearchQuery);
+  const items = (skinData.items || []).filter(item => !query || matchesSearch(
+    `${item.name || ""} ${item.nameKo || ""}`,
+    query
+  ));
+  const count = document.getElementById("skinResultCount");
+  if (count) {
+    const template = window.LANG?.[getCurrentLang()]?.skins_result_count || "{count} skins";
+    count.textContent = template.replace("{count}", items.length);
+  }
+
+  if (!items.length) {
+    const empty = document.createElement("p");
+    empty.className = "skin-empty";
+    empty.textContent = window.LANG?.[getCurrentLang()]?.skins_empty || "No matching skins.";
+    grid.replaceChildren(empty);
+    return;
+  }
+
+  skinImageObserver?.disconnect();
+  grid.replaceChildren(...items.map(createSkinCard));
+  const lazyImages = grid.querySelectorAll("img[data-src]");
+  if ("IntersectionObserver" in window) {
+    skinImageObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const image = entry.target;
+        image.src = image.dataset.src;
+        delete image.dataset.src;
+        skinImageObserver.unobserve(image);
+      });
+    }, { rootMargin: "900px 0px" });
+    lazyImages.forEach(image => skinImageObserver.observe(image));
+  } else {
+    lazyImages.forEach(image => {
+      image.src = image.dataset.src;
+      delete image.dataset.src;
+    });
+  }
+  applyDeepLink();
+}
+
+document.getElementById("skinSearch")?.addEventListener("input", event => {
+  skinSearchQuery = event.target.value || "";
+  renderSkins();
+});
+
+window.addEventListener("load", loadSkins);
 
 // Remove service workers and caches created by older versions of this site.
 if ("serviceWorker" in navigator) {

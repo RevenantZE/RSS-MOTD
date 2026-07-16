@@ -61,11 +61,14 @@
         <button id="tab-news" class="tab" data-tab="news" role="tab" aria-selected="false" aria-controls="news" tabindex="-1">
           <span data-lang="tab_news">4) 공지</span>
         </button>
+        <button id="tab-skins" class="tab" data-tab="skins" role="tab" aria-selected="false" aria-controls="skins" tabindex="-1">
+          <span data-lang="tab_skins">5) 스킨 프리뷰</span>
+        </button>
       </div>
 
       <div class="global-search-wrap pico" data-theme="dark">
         <label class="term-search-label" for="globalSearch" data-lang="global_search_label">전체 검색</label>
-        <input id="globalSearch" class="term-search" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어, 공지 검색" autocomplete="off" />
+        <input id="globalSearch" class="term-search" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어, 공지, 스킨 검색" autocomplete="off" />
         <div id="globalSearchResults" class="global-search-results" aria-live="polite"></div>
       </div>
 
@@ -140,6 +143,29 @@
         <footer>
           <span><span data-lang="last_update">마지막 업데이트:</span> <span id="newsLastUpdate">-</span></span>
           <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="news_open_discord">Discord에서 보기</a>
+        </footer>
+      </section>
+
+      <!-- Human skin preview gallery -->
+      <section id="skins" class="panel pico" data-theme="dark" role="tabpanel" aria-labelledby="tab-skins" hidden>
+        <div class="section-title">
+          <h2 data-lang="skins_title">스킨 프리뷰</h2>
+          <div class="hint" data-lang="skins_hint">3인칭과 1인칭 모습을 함께 확인할 수 있습니다.</div>
+        </div>
+
+        <div class="skin-tools">
+          <label class="term-search-label" for="skinSearch" data-lang="skins_search_label">스킨 검색</label>
+          <input id="skinSearch" class="term-search" type="search" data-lang-placeholder="skins_search_placeholder" placeholder="스킨 이름 검색" autocomplete="off" />
+          <p id="skinResultCount" class="skin-result-count" aria-live="polite"></p>
+        </div>
+
+        <div id="skinGrid" class="skin-grid" aria-live="polite">
+          <p class="skin-empty" data-lang="skins_loading">스킨을 불러오는 중...</p>
+        </div>
+
+        <footer>
+          <span><span data-lang="last_update">마지막 업데이트:</span> <span id="skinLastUpdate">-</span></span>
+          <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="report_issue">잘못된 정보 제보</a>
         </footer>
       </section>
     </div>

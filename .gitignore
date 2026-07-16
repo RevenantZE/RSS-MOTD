@@ -1,2 +1,5 @@
 # Local editor settings
 .vscode/
+
+# Local Discord skin export (production previews are generated into skin_images/)
+Human_Skin_List_Extract/

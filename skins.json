@@ -1,0 +1,1536 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-19T16:34:44.010000+00:00",
+  "items": [
+    {
+      "id": "001",
+      "order": 1,
+      "name": "GayCat",
+      "nameKo": "게이고양이",
+      "thirdPerson": {
+        "src": "skin_images/001-third.webp",
+        "width": 800,
+        "height": 898
+      },
+      "firstPerson": {
+        "src": "skin_images/001-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517551693267599462"
+    },
+    {
+      "id": "002",
+      "order": 2,
+      "name": "MasterChief (Halo)",
+      "nameKo": "마스터치프 (헤일로)",
+      "thirdPerson": {
+        "src": "skin_images/002-third.webp",
+        "width": 800,
+        "height": 1031
+      },
+      "firstPerson": {
+        "src": "skin_images/002-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517551868132462787"
+    },
+    {
+      "id": "003",
+      "order": 3,
+      "name": "Banana Joe",
+      "nameKo": "바나나 조",
+      "thirdPerson": {
+        "src": "skin_images/003-third.webp",
+        "width": 800,
+        "height": 999
+      },
+      "firstPerson": {
+        "src": "skin_images/003-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552079353282652"
+    },
+    {
+      "id": "004",
+      "order": 4,
+      "name": "Vector",
+      "nameKo": "벡터",
+      "thirdPerson": {
+        "src": "skin_images/004-third.webp",
+        "width": 800,
+        "height": 1039
+      },
+      "firstPerson": {
+        "src": "skin_images/004-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552240255308028"
+    },
+    {
+      "id": "005",
+      "order": 5,
+      "name": "Hunk",
+      "nameKo": "헝크",
+      "thirdPerson": {
+        "src": "skin_images/005-third.webp",
+        "width": 800,
+        "height": 987
+      },
+      "firstPerson": {
+        "src": "skin_images/005-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552590395539476"
+    },
+    {
+      "id": "006",
+      "order": 6,
+      "name": "Doom_Slayer",
+      "nameKo": "둠 슬레이어",
+      "thirdPerson": {
+        "src": "skin_images/006-third.webp",
+        "width": 800,
+        "height": 904
+      },
+      "firstPerson": {
+        "src": "skin_images/006-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552720549122348"
+    },
+    {
+      "id": "007",
+      "order": 7,
+      "name": "Rorschach (Watchmen)",
+      "nameKo": "로어셰크 (왓치맨)",
+      "thirdPerson": {
+        "src": "skin_images/007-third.webp",
+        "width": 800,
+        "height": 953
+      },
+      "firstPerson": {
+        "src": "skin_images/007-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552927768576050"
+    },
+    {
+      "id": "008",
+      "order": 8,
+      "name": "Cayde6 (Destiny2)",
+      "nameKo": "케이드6 (데스티니2)",
+      "thirdPerson": {
+        "src": "skin_images/008-third.webp",
+        "width": 800,
+        "height": 1063
+      },
+      "firstPerson": {
+        "src": "skin_images/008-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553200084025498"
+    },
+    {
+      "id": "009",
+      "order": 9,
+      "name": "Dr K (Changed)",
+      "nameKo": "닥터 케이 (Changed)",
+      "thirdPerson": {
+        "src": "skin_images/009-third.webp",
+        "width": 800,
+        "height": 901
+      },
+      "firstPerson": {
+        "src": "skin_images/009-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553383962050570"
+    },
+    {
+      "id": "010",
+      "order": 10,
+      "name": "Lucario (Pokemon)",
+      "nameKo": "루카리오 (포켓몬)",
+      "thirdPerson": {
+        "src": "skin_images/010-third.webp",
+        "width": 800,
+        "height": 838
+      },
+      "firstPerson": {
+        "src": "skin_images/010-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553693145301072"
+    },
+    {
+      "id": "011",
+      "order": 11,
+      "name": "Nanachi (Made in Abyss)",
+      "nameKo": "나나치 (메이드 인 어비스)",
+      "thirdPerson": {
+        "src": "skin_images/011-third.webp",
+        "width": 800,
+        "height": 1026
+      },
+      "firstPerson": {
+        "src": "skin_images/011-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553848380686528"
+    },
+    {
+      "id": "012",
+      "order": 12,
+      "name": "Chillet (Palworld)",
+      "nameKo": "베비뇽 (팰월드)",
+      "thirdPerson": {
+        "src": "skin_images/012-third.webp",
+        "width": 800,
+        "height": 854
+      },
+      "firstPerson": {
+        "src": "skin_images/012-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554009483903076"
+    },
+    {
+      "id": "013",
+      "order": 13,
+      "name": "Troll Face",
+      "nameKo": "트롤 페이스",
+      "thirdPerson": {
+        "src": "skin_images/013-third.webp",
+        "width": 800,
+        "height": 983
+      },
+      "firstPerson": {
+        "src": "skin_images/013-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554194494652587"
+    },
+    {
+      "id": "014",
+      "order": 14,
+      "name": "Misono Mika (Blue Archive)",
+      "nameKo": "미소노 미카 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/014-third.webp",
+        "width": 800,
+        "height": 931
+      },
+      "firstPerson": {
+        "src": "skin_images/014-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554334357786627"
+    },
+    {
+      "id": "015",
+      "order": 15,
+      "name": "Yuuka_Pajamas (Blue Archive)",
+      "nameKo": "파자마 유우카 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/015-third.webp",
+        "width": 800,
+        "height": 959
+      },
+      "firstPerson": {
+        "src": "skin_images/015-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554542374289478"
+    },
+    {
+      "id": "016",
+      "order": 16,
+      "name": "Pompom (Honkai StarRail)",
+      "nameKo": "폼폼 (붕괴 스타레일)",
+      "thirdPerson": {
+        "src": "skin_images/016-third.webp",
+        "width": 800,
+        "height": 781
+      },
+      "firstPerson": {
+        "src": "skin_images/016-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554698125836398"
+    },
+    {
+      "id": "017",
+      "order": 17,
+      "name": "Furina (Genshin)",
+      "nameKo": "푸리나 (원신)",
+      "thirdPerson": {
+        "src": "skin_images/017-third.webp",
+        "width": 800,
+        "height": 1066
+      },
+      "firstPerson": {
+        "src": "skin_images/017-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554836613365791"
+    },
+    {
+      "id": "018",
+      "order": 18,
+      "name": "Ellen Joe (ZZZ)",
+      "nameKo": "엘렌 조 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/018-third.webp",
+        "width": 800,
+        "height": 830
+      },
+      "firstPerson": {
+        "src": "skin_images/018-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555011192619029"
+    },
+    {
+      "id": "019",
+      "order": 19,
+      "name": "Jane Doe (ZZZ)",
+      "nameKo": "제인 도 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/019-third.webp",
+        "width": 800,
+        "height": 833
+      },
+      "firstPerson": {
+        "src": "skin_images/019-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555191338238083"
+    },
+    {
+      "id": "020",
+      "order": 20,
+      "name": "Hoshino (Blue Archive)",
+      "nameKo": "호시노 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/020-third.webp",
+        "width": 800,
+        "height": 923
+      },
+      "firstPerson": {
+        "src": "skin_images/020-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555348091830333"
+    },
+    {
+      "id": "021",
+      "order": 21,
+      "name": "Shiroko (Blue Archive)",
+      "nameKo": "시로코 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/021-third.webp",
+        "width": 800,
+        "height": 1048
+      },
+      "firstPerson": {
+        "src": "skin_images/021-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555525498306651"
+    },
+    {
+      "id": "022",
+      "order": 22,
+      "name": "Pulchra (ZZZ)",
+      "nameKo": "펄크라 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/022-third.webp",
+        "width": 800,
+        "height": 945
+      },
+      "firstPerson": {
+        "src": "skin_images/022-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555674496766193"
+    },
+    {
+      "id": "023",
+      "order": 23,
+      "name": "Evelyn (ZZZ)",
+      "nameKo": "이블린 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/023-third.webp",
+        "width": 800,
+        "height": 1066
+      },
+      "firstPerson": {
+        "src": "skin_images/023-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555866230853833"
+    },
+    {
+      "id": "024",
+      "order": 24,
+      "name": "Niko (OneShot)",
+      "nameKo": "니코 (원샷)",
+      "thirdPerson": {
+        "src": "skin_images/024-third.webp",
+        "width": 800,
+        "height": 941
+      },
+      "firstPerson": {
+        "src": "skin_images/024-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555997961359460"
+    },
+    {
+      "id": "025",
+      "order": 25,
+      "name": "Lupa (WuWa)",
+      "nameKo": "루파 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/025-third.webp",
+        "width": 800,
+        "height": 978
+      },
+      "firstPerson": {
+        "src": "skin_images/025-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556159467487383"
+    },
+    {
+      "id": "026",
+      "order": 26,
+      "name": "Iuno (WuWa)",
+      "nameKo": "유노 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/026-third.webp",
+        "width": 736,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/026-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556274257068107"
+    },
+    {
+      "id": "027",
+      "order": 27,
+      "name": "Chisa (WuWa)",
+      "nameKo": "치사 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/027-third.webp",
+        "width": 800,
+        "height": 1017
+      },
+      "firstPerson": {
+        "src": "skin_images/027-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556395010953368"
+    },
+    {
+      "id": "028",
+      "order": 28,
+      "name": "Lynae (WuWa)",
+      "nameKo": "린네 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/028-third.webp",
+        "width": 800,
+        "height": 1038
+      },
+      "firstPerson": {
+        "src": "skin_images/028-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556587437363220"
+    },
+    {
+      "id": "029",
+      "order": 29,
+      "name": "Phrolova (WuWa)",
+      "nameKo": "플로로 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/029-third.webp",
+        "width": 800,
+        "height": 1034
+      },
+      "firstPerson": {
+        "src": "skin_images/029-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556738889617538"
+    },
+    {
+      "id": "030",
+      "order": 30,
+      "name": "Mornye (WuWa)",
+      "nameKo": "모니에 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/030-third.webp",
+        "width": 765,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/030-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556870615662652"
+    },
+    {
+      "id": "031",
+      "order": 31,
+      "name": "Ju fufu (ZZZ)",
+      "nameKo": "귤복복 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/031-third.webp",
+        "width": 800,
+        "height": 956
+      },
+      "firstPerson": {
+        "src": "skin_images/031-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556999640846436"
+    },
+    {
+      "id": "032",
+      "order": 32,
+      "name": "Yuuka_SD (Blue Archive)",
+      "nameKo": "유우카SD (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/032-third.webp",
+        "width": 800,
+        "height": 974
+      },
+      "firstPerson": {
+        "src": "skin_images/032-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557214049468426"
+    },
+    {
+      "id": "033",
+      "order": 33,
+      "name": "Aris_SD (Blue Archive)",
+      "nameKo": "아리스SD (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/033-third.webp",
+        "width": 800,
+        "height": 978
+      },
+      "firstPerson": {
+        "src": "skin_images/033-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557549035946094"
+    },
+    {
+      "id": "034",
+      "order": 34,
+      "name": "Rabbithole_Miku",
+      "nameKo": "래빗홀미쿠",
+      "thirdPerson": {
+        "src": "skin_images/034-third.webp",
+        "width": 800,
+        "height": 1046
+      },
+      "firstPerson": {
+        "src": "skin_images/034-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557720310481027"
+    },
+    {
+      "id": "035",
+      "order": 35,
+      "name": "Loona (Helluva Boss)",
+      "nameKo": "루나 (헬루바 보스)",
+      "thirdPerson": {
+        "src": "skin_images/035-third.webp",
+        "width": 800,
+        "height": 1018
+      },
+      "firstPerson": {
+        "src": "skin_images/035-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557874132258926"
+    },
+    {
+      "id": "036",
+      "order": 36,
+      "name": "Orphie (ZZZ)",
+      "nameKo": "오피 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/036-third.webp",
+        "width": 800,
+        "height": 1018
+      },
+      "firstPerson": {
+        "src": "skin_images/036-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558024791654540"
+    },
+    {
+      "id": "037",
+      "order": 37,
+      "name": "Zhao (ZZZ)",
+      "nameKo": "자오 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/037-third.webp",
+        "width": 798,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/037-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558168786436117"
+    },
+    {
+      "id": "038",
+      "order": 38,
+      "name": "Ye_Shunguang (ZZZ)",
+      "nameKo": "엽빛나 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/038-third.webp",
+        "width": 795,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/038-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558407840665701"
+    },
+    {
+      "id": "039",
+      "order": 39,
+      "name": "Yixuan (ZZZ)",
+      "nameKo": "의현 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/039-third.webp",
+        "width": 693,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/039-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558522391429131"
+    },
+    {
+      "id": "040",
+      "order": 40,
+      "name": "Astra Yao (ZZZ)",
+      "nameKo": "아스트라 야오 (젠존제)",
+      "thirdPerson": {
+        "src": "skin_images/040-third.webp",
+        "width": 800,
+        "height": 1060
+      },
+      "firstPerson": {
+        "src": "skin_images/040-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558684576907457"
+    },
+    {
+      "id": "041",
+      "order": 41,
+      "name": "Garnet (Eternal Return)",
+      "nameKo": "가넷 (이터널 리턴)",
+      "thirdPerson": {
+        "src": "skin_images/041-third.webp",
+        "width": 800,
+        "height": 959
+      },
+      "firstPerson": {
+        "src": "skin_images/041-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558817712373780"
+    },
+    {
+      "id": "042",
+      "order": 42,
+      "name": "Taffy (Ananta)",
+      "nameKo": "타피 (무한대)",
+      "thirdPerson": {
+        "src": "skin_images/042-third.webp",
+        "width": 800,
+        "height": 912
+      },
+      "firstPerson": {
+        "src": "skin_images/042-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558958582272163"
+    },
+    {
+      "id": "043",
+      "order": 43,
+      "name": "Brahma (Aether Gazer)",
+      "nameKo": "브라흐마 (에테르 게이저)",
+      "thirdPerson": {
+        "src": "skin_images/043-third.webp",
+        "width": 800,
+        "height": 843
+      },
+      "firstPerson": {
+        "src": "skin_images/043-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559141550264481"
+    },
+    {
+      "id": "044",
+      "order": 44,
+      "name": "Lynn (DNA)",
+      "nameKo": "린 (듀나어)",
+      "thirdPerson": {
+        "src": "skin_images/044-third.webp",
+        "width": 800,
+        "height": 1014
+      },
+      "firstPerson": {
+        "src": "skin_images/044-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559283854606336"
+    },
+    {
+      "id": "045",
+      "order": 45,
+      "name": "Aemeath (WuWa)",
+      "nameKo": "에이메스 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/045-third.webp",
+        "width": 800,
+        "height": 1016
+      },
+      "firstPerson": {
+        "src": "skin_images/045-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559390616551526"
+    },
+    {
+      "id": "046",
+      "order": 46,
+      "name": "Chang li (WuWa)",
+      "nameKo": "장리 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/046-third.webp",
+        "width": 800,
+        "height": 930
+      },
+      "firstPerson": {
+        "src": "skin_images/046-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559529099755580"
+    },
+    {
+      "id": "047",
+      "order": 47,
+      "name": "FireFly (Honkai StarRail)",
+      "nameKo": "반디 (붕괴 스타레일)",
+      "thirdPerson": {
+        "src": "skin_images/047-third.webp",
+        "width": 800,
+        "height": 928
+      },
+      "firstPerson": {
+        "src": "skin_images/047-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559724957237320"
+    },
+    {
+      "id": "048",
+      "order": 48,
+      "name": "Klukai Swimsuit (GFL2)",
+      "nameKo": "클루카이 수영복 (소녀전선2)",
+      "thirdPerson": {
+        "src": "skin_images/048-third.webp",
+        "width": 742,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/048-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560022102708295"
+    },
+    {
+      "id": "049",
+      "order": 49,
+      "name": "Perlica (Endfield)",
+      "nameKo": "펠리카 (엔드필드)",
+      "thirdPerson": {
+        "src": "skin_images/049-third.webp",
+        "width": 755,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/049-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560174175453286"
+    },
+    {
+      "id": "050",
+      "order": 50,
+      "name": "Stelle (Honkai StarRail)",
+      "nameKo": "스텔레 (붕괴 스타레일)",
+      "thirdPerson": {
+        "src": "skin_images/050-third.webp",
+        "width": 800,
+        "height": 1034
+      },
+      "firstPerson": {
+        "src": "skin_images/050-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560436025856130"
+    },
+    {
+      "id": "051",
+      "order": 51,
+      "name": "Huohuo (Honkai StarRail)",
+      "nameKo": "곽향 (붕괴 스타레일)",
+      "thirdPerson": {
+        "src": "skin_images/051-third.webp",
+        "width": 800,
+        "height": 906
+      },
+      "firstPerson": {
+        "src": "skin_images/051-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560655593345064"
+    },
+    {
+      "id": "052",
+      "order": 52,
+      "name": "Meowscarada (Pokemon)",
+      "nameKo": "마스카나 (포켓몬)",
+      "thirdPerson": {
+        "src": "skin_images/052-third.webp",
+        "width": 780,
+        "height": 1077
+      },
+      "firstPerson": {
+        "src": "skin_images/052-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560850846716085"
+    },
+    {
+      "id": "053",
+      "order": 53,
+      "name": "Maid Aris (Blue Archive)",
+      "nameKo": "메이드 아리스 (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/053-third.webp",
+        "width": 800,
+        "height": 941
+      },
+      "firstPerson": {
+        "src": "skin_images/053-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561021705883649"
+    },
+    {
+      "id": "054",
+      "order": 54,
+      "name": "Nayuta (Nikke)",
+      "nameKo": "나유타 (니케)",
+      "thirdPerson": {
+        "src": "skin_images/054-third.webp",
+        "width": 800,
+        "height": 994
+      },
+      "firstPerson": {
+        "src": "skin_images/054-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561161099513856"
+    },
+    {
+      "id": "055",
+      "order": 55,
+      "name": "Saori (Blue Archive)",
+      "nameKo": "사오리 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/055-third.webp",
+        "width": 792,
+        "height": 1077
+      },
+      "firstPerson": {
+        "src": "skin_images/055-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561745751670784"
+    },
+    {
+      "id": "056",
+      "order": 56,
+      "name": "Vita (Honkai Impact 3rd)",
+      "nameKo": "비타 (붕괴3rd)",
+      "thirdPerson": {
+        "src": "skin_images/056-third.webp",
+        "width": 800,
+        "height": 1006
+      },
+      "firstPerson": {
+        "src": "skin_images/056-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561892552577077"
+    },
+    {
+      "id": "057",
+      "order": 57,
+      "name": "Aru (Blue Archive)",
+      "nameKo": "아루 (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/057-third.webp",
+        "width": 800,
+        "height": 1022
+      },
+      "firstPerson": {
+        "src": "skin_images/057-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562024249262090"
+    },
+    {
+      "id": "058",
+      "order": 58,
+      "name": "Cinderella (Silver Palace)",
+      "nameKo": "신데렐라 (실버 팰리스)",
+      "thirdPerson": {
+        "src": "skin_images/058-third.webp",
+        "width": 800,
+        "height": 1049
+      },
+      "firstPerson": {
+        "src": "skin_images/058-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562160522465312"
+    },
+    {
+      "id": "059",
+      "order": 59,
+      "name": "Liberalio (Nikke)",
+      "nameKo": "리버렐리오 (니케)",
+      "thirdPerson": {
+        "src": "skin_images/059-third.webp",
+        "width": 800,
+        "height": 959
+      },
+      "firstPerson": {
+        "src": "skin_images/059-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562325031456768"
+    },
+    {
+      "id": "060",
+      "order": 60,
+      "name": "Yuuka Sport (Blue Archive)",
+      "nameKo": "체육복 유우카 (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/060-third.webp",
+        "width": 800,
+        "height": 1039
+      },
+      "firstPerson": {
+        "src": "skin_images/060-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562506472849498"
+    },
+    {
+      "id": "061",
+      "order": 61,
+      "name": "Augusta (WuWa)",
+      "nameKo": "아우구스타 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/061-third.webp",
+        "width": 800,
+        "height": 997
+      },
+      "firstPerson": {
+        "src": "skin_images/061-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562645325283460"
+    },
+    {
+      "id": "062",
+      "order": 62,
+      "name": "Carlotta Swimsuit (WuWa)",
+      "nameKo": "카를로타 수영복 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/062-third.webp",
+        "width": 710,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/062-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562823352516678"
+    },
+    {
+      "id": "063",
+      "order": 63,
+      "name": "Cartethyia (WuWa)",
+      "nameKo": "카르티시아 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/063-third.webp",
+        "width": 800,
+        "height": 869
+      },
+      "firstPerson": {
+        "src": "skin_images/063-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563037895229561"
+    },
+    {
+      "id": "064",
+      "order": 64,
+      "name": "Changli Swimsuit (WuWa)",
+      "nameKo": "장리 수영복 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/064-third.webp",
+        "width": 800,
+        "height": 1029
+      },
+      "firstPerson": {
+        "src": "skin_images/064-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563204522475762"
+    },
+    {
+      "id": "065",
+      "order": 65,
+      "name": "Fleur De Lys (WuWa)",
+      "nameKo": "플뢰르 드 리스 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/065-third.webp",
+        "width": 800,
+        "height": 994
+      },
+      "firstPerson": {
+        "src": "skin_images/065-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563342770933810"
+    },
+    {
+      "id": "066",
+      "order": 66,
+      "name": "Kei (Blue Archive)",
+      "nameKo": "케이 (블루 아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/066-third.webp",
+        "width": 800,
+        "height": 1031
+      },
+      "firstPerson": {
+        "src": "skin_images/066-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563628071424180"
+    },
+    {
+      "id": "067",
+      "order": 67,
+      "name": "Denia Blue (WuWa)",
+      "nameKo": "데니아 환멸 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/067-third.webp",
+        "width": 786,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/067-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563801032069211"
+    },
+    {
+      "id": "068",
+      "order": 68,
+      "name": "Denia Red (WuWa)",
+      "nameKo": "데니아 연극 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/068-third.webp",
+        "width": 701,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/068-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563941189062676"
+    },
+    {
+      "id": "069",
+      "order": 69,
+      "name": "Doro",
+      "nameKo": "도로롱",
+      "thirdPerson": {
+        "src": "skin_images/069-third.webp",
+        "width": 800,
+        "height": 1007
+      },
+      "firstPerson": {
+        "src": "skin_images/069-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564065994768432"
+    },
+    {
+      "id": "070",
+      "order": 70,
+      "name": "Doro_Summer",
+      "nameKo": "도로롱 여름",
+      "thirdPerson": {
+        "src": "skin_images/070-third.webp",
+        "width": 800,
+        "height": 919
+      },
+      "firstPerson": {
+        "src": "skin_images/070-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564200019431695"
+    },
+    {
+      "id": "071",
+      "order": 71,
+      "name": "Lucilla (WuWa)",
+      "nameKo": "루실라 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/071-third.webp",
+        "width": 800,
+        "height": 1049
+      },
+      "firstPerson": {
+        "src": "skin_images/071-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564274715791430"
+    },
+    {
+      "id": "072",
+      "order": 72,
+      "name": "Buling (WuWa)",
+      "nameKo": "복링 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/072-third.webp",
+        "width": 800,
+        "height": 991
+      },
+      "firstPerson": {
+        "src": "skin_images/072-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564434577490060"
+    },
+    {
+      "id": "073",
+      "order": 73,
+      "name": "Ciaccona (WuWa)",
+      "nameKo": "샤콘(명조)",
+      "thirdPerson": {
+        "src": "skin_images/073-third.webp",
+        "width": 800,
+        "height": 1049
+      },
+      "firstPerson": {
+        "src": "skin_images/073-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564705785512178"
+    },
+    {
+      "id": "074",
+      "order": 74,
+      "name": "Galbrena (WuWa)",
+      "nameKo": "갈브레나(명조)",
+      "thirdPerson": {
+        "src": "skin_images/074-third.webp",
+        "width": 800,
+        "height": 998
+      },
+      "firstPerson": {
+        "src": "skin_images/074-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564856620814428"
+    },
+    {
+      "id": "075",
+      "order": 75,
+      "name": "Galbrena Overclock (WuWa)",
+      "nameKo": "갈브레나 오버클럭(명조)",
+      "thirdPerson": {
+        "src": "skin_images/075-third.webp",
+        "width": 800,
+        "height": 1028
+      },
+      "firstPerson": {
+        "src": "skin_images/075-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565039211581510"
+    },
+    {
+      "id": "076",
+      "order": 76,
+      "name": "Hiyuki (WuWa)",
+      "nameKo": "히유키 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/076-third.webp",
+        "width": 800,
+        "height": 913
+      },
+      "firstPerson": {
+        "src": "skin_images/076-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565175258026215"
+    },
+    {
+      "id": "077",
+      "order": 77,
+      "name": "Hiyuki Frost (WuWa)",
+      "nameKo": "히유키 서리 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/077-third.webp",
+        "width": 800,
+        "height": 937
+      },
+      "firstPerson": {
+        "src": "skin_images/077-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565312910758081"
+    },
+    {
+      "id": "078",
+      "order": 78,
+      "name": "Lacrimosa (NTE)",
+      "nameKo": "라크리모사 (이환)",
+      "thirdPerson": {
+        "src": "skin_images/078-third.webp",
+        "width": 800,
+        "height": 969
+      },
+      "firstPerson": {
+        "src": "skin_images/078-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565542385320086"
+    },
+    {
+      "id": "079",
+      "order": 79,
+      "name": "Shinku (NTE)",
+      "nameKo": "신쿠 (이환)",
+      "thirdPerson": {
+        "src": "skin_images/079-third.webp",
+        "width": 800,
+        "height": 963
+      },
+      "firstPerson": {
+        "src": "skin_images/079-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565770035499059"
+    },
+    {
+      "id": "080",
+      "order": 80,
+      "name": "Sigrika (WuWa)",
+      "nameKo": "시그리카 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/080-third.webp",
+        "width": 800,
+        "height": 1020
+      },
+      "firstPerson": {
+        "src": "skin_images/080-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565869180457042"
+    },
+    {
+      "id": "081",
+      "order": 81,
+      "name": "Zani (WuWa)",
+      "nameKo": "젠니 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/081-third.webp",
+        "width": 800,
+        "height": 1030
+      },
+      "firstPerson": {
+        "src": "skin_images/081-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565995223355422"
+    },
+    {
+      "id": "082",
+      "order": 82,
+      "name": "Academy Rover (WuWa)",
+      "nameKo": "아카데미 방랑자 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/082-third.webp",
+        "width": 783,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/082-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566175876350043"
+    },
+    {
+      "id": "083",
+      "order": 83,
+      "name": "Camellya Solar5 (WuWa)",
+      "nameKo": "카멜리아 Solar5 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/083-third.webp",
+        "width": 795,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/083-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566307938205727"
+    },
+    {
+      "id": "084",
+      "order": 84,
+      "name": "Cantarella (WuWa)",
+      "nameKo": "칸타렐라 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/084-third.webp",
+        "width": 755,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/084-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566495918526486"
+    },
+    {
+      "id": "085",
+      "order": 85,
+      "name": "Denia Solar5 (WuWa)",
+      "nameKo": "데니아 Solar5 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/085-third.webp",
+        "width": 680,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/085-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566616911483082"
+    },
+    {
+      "id": "086",
+      "order": 86,
+      "name": "Iuno Solar5 (WuWa)",
+      "nameKo": "유노 Solar5 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/086-third.webp",
+        "width": 800,
+        "height": 1020
+      },
+      "firstPerson": {
+        "src": "skin_images/086-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566752039506061"
+    },
+    {
+      "id": "087",
+      "order": 87,
+      "name": "Lynae Solar5 (WuWa)",
+      "nameKo": "린네 Solar5 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/087-third.webp",
+        "width": 800,
+        "height": 832
+      },
+      "firstPerson": {
+        "src": "skin_images/087-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517567087843868764"
+    },
+    {
+      "id": "088",
+      "order": 88,
+      "name": "Phoebe Solar5 (WuWa)",
+      "nameKo": "페비 Solar5 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/088-third.webp",
+        "width": 800,
+        "height": 915
+      },
+      "firstPerson": {
+        "src": "skin_images/088-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568040601128991"
+    },
+    {
+      "id": "089",
+      "order": 89,
+      "name": "Rover (WuWa)",
+      "nameKo": "방랑자 (명조)",
+      "thirdPerson": {
+        "src": "skin_images/089-third.webp",
+        "width": 743,
+        "height": 1079
+      },
+      "firstPerson": {
+        "src": "skin_images/089-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568183203135618"
+    },
+    {
+      "id": "090",
+      "order": 90,
+      "name": "Shiroko Terror (Blue Archive)",
+      "nameKo": "시로코 테러 (블루아카이브)",
+      "thirdPerson": {
+        "src": "skin_images/090-third.webp",
+        "width": 800,
+        "height": 988
+      },
+      "firstPerson": {
+        "src": "skin_images/090-first.webp",
+        "width": 1280,
+        "height": 720
+      },
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568326149341384"
+    }
+  ]
+}
