@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-04",
+  "updatedAt": "2026-07-17",
   "pages": [
     {
       "id": "basic",
@@ -43,6 +43,14 @@
           },
           "commands": [
             {
+              "command": "/sound",
+              "description": {
+                "ko": "전체 사운드 메뉴 열기",
+                "en": "Open sound menu",
+                "jp": "サウンドメニューを開く"
+              }
+            },
+            {
               "command": "/stopsound",
               "description": {
                 "ko": "총소리 끄기, 켜기",
@@ -64,14 +72,6 @@
                 "ko": "음악 소리 볼륨 설정",
                 "en": "Set music volume",
                 "jp": "音楽の音量を設定"
-              }
-            },
-            {
-              "command": "/sfx",
-              "description": {
-                "ko": "sfx 사운드 메뉴 열기",
-                "en": "Open sound menu",
-                "jp": "サウンドメニューを開く"
               }
             },
             {
@@ -137,6 +137,14 @@
                 "ko": "거리 안 쪽에 있는 사람 가리기",
                 "en": "Hide players within distance",
                 "jp": "指定距離内のプレイヤーを非表示"
+              }
+            },
+            {
+              "command": "/itemhide",
+              "description": {
+                "ko": "아이템 소지자 하이드",
+                "en": "Hide item players",
+                "jp": "アイテム 所持者 ハイド"
               }
             },
             {
