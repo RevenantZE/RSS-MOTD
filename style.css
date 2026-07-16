@@ -215,6 +215,12 @@ details > summary{
   /* ✨ 추가: 답변과 분리 */
   margin:-2px -2px 8px;                 /* 배경이 더 꽉 차 보이게 */
   border-bottom:1px solid rgba(31,42,61,.75);
+  transition:background-color .15s ease,border-color .15s ease;
+}
+
+details > summary:focus-visible{
+  border-bottom-color:rgba(77,163,255,.65);
+  background:rgba(77,163,255,.09);
 }
 
 details > summary::-webkit-details-marker{display:none}
@@ -794,6 +800,19 @@ footer a{color:var(--accent)}
   border-radius:14px;
   background:rgba(7,10,15,.25);
   box-shadow:none;
+  transition:background-color .15s ease,border-color .15s ease;
+}
+
+@media (hover:hover){
+  details > summary:hover{
+    border-bottom-color:rgba(77,163,255,.65);
+    background:rgba(77,163,255,.09);
+  }
+
+  .news-item:hover{
+    border-color:rgba(77,163,255,.35);
+    background:rgba(77,163,255,.035);
+  }
 }
 
 .news-item-header{
