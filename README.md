@@ -96,12 +96,12 @@ FAQ 구조는 `faq.json`에서 관리하고 번역 문구는 `lang.js`에서 관
 | 종류 | 이름 | 값 |
 | --- | --- | --- |
 | Secret | `DISCORD_BOT_TOKEN` | Discord 봇 토큰 |
-| Variable | `DISCORD_NEWS_CHANNEL_ID` | 공지 채널 ID |
+| Variable | `DISCORD_NEWS_CHANNEL_IDS` | 공지 채널 ID들, 쉼표로 구분 |
 | Variable | `DISCORD_GUILD_ID` | Discord 서버 ID |
-| Variable | `DISCORD_NEWS_LIMIT` | 가져올 공지 개수, 생략 시 20 |
+| Variable | `DISCORD_NEWS_LIMIT` | 채널별로 가져올 공지 개수, 생략 시 20 |
 | Variable | `DISCORD_NEWS_ENABLED` | 준비가 끝난 뒤 `true` |
 
-토큰은 `news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `news.json`을 `dev`에 커밋합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
+토큰은 `news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 여러 채널을 지정하면 공지를 시간순으로 합치고 각 카드에 Discord 채널명을 표시합니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `news.json`을 `dev`에 커밋합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
 
 공지의 첫 번째 비어 있지 않은 줄은 제목, 그 아래 줄은 본문으로 사용합니다. Discord 역할 멘션(`<@&역할ID>`)은 웹에 표시하기 전에 제거합니다. 제목을 확실히 구분하려면 다음 형식을 권장합니다.
 

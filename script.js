@@ -536,6 +536,7 @@ function renderGlobalSearch() {
         item.content,
         item.summary,
         item.author,
+        item.channelName,
         ...(item.attachments || []).map(attachment => attachment.filename)
       ],
       query
@@ -1212,6 +1213,12 @@ function renderNews() {
 
     const meta = document.createElement("div");
     meta.className = "news-meta";
+    if (item.channelName) {
+      const channel = document.createElement("span");
+      channel.className = "news-channel";
+      channel.textContent = `#${item.channelName}`;
+      meta.appendChild(channel);
+    }
     const published = document.createElement("time");
     published.dateTime = item.publishedAt || "";
     published.textContent = formatNewsDate(item.publishedAt);

@@ -2,7 +2,10 @@ import { writeFile } from "node:fs/promises";
 import process from "node:process";
 
 const token = process.env.DISCORD_BOT_TOKEN;
-const channelId = process.env.DISCORD_NEWS_CHANNEL_ID;
+const channelIds = [...new Set(String(process.env.DISCORD_NEWS_CHANNEL_IDS || process.env.DISCORD_NEWS_CHANNEL_ID || "")
+  .split(",")
+  .map(value => value.trim())
+  .filter(Boolean))];
 const guildId = process.env.DISCORD_GUILD_ID;
 const limit = Math.min(Math.max(Number(process.env.DISCORD_NEWS_LIMIT || 20), 1), 50);
 
@@ -16,23 +19,36 @@ function cleanDiscordText(value) {
     .trim();
 }
 
-if (!token || !channelId || !guildId) {
-  throw new Error("DISCORD_BOT_TOKEN, DISCORD_NEWS_CHANNEL_ID and DISCORD_GUILD_ID are required.");
+if (!token || !channelIds.length || !guildId) {
+  throw new Error("DISCORD_BOT_TOKEN, DISCORD_NEWS_CHANNEL_IDS and DISCORD_GUILD_ID are required.");
 }
 
-const response = await fetch(`https://discord.com/api/v10/channels/${channelId}/messages?limit=${limit}`, {
-  headers: {
-    Authorization: `Bot ${token}`,
-    "User-Agent": "RSS-MOTD-News-Sync/1.0"
+async function fetchDiscord(path) {
+  const response = await fetch(`https://discord.com/api/v10${path}`, {
+    headers: {
+      Authorization: `Bot ${token}`,
+      "User-Agent": "RSS-MOTD-News-Sync/1.0"
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`Discord API request failed for ${path}: ${response.status} ${await response.text()}`);
   }
-});
-
-if (!response.ok) {
-  throw new Error(`Discord API request failed: ${response.status} ${await response.text()}`);
+  return response.json();
 }
 
-const messages = await response.json();
-const items = messages
+const channels = await Promise.all(channelIds.map(async channelId => {
+  const [channel, messages] = await Promise.all([
+    fetchDiscord(`/channels/${channelId}`),
+    fetchDiscord(`/channels/${channelId}/messages?limit=${limit}`)
+  ]);
+  return {
+    id: channelId,
+    name: cleanDiscordText(channel.name) || channelId,
+    messages
+  };
+}));
+
+const items = channels.flatMap(channel => channel.messages
   .filter(message => [0, 19].includes(message.type) && (message.content?.trim() || message.embeds?.length))
   .map(message => {
     const messageText = cleanDiscordText(message.content);
@@ -66,11 +82,13 @@ const items = messages
       publishedAt: message.timestamp,
       editedAt: message.edited_timestamp || null,
       author: message.author?.global_name || message.author?.username || "Discord",
-      url: `https://discord.com/channels/${guildId}/${channelId}/${message.id}`,
+      channelId: channel.id,
+      channelName: channel.name,
+      url: `https://discord.com/channels/${guildId}/${channel.id}/${message.id}`,
       attachments
     };
   })
-  .filter(Boolean)
+  .filter(Boolean))
   .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
 const updatedAt = items.reduce((latest, item) => {
@@ -83,9 +101,10 @@ const output = {
   version: 1,
   updatedAt,
   source: "discord",
-  channelId,
+  guildId,
+  channels: channels.map(({ id, name }) => ({ id, name })),
   items
 };
 
 await writeFile(new URL("../news.json", import.meta.url), `${JSON.stringify(output, null, 2)}\n`, "utf8");
-console.log(`Synced ${items.length} Discord announcements.`);
+console.log(`Synced ${items.length} Discord announcements from ${channels.length} channels.`);

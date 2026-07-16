@@ -33,7 +33,7 @@ jobs:
       - name: Download announcements
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_NEWS_CHANNEL_ID: ${{ vars.DISCORD_NEWS_CHANNEL_ID }}
+          DISCORD_NEWS_CHANNEL_IDS: ${{ vars.DISCORD_NEWS_CHANNEL_IDS }}
           DISCORD_GUILD_ID: ${{ vars.DISCORD_GUILD_ID }}
           DISCORD_NEWS_LIMIT: ${{ vars.DISCORD_NEWS_LIMIT || '20' }}
         run: node scripts/sync-discord-news.mjs

@@ -838,6 +838,11 @@ footer a{color:var(--accent)}
   font-size:12px;
 }
 
+.news-channel{
+  color:var(--accent);
+  font-weight:750;
+}
+
 .news-content{
   margin:12px 0;
   color:var(--text);
