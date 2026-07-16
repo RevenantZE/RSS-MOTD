@@ -11,6 +11,7 @@ let newsData = null;
 let skinData = null;
 let skinSearchQuery = "";
 let skinImageObserver = null;
+let skinCardsRendered = false;
 let globalSearchQuery = "";
 let commandPageFilter = "all";
 let favoriteCommandsOnly = false;
@@ -267,6 +268,7 @@ function openTab(name, pushHash = true) {
     url.hash = name;
     history.pushState(null, "", url);
   }
+  if (name === "skins" && skinData && !skinCardsRendered) renderSkins();
 }
 
 function slugify(value) {
@@ -532,7 +534,8 @@ function setLanguage(lang, syncUrl = true) {
   renderFaq();
   renderTermGuide();
   renderNews();
-  renderSkins();
+  if (document.body.dataset.activeTab === "skins") renderSkins();
+  else skinCardsRendered = false;
   renderGlobalSearch();
 }
 
@@ -1499,14 +1502,16 @@ async function loadSkins() {
 
   try {
     skinData = await fetchJsonWithFallback("skins.json");
+    skinCardsRendered = false;
     const updatedAt = document.getElementById("skinLastUpdate");
     if (updatedAt) updatedAt.textContent = formatNewsDate(skinData.updatedAt) || "-";
-    renderSkins();
+    if (document.body.dataset.activeTab === "skins") renderSkins();
     renderGlobalSearch();
   } catch (err) {
     console.error("skins load failed:", err);
     skinData = { updatedAt: "", items: [] };
-    renderSkins();
+    skinCardsRendered = false;
+    if (document.body.dataset.activeTab === "skins") renderSkins();
     renderGlobalSearch();
     grid.title = `skins.json load failed: ${err.message}`;
   }
@@ -1600,6 +1605,7 @@ function createSkinCard(item, index) {
 function renderSkins() {
   const grid = document.getElementById("skinGrid");
   if (!grid || !skinData) return;
+  skinCardsRendered = true;
 
   const query = normalizeSearchText(skinSearchQuery);
   const items = (skinData.items || []).filter(item => !query || matchesSearch(
