@@ -11,12 +11,22 @@ const limit = Math.min(Math.max(Number(process.env.DISCORD_NEWS_LIMIT || 20), 1)
 
 function cleanDiscordText(value) {
   return String(value || "")
-    .replace(/<@&\d+>/g, "")
     .split(/\r?\n/)
     .map(line => line.trim())
     .join("\n")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
+}
+
+function resolveDiscordMentions(value, message, roleNames) {
+  const userNames = new Map((message.mentions || []).map(mention => [
+    mention.id,
+    mention.member?.nick || mention.global_name || mention.username
+  ]));
+
+  return String(value || "")
+    .replace(/<@!?(\d+)>/g, (_match, id) => `@${userNames.get(id) || "사용자"}`)
+    .replace(/<@&(\d+)>/g, (_match, id) => `@${roleNames.get(id) || "역할"}`);
 }
 
 if (!token || !channelIds.length || !guildId) {
@@ -36,6 +46,9 @@ async function fetchDiscord(path) {
   return response.json();
 }
 
+const roles = await fetchDiscord(`/guilds/${guildId}/roles`);
+const roleNames = new Map(roles.map(role => [role.id, role.name]));
+
 const channels = await Promise.all(channelIds.map(async channelId => {
   const [channel, messages] = await Promise.all([
     fetchDiscord(`/channels/${channelId}`),
@@ -51,12 +64,12 @@ const channels = await Promise.all(channelIds.map(async channelId => {
 const items = channels.flatMap(channel => channel.messages
   .filter(message => [0, 19].includes(message.type) && (message.content?.trim() || message.embeds?.length))
   .map(message => {
-    const messageText = cleanDiscordText(message.content);
+    const messageText = cleanDiscordText(resolveDiscordMentions(message.content, message, roleNames));
     const lines = messageText.split(/\r?\n/);
     const firstTextLine = lines.find(line => line.trim()) || "";
     const embed = message.embeds?.[0] || {};
-    const embedTitle = cleanDiscordText(embed.title);
-    const embedDescription = cleanDiscordText(embed.description);
+    const embedTitle = cleanDiscordText(resolveDiscordMentions(embed.title, message, roleNames));
+    const embedDescription = cleanDiscordText(resolveDiscordMentions(embed.description, message, roleNames));
     if (!firstTextLine && !embedTitle && !embedDescription) return null;
 
     const title = (firstTextLine || embedTitle || "공지")
