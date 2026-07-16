@@ -57,9 +57,15 @@ const items = messages
   })
   .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
+const updatedAt = items.reduce((latest, item) => {
+  const candidate = item.editedAt || item.publishedAt;
+  if (!candidate) return latest;
+  return !latest || new Date(candidate) > new Date(latest) ? candidate : latest;
+}, null);
+
 const output = {
   version: 1,
-  updatedAt: new Date().toISOString().slice(0, 10),
+  updatedAt,
   source: "discord",
   channelId,
   items

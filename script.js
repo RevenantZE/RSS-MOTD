@@ -1130,7 +1130,8 @@ async function loadNews() {
 
   try {
     newsData = await fetchJsonWithFallback("news.json");
-    setContentUpdatedAt("newsLastUpdate", newsData);
+    const updatedAt = document.getElementById("newsLastUpdate");
+    if (updatedAt) updatedAt.textContent = formatNewsDate(newsData.updatedAt) || "-";
     renderNews();
   } catch (err) {
     console.error("news load failed:", err);

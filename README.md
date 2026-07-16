@@ -31,7 +31,7 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `terms.json` | 언어별 용어 사전 |
 | `news.json` | Discord에서 가져온 최근 공지와 로컬 샘플 |
 | `scripts/sync-discord-news.mjs` | Discord 메시지를 `news.json`으로 변환 |
-| `.github/workflows/sync-discord-news.yml` | 15분마다 공지 동기화 |
+| `.github/workflows/sync-discord-news.yml` | 15분마다 `dev`의 공지 동기화 |
 | `vendor/` | PicoCSS와 `es-hangul` 로컬 파일 |
 | `guide_image/` | FAQ에 사용하는 안내 이미지 |
 
@@ -101,7 +101,7 @@ FAQ 구조는 `faq.json`에서 관리하고 번역 문구는 `lang.js`에서 관
 | Variable | `DISCORD_NEWS_LIMIT` | 가져올 공지 개수, 생략 시 20 |
 | Variable | `DISCORD_NEWS_ENABLED` | 준비가 끝난 뒤 `true` |
 
-토큰은 `news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 최초 연동은 워크플로 또는 동기화 스크립트를 `dev`에 푸시할 때 `dev`를 대상으로 시험합니다. 워크플로가 기본 브랜치에 병합된 뒤에는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `news.json`을 `main`에 커밋합니다. 이후 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
+토큰은 `news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `news.json`을 `dev`에 커밋합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
 
 ## 로컬에서 확인하기
 
@@ -114,4 +114,4 @@ JSON을 불러오므로 `index.html`을 파일로 직접 열기보다 로컬 웹
 
 ## 배포
 
-GitHub Pages는 `main` 브랜치를 기준으로 배포합니다. 기능 브랜치의 변경 사항을 검토한 뒤 `main`에 병합하면 사이트에 반영됩니다.
+GitHub Pages는 `dev` 브랜치의 루트(`/`)를 기준으로 배포합니다. `dev`에 푸시된 변경 사항은 공개 사이트에 반영됩니다.

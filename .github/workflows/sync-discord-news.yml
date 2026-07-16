@@ -8,15 +8,6 @@ on:
       - .github/workflows/sync-discord-news.yml
       - scripts/sync-discord-news.mjs
   workflow_dispatch:
-    inputs:
-      target_branch:
-        description: Branch that receives the synchronized news.json
-        required: true
-        default: dev
-        type: choice
-        options:
-          - dev
-          - main
   schedule:
     - cron: "*/15 * * * *"
 
@@ -32,7 +23,7 @@ jobs:
     if: ${{ vars.DISCORD_NEWS_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     env:
-      TARGET_BRANCH: ${{ github.event_name == 'schedule' && 'main' || github.event_name == 'push' && 'dev' || inputs.target_branch }}
+      TARGET_BRANCH: dev
     steps:
       - name: Check out target branch
         uses: actions/checkout@v4
