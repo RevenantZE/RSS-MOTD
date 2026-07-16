@@ -74,6 +74,7 @@ const items = channels.flatMap(channel => channel.messages
 
     const title = (firstTextLine || embedTitle || "공지")
       .replace(/^#{1,6}\s*/, "")
+      .replace(/\s+#{1,6}\s*$/, "")
       .slice(0, 120);
     const firstLineIndex = lines.indexOf(firstTextLine);
     const remaining = firstLineIndex >= 0 ? lines.slice(firstLineIndex + 1).join("\n").trim() : "";

@@ -17,6 +17,7 @@ const NEWS_DEFAULT_WIDTH = 1160;
 const NEWS_MIN_WIDTH = 760;
 const NEWS_MAX_WIDTH = 1600;
 const favoriteCommands = new Set(JSON.parse(localStorage.getItem("favoriteCommands") || "[]"));
+let newsMarkdownRenderer = null;
 const FAQ_FALLBACK = {
   version: 1,
   updatedAt: "",
@@ -1266,6 +1267,39 @@ function safeHttpUrl(value) {
   }
 }
 
+function getNewsMarkdownRenderer() {
+  if (newsMarkdownRenderer) return newsMarkdownRenderer;
+  if (typeof window.markdownit !== "function") return null;
+
+  const renderer = window.markdownit({
+    html: false,
+    breaks: true,
+    linkify: true,
+    typographer: false
+  });
+  renderer.disable("image");
+
+  const defaultLinkOpen = renderer.renderer.rules.link_open
+    || ((tokens, index, options, _env, self) => self.renderToken(tokens, index, options));
+  renderer.renderer.rules.link_open = (tokens, index, options, env, self) => {
+    tokens[index].attrSet("target", "_blank");
+    tokens[index].attrSet("rel", "noopener noreferrer");
+    return defaultLinkOpen(tokens, index, options, env, self);
+  };
+
+  newsMarkdownRenderer = renderer;
+  return renderer;
+}
+
+function renderNewsMarkdown(container, value) {
+  const renderer = getNewsMarkdownRenderer();
+  if (!renderer) {
+    container.textContent = String(value || "");
+    return;
+  }
+  container.innerHTML = renderer.render(String(value || ""));
+}
+
 function renderNews() {
   const list = document.getElementById("newsList");
   if (!list || !newsData) return;
@@ -1309,9 +1343,9 @@ function renderNews() {
       meta.appendChild(author);
     }
 
-    const content = document.createElement("p");
+    const content = document.createElement("div");
     content.className = "news-content";
-    content.textContent = item.content || item.summary || "";
+    renderNewsMarkdown(content, item.content || item.summary || "");
 
     const attachments = document.createElement("div");
     attachments.className = "news-attachments";

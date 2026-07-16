@@ -32,7 +32,7 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `news.json` | Discord에서 가져온 최근 공지와 로컬 샘플 |
 | `scripts/sync-discord-news.mjs` | Discord 메시지를 `news.json`으로 변환 |
 | `.github/workflows/sync-discord-news.yml` | 15분마다 `dev`의 공지 동기화 |
-| `vendor/` | PicoCSS와 `es-hangul` 로컬 파일 |
+| `vendor/` | PicoCSS, `es-hangul`, `markdown-it` 로컬 파일 |
 | `guide_image/` | FAQ에 사용하는 안내 이미지 |
 
 ## 콘텐츠 수정 방법
@@ -103,7 +103,7 @@ FAQ 구조는 `faq.json`에서 관리하고 번역 문구는 `lang.js`에서 관
 
 토큰은 `news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 여러 채널을 지정하면 공지를 시간순으로 합치고 각 카드에 Discord 채널명을 표시합니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `news.json`을 `dev`에 커밋합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
 
-공지의 첫 번째 비어 있지 않은 줄은 제목, 그 아래 줄은 본문으로 사용합니다. Discord 사용자·역할 멘션은 웹에 표시하기 전에 `@서버닉네임`·`@역할명`으로 변환합니다. 이름을 확인할 수 없는 경우에도 숫자 ID는 노출하지 않습니다. 제목을 확실히 구분하려면 다음 형식을 권장합니다.
+공지의 첫 번째 비어 있지 않은 줄은 제목, 그 아래 줄은 본문으로 사용합니다. 본문은 Discord에서 사용한 제목, 굵게, 목록, 인용문, 링크, 인라인 코드와 코드 블록 Markdown을 웹에서도 렌더링합니다. Discord 사용자·역할 멘션은 웹에 표시하기 전에 `@서버닉네임`·`@역할명`으로 변환합니다. 이름을 확인할 수 없는 경우에도 숫자 ID는 노출하지 않습니다. 제목을 확실히 구분하려면 다음 형식을 권장합니다.
 
 ```text
 @RSSPlayer
