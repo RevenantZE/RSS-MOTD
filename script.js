@@ -465,6 +465,15 @@ function setLanguage(lang, syncUrl = true) {
     if (value != null) el.placeholder = value;
   });
 
+  document.querySelectorAll("[data-lang-aria]").forEach(el => {
+    const key = el.dataset.langAria;
+    const value = window.LANG?.[lang]?.[key];
+    if (value != null) {
+      el.setAttribute("aria-label", value);
+      el.title = value;
+    }
+  });
+
   // 버튼 상태 클래스 토글 (함수 내부로 격리)
   document.querySelectorAll(".langbtn").forEach(b => {
     const isActive = b.dataset.lang === lang;
@@ -1602,6 +1611,25 @@ document.getElementById("skinSearch")?.addEventListener("input", event => {
 });
 
 window.addEventListener("load", loadSkins);
+
+const backToTop = document.getElementById("backToTop");
+
+function updateBackToTop() {
+  if (!backToTop) return;
+  const visible = window.scrollY > 480;
+  backToTop.classList.toggle("show", visible);
+  backToTop.setAttribute("aria-hidden", visible ? "false" : "true");
+  backToTop.tabIndex = visible ? 0 : -1;
+}
+
+backToTop?.addEventListener("click", () => {
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+});
+
+window.addEventListener("scroll", updateBackToTop, { passive: true });
+window.addEventListener("load", updateBackToTop);
+updateBackToTop();
 
 // Remove service workers and caches created by older versions of this site.
 if ("serviceWorker" in navigator) {
