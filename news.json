@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T14:03:36.847000+00:00",
+  "updatedAt": "2026-07-16T18:59:28.406000+00:00",
   "source": "discord",
   "channelId": "661972168586035211",
   "items": [
+    {
+      "id": "1527389223517294733",
+      "title": "<@&851028278743269407>",
+      "content": "# 패치노트\n\n## 인간 버니합 조정\n\n* 인간 버니합의 난이도가 상승했습니다.\n* 버니합 판정을 더욱 세분화했습니다.\n\n## 하이드 기능 업데이트\n\n> ### 아이템 보유자 하이드 기능 추가\n>\n> * `!itemhide` 명령어가 추가되었습니다.\n> * 하이드 메뉴에서 아이템 보유자 하이드 기능을 활성화하거나 비활성화할 수 있습니다.\n> * 일반 하이드 기능이 활성화되어 있어야 작동합니다.\n>\n> ### 글로우 대상 하이드 미적용\n>\n> * 글로우가 적용된 대상은 하이드가 되지 않게 변경되었습니다.\n\n## 사운드 메뉴 개편 및 명령어 추가\n\n> * 사운드 설정을 카테고리 메뉴 형식으로 재구성했습니다.\n> * 음악, 좀비, 총소리, 기능 설정을 각각의 하위 메뉴로 분리했습니다.\n>\n> ### 사운드 메뉴 명령어 추가\n> * `!sounds`   `!사운드`   `!소리`\n\n\n---\n\n# Patch Notes\n\n## Human Bunny Hop Adjustments\n\n* Bunny hopping as a human has been made more difficult.\n* Bunny hop detection has been refined with more detailed judgment criteria.\n\n## Hide Feature Updates\n\n> ### Item Holder Hide Feature\n>\n> * The `!itemhide` command has been added.\n> * The item holder hide feature can be enabled or disabled from the hide menu.\n> * The regular hide feature must be enabled for this option to work.\n>\n> ### Glow Target Hide Exclusion\n>\n> * Targets with an active glow effect are now excluded from the hide feature.\n\n## Sound Menu Overhaul and New Commands\n\n> * Sound settings have been reorganized into a category-based menu.\n> * Music, zombie sounds, gunfire sounds, and feature volume have been separated into individual submenus.\n>\n> ### New Sound Menu Commands\n> * `!sounds`",
+      "publishedAt": "2026-07-16T18:59:28.406000+00:00",
+      "editedAt": null,
+      "author": "sj58320",
+      "url": "https://discord.com/channels/661972168586035202/661972168586035211/1527389223517294733",
+      "attachments": []
+    },
+    {
+      "id": "1527389157939220531",
+      "title": "test",
+      "content": "test",
+      "publishedAt": "2026-07-16T18:59:12.771000+00:00",
+      "editedAt": null,
+      "author": "sj58320",
+      "url": "https://discord.com/channels/661972168586035202/661972168586035211/1527389157939220531",
+      "attachments": []
+    },
     {
       "id": "1527314768082501743",
       "title": "your bot is now online!",
@@ -182,26 +202,6 @@
       "editedAt": null,
       "author": "카링",
       "url": "https://discord.com/channels/661972168586035202/661972168586035211/1526377794471198882",
-      "attachments": []
-    },
-    {
-      "id": "1526250462024568983",
-      "title": "your bot is now online!",
-      "content": "your bot is now online!",
-      "publishedAt": "2026-07-13T15:34:26.509000+00:00",
-      "editedAt": null,
-      "author": "카링",
-      "url": "https://discord.com/channels/661972168586035202/661972168586035211/1526250462024568983",
-      "attachments": []
-    },
-    {
-      "id": "1526234784391762102",
-      "title": "your bot is now online!",
-      "content": "your bot is now online!",
-      "publishedAt": "2026-07-13T14:32:08.670000+00:00",
-      "editedAt": null,
-      "author": "카링",
-      "url": "https://discord.com/channels/661972168586035202/661972168586035211/1526234784391762102",
       "attachments": []
     }
   ]
