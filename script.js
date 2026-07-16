@@ -19,7 +19,7 @@ const NEWS_WIDTH_STORAGE_KEY = "newsPanelWidth";
 const NEWS_DEFAULT_WIDTH = 1160;
 const NEWS_MIN_WIDTH = 760;
 const NEWS_MAX_WIDTH = 1600;
-const favoriteCommands = new Set(JSON.parse(localStorage.getItem("favoriteCommands") || "[]"));
+const favoriteCommands = new Set(readStoredArray("favoriteCommands"));
 let newsMarkdownRenderer = null;
 const FAQ_FALLBACK = {
   version: 1,
@@ -98,6 +98,31 @@ const FAQ_FALLBACK = {
 };
 const scriptBase = new URL("./", import.meta.url);
 
+function readStorage(key, fallback = "") {
+  try {
+    return localStorage.getItem(key) ?? fallback;
+  } catch (_error) {
+    return fallback;
+  }
+}
+
+function writeStorage(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch (_error) {
+    // The site still works when storage is disabled or full.
+  }
+}
+
+function readStoredArray(key) {
+  try {
+    const value = JSON.parse(readStorage(key, "[]"));
+    return Array.isArray(value) ? value : [];
+  } catch (_error) {
+    return [];
+  }
+}
+
 function assetUrl(filename) {
   return new URL(filename, scriptBase).toString();
 }
@@ -149,7 +174,7 @@ async function fetchJsonWithFallback(filename) {
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 const newsResizeHandle = document.getElementById("newsResizeHandle");
-let newsPanelWidth = Number(localStorage.getItem(NEWS_WIDTH_STORAGE_KEY)) || NEWS_DEFAULT_WIDTH;
+let newsPanelWidth = Number(readStorage(NEWS_WIDTH_STORAGE_KEY)) || NEWS_DEFAULT_WIDTH;
 
 function getNewsResizeBounds() {
   const available = Math.max(0, window.innerWidth - 36);
@@ -175,7 +200,7 @@ function setNewsPanelWidth(value, persist = false, clampToViewport = false) {
   newsPanelWidth = Math.min(bounds.max, Math.max(bounds.min, Math.round(value)));
   document.documentElement.style.setProperty("--news-panel-width", `${newsPanelWidth}px`);
   updateNewsResizeHandle();
-  if (persist) localStorage.setItem(NEWS_WIDTH_STORAGE_KEY, String(newsPanelWidth));
+  if (persist) writeStorage(NEWS_WIDTH_STORAGE_KEY, String(newsPanelWidth));
 }
 
 function initNewsResize() {
@@ -203,7 +228,7 @@ function initNewsResize() {
     if (!dragging) return;
     dragging = false;
     document.body.classList.remove("news-resizing");
-    localStorage.setItem(NEWS_WIDTH_STORAGE_KEY, String(newsPanelWidth));
+    writeStorage(NEWS_WIDTH_STORAGE_KEY, String(newsPanelWidth));
   });
 
   newsResizeHandle.addEventListener("keydown", event => {
@@ -342,6 +367,8 @@ function applyDeepLink() {
     document.querySelectorAll(".deep-link-target").forEach(el => el.classList.remove("deep-link-target"));
     target.classList.add("deep-link-target");
     target.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (!target.hasAttribute("tabindex")) target.tabIndex = -1;
+    target.focus({ preventScroll: true });
     setTimeout(() => target.classList.remove("deep-link-target"), 2200);
   });
 }
@@ -403,7 +430,8 @@ window.addEventListener("load", setLastUpdateFromGitHub);
 
 // 3. 다국어 스크립트
 function getCurrentLang() {
-  return document.documentElement.lang || DEFAULT_LANG;
+  const lang = document.documentElement.lang || DEFAULT_LANG;
+  return lang === "ja" ? "jp" : lang;
 }
 
 function localizeText(value, lang = getCurrentLang()) {
@@ -451,6 +479,7 @@ function renderCommandFilters() {
 }
 
 function setLanguage(lang, syncUrl = true) {
+  if (!SUPPORTED_LANGS.has(lang)) lang = DEFAULT_LANG;
   // 텍스트 교체
   document.querySelectorAll("[data-lang]").forEach(el => {
     const key = el.dataset.lang;
@@ -483,8 +512,17 @@ function setLanguage(lang, syncUrl = true) {
   updateNewsResizeHandle(lang);
 
   // 선택한 언어 저장 및 HTML 문서속서를 반영
-  localStorage.setItem("lang", lang);
-  document.documentElement.lang = lang;
+  writeStorage("lang", lang);
+  document.documentElement.lang = lang === "jp" ? "ja" : lang;
+  const strings = window.LANG?.[lang] || {};
+  document.title = strings.document_title || strings.site_title || document.title;
+  document.querySelector('meta[name="description"]')?.setAttribute("content", strings.meta_description || "");
+  document.querySelector('meta[property="og:title"]')?.setAttribute("content", strings.document_title || strings.site_title || "");
+  document.querySelector('meta[property="og:description"]')?.setAttribute("content", strings.meta_description || "");
+  document.querySelector('meta[property="og:locale"]')?.setAttribute(
+    "content",
+    lang === "ko" ? "ko_KR" : lang === "jp" ? "ja_JP" : "en_US"
+  );
   if (syncUrl) {
     const url = new URL(location.href);
     url.searchParams.set("lang", lang);
@@ -779,7 +817,7 @@ document.querySelectorAll(".langbtn").forEach(btn => {
 // 로드 시 기존에 저장된언어 자동적용
 window.addEventListener("load", () => {
   const requested = new URL(location.href).searchParams.get("lang");
-  const saved = localStorage.getItem("lang");
+  const saved = readStorage("lang");
   const lang = SUPPORTED_LANGS.has(requested)
     ? requested
     : SUPPORTED_LANGS.has(saved) ? saved : DEFAULT_LANG;
@@ -1115,7 +1153,7 @@ function createCommandPage(page) {
 function toggleFavoriteCommand(command) {
   if (favoriteCommands.has(command)) favoriteCommands.delete(command);
   else favoriteCommands.add(command);
-  localStorage.setItem("favoriteCommands", JSON.stringify([...favoriteCommands]));
+  writeStorage("favoriteCommands", JSON.stringify([...favoriteCommands]));
   renderCommandGuide();
 }
 
@@ -1625,28 +1663,12 @@ function updateBackToTop() {
 backToTop?.addEventListener("click", () => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+  window.setTimeout(() => document.getElementById("mainContent")?.focus({ preventScroll: true }), reduceMotion ? 0 : 450);
 });
 
 window.addEventListener("scroll", updateBackToTop, { passive: true });
 window.addEventListener("load", updateBackToTop);
 updateBackToTop();
-
-// Remove service workers and caches created by older versions of this site.
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", async () => {
-    try {
-      const siteScope = new URL("./", document.baseURI).href;
-      const registrations = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(registrations.filter(registration => registration.scope === siteScope).map(registration => registration.unregister()));
-      if ("caches" in window) {
-        const cacheNames = await caches.keys();
-        await Promise.all(cacheNames.filter(name => name.startsWith("rss-ze-guide-")).map(name => caches.delete(name)));
-      }
-    } catch (error) {
-      console.warn("legacy cache cleanup failed:", error);
-    }
-  });
-}
 
 // 5. 클립보드 명령어 복사 기능
 function copyCode(button) {

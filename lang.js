@@ -1,5 +1,10 @@
 const LANG = window.LANG = {
 ko: {
+    document_title: "RSS 좀비탈출서버 가이드",
+    meta_description: "RSS 좀비탈출서버의 FAQ, 명령어, 용어, 공지, 스킨 프리뷰를 확인하세요.",
+    skip_to_content: "본문으로 건너뛰기",
+    tablist_label: "메뉴 탭",
+    command_categories_label: "명령어 카테고리",
     site_title: "RSS 좀비탈출서버",
     site_subtitle: "FAQ / 명령어 목록",
     tab_faq: "1) 자주묻는 질문",
@@ -112,6 +117,11 @@ ko: {
   },
 
   en: {
+    document_title: "RSS Zombie Escape Server Guide",
+    meta_description: "Browse the RSS Zombie Escape server FAQ, commands, glossary, news, and skin previews.",
+    skip_to_content: "Skip to main content",
+    tablist_label: "Guide sections",
+    command_categories_label: "Command categories",
     site_title: "RSS Zombie Escape Server",
     site_subtitle: "FAQ / Command List",
     tab_faq: "1) FAQ",
@@ -224,6 +234,11 @@ ko: {
   },
 
   jp: {
+    document_title: "RSS ゾンビエスケープサーバーガイド",
+    meta_description: "RSS ゾンビエスケープサーバーのFAQ、コマンド、用語、お知らせ、スキンプレビューを確認できます。",
+    skip_to_content: "本文へ移動",
+    tablist_label: "ガイドの項目",
+    command_categories_label: "コマンドカテゴリー",
     site_title: "RSS ゾンビエスケープサーバー",
     site_subtitle: "FAQ / コマンド一覧",
     tab_faq: "1) よくある質問",

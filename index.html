@@ -25,6 +25,7 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#mainContent" data-lang="skip_to_content">본문으로 건너뛰기</a>
   <header>
     <div class="top">
       <div class="title">
@@ -56,9 +57,9 @@
     </div>
   </header>
 
-  <div class="wrap">
+  <main id="mainContent" class="wrap" tabindex="-1">
     <div class="card">
-      <div class="tabs" role="tablist" aria-label="메뉴 탭">
+      <div class="tabs" role="tablist" data-lang-aria="tablist_label" aria-label="메뉴 탭">
         <button id="tab-faq" class="tab active" data-tab="faq" role="tab" aria-selected="true" aria-controls="faq" tabindex="0">
           <span data-lang="tab_faq">1) 자주묻는 질문</span>
         </button>
@@ -89,7 +90,7 @@
         </div>
         <section id="quickStart" class="quick-start" aria-labelledby="quickStartTitle"></section>
       <!-- FAQ(Create) -->
-        <div id="faqList" class="faq-list" aria-live="polite">
+        <div id="faqList" class="faq-list">
           <p class="faq-loading">Loading FAQ...</p>
         </div>
         <footer>
@@ -106,12 +107,12 @@
         </div>
 
         <div class="command-tools">
-          <div id="commandFilters" class="command-filters" aria-label="명령어 카테고리"></div>
+          <div id="commandFilters" class="command-filters" data-lang-aria="command_categories_label" aria-label="명령어 카테고리"></div>
           <label class="favorite-filter"><input id="favoriteCommandsOnly" type="checkbox" /> <span data-lang="command_favorites_only">즐겨찾기만 보기</span></label>
           <p id="commandResultCount" class="command-result-count" aria-live="polite"></p>
         </div>
 
-        <div id="commandGuide" class="command-guide" aria-live="polite">
+        <div id="commandGuide" class="command-guide">
           <p class="command-loading">Loading commands...</p>
         </div>
         <footer>
@@ -127,7 +128,7 @@
           <div class="hint" data-lang="guide_hint">용어 또는 설명을 검색할 수 있습니다.</div>
         </div>
 
-        <div id="termGuide" class="term-guide" aria-live="polite">
+        <div id="termGuide" class="term-guide">
           <p class="term-loading" data-lang="term_loading">Loading terms...</p>
         </div>
 
@@ -146,7 +147,7 @@
           <div class="hint" data-lang="news_hint">Discord 공지 채널의 최근 소식입니다.</div>
         </div>
 
-        <div id="newsList" class="news-list" aria-live="polite">
+        <div id="newsList" class="news-list">
           <p class="news-empty" data-lang="news_loading">공지를 불러오는 중...</p>
         </div>
 
@@ -169,7 +170,7 @@
           <p id="skinResultCount" class="skin-result-count" aria-live="polite"></p>
         </div>
 
-        <div id="skinGrid" class="skin-grid" aria-live="polite">
+        <div id="skinGrid" class="skin-grid">
           <p class="skin-empty" data-lang="skins_loading">스킨을 불러오는 중...</p>
         </div>
 
@@ -179,7 +180,7 @@
         </footer>
       </section>
     </div>
-  </div>
+  </main>
   <button
     id="backToTop"
     class="back-to-top"

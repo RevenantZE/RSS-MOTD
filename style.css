@@ -25,6 +25,23 @@ body{
 a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
 
+.skip-link{
+  position:fixed;
+  top:8px;
+  left:50%;
+  z-index:100;
+  padding:9px 14px;
+  border:1px solid var(--accent);
+  border-radius:10px;
+  background:var(--panel2);
+  color:var(--text);
+  font-weight:700;
+  transform:translate(-50%,-160%);
+  transition:transform .15s ease;
+}
+.skip-link:focus{transform:translate(-50%,0); text-decoration:none}
+.wrap:focus{outline:none}
+
 .wrap{max-width:980px; margin:0 auto; padding:18px 18px 70px; transition:max-width .2s ease,width .12s ease}
 body[data-active-tab="guide"] .wrap{max-width:1160px}
 body[data-active-tab="news"] .wrap{
