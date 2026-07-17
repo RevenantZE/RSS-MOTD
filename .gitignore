@@ -1,2 +1,10 @@
 # Local editor settings
 .vscode/
+
+# Local Discord skin export (production previews are generated into assets/skins/)
+Human_Skin_List_Extract/
+Zombie_Skin_List_Extract/
+Primary_Weapon_Skin_List_Extract/
+Secondary_Weapon_Skin_List_Extract/
+Knife_Skin_List_Extract/
+Throwing_Weapon_Skin_List_Extract/

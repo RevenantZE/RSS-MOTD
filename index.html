@@ -13,18 +13,18 @@
   <meta property="og:url" content="https://sj58320.github.io/test/" />
 
   <!-- 스타일 css 경로 -->
-  <link rel="stylesheet" href="vendor/pico.conditional.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
   <!-- 자바스크립트 연결 (번역 -> 스크립트) -->
   <script src="vendor/markdown-it.min.js" defer></script>
   <!-- 자바스크립트 언어(한국,영어,일본) 스크립트 -->
-  <script src="lang.js" defer></script>
+  <script src="assets/js/lang.js" defer></script>
   <!-- 기능 스크립트 경로 -->
-  <script type="module" src="script.js"></script>
+  <script type="module" src="assets/js/script.js"></script>
 </head>
 
 <body>
+  <a class="skip-link" href="#mainContent" data-lang="skip_to_content">본문으로 건너뛰기</a>
   <header>
     <div class="top">
       <div class="title">
@@ -38,17 +38,27 @@
         <button class="langbtn" data-lang="en" aria-label="English" aria-pressed="false">English</button>
         <button class="langbtn" data-lang="jp" aria-label="日本語" aria-pressed="false">日本語</button>
       </div>
-      <!-- 디스코드 링크 -->
-      <a class="discord" href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer">
-        <span class="dot"></span>
-        <span>디스코드 링크</span>
-      </a>
+      <div class="social-links">
+        <a class="social-link steam-link" href="https://steamcommunity.com/groups/Revenant_Server"
+          target="_blank" rel="noopener noreferrer" data-lang-aria="steam_link" aria-label="Steam 그룹" title="Steam 그룹">
+          <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+            <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z"/>
+            <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048"/>
+          </svg>
+        </a>
+        <a class="social-link discord-link" href="https://discord.gg/rssze"
+          target="_blank" rel="noopener noreferrer" data-lang-aria="discord_link" aria-label="디스코드 링크" title="디스코드 링크">
+          <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+            <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+          </svg>
+        </a>
+      </div>
     </div>
   </header>
 
-  <div class="wrap">
+  <main id="mainContent" class="wrap" tabindex="-1">
     <div class="card">
-      <div class="tabs" role="tablist" aria-label="메뉴 탭">
+      <div class="tabs" role="tablist" data-lang-aria="tablist_label" aria-label="메뉴 탭">
         <button id="tab-faq" class="tab active" data-tab="faq" role="tab" aria-selected="true" aria-controls="faq" tabindex="0">
           <span data-lang="tab_faq">1) 자주묻는 질문</span>
         </button>
@@ -61,11 +71,14 @@
         <button id="tab-news" class="tab" data-tab="news" role="tab" aria-selected="false" aria-controls="news" tabindex="-1">
           <span data-lang="tab_news">4) 공지</span>
         </button>
+        <button id="tab-skins" class="tab" data-tab="skins" role="tab" aria-selected="false" aria-controls="skins" tabindex="-1">
+          <span data-lang="tab_skins">5) 스킨 프리뷰</span>
+        </button>
       </div>
 
-      <div class="global-search-wrap pico" data-theme="dark">
+      <div class="global-search-wrap">
         <label class="term-search-label" for="globalSearch" data-lang="global_search_label">전체 검색</label>
-        <input id="globalSearch" class="term-search" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어, 공지 검색" autocomplete="off" />
+        <input id="globalSearch" class="term-search" type="search" data-lang-placeholder="global_search_placeholder" placeholder="FAQ, 명령어, 용어, 공지, 스킨 검색" autocomplete="off" />
         <div id="globalSearchResults" class="global-search-results" aria-live="polite"></div>
       </div>
 
@@ -76,7 +89,7 @@
         </div>
         <section id="quickStart" class="quick-start" aria-labelledby="quickStartTitle"></section>
       <!-- FAQ(Create) -->
-        <div id="faqList" class="faq-list" aria-live="polite">
+        <div id="faqList" class="faq-list">
           <p class="faq-loading">Loading FAQ...</p>
         </div>
         <footer>
@@ -93,12 +106,12 @@
         </div>
 
         <div class="command-tools">
-          <div id="commandFilters" class="command-filters" aria-label="명령어 카테고리"></div>
+          <div id="commandFilters" class="command-filters" data-lang-aria="command_categories_label" aria-label="명령어 카테고리"></div>
           <label class="favorite-filter"><input id="favoriteCommandsOnly" type="checkbox" /> <span data-lang="command_favorites_only">즐겨찾기만 보기</span></label>
           <p id="commandResultCount" class="command-result-count" aria-live="polite"></p>
         </div>
 
-        <div id="commandGuide" class="command-guide" aria-live="polite">
+        <div id="commandGuide" class="command-guide">
           <p class="command-loading">Loading commands...</p>
         </div>
         <footer>
@@ -108,13 +121,13 @@
       </section>
 
       <!-- 용어 사전 -->
-      <section id="guide" class="panel pico" data-theme="dark" role="tabpanel" aria-labelledby="tab-guide" hidden>
+      <section id="guide" class="panel" role="tabpanel" aria-labelledby="tab-guide" hidden>
         <div class="section-title">
           <h2 data-lang="guide_title">좀비탈출 용어 사전</h2>
           <div class="hint" data-lang="guide_hint">용어 또는 설명을 검색할 수 있습니다.</div>
         </div>
 
-        <div id="termGuide" class="term-guide" aria-live="polite">
+        <div id="termGuide" class="term-guide">
           <p class="term-loading" data-lang="term_loading">Loading terms...</p>
         </div>
 
@@ -133,7 +146,7 @@
           <div class="hint" data-lang="news_hint">Discord 공지 채널의 최근 소식입니다.</div>
         </div>
 
-        <div id="newsList" class="news-list" aria-live="polite">
+        <div id="newsList" class="news-list">
           <p class="news-empty" data-lang="news_loading">공지를 불러오는 중...</p>
         </div>
 
@@ -142,8 +155,76 @@
           <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="news_open_discord">Discord에서 보기</a>
         </footer>
       </section>
+
+      <!-- Skin preview gallery -->
+      <section id="skins" class="panel" role="tabpanel" aria-labelledby="tab-skins" hidden>
+        <div class="section-title">
+          <h2 data-lang="skins_title">스킨 프리뷰</h2>
+          <div class="hint" data-lang="skins_hint">인간, 좀비, 무기 스킨을 종류별로 확인할 수 있습니다.</div>
+        </div>
+
+        <div class="skin-tools">
+          <div class="skin-filter-group">
+            <span class="skin-filter-label" data-lang="skins_category_label">스킨 종류</span>
+            <div id="skinCategoryFilters" class="skin-filter-tabs skin-category-tabs" role="group" data-lang-aria="skins_category_label" aria-label="스킨 종류">
+              <button type="button" class="skin-filter active" data-skin-category="human" aria-pressed="true"><span data-lang="skins_category_human">인간</span><small id="skinCountHuman"></small></button>
+              <button type="button" class="skin-filter" data-skin-category="zombie" aria-pressed="false"><span data-lang="skins_category_zombie">좀비</span><small id="skinCountZombie"></small></button>
+              <button type="button" class="skin-filter" data-skin-category="weapon" aria-pressed="false"><span data-lang="skins_category_weapon">무기</span><small id="skinCountWeapon"></small></button>
+            </div>
+          </div>
+          <div id="skinWeaponFilterGroup" class="skin-filter-group" hidden>
+            <span class="skin-filter-label" data-lang="skins_weapon_label">무기 종류</span>
+            <div id="skinWeaponFilters" class="skin-filter-tabs skin-weapon-tabs" role="group" data-lang-aria="skins_weapon_label" aria-label="무기 종류">
+              <button type="button" class="skin-filter active" data-skin-weapon="primary" aria-pressed="true"><span data-lang="skins_weapon_primary">주무기</span><small id="skinCountPrimary"></small></button>
+              <button type="button" class="skin-filter" data-skin-weapon="secondary" aria-pressed="false"><span data-lang="skins_weapon_secondary">보조무기</span><small id="skinCountSecondary"></small></button>
+              <button type="button" class="skin-filter" data-skin-weapon="melee" aria-pressed="false"><span data-lang="skins_weapon_melee">근접무기</span><small id="skinCountMelee"></small></button>
+              <button type="button" class="skin-filter" data-skin-weapon="throwable" aria-pressed="false"><span data-lang="skins_weapon_throwable">투척무기</span><small id="skinCountThrowable"></small></button>
+            </div>
+          </div>
+          <div id="skinPrimaryTypeFilterGroup" class="skin-filter-group" hidden>
+            <span class="skin-filter-label" data-lang="skins_primary_type_label">주무기 종류</span>
+            <div id="skinPrimaryTypeFilters" class="skin-filter-tabs skin-primary-type-tabs" role="group" data-lang-aria="skins_primary_type_label" aria-label="주무기 종류">
+              <button type="button" class="skin-filter active" data-skin-primary-type="all" aria-pressed="true"><span data-lang="skins_primary_type_all">전체</span><small id="skinCountPrimaryAll"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="smg" aria-pressed="false"><span data-lang="skins_primary_type_smg">기관단총</span><small id="skinCountPrimarySmg"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="rifle" aria-pressed="false"><span data-lang="skins_primary_type_rifle">소총</span><small id="skinCountPrimaryRifle"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="shotgun" aria-pressed="false"><span data-lang="skins_primary_type_shotgun">산탄총</span><small id="skinCountPrimaryShotgun"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="machinegun" aria-pressed="false"><span data-lang="skins_primary_type_machinegun">기관총</span><small id="skinCountPrimaryMachinegun"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="sniper" aria-pressed="false"><span data-lang="skins_primary_type_sniper">저격총</span><small id="skinCountPrimarySniper"></small></button>
+              <button type="button" class="skin-filter" data-skin-primary-type="other" aria-pressed="false" hidden><span data-lang="skins_primary_type_other">기타</span><small id="skinCountPrimaryOther"></small></button>
+            </div>
+          </div>
+          <label class="term-search-label" for="skinSearch" data-lang="skins_search_label">스킨 검색</label>
+          <input id="skinSearch" class="term-search" type="search" data-lang-placeholder="skins_search_placeholder" placeholder="스킨 이름 검색" autocomplete="off" />
+          <p id="skinResultCount" class="skin-result-count" aria-live="polite"></p>
+        </div>
+
+        <div id="skinGrid" class="skin-grid">
+          <p class="skin-empty" data-lang="skins_loading">스킨을 불러오는 중...</p>
+        </div>
+
+        <footer>
+          <span><span data-lang="last_update">마지막 업데이트:</span> <span id="skinLastUpdate">-</span></span>
+          <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="report_issue">잘못된 정보 제보</a>
+        </footer>
+      </section>
     </div>
-  </div>
+  </main>
+  <dialog id="skinImageDialog" class="skin-image-dialog" aria-labelledby="skinImageDialogCaption">
+    <button id="skinImageDialogClose" class="skin-image-dialog-close" type="button" data-lang-aria="skins_modal_close" aria-label="이미지 닫기">×</button>
+    <figure>
+      <img id="skinImageDialogImage" src="" alt="" />
+      <figcaption id="skinImageDialogCaption"></figcaption>
+    </figure>
+  </dialog>
+  <button
+    id="backToTop"
+    class="back-to-top"
+    type="button"
+    data-lang-aria="back_to_top"
+    aria-label="맨 위로 이동"
+    aria-hidden="true"
+    tabindex="-1"
+  >↑</button>
   <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
 </body>
 </html>

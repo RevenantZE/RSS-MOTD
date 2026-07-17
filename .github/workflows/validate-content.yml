@@ -1,0 +1,24 @@
+name: Validate site content
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - dev
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Validate JSON and referenced assets
+        run: node scripts/validate-content.mjs
+
+      - name: Test Discord announcement conversion
+        run: node --test scripts/discord-news-converter.test.mjs

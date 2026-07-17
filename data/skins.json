@@ -1,0 +1,4877 @@
+{
+  "version": 3,
+  "updatedAt": "2026-06-19T16:34:44.010000+00:00",
+  "categories": [
+    {
+      "id": "human",
+      "count": 90
+    },
+    {
+      "id": "zombie",
+      "count": 6
+    },
+    {
+      "id": "weapon",
+      "count": 127,
+      "subcategories": [
+        {
+          "id": "primary",
+          "count": 69,
+          "types": [
+            {
+              "id": "smg",
+              "count": 36
+            },
+            {
+              "id": "rifle",
+              "count": 24
+            },
+            {
+              "id": "shotgun",
+              "count": 2
+            },
+            {
+              "id": "machinegun",
+              "count": 5
+            },
+            {
+              "id": "sniper",
+              "count": 2
+            },
+            {
+              "id": "other",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": "secondary",
+          "count": 13
+        },
+        {
+          "id": "melee",
+          "count": 38
+        },
+        {
+          "id": "throwable",
+          "count": 7
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "human",
+      "subcategory": null,
+      "order": 1,
+      "name": "GayCat",
+      "nameKo": "게이고양이",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/001-third.webp",
+          "width": 800,
+          "height": 898
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/001-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517551693267599462"
+    },
+    {
+      "id": "002",
+      "category": "human",
+      "subcategory": null,
+      "order": 2,
+      "name": "MasterChief (Halo)",
+      "nameKo": "마스터치프 (헤일로)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/002-third.webp",
+          "width": 800,
+          "height": 1031
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/002-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517551868132462787"
+    },
+    {
+      "id": "003",
+      "category": "human",
+      "subcategory": null,
+      "order": 3,
+      "name": "Banana Joe",
+      "nameKo": "바나나 조",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/003-third.webp",
+          "width": 800,
+          "height": 999
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/003-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552079353282652"
+    },
+    {
+      "id": "004",
+      "category": "human",
+      "subcategory": null,
+      "order": 4,
+      "name": "Vector",
+      "nameKo": "벡터",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/004-third.webp",
+          "width": 800,
+          "height": 1039
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/004-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552240255308028"
+    },
+    {
+      "id": "005",
+      "category": "human",
+      "subcategory": null,
+      "order": 5,
+      "name": "Hunk",
+      "nameKo": "헝크",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/005-third.webp",
+          "width": 800,
+          "height": 987
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/005-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552590395539476"
+    },
+    {
+      "id": "006",
+      "category": "human",
+      "subcategory": null,
+      "order": 6,
+      "name": "Doom_Slayer",
+      "nameKo": "둠 슬레이어",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/006-third.webp",
+          "width": 800,
+          "height": 904
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/006-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552720549122348"
+    },
+    {
+      "id": "007",
+      "category": "human",
+      "subcategory": null,
+      "order": 7,
+      "name": "Rorschach (Watchmen)",
+      "nameKo": "로어셰크 (왓치맨)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/007-third.webp",
+          "width": 800,
+          "height": 953
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/007-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517552927768576050"
+    },
+    {
+      "id": "008",
+      "category": "human",
+      "subcategory": null,
+      "order": 8,
+      "name": "Cayde6 (Destiny2)",
+      "nameKo": "케이드6 (데스티니2)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/008-third.webp",
+          "width": 800,
+          "height": 1063
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/008-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553200084025498"
+    },
+    {
+      "id": "009",
+      "category": "human",
+      "subcategory": null,
+      "order": 9,
+      "name": "Dr K (Changed)",
+      "nameKo": "닥터 케이 (Changed)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/009-third.webp",
+          "width": 800,
+          "height": 901
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/009-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553383962050570"
+    },
+    {
+      "id": "010",
+      "category": "human",
+      "subcategory": null,
+      "order": 10,
+      "name": "Lucario (Pokemon)",
+      "nameKo": "루카리오 (포켓몬)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/010-third.webp",
+          "width": 800,
+          "height": 838
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/010-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553693145301072"
+    },
+    {
+      "id": "011",
+      "category": "human",
+      "subcategory": null,
+      "order": 11,
+      "name": "Nanachi (Made in Abyss)",
+      "nameKo": "나나치 (메이드 인 어비스)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/011-third.webp",
+          "width": 800,
+          "height": 1026
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/011-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517553848380686528"
+    },
+    {
+      "id": "012",
+      "category": "human",
+      "subcategory": null,
+      "order": 12,
+      "name": "Chillet (Palworld)",
+      "nameKo": "베비뇽 (팰월드)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/012-third.webp",
+          "width": 800,
+          "height": 854
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/012-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554009483903076"
+    },
+    {
+      "id": "013",
+      "category": "human",
+      "subcategory": null,
+      "order": 13,
+      "name": "Troll Face",
+      "nameKo": "트롤 페이스",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/013-third.webp",
+          "width": 800,
+          "height": 983
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/013-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554194494652587"
+    },
+    {
+      "id": "014",
+      "category": "human",
+      "subcategory": null,
+      "order": 14,
+      "name": "Misono Mika (Blue Archive)",
+      "nameKo": "미소노 미카 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/014-third.webp",
+          "width": 800,
+          "height": 931
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/014-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554334357786627"
+    },
+    {
+      "id": "015",
+      "category": "human",
+      "subcategory": null,
+      "order": 15,
+      "name": "Yuuka_Pajamas (Blue Archive)",
+      "nameKo": "파자마 유우카 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/015-third.webp",
+          "width": 800,
+          "height": 959
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/015-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554542374289478"
+    },
+    {
+      "id": "016",
+      "category": "human",
+      "subcategory": null,
+      "order": 16,
+      "name": "Pompom (Honkai StarRail)",
+      "nameKo": "폼폼 (붕괴 스타레일)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/016-third.webp",
+          "width": 800,
+          "height": 781
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/016-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554698125836398"
+    },
+    {
+      "id": "017",
+      "category": "human",
+      "subcategory": null,
+      "order": 17,
+      "name": "Furina (Genshin)",
+      "nameKo": "푸리나 (원신)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/017-third.webp",
+          "width": 800,
+          "height": 1066
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/017-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517554836613365791"
+    },
+    {
+      "id": "018",
+      "category": "human",
+      "subcategory": null,
+      "order": 18,
+      "name": "Ellen Joe (ZZZ)",
+      "nameKo": "엘렌 조 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/018-third.webp",
+          "width": 800,
+          "height": 830
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/018-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555011192619029"
+    },
+    {
+      "id": "019",
+      "category": "human",
+      "subcategory": null,
+      "order": 19,
+      "name": "Jane Doe (ZZZ)",
+      "nameKo": "제인 도 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/019-third.webp",
+          "width": 800,
+          "height": 833
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/019-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555191338238083"
+    },
+    {
+      "id": "020",
+      "category": "human",
+      "subcategory": null,
+      "order": 20,
+      "name": "Hoshino (Blue Archive)",
+      "nameKo": "호시노 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/020-third.webp",
+          "width": 800,
+          "height": 923
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/020-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555348091830333"
+    },
+    {
+      "id": "021",
+      "category": "human",
+      "subcategory": null,
+      "order": 21,
+      "name": "Shiroko (Blue Archive)",
+      "nameKo": "시로코 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/021-third.webp",
+          "width": 800,
+          "height": 1048
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/021-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555525498306651"
+    },
+    {
+      "id": "022",
+      "category": "human",
+      "subcategory": null,
+      "order": 22,
+      "name": "Pulchra (ZZZ)",
+      "nameKo": "펄크라 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/022-third.webp",
+          "width": 800,
+          "height": 945
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/022-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555674496766193"
+    },
+    {
+      "id": "023",
+      "category": "human",
+      "subcategory": null,
+      "order": 23,
+      "name": "Evelyn (ZZZ)",
+      "nameKo": "이블린 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/023-third.webp",
+          "width": 800,
+          "height": 1066
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/023-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555866230853833"
+    },
+    {
+      "id": "024",
+      "category": "human",
+      "subcategory": null,
+      "order": 24,
+      "name": "Niko (OneShot)",
+      "nameKo": "니코 (원샷)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/024-third.webp",
+          "width": 800,
+          "height": 941
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/024-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517555997961359460"
+    },
+    {
+      "id": "025",
+      "category": "human",
+      "subcategory": null,
+      "order": 25,
+      "name": "Lupa (WuWa)",
+      "nameKo": "루파 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/025-third.webp",
+          "width": 800,
+          "height": 978
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/025-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556159467487383"
+    },
+    {
+      "id": "026",
+      "category": "human",
+      "subcategory": null,
+      "order": 26,
+      "name": "Iuno (WuWa)",
+      "nameKo": "유노 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/026-third.webp",
+          "width": 736,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/026-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556274257068107"
+    },
+    {
+      "id": "027",
+      "category": "human",
+      "subcategory": null,
+      "order": 27,
+      "name": "Chisa (WuWa)",
+      "nameKo": "치사 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/027-third.webp",
+          "width": 800,
+          "height": 1017
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/027-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556395010953368"
+    },
+    {
+      "id": "028",
+      "category": "human",
+      "subcategory": null,
+      "order": 28,
+      "name": "Lynae (WuWa)",
+      "nameKo": "린네 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/028-third.webp",
+          "width": 800,
+          "height": 1038
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/028-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556587437363220"
+    },
+    {
+      "id": "029",
+      "category": "human",
+      "subcategory": null,
+      "order": 29,
+      "name": "Phrolova (WuWa)",
+      "nameKo": "플로로 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/029-third.webp",
+          "width": 800,
+          "height": 1034
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/029-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556738889617538"
+    },
+    {
+      "id": "030",
+      "category": "human",
+      "subcategory": null,
+      "order": 30,
+      "name": "Mornye (WuWa)",
+      "nameKo": "모니에 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/030-third.webp",
+          "width": 765,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/030-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556870615662652"
+    },
+    {
+      "id": "031",
+      "category": "human",
+      "subcategory": null,
+      "order": 31,
+      "name": "Ju fufu (ZZZ)",
+      "nameKo": "귤복복 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/031-third.webp",
+          "width": 800,
+          "height": 956
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/031-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517556999640846436"
+    },
+    {
+      "id": "032",
+      "category": "human",
+      "subcategory": null,
+      "order": 32,
+      "name": "Yuuka_SD (Blue Archive)",
+      "nameKo": "유우카SD (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/032-third.webp",
+          "width": 800,
+          "height": 974
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/032-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557214049468426"
+    },
+    {
+      "id": "033",
+      "category": "human",
+      "subcategory": null,
+      "order": 33,
+      "name": "Aris_SD (Blue Archive)",
+      "nameKo": "아리스SD (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/033-third.webp",
+          "width": 800,
+          "height": 978
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/033-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557549035946094"
+    },
+    {
+      "id": "034",
+      "category": "human",
+      "subcategory": null,
+      "order": 34,
+      "name": "Rabbithole_Miku",
+      "nameKo": "래빗홀미쿠",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/034-third.webp",
+          "width": 800,
+          "height": 1046
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/034-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557720310481027"
+    },
+    {
+      "id": "035",
+      "category": "human",
+      "subcategory": null,
+      "order": 35,
+      "name": "Loona (Helluva Boss)",
+      "nameKo": "루나 (헬루바 보스)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/035-third.webp",
+          "width": 800,
+          "height": 1018
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/035-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517557874132258926"
+    },
+    {
+      "id": "036",
+      "category": "human",
+      "subcategory": null,
+      "order": 36,
+      "name": "Orphie (ZZZ)",
+      "nameKo": "오피 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/036-third.webp",
+          "width": 800,
+          "height": 1018
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/036-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558024791654540"
+    },
+    {
+      "id": "037",
+      "category": "human",
+      "subcategory": null,
+      "order": 37,
+      "name": "Zhao (ZZZ)",
+      "nameKo": "자오 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/037-third.webp",
+          "width": 798,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/037-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558168786436117"
+    },
+    {
+      "id": "038",
+      "category": "human",
+      "subcategory": null,
+      "order": 38,
+      "name": "Ye_Shunguang (ZZZ)",
+      "nameKo": "엽빛나 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/038-third.webp",
+          "width": 795,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/038-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558407840665701"
+    },
+    {
+      "id": "039",
+      "category": "human",
+      "subcategory": null,
+      "order": 39,
+      "name": "Yixuan (ZZZ)",
+      "nameKo": "의현 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/039-third.webp",
+          "width": 693,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/039-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558522391429131"
+    },
+    {
+      "id": "040",
+      "category": "human",
+      "subcategory": null,
+      "order": 40,
+      "name": "Astra Yao (ZZZ)",
+      "nameKo": "아스트라 야오 (젠존제)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/040-third.webp",
+          "width": 800,
+          "height": 1060
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/040-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558684576907457"
+    },
+    {
+      "id": "041",
+      "category": "human",
+      "subcategory": null,
+      "order": 41,
+      "name": "Garnet (Eternal Return)",
+      "nameKo": "가넷 (이터널 리턴)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/041-third.webp",
+          "width": 800,
+          "height": 959
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/041-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558817712373780"
+    },
+    {
+      "id": "042",
+      "category": "human",
+      "subcategory": null,
+      "order": 42,
+      "name": "Taffy (Ananta)",
+      "nameKo": "타피 (무한대)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/042-third.webp",
+          "width": 800,
+          "height": 912
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/042-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517558958582272163"
+    },
+    {
+      "id": "043",
+      "category": "human",
+      "subcategory": null,
+      "order": 43,
+      "name": "Brahma (Aether Gazer)",
+      "nameKo": "브라흐마 (에테르 게이저)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/043-third.webp",
+          "width": 800,
+          "height": 843
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/043-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559141550264481"
+    },
+    {
+      "id": "044",
+      "category": "human",
+      "subcategory": null,
+      "order": 44,
+      "name": "Lynn (DNA)",
+      "nameKo": "린 (듀나어)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/044-third.webp",
+          "width": 800,
+          "height": 1014
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/044-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559283854606336"
+    },
+    {
+      "id": "045",
+      "category": "human",
+      "subcategory": null,
+      "order": 45,
+      "name": "Aemeath (WuWa)",
+      "nameKo": "에이메스 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/045-third.webp",
+          "width": 800,
+          "height": 1016
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/045-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559390616551526"
+    },
+    {
+      "id": "046",
+      "category": "human",
+      "subcategory": null,
+      "order": 46,
+      "name": "Chang li (WuWa)",
+      "nameKo": "장리 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/046-third.webp",
+          "width": 800,
+          "height": 930
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/046-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559529099755580"
+    },
+    {
+      "id": "047",
+      "category": "human",
+      "subcategory": null,
+      "order": 47,
+      "name": "FireFly (Honkai StarRail)",
+      "nameKo": "반디 (붕괴 스타레일)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/047-third.webp",
+          "width": 800,
+          "height": 928
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/047-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517559724957237320"
+    },
+    {
+      "id": "048",
+      "category": "human",
+      "subcategory": null,
+      "order": 48,
+      "name": "Klukai Swimsuit (GFL2)",
+      "nameKo": "클루카이 수영복 (소녀전선2)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/048-third.webp",
+          "width": 742,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/048-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560022102708295"
+    },
+    {
+      "id": "049",
+      "category": "human",
+      "subcategory": null,
+      "order": 49,
+      "name": "Perlica (Endfield)",
+      "nameKo": "펠리카 (엔드필드)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/049-third.webp",
+          "width": 755,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/049-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560174175453286"
+    },
+    {
+      "id": "050",
+      "category": "human",
+      "subcategory": null,
+      "order": 50,
+      "name": "Stelle (Honkai StarRail)",
+      "nameKo": "스텔레 (붕괴 스타레일)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/050-third.webp",
+          "width": 800,
+          "height": 1034
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/050-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560436025856130"
+    },
+    {
+      "id": "051",
+      "category": "human",
+      "subcategory": null,
+      "order": 51,
+      "name": "Huohuo (Honkai StarRail)",
+      "nameKo": "곽향 (붕괴 스타레일)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/051-third.webp",
+          "width": 800,
+          "height": 906
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/051-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560655593345064"
+    },
+    {
+      "id": "052",
+      "category": "human",
+      "subcategory": null,
+      "order": 52,
+      "name": "Meowscarada (Pokemon)",
+      "nameKo": "마스카나 (포켓몬)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/052-third.webp",
+          "width": 780,
+          "height": 1077
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/052-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517560850846716085"
+    },
+    {
+      "id": "053",
+      "category": "human",
+      "subcategory": null,
+      "order": 53,
+      "name": "Maid Aris (Blue Archive)",
+      "nameKo": "메이드 아리스 (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/053-third.webp",
+          "width": 800,
+          "height": 941
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/053-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561021705883649"
+    },
+    {
+      "id": "054",
+      "category": "human",
+      "subcategory": null,
+      "order": 54,
+      "name": "Nayuta (Nikke)",
+      "nameKo": "나유타 (니케)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/054-third.webp",
+          "width": 800,
+          "height": 994
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/054-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561161099513856"
+    },
+    {
+      "id": "055",
+      "category": "human",
+      "subcategory": null,
+      "order": 55,
+      "name": "Saori (Blue Archive)",
+      "nameKo": "사오리 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/055-third.webp",
+          "width": 792,
+          "height": 1077
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/055-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561745751670784"
+    },
+    {
+      "id": "056",
+      "category": "human",
+      "subcategory": null,
+      "order": 56,
+      "name": "Vita (Honkai Impact 3rd)",
+      "nameKo": "비타 (붕괴3rd)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/056-third.webp",
+          "width": 800,
+          "height": 1006
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/056-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517561892552577077"
+    },
+    {
+      "id": "057",
+      "category": "human",
+      "subcategory": null,
+      "order": 57,
+      "name": "Aru (Blue Archive)",
+      "nameKo": "아루 (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/057-third.webp",
+          "width": 800,
+          "height": 1022
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/057-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562024249262090"
+    },
+    {
+      "id": "058",
+      "category": "human",
+      "subcategory": null,
+      "order": 58,
+      "name": "Cinderella (Silver Palace)",
+      "nameKo": "신데렐라 (실버 팰리스)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/058-third.webp",
+          "width": 800,
+          "height": 1049
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/058-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562160522465312"
+    },
+    {
+      "id": "059",
+      "category": "human",
+      "subcategory": null,
+      "order": 59,
+      "name": "Liberalio (Nikke)",
+      "nameKo": "리버렐리오 (니케)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/059-third.webp",
+          "width": 800,
+          "height": 959
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/059-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562325031456768"
+    },
+    {
+      "id": "060",
+      "category": "human",
+      "subcategory": null,
+      "order": 60,
+      "name": "Yuuka Sport (Blue Archive)",
+      "nameKo": "체육복 유우카 (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/060-third.webp",
+          "width": 800,
+          "height": 1039
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/060-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562506472849498"
+    },
+    {
+      "id": "061",
+      "category": "human",
+      "subcategory": null,
+      "order": 61,
+      "name": "Augusta (WuWa)",
+      "nameKo": "아우구스타 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/061-third.webp",
+          "width": 800,
+          "height": 997
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/061-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562645325283460"
+    },
+    {
+      "id": "062",
+      "category": "human",
+      "subcategory": null,
+      "order": 62,
+      "name": "Carlotta Swimsuit (WuWa)",
+      "nameKo": "카를로타 수영복 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/062-third.webp",
+          "width": 710,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/062-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517562823352516678"
+    },
+    {
+      "id": "063",
+      "category": "human",
+      "subcategory": null,
+      "order": 63,
+      "name": "Cartethyia (WuWa)",
+      "nameKo": "카르티시아 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/063-third.webp",
+          "width": 800,
+          "height": 869
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/063-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563037895229561"
+    },
+    {
+      "id": "064",
+      "category": "human",
+      "subcategory": null,
+      "order": 64,
+      "name": "Changli Swimsuit (WuWa)",
+      "nameKo": "장리 수영복 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/064-third.webp",
+          "width": 800,
+          "height": 1029
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/064-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563204522475762"
+    },
+    {
+      "id": "065",
+      "category": "human",
+      "subcategory": null,
+      "order": 65,
+      "name": "Fleur De Lys (WuWa)",
+      "nameKo": "플뢰르 드 리스 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/065-third.webp",
+          "width": 800,
+          "height": 994
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/065-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563342770933810"
+    },
+    {
+      "id": "066",
+      "category": "human",
+      "subcategory": null,
+      "order": 66,
+      "name": "Kei (Blue Archive)",
+      "nameKo": "케이 (블루 아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/066-third.webp",
+          "width": 800,
+          "height": 1031
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/066-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563628071424180"
+    },
+    {
+      "id": "067",
+      "category": "human",
+      "subcategory": null,
+      "order": 67,
+      "name": "Denia Blue (WuWa)",
+      "nameKo": "데니아 환멸 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/067-third.webp",
+          "width": 786,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/067-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563801032069211"
+    },
+    {
+      "id": "068",
+      "category": "human",
+      "subcategory": null,
+      "order": 68,
+      "name": "Denia Red (WuWa)",
+      "nameKo": "데니아 연극 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/068-third.webp",
+          "width": 701,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/068-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517563941189062676"
+    },
+    {
+      "id": "069",
+      "category": "human",
+      "subcategory": null,
+      "order": 69,
+      "name": "Doro",
+      "nameKo": "도로롱",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/069-third.webp",
+          "width": 800,
+          "height": 1007
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/069-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564065994768432"
+    },
+    {
+      "id": "070",
+      "category": "human",
+      "subcategory": null,
+      "order": 70,
+      "name": "Doro_Summer",
+      "nameKo": "도로롱 여름",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/070-third.webp",
+          "width": 800,
+          "height": 919
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/070-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564200019431695"
+    },
+    {
+      "id": "071",
+      "category": "human",
+      "subcategory": null,
+      "order": 71,
+      "name": "Lucilla (WuWa)",
+      "nameKo": "루실라 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/071-third.webp",
+          "width": 800,
+          "height": 1049
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/071-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564274715791430"
+    },
+    {
+      "id": "072",
+      "category": "human",
+      "subcategory": null,
+      "order": 72,
+      "name": "Buling (WuWa)",
+      "nameKo": "복링 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/072-third.webp",
+          "width": 800,
+          "height": 991
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/072-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564434577490060"
+    },
+    {
+      "id": "073",
+      "category": "human",
+      "subcategory": null,
+      "order": 73,
+      "name": "Ciaccona (WuWa)",
+      "nameKo": "샤콘(명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/073-third.webp",
+          "width": 800,
+          "height": 1049
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/073-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564705785512178"
+    },
+    {
+      "id": "074",
+      "category": "human",
+      "subcategory": null,
+      "order": 74,
+      "name": "Galbrena (WuWa)",
+      "nameKo": "갈브레나(명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/074-third.webp",
+          "width": 800,
+          "height": 998
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/074-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517564856620814428"
+    },
+    {
+      "id": "075",
+      "category": "human",
+      "subcategory": null,
+      "order": 75,
+      "name": "Galbrena Overclock (WuWa)",
+      "nameKo": "갈브레나 오버클럭(명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/075-third.webp",
+          "width": 800,
+          "height": 1028
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/075-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565039211581510"
+    },
+    {
+      "id": "076",
+      "category": "human",
+      "subcategory": null,
+      "order": 76,
+      "name": "Hiyuki (WuWa)",
+      "nameKo": "히유키 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/076-third.webp",
+          "width": 800,
+          "height": 913
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/076-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565175258026215"
+    },
+    {
+      "id": "077",
+      "category": "human",
+      "subcategory": null,
+      "order": 77,
+      "name": "Hiyuki Frost (WuWa)",
+      "nameKo": "히유키 서리 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/077-third.webp",
+          "width": 800,
+          "height": 937
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/077-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565312910758081"
+    },
+    {
+      "id": "078",
+      "category": "human",
+      "subcategory": null,
+      "order": 78,
+      "name": "Lacrimosa (NTE)",
+      "nameKo": "라크리모사 (이환)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/078-third.webp",
+          "width": 800,
+          "height": 969
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/078-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565542385320086"
+    },
+    {
+      "id": "079",
+      "category": "human",
+      "subcategory": null,
+      "order": 79,
+      "name": "Shinku (NTE)",
+      "nameKo": "신쿠 (이환)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/079-third.webp",
+          "width": 800,
+          "height": 963
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/079-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565770035499059"
+    },
+    {
+      "id": "080",
+      "category": "human",
+      "subcategory": null,
+      "order": 80,
+      "name": "Sigrika (WuWa)",
+      "nameKo": "시그리카 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/080-third.webp",
+          "width": 800,
+          "height": 1020
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/080-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565869180457042"
+    },
+    {
+      "id": "081",
+      "category": "human",
+      "subcategory": null,
+      "order": 81,
+      "name": "Zani (WuWa)",
+      "nameKo": "젠니 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/081-third.webp",
+          "width": 800,
+          "height": 1030
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/081-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517565995223355422"
+    },
+    {
+      "id": "082",
+      "category": "human",
+      "subcategory": null,
+      "order": 82,
+      "name": "Academy Rover (WuWa)",
+      "nameKo": "아카데미 방랑자 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/082-third.webp",
+          "width": 783,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/082-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566175876350043"
+    },
+    {
+      "id": "083",
+      "category": "human",
+      "subcategory": null,
+      "order": 83,
+      "name": "Camellya Solar5 (WuWa)",
+      "nameKo": "카멜리아 Solar5 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/083-third.webp",
+          "width": 795,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/083-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566307938205727"
+    },
+    {
+      "id": "084",
+      "category": "human",
+      "subcategory": null,
+      "order": 84,
+      "name": "Cantarella (WuWa)",
+      "nameKo": "칸타렐라 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/084-third.webp",
+          "width": 755,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/084-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566495918526486"
+    },
+    {
+      "id": "085",
+      "category": "human",
+      "subcategory": null,
+      "order": 85,
+      "name": "Denia Solar5 (WuWa)",
+      "nameKo": "데니아 Solar5 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/085-third.webp",
+          "width": 680,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/085-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566616911483082"
+    },
+    {
+      "id": "086",
+      "category": "human",
+      "subcategory": null,
+      "order": 86,
+      "name": "Iuno Solar5 (WuWa)",
+      "nameKo": "유노 Solar5 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/086-third.webp",
+          "width": 800,
+          "height": 1020
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/086-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517566752039506061"
+    },
+    {
+      "id": "087",
+      "category": "human",
+      "subcategory": null,
+      "order": 87,
+      "name": "Lynae Solar5 (WuWa)",
+      "nameKo": "린네 Solar5 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/087-third.webp",
+          "width": 800,
+          "height": 832
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/087-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517567087843868764"
+    },
+    {
+      "id": "088",
+      "category": "human",
+      "subcategory": null,
+      "order": 88,
+      "name": "Phoebe Solar5 (WuWa)",
+      "nameKo": "페비 Solar5 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/088-third.webp",
+          "width": 800,
+          "height": 915
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/088-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568040601128991"
+    },
+    {
+      "id": "089",
+      "category": "human",
+      "subcategory": null,
+      "order": 89,
+      "name": "Rover (WuWa)",
+      "nameKo": "방랑자 (명조)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/089-third.webp",
+          "width": 743,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/089-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568183203135618"
+    },
+    {
+      "id": "090",
+      "category": "human",
+      "subcategory": null,
+      "order": 90,
+      "name": "Shiroko Terror (Blue Archive)",
+      "nameKo": "시로코 테러 (블루아카이브)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/090-third.webp",
+          "width": 800,
+          "height": 988
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/090-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1517568326149341384"
+    },
+    {
+      "id": "zombie-001",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 1,
+      "name": "Chris Walker / motherzombie(default)",
+      "nameKo": "크리스 워커 / 숙주좀비(기본스킨)",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/001-third.webp",
+          "width": 800,
+          "height": 960
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/001-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517492415139942482"
+    },
+    {
+      "id": "zombie-002",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 2,
+      "name": "Zombie",
+      "nameKo": "좀비",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/002-third.webp",
+          "width": 800,
+          "height": 879
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/002-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517493353351221339"
+    },
+    {
+      "id": "zombie-003",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 3,
+      "name": "Frozen",
+      "nameKo": "프로즌",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/003-third.webp",
+          "width": 800,
+          "height": 1013
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/003-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517493677348487258"
+    },
+    {
+      "id": "zombie-004",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 4,
+      "name": "Cultist",
+      "nameKo": "컬티스트",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/004-third.webp",
+          "width": 800,
+          "height": 985
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/004-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517494527772856330"
+    },
+    {
+      "id": "zombie-005",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 5,
+      "name": "MineCraft Zombie",
+      "nameKo": "마크좀비",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/005-third.webp",
+          "width": 775,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/005-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517494784942407840"
+    },
+    {
+      "id": "zombie-006",
+      "category": "zombie",
+      "subcategory": null,
+      "order": 6,
+      "name": "Demogorgon",
+      "nameKo": "데모고르곤",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/006-third.webp",
+          "width": 800,
+          "height": 1013
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/006-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517494914873557042"
+    },
+    {
+      "id": "weapon-primary-001",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 1,
+      "name": "mcx_spear(m4a1)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/001-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635411345313842"
+    },
+    {
+      "id": "weapon-primary-002",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 2,
+      "name": "r301(mp5)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/002-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635457210290377"
+    },
+    {
+      "id": "weapon-primary-003",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 3,
+      "name": "BA_glock_carbine_blue(mp9)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/003-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635802258641018"
+    },
+    {
+      "id": "weapon-primary-004",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 4,
+      "name": "BA_glock_carbine_pink(mp9)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/004-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635828792070154"
+    },
+    {
+      "id": "weapon-primary-005",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 5,
+      "name": "ak-12(ak47)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/005-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635865848610816"
+    },
+    {
+      "id": "weapon-primary-006",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 6,
+      "name": "mp9_printstream",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/006-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635909179834398"
+    },
+    {
+      "id": "weapon-primary-007",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 7,
+      "name": "hsr_firefly_m5a3(m4a4)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/007-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476635962594427050"
+    },
+    {
+      "id": "weapon-primary-008",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "machinegun",
+      "order": 8,
+      "name": "m60(m249)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/008-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636002268479611"
+    },
+    {
+      "id": "weapon-primary-009",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 9,
+      "name": "mp7_cat",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/009-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636171684548760"
+    },
+    {
+      "id": "weapon-primary-010",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 10,
+      "name": "Rival-9_aris(mp5)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/010-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636215468884041"
+    },
+    {
+      "id": "weapon-primary-011",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 11,
+      "name": "p90_printstream",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/011-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636325842255922"
+    },
+    {
+      "id": "weapon-primary-012",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "shotgun",
+      "order": 12,
+      "name": "xm1014_blunderbuss",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/012-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636409468289148"
+    },
+    {
+      "id": "weapon-primary-013",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 13,
+      "name": "ump-45_drill",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/013-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636437859532955"
+    },
+    {
+      "id": "weapon-primary-014",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 14,
+      "name": "bizon_beer",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/014-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636461599035412"
+    },
+    {
+      "id": "weapon-primary-015",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 15,
+      "name": "p90_pringles",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/015-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636482948042923"
+    },
+    {
+      "id": "weapon-primary-016",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 16,
+      "name": "mp9_swordfish",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/016-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636505945407538"
+    },
+    {
+      "id": "weapon-primary-017",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 17,
+      "name": "qbz-97_gfl(famas)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/017-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636532185239755"
+    },
+    {
+      "id": "weapon-primary-018",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 18,
+      "name": "p90_rgb",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/018-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636557191418038"
+    },
+    {
+      "id": "weapon-primary-019",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 19,
+      "name": "m4a1_dragon",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/019-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636581522833438"
+    },
+    {
+      "id": "weapon-primary-020",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 20,
+      "name": "bizon_anby",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/020-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636598321025044"
+    },
+    {
+      "id": "weapon-primary-021",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 21,
+      "name": "m4a4_firefly",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/021-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636617220427807"
+    },
+    {
+      "id": "weapon-primary-022",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 22,
+      "name": "mp5_sheri",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/022-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636727832613054"
+    },
+    {
+      "id": "weapon-primary-023",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 23,
+      "name": "mp7_phoenix",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/023-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636771541319772"
+    },
+    {
+      "id": "weapon-primary-024",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 24,
+      "name": "ak47_carlotta",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/024-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636802088702053"
+    },
+    {
+      "id": "weapon-primary-025",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 25,
+      "name": "ump45_mutsuki",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/025-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636836536389725"
+    },
+    {
+      "id": "weapon-primary-026",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 26,
+      "name": "m4a4_dragon",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/026-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636912109359176"
+    },
+    {
+      "id": "weapon-primary-027",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 27,
+      "name": "frosted_sugar_m4a1",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/027-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636934095896677"
+    },
+    {
+      "id": "weapon-primary-028",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 28,
+      "name": "galil_crossbowex",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/028-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636959282565283"
+    },
+    {
+      "id": "weapon-primary-029",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 29,
+      "name": "nachoneko_vector(mac10)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/029-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476636983022321807"
+    },
+    {
+      "id": "weapon-primary-030",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 30,
+      "name": "rgb_ak47",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/030-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637006241988739"
+    },
+    {
+      "id": "weapon-primary-031",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 31,
+      "name": "pp19_bizon",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/031-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637024948584599"
+    },
+    {
+      "id": "weapon-primary-032",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 32,
+      "name": "blue_archive_mp7",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/032-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637056074776717"
+    },
+    {
+      "id": "weapon-primary-033",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 33,
+      "name": "m4a1_mika / token 80",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/033-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637083417444433"
+    },
+    {
+      "id": "weapon-primary-034",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 34,
+      "name": "helios_aug",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/034-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637109451358208"
+    },
+    {
+      "id": "weapon-primary-035",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 35,
+      "name": "bizon_printstream",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/035-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637137423044842"
+    },
+    {
+      "id": "weapon-primary-036",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "machinegun",
+      "order": 36,
+      "name": "auto_lacquer(m249)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/036-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637148643070052"
+    },
+    {
+      "id": "weapon-primary-037",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 37,
+      "name": "dohan_p90",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/037-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637174710665236"
+    },
+    {
+      "id": "weapon-primary-038",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 38,
+      "name": "plana_ak47",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/038-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637297297592320"
+    },
+    {
+      "id": "weapon-primary-039",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 39,
+      "name": "m4a4_fate",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/039-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637318394679328"
+    },
+    {
+      "id": "weapon-primary-040",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 40,
+      "name": "p90_cyber",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/040-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637342168121529"
+    },
+    {
+      "id": "weapon-primary-041",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 41,
+      "name": "p90_kaltsit",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/041-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637375378755614"
+    },
+    {
+      "id": "weapon-primary-042",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 42,
+      "name": "p90_miku",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/042-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637395620204675"
+    },
+    {
+      "id": "weapon-primary-043",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 43,
+      "name": "star_rail_ump45",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/043-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476637472640340192"
+    },
+    {
+      "id": "weapon-primary-044",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 44,
+      "name": "meika_mikoto(m4a1)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/044-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476641378367832188"
+    },
+    {
+      "id": "weapon-primary-045",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 45,
+      "name": "meika_hime(m4a1)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/045-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476641418519908352"
+    },
+    {
+      "id": "weapon-primary-046",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 46,
+      "name": "ram7aug",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/046-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476641454628802787"
+    },
+    {
+      "id": "weapon-primary-047",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "shotgun",
+      "order": 47,
+      "name": "christmas_sawedoff(event)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/047-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1476642031391473839"
+    },
+    {
+      "id": "weapon-primary-048",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 48,
+      "name": "mika_mp9",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/048-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1477543062778544222"
+    },
+    {
+      "id": "weapon-primary-049",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 49,
+      "name": "mika_p90 / 70 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/049-01.webp",
+          "width": 1280,
+          "height": 783
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1482225206062743673"
+    },
+    {
+      "id": "weapon-primary-050",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "machinegun",
+      "order": 50,
+      "name": "hina_mg42(m249) / 80 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/050-01.webp",
+          "width": 1280,
+          "height": 556
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1482225356537856090"
+    },
+    {
+      "id": "weapon-primary-051",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "machinegun",
+      "order": 51,
+      "name": "MG3(m249) / 70 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/051-01.webp",
+          "width": 1280,
+          "height": 508
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1482225462926250006"
+    },
+    {
+      "id": "weapon-primary-052",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "sniper",
+      "order": 52,
+      "name": "codol_m200(awp) / 80 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/052-01.webp",
+          "width": 1280,
+          "height": 585
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487028981789098068"
+    },
+    {
+      "id": "weapon-primary-053",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 53,
+      "name": "area51_p90 / 60 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/053-01.webp",
+          "width": 1280,
+          "height": 767
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029070813200384"
+    },
+    {
+      "id": "weapon-primary-054",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 54,
+      "name": "hnk_mp7 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/054-01.webp",
+          "width": 1088,
+          "height": 758
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029143660007464"
+    },
+    {
+      "id": "weapon-primary-055",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 55,
+      "name": "bnt_mp9 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/055-01.webp",
+          "width": 1149,
+          "height": 864
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029214988472441"
+    },
+    {
+      "id": "weapon-primary-056",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 56,
+      "name": "cod_bizon_silencer / 60 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/056-01.webp",
+          "width": 1280,
+          "height": 546
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029277349249127"
+    },
+    {
+      "id": "weapon-primary-057",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 57,
+      "name": "coldwar_mac10 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/057-01.webp",
+          "width": 1030,
+          "height": 627
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029334479736893"
+    },
+    {
+      "id": "weapon-primary-058",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 58,
+      "name": "ron_mp5 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/058-01.webp",
+          "width": 1280,
+          "height": 638
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1487029384090095646"
+    },
+    {
+      "id": "weapon-primary-059",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 59,
+      "name": "akmkpyk_ak47 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/059-01.webp",
+          "width": 1280,
+          "height": 581
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1490408919762211027"
+    },
+    {
+      "id": "weapon-primary-060",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 60,
+      "name": "cag_hk416_m4a4 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/060-01.webp",
+          "width": 1280,
+          "height": 649
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1490409006907527353"
+    },
+    {
+      "id": "weapon-primary-061",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 61,
+      "name": "urgim4_m4a1 / 50 token",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/061-01.webp",
+          "width": 1280,
+          "height": 593
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1490409067771068506"
+    },
+    {
+      "id": "weapon-primary-062",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 62,
+      "name": "ak47_printstream",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/062-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1500754344541163642"
+    },
+    {
+      "id": "weapon-primary-063",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 63,
+      "name": "m4a1_printstream",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/063-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1500754426028101742"
+    },
+    {
+      "id": "weapon-primary-064",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "rifle",
+      "order": 64,
+      "name": "K2C_ak47",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/064-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1500754474090627212"
+    },
+    {
+      "id": "weapon-primary-065",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 65,
+      "name": "alternate_printstream(mp9)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/065-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1500754704508911688"
+    },
+    {
+      "id": "weapon-primary-066",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "sniper",
+      "order": 66,
+      "name": "izanagis_burden(awp)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/066-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1500754827637162014"
+    },
+    {
+      "id": "weapon-primary-067",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 67,
+      "name": "mp7_racing_muku",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/067-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1510432080968814713"
+    },
+    {
+      "id": "weapon-primary-068",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "smg",
+      "order": 68,
+      "name": "mp9_kanade",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/068-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1510433102604800110"
+    },
+    {
+      "id": "weapon-primary-069",
+      "category": "weapon",
+      "subcategory": "primary",
+      "weaponType": "machinegun",
+      "order": 69,
+      "name": "hl_hyper_negev / Event / sponsor: 千音星璃",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/069-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1516480906326577182"
+    },
+    {
+      "id": "weapon-secondary-001",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 1,
+      "name": "m9_punisher(usp)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/001-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476635703273066516"
+    },
+    {
+      "id": "weapon-secondary-002",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 2,
+      "name": "custom_9mm(glock)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/002-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476636126621208656"
+    },
+    {
+      "id": "weapon-secondary-003",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 3,
+      "name": "deagle_kayoko",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/003-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476636281776902327"
+    },
+    {
+      "id": "weapon-secondary-004",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 4,
+      "name": "elite_miku_1",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/004-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476636669066088448"
+    },
+    {
+      "id": "weapon-secondary-005",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 5,
+      "name": "elite_miku_2",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/005-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476636686439026799"
+    },
+    {
+      "id": "weapon-secondary-006",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 6,
+      "name": "elite_v1",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/006-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476636883235901640"
+    },
+    {
+      "id": "weapon-secondary-007",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 7,
+      "name": "cyber_elite",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/007-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476637269627764766"
+    },
+    {
+      "id": "weapon-secondary-008",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 8,
+      "name": "plana_deagle",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/008-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476637437609513031"
+    },
+    {
+      "id": "weapon-secondary-009",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 9,
+      "name": "aris_elite",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/009-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476641213284356116"
+    },
+    {
+      "id": "weapon-secondary-010",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 10,
+      "name": "bluearchive_usp",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/010-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476641247870587090"
+    },
+    {
+      "id": "weapon-secondary-011",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 11,
+      "name": "firefly_deagle",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/011-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1476641276974600272"
+    },
+    {
+      "id": "weapon-secondary-012",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 12,
+      "name": "forerunner_glock",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/012-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1500754941176713248"
+    },
+    {
+      "id": "weapon-secondary-013",
+      "category": "weapon",
+      "subcategory": "secondary",
+      "weaponType": null,
+      "order": 13,
+      "name": "ups_sussurro",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/013-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1510433445590073495"
+    },
+    {
+      "id": "weapon-melee-001",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 1,
+      "name": "karambit_reaver",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/001-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629327155302411"
+    },
+    {
+      "id": "weapon-melee-002",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 2,
+      "name": "banana_kukri",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/002-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629387985027224"
+    },
+    {
+      "id": "weapon-melee-003",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 3,
+      "name": "m9_bayonet",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/003-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629494482604259"
+    },
+    {
+      "id": "weapon-melee-004",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 4,
+      "name": "minecraft_sword",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/004-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629559314219069"
+    },
+    {
+      "id": "weapon-melee-005",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 5,
+      "name": "minecraft_axe",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/005-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629658417234093"
+    },
+    {
+      "id": "weapon-melee-006",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 6,
+      "name": "hsr_trailblazer_bat",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/006-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629712246804481"
+    },
+    {
+      "id": "weapon-melee-007",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 7,
+      "name": "baguette",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/007-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629790378168481"
+    },
+    {
+      "id": "weapon-melee-008",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 8,
+      "name": "cosmicmerc_karambit",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/008-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629873329045534"
+    },
+    {
+      "id": "weapon-melee-009",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 9,
+      "name": "cosmicmerc_karambit_yellow",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/009-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629895307071610"
+    },
+    {
+      "id": "weapon-melee-010",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 10,
+      "name": "karambit_icefire / token 80",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/010-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629929511620648"
+    },
+    {
+      "id": "weapon-melee-011",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 11,
+      "name": "bangalore_kukri",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/011-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476629975053504544"
+    },
+    {
+      "id": "weapon-melee-012",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 12,
+      "name": "bangalore_kukri_green",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/012-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630020611903598"
+    },
+    {
+      "id": "weapon-melee-013",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 13,
+      "name": "butterfly_galaxy_ruby",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/013-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630094100435128"
+    },
+    {
+      "id": "weapon-melee-014",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 14,
+      "name": "butterfly_galaxy_sapphire",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/014-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630124232183808"
+    },
+    {
+      "id": "weapon-melee-015",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 15,
+      "name": "lollipop",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/015-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630146873032856"
+    },
+    {
+      "id": "weapon-melee-016",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 16,
+      "name": "classic_css_knife",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/016-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630501350572185"
+    },
+    {
+      "id": "weapon-melee-017",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 17,
+      "name": "cyberpunk_classic_knife",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/017-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630552952963275"
+    },
+    {
+      "id": "weapon-melee-018",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 18,
+      "name": "BA_shiroko_m9",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/018-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630603318296741"
+    },
+    {
+      "id": "weapon-melee-019",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 19,
+      "name": "skadi_skeleton_knife",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/019-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630653733834792"
+    },
+    {
+      "id": "weapon-melee-020",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 20,
+      "name": "murasama",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/020-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630690341589053"
+    },
+    {
+      "id": "weapon-melee-021",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 21,
+      "name": "keqing_bayonet",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/021-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630733056643146"
+    },
+    {
+      "id": "weapon-melee-022",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 22,
+      "name": "shinobu_knife",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/022-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630764853657850"
+    },
+    {
+      "id": "weapon-melee-023",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 23,
+      "name": "ganyu_karambit",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/023-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630801352364136"
+    },
+    {
+      "id": "weapon-melee-024",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 24,
+      "name": "ganyu_talon",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/024-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630829647266026"
+    },
+    {
+      "id": "weapon-melee-025",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 25,
+      "name": "skadi_butterfly",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/025-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630893513937017"
+    },
+    {
+      "id": "weapon-melee-026",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 26,
+      "name": "hiro_butterfly",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/026-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630923909927024"
+    },
+    {
+      "id": "weapon-melee-027",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 27,
+      "name": "steel_fan",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/027-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630953311994017"
+    },
+    {
+      "id": "weapon-melee-028",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 28,
+      "name": "icecream_blade / token 70",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/028-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476630983959773218"
+    },
+    {
+      "id": "weapon-melee-029",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 29,
+      "name": "dragon_knife(cord)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/029-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476631024804036628"
+    },
+    {
+      "id": "weapon-melee-030",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 30,
+      "name": "nacho_tactical",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/030-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476631084337725663"
+    },
+    {
+      "id": "weapon-melee-031",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 31,
+      "name": "mika_butterfly",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/031-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476631368497758312"
+    },
+    {
+      "id": "weapon-melee-032",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 32,
+      "name": "splinks(shadow)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/032-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476631413271957505"
+    },
+    {
+      "id": "weapon-melee-033",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 33,
+      "name": "mita_knife(tactical)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/033-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476640659678040285"
+    },
+    {
+      "id": "weapon-melee-034",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 34,
+      "name": "aemeath_knife(bowie)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/034-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476640820902887524"
+    },
+    {
+      "id": "weapon-melee-035",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 35,
+      "name": "bang_dream_flip",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/035-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476640869342908416"
+    },
+    {
+      "id": "weapon-melee-036",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 36,
+      "name": "broken_kukri",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/036-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1476644732510666883"
+    },
+    {
+      "id": "weapon-melee-037",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 37,
+      "name": "fish_ursus / token 60",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/037-01.gif",
+          "width": 800,
+          "height": 450
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1492462412865998918"
+    },
+    {
+      "id": "weapon-melee-038",
+      "category": "weapon",
+      "subcategory": "melee",
+      "weaponType": null,
+      "order": 38,
+      "name": "datastream_huntsman",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/038-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1500757553083318352"
+    },
+    {
+      "id": "weapon-throwable-001",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 1,
+      "name": "doro / token 30",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/001-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1476641896771354799"
+    },
+    {
+      "id": "weapon-throwable-002",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 2,
+      "name": "fb_padoru / token 30",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/002-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1476641931680546917"
+    },
+    {
+      "id": "weapon-throwable-003",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 3,
+      "name": "fb_monster / token 30",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/003-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1476641955126710455"
+    },
+    {
+      "id": "weapon-throwable-004",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 4,
+      "name": "christmas_pl(event) / event",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/004-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1476641979860390129"
+    },
+    {
+      "id": "weapon-throwable-005",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 5,
+      "name": "meowl_sapper / token 30",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/005-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1492461336435753103"
+    },
+    {
+      "id": "weapon-throwable-006",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 6,
+      "name": "maxwell / token 30",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/006-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1492461386821795990"
+    },
+    {
+      "id": "weapon-throwable-007",
+      "category": "weapon",
+      "subcategory": "throwable",
+      "weaponType": null,
+      "order": 7,
+      "name": "kirby (grenade)",
+      "nameKo": "",
+      "media": [
+        {
+          "type": "video",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/007-01.mp4",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1500755051722047580"
+    }
+  ]
+}
