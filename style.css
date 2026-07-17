@@ -1201,14 +1201,6 @@ button.back-to-top:focus-visible{border-color:var(--accent); background:rgba(21,
   color:var(--muted);
   font-size:12px;
 }
-.skin-category-path{
-  display:block;
-  margin-top:3px;
-  color:var(--accent);
-  font-size:10px;
-  font-weight:750;
-}
-
 .skin-actions{
   display:flex;
   align-items:center;

@@ -1653,10 +1653,6 @@ function createSkinCard(item, index) {
   const heading = document.createElement("h3");
   heading.textContent = getSkinDisplayName(item);
   names.appendChild(heading);
-  const category = document.createElement("span");
-  category.className = "skin-category-path";
-  category.textContent = getSkinPathLabel(item);
-  names.appendChild(category);
 
   const actions = document.createElement("div");
   actions.className = "skin-actions";
