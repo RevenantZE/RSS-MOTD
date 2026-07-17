@@ -161,5 +161,5 @@ const output = {
   items
 };
 
-await writeFile(new URL("../news.json", import.meta.url), `${JSON.stringify(output, null, 2)}\n`, "utf8");
+await writeFile(new URL("../data/news.json", import.meta.url), `${JSON.stringify(output, null, 2)}\n`, "utf8");
 console.log(`Synced ${items.length} Discord announcements from ${channels.length} channels.`);

@@ -99,7 +99,7 @@
         { "type": "spacer" },
         {
           "type": "image",
-          "src": "guide_image/console_howto.jpg",
+          "src": "assets/images/guide/console_howto.jpg",
           "alt": {
             "ko": "콘솔 여는 방법",
             "en": "How to open console",

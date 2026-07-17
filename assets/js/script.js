@@ -1,5 +1,5 @@
 
-import { getChoseong } from "./vendor/es-hangul.mjs";
+import { getChoseong } from "../../vendor/es-hangul.mjs";
 
 // 1. 탭 전환 및 URL 해시 지원
 const DEFAULT_LANG = "ko";
@@ -101,6 +101,7 @@ const FAQ_FALLBACK = {
   ]
 };
 const scriptBase = new URL("./", import.meta.url);
+const siteBase = new URL("./", document.baseURI);
 
 function readStorage(key, fallback = "") {
   try {
@@ -128,7 +129,7 @@ function readStoredArray(key) {
 }
 
 function assetUrl(filename) {
-  return new URL(filename, scriptBase).toString();
+  return new URL(filename, siteBase).toString();
 }
 function getJsonCandidateUrls(filename) {
   const candidates = new Set();
@@ -834,7 +835,7 @@ async function loadFaq() {
   if (!faqList) return;
 
   try {
-    faqData = await fetchJsonWithFallback("faq.json");
+    faqData = await fetchJsonWithFallback("data/faq.json");
     setContentUpdatedAt("faqLastUpdate", faqData);
     renderFaq();
     renderGlobalSearch();
@@ -843,7 +844,7 @@ async function loadFaq() {
     faqData = FAQ_FALLBACK;
     setContentUpdatedAt("faqLastUpdate", faqData);
     renderFaq();
-    faqList.title = `faq.json load failed: ${err.message}`;
+    faqList.title = `data/faq.json load failed: ${err.message}`;
   }
 }
 
@@ -1067,15 +1068,15 @@ async function loadCommandGuide() {
   if (!guide) return;
 
   try {
-    commandGuideData = await fetchJsonWithFallback("commands.json");
+    commandGuideData = await fetchJsonWithFallback("data/commands.json");
     setContentUpdatedAt("commandLastUpdate", commandGuideData);
     renderCommandGuide();
     if (faqData) renderFaq();
     renderGlobalSearch();
   } catch (err) {
     console.error("command guide load failed:", err);
-    guide.textContent = "Failed to load commands.json";
-    guide.title = `commands.json load failed: ${err.message}`;
+    guide.textContent = "Failed to load data/commands.json";
+    guide.title = `data/commands.json load failed: ${err.message}`;
   }
 }
 
@@ -1184,14 +1185,14 @@ async function loadTermGuide() {
   if (!guide) return;
 
   try {
-    termGuideData = await fetchJsonWithFallback("terms.json");
+    termGuideData = await fetchJsonWithFallback("data/terms.json");
     setContentUpdatedAt("termLastUpdate", termGuideData);
     renderTermGuide();
     renderGlobalSearch();
   } catch (err) {
     console.error("term guide load failed:", err);
     guide.textContent = window.LANG?.[getCurrentLang()]?.term_unavailable || "Glossary unavailable";
-    guide.title = `terms.json load failed: ${err.message}`;
+    guide.title = `data/terms.json load failed: ${err.message}`;
   }
 }
 
@@ -1336,13 +1337,13 @@ document.addEventListener("click", event => {
 
 window.addEventListener("load", loadTermGuide);
 
-// 7. Discord announcements from news.json
+// 7. Discord announcements from data/news.json
 async function loadNews() {
   const list = document.getElementById("newsList");
   if (!list) return;
 
   try {
-    newsData = await fetchJsonWithFallback("news.json");
+    newsData = await fetchJsonWithFallback("data/news.json");
     const updatedAt = document.getElementById("newsLastUpdate");
     if (updatedAt) updatedAt.textContent = formatNewsDate(newsData.updatedAt) || "-";
     renderNews();
@@ -1352,7 +1353,7 @@ async function loadNews() {
     newsData = { updatedAt: "", items: [] };
     renderNews();
     renderGlobalSearch();
-    list.title = `news.json load failed: ${err.message}`;
+    list.title = `data/news.json load failed: ${err.message}`;
   }
 }
 
@@ -1494,13 +1495,13 @@ function renderNews() {
 
 window.addEventListener("load", loadNews);
 
-// 8. Human skin preview gallery from skins.json
+// 8. Skin preview gallery from data/skins.json
 async function loadSkins() {
   const grid = document.getElementById("skinGrid");
   if (!grid) return;
 
   try {
-    skinData = await fetchJsonWithFallback("skins.json");
+    skinData = await fetchJsonWithFallback("data/skins.json");
     skinCardsRendered = false;
     const updatedAt = document.getElementById("skinLastUpdate");
     if (updatedAt) updatedAt.textContent = formatNewsDate(skinData.updatedAt) || "-";
@@ -1510,7 +1511,7 @@ async function loadSkins() {
     skinData = { updatedAt: "", items: [] };
     skinCardsRendered = false;
     if (document.body.dataset.activeTab === "skins") renderSkins();
-    grid.title = `skins.json load failed: ${err.message}`;
+    grid.title = `data/skins.json load failed: ${err.message}`;
   }
 }
 

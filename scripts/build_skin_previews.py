@@ -11,8 +11,8 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_DIR = ROOT / "skin_images"
-OUTPUT_JSON = ROOT / "skins.json"
+OUTPUT_DIR = ROOT / "assets" / "skins"
+OUTPUT_JSON = ROOT / "data" / "skins.json"
 BUILD_VERSION = "skin-catalog-v2-webp-q82-max800-1280"
 BUILD_VERSION_FILE = OUTPUT_DIR / ".build-version"
 VIDEO_SUFFIXES = {".mp4", ".webm", ".mov"}

@@ -71,14 +71,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/001-third.webp",
+          "src": "assets/skins/001-third.webp",
           "width": 800,
           "height": 898
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/001-first.webp",
+          "src": "assets/skins/001-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -96,14 +96,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/002-third.webp",
+          "src": "assets/skins/002-third.webp",
           "width": 800,
           "height": 1031
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/002-first.webp",
+          "src": "assets/skins/002-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -121,14 +121,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/003-third.webp",
+          "src": "assets/skins/003-third.webp",
           "width": 800,
           "height": 999
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/003-first.webp",
+          "src": "assets/skins/003-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -146,14 +146,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/004-third.webp",
+          "src": "assets/skins/004-third.webp",
           "width": 800,
           "height": 1039
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/004-first.webp",
+          "src": "assets/skins/004-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -171,14 +171,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/005-third.webp",
+          "src": "assets/skins/005-third.webp",
           "width": 800,
           "height": 987
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/005-first.webp",
+          "src": "assets/skins/005-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -196,14 +196,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/006-third.webp",
+          "src": "assets/skins/006-third.webp",
           "width": 800,
           "height": 904
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/006-first.webp",
+          "src": "assets/skins/006-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -221,14 +221,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/007-third.webp",
+          "src": "assets/skins/007-third.webp",
           "width": 800,
           "height": 953
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/007-first.webp",
+          "src": "assets/skins/007-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -246,14 +246,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/008-third.webp",
+          "src": "assets/skins/008-third.webp",
           "width": 800,
           "height": 1063
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/008-first.webp",
+          "src": "assets/skins/008-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -271,14 +271,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/009-third.webp",
+          "src": "assets/skins/009-third.webp",
           "width": 800,
           "height": 901
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/009-first.webp",
+          "src": "assets/skins/009-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -296,14 +296,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/010-third.webp",
+          "src": "assets/skins/010-third.webp",
           "width": 800,
           "height": 838
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/010-first.webp",
+          "src": "assets/skins/010-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -321,14 +321,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/011-third.webp",
+          "src": "assets/skins/011-third.webp",
           "width": 800,
           "height": 1026
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/011-first.webp",
+          "src": "assets/skins/011-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -346,14 +346,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/012-third.webp",
+          "src": "assets/skins/012-third.webp",
           "width": 800,
           "height": 854
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/012-first.webp",
+          "src": "assets/skins/012-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -371,14 +371,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/013-third.webp",
+          "src": "assets/skins/013-third.webp",
           "width": 800,
           "height": 983
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/013-first.webp",
+          "src": "assets/skins/013-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -396,14 +396,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/014-third.webp",
+          "src": "assets/skins/014-third.webp",
           "width": 800,
           "height": 931
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/014-first.webp",
+          "src": "assets/skins/014-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -421,14 +421,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/015-third.webp",
+          "src": "assets/skins/015-third.webp",
           "width": 800,
           "height": 959
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/015-first.webp",
+          "src": "assets/skins/015-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -446,14 +446,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/016-third.webp",
+          "src": "assets/skins/016-third.webp",
           "width": 800,
           "height": 781
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/016-first.webp",
+          "src": "assets/skins/016-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -471,14 +471,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/017-third.webp",
+          "src": "assets/skins/017-third.webp",
           "width": 800,
           "height": 1066
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/017-first.webp",
+          "src": "assets/skins/017-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -496,14 +496,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/018-third.webp",
+          "src": "assets/skins/018-third.webp",
           "width": 800,
           "height": 830
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/018-first.webp",
+          "src": "assets/skins/018-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -521,14 +521,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/019-third.webp",
+          "src": "assets/skins/019-third.webp",
           "width": 800,
           "height": 833
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/019-first.webp",
+          "src": "assets/skins/019-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -546,14 +546,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/020-third.webp",
+          "src": "assets/skins/020-third.webp",
           "width": 800,
           "height": 923
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/020-first.webp",
+          "src": "assets/skins/020-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -571,14 +571,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/021-third.webp",
+          "src": "assets/skins/021-third.webp",
           "width": 800,
           "height": 1048
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/021-first.webp",
+          "src": "assets/skins/021-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -596,14 +596,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/022-third.webp",
+          "src": "assets/skins/022-third.webp",
           "width": 800,
           "height": 945
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/022-first.webp",
+          "src": "assets/skins/022-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -621,14 +621,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/023-third.webp",
+          "src": "assets/skins/023-third.webp",
           "width": 800,
           "height": 1066
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/023-first.webp",
+          "src": "assets/skins/023-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -646,14 +646,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/024-third.webp",
+          "src": "assets/skins/024-third.webp",
           "width": 800,
           "height": 941
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/024-first.webp",
+          "src": "assets/skins/024-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -671,14 +671,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/025-third.webp",
+          "src": "assets/skins/025-third.webp",
           "width": 800,
           "height": 978
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/025-first.webp",
+          "src": "assets/skins/025-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -696,14 +696,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/026-third.webp",
+          "src": "assets/skins/026-third.webp",
           "width": 736,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/026-first.webp",
+          "src": "assets/skins/026-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -721,14 +721,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/027-third.webp",
+          "src": "assets/skins/027-third.webp",
           "width": 800,
           "height": 1017
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/027-first.webp",
+          "src": "assets/skins/027-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -746,14 +746,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/028-third.webp",
+          "src": "assets/skins/028-third.webp",
           "width": 800,
           "height": 1038
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/028-first.webp",
+          "src": "assets/skins/028-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -771,14 +771,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/029-third.webp",
+          "src": "assets/skins/029-third.webp",
           "width": 800,
           "height": 1034
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/029-first.webp",
+          "src": "assets/skins/029-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -796,14 +796,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/030-third.webp",
+          "src": "assets/skins/030-third.webp",
           "width": 765,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/030-first.webp",
+          "src": "assets/skins/030-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -821,14 +821,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/031-third.webp",
+          "src": "assets/skins/031-third.webp",
           "width": 800,
           "height": 956
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/031-first.webp",
+          "src": "assets/skins/031-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -846,14 +846,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/032-third.webp",
+          "src": "assets/skins/032-third.webp",
           "width": 800,
           "height": 974
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/032-first.webp",
+          "src": "assets/skins/032-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -871,14 +871,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/033-third.webp",
+          "src": "assets/skins/033-third.webp",
           "width": 800,
           "height": 978
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/033-first.webp",
+          "src": "assets/skins/033-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -896,14 +896,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/034-third.webp",
+          "src": "assets/skins/034-third.webp",
           "width": 800,
           "height": 1046
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/034-first.webp",
+          "src": "assets/skins/034-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -921,14 +921,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/035-third.webp",
+          "src": "assets/skins/035-third.webp",
           "width": 800,
           "height": 1018
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/035-first.webp",
+          "src": "assets/skins/035-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -946,14 +946,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/036-third.webp",
+          "src": "assets/skins/036-third.webp",
           "width": 800,
           "height": 1018
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/036-first.webp",
+          "src": "assets/skins/036-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -971,14 +971,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/037-third.webp",
+          "src": "assets/skins/037-third.webp",
           "width": 798,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/037-first.webp",
+          "src": "assets/skins/037-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -996,14 +996,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/038-third.webp",
+          "src": "assets/skins/038-third.webp",
           "width": 795,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/038-first.webp",
+          "src": "assets/skins/038-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1021,14 +1021,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/039-third.webp",
+          "src": "assets/skins/039-third.webp",
           "width": 693,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/039-first.webp",
+          "src": "assets/skins/039-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1046,14 +1046,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/040-third.webp",
+          "src": "assets/skins/040-third.webp",
           "width": 800,
           "height": 1060
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/040-first.webp",
+          "src": "assets/skins/040-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1071,14 +1071,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/041-third.webp",
+          "src": "assets/skins/041-third.webp",
           "width": 800,
           "height": 959
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/041-first.webp",
+          "src": "assets/skins/041-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1096,14 +1096,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/042-third.webp",
+          "src": "assets/skins/042-third.webp",
           "width": 800,
           "height": 912
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/042-first.webp",
+          "src": "assets/skins/042-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1121,14 +1121,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/043-third.webp",
+          "src": "assets/skins/043-third.webp",
           "width": 800,
           "height": 843
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/043-first.webp",
+          "src": "assets/skins/043-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1146,14 +1146,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/044-third.webp",
+          "src": "assets/skins/044-third.webp",
           "width": 800,
           "height": 1014
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/044-first.webp",
+          "src": "assets/skins/044-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1171,14 +1171,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/045-third.webp",
+          "src": "assets/skins/045-third.webp",
           "width": 800,
           "height": 1016
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/045-first.webp",
+          "src": "assets/skins/045-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1196,14 +1196,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/046-third.webp",
+          "src": "assets/skins/046-third.webp",
           "width": 800,
           "height": 930
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/046-first.webp",
+          "src": "assets/skins/046-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1221,14 +1221,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/047-third.webp",
+          "src": "assets/skins/047-third.webp",
           "width": 800,
           "height": 928
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/047-first.webp",
+          "src": "assets/skins/047-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1246,14 +1246,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/048-third.webp",
+          "src": "assets/skins/048-third.webp",
           "width": 742,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/048-first.webp",
+          "src": "assets/skins/048-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1271,14 +1271,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/049-third.webp",
+          "src": "assets/skins/049-third.webp",
           "width": 755,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/049-first.webp",
+          "src": "assets/skins/049-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1296,14 +1296,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/050-third.webp",
+          "src": "assets/skins/050-third.webp",
           "width": 800,
           "height": 1034
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/050-first.webp",
+          "src": "assets/skins/050-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1321,14 +1321,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/051-third.webp",
+          "src": "assets/skins/051-third.webp",
           "width": 800,
           "height": 906
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/051-first.webp",
+          "src": "assets/skins/051-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1346,14 +1346,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/052-third.webp",
+          "src": "assets/skins/052-third.webp",
           "width": 780,
           "height": 1077
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/052-first.webp",
+          "src": "assets/skins/052-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1371,14 +1371,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/053-third.webp",
+          "src": "assets/skins/053-third.webp",
           "width": 800,
           "height": 941
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/053-first.webp",
+          "src": "assets/skins/053-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1396,14 +1396,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/054-third.webp",
+          "src": "assets/skins/054-third.webp",
           "width": 800,
           "height": 994
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/054-first.webp",
+          "src": "assets/skins/054-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1421,14 +1421,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/055-third.webp",
+          "src": "assets/skins/055-third.webp",
           "width": 792,
           "height": 1077
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/055-first.webp",
+          "src": "assets/skins/055-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1446,14 +1446,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/056-third.webp",
+          "src": "assets/skins/056-third.webp",
           "width": 800,
           "height": 1006
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/056-first.webp",
+          "src": "assets/skins/056-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1471,14 +1471,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/057-third.webp",
+          "src": "assets/skins/057-third.webp",
           "width": 800,
           "height": 1022
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/057-first.webp",
+          "src": "assets/skins/057-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1496,14 +1496,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/058-third.webp",
+          "src": "assets/skins/058-third.webp",
           "width": 800,
           "height": 1049
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/058-first.webp",
+          "src": "assets/skins/058-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1521,14 +1521,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/059-third.webp",
+          "src": "assets/skins/059-third.webp",
           "width": 800,
           "height": 959
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/059-first.webp",
+          "src": "assets/skins/059-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1546,14 +1546,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/060-third.webp",
+          "src": "assets/skins/060-third.webp",
           "width": 800,
           "height": 1039
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/060-first.webp",
+          "src": "assets/skins/060-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1571,14 +1571,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/061-third.webp",
+          "src": "assets/skins/061-third.webp",
           "width": 800,
           "height": 997
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/061-first.webp",
+          "src": "assets/skins/061-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1596,14 +1596,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/062-third.webp",
+          "src": "assets/skins/062-third.webp",
           "width": 710,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/062-first.webp",
+          "src": "assets/skins/062-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1621,14 +1621,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/063-third.webp",
+          "src": "assets/skins/063-third.webp",
           "width": 800,
           "height": 869
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/063-first.webp",
+          "src": "assets/skins/063-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1646,14 +1646,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/064-third.webp",
+          "src": "assets/skins/064-third.webp",
           "width": 800,
           "height": 1029
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/064-first.webp",
+          "src": "assets/skins/064-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1671,14 +1671,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/065-third.webp",
+          "src": "assets/skins/065-third.webp",
           "width": 800,
           "height": 994
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/065-first.webp",
+          "src": "assets/skins/065-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1696,14 +1696,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/066-third.webp",
+          "src": "assets/skins/066-third.webp",
           "width": 800,
           "height": 1031
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/066-first.webp",
+          "src": "assets/skins/066-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1721,14 +1721,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/067-third.webp",
+          "src": "assets/skins/067-third.webp",
           "width": 786,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/067-first.webp",
+          "src": "assets/skins/067-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1746,14 +1746,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/068-third.webp",
+          "src": "assets/skins/068-third.webp",
           "width": 701,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/068-first.webp",
+          "src": "assets/skins/068-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1771,14 +1771,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/069-third.webp",
+          "src": "assets/skins/069-third.webp",
           "width": 800,
           "height": 1007
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/069-first.webp",
+          "src": "assets/skins/069-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1796,14 +1796,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/070-third.webp",
+          "src": "assets/skins/070-third.webp",
           "width": 800,
           "height": 919
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/070-first.webp",
+          "src": "assets/skins/070-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1821,14 +1821,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/071-third.webp",
+          "src": "assets/skins/071-third.webp",
           "width": 800,
           "height": 1049
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/071-first.webp",
+          "src": "assets/skins/071-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1846,14 +1846,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/072-third.webp",
+          "src": "assets/skins/072-third.webp",
           "width": 800,
           "height": 991
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/072-first.webp",
+          "src": "assets/skins/072-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1871,14 +1871,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/073-third.webp",
+          "src": "assets/skins/073-third.webp",
           "width": 800,
           "height": 1049
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/073-first.webp",
+          "src": "assets/skins/073-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1896,14 +1896,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/074-third.webp",
+          "src": "assets/skins/074-third.webp",
           "width": 800,
           "height": 998
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/074-first.webp",
+          "src": "assets/skins/074-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1921,14 +1921,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/075-third.webp",
+          "src": "assets/skins/075-third.webp",
           "width": 800,
           "height": 1028
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/075-first.webp",
+          "src": "assets/skins/075-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1946,14 +1946,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/076-third.webp",
+          "src": "assets/skins/076-third.webp",
           "width": 800,
           "height": 913
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/076-first.webp",
+          "src": "assets/skins/076-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1971,14 +1971,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/077-third.webp",
+          "src": "assets/skins/077-third.webp",
           "width": 800,
           "height": 937
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/077-first.webp",
+          "src": "assets/skins/077-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -1996,14 +1996,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/078-third.webp",
+          "src": "assets/skins/078-third.webp",
           "width": 800,
           "height": 969
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/078-first.webp",
+          "src": "assets/skins/078-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2021,14 +2021,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/079-third.webp",
+          "src": "assets/skins/079-third.webp",
           "width": 800,
           "height": 963
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/079-first.webp",
+          "src": "assets/skins/079-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2046,14 +2046,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/080-third.webp",
+          "src": "assets/skins/080-third.webp",
           "width": 800,
           "height": 1020
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/080-first.webp",
+          "src": "assets/skins/080-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2071,14 +2071,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/081-third.webp",
+          "src": "assets/skins/081-third.webp",
           "width": 800,
           "height": 1030
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/081-first.webp",
+          "src": "assets/skins/081-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2096,14 +2096,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/082-third.webp",
+          "src": "assets/skins/082-third.webp",
           "width": 783,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/082-first.webp",
+          "src": "assets/skins/082-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2121,14 +2121,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/083-third.webp",
+          "src": "assets/skins/083-third.webp",
           "width": 795,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/083-first.webp",
+          "src": "assets/skins/083-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2146,14 +2146,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/084-third.webp",
+          "src": "assets/skins/084-third.webp",
           "width": 755,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/084-first.webp",
+          "src": "assets/skins/084-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2171,14 +2171,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/085-third.webp",
+          "src": "assets/skins/085-third.webp",
           "width": 680,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/085-first.webp",
+          "src": "assets/skins/085-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2196,14 +2196,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/086-third.webp",
+          "src": "assets/skins/086-third.webp",
           "width": 800,
           "height": 1020
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/086-first.webp",
+          "src": "assets/skins/086-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2221,14 +2221,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/087-third.webp",
+          "src": "assets/skins/087-third.webp",
           "width": 800,
           "height": 832
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/087-first.webp",
+          "src": "assets/skins/087-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2246,14 +2246,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/088-third.webp",
+          "src": "assets/skins/088-third.webp",
           "width": 800,
           "height": 915
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/088-first.webp",
+          "src": "assets/skins/088-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2271,14 +2271,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/089-third.webp",
+          "src": "assets/skins/089-third.webp",
           "width": 743,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/089-first.webp",
+          "src": "assets/skins/089-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2296,14 +2296,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/090-third.webp",
+          "src": "assets/skins/090-third.webp",
           "width": 800,
           "height": 988
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/090-first.webp",
+          "src": "assets/skins/090-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2321,14 +2321,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/001-third.webp",
+          "src": "assets/skins/zombie/001-third.webp",
           "width": 800,
           "height": 960
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/001-first.webp",
+          "src": "assets/skins/zombie/001-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2346,14 +2346,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/002-third.webp",
+          "src": "assets/skins/zombie/002-third.webp",
           "width": 800,
           "height": 879
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/002-first.webp",
+          "src": "assets/skins/zombie/002-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2371,14 +2371,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/003-third.webp",
+          "src": "assets/skins/zombie/003-third.webp",
           "width": 800,
           "height": 1013
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/003-first.webp",
+          "src": "assets/skins/zombie/003-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2396,14 +2396,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/004-third.webp",
+          "src": "assets/skins/zombie/004-third.webp",
           "width": 800,
           "height": 985
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/004-first.webp",
+          "src": "assets/skins/zombie/004-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2421,14 +2421,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/005-third.webp",
+          "src": "assets/skins/zombie/005-third.webp",
           "width": 775,
           "height": 1079
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/005-first.webp",
+          "src": "assets/skins/zombie/005-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2446,14 +2446,14 @@
         {
           "type": "image",
           "role": "thirdPerson",
-          "src": "skin_images/zombie/006-third.webp",
+          "src": "assets/skins/zombie/006-third.webp",
           "width": 800,
           "height": 1013
         },
         {
           "type": "image",
           "role": "firstPerson",
-          "src": "skin_images/zombie/006-first.webp",
+          "src": "assets/skins/zombie/006-first.webp",
           "width": 1280,
           "height": 720
         }
@@ -2472,7 +2472,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/001-01.webp",
+          "src": "assets/skins/weapon/primary/001-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2491,7 +2491,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/002-01.webp",
+          "src": "assets/skins/weapon/primary/002-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2510,7 +2510,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/003-01.webp",
+          "src": "assets/skins/weapon/primary/003-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2529,7 +2529,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/004-01.webp",
+          "src": "assets/skins/weapon/primary/004-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2548,7 +2548,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/005-01.webp",
+          "src": "assets/skins/weapon/primary/005-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2567,7 +2567,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/006-01.webp",
+          "src": "assets/skins/weapon/primary/006-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2586,7 +2586,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/007-01.webp",
+          "src": "assets/skins/weapon/primary/007-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2605,7 +2605,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/008-01.webp",
+          "src": "assets/skins/weapon/primary/008-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2624,7 +2624,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/009-01.webp",
+          "src": "assets/skins/weapon/primary/009-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2643,7 +2643,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/010-01.webp",
+          "src": "assets/skins/weapon/primary/010-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2662,7 +2662,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/011-01.webp",
+          "src": "assets/skins/weapon/primary/011-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2681,7 +2681,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/012-01.webp",
+          "src": "assets/skins/weapon/primary/012-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2700,7 +2700,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/013-01.webp",
+          "src": "assets/skins/weapon/primary/013-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2719,7 +2719,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/014-01.webp",
+          "src": "assets/skins/weapon/primary/014-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2738,7 +2738,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/015-01.webp",
+          "src": "assets/skins/weapon/primary/015-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2757,7 +2757,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/016-01.webp",
+          "src": "assets/skins/weapon/primary/016-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2776,7 +2776,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/017-01.webp",
+          "src": "assets/skins/weapon/primary/017-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2795,7 +2795,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/018-01.webp",
+          "src": "assets/skins/weapon/primary/018-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2814,7 +2814,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/019-01.webp",
+          "src": "assets/skins/weapon/primary/019-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2833,7 +2833,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/020-01.webp",
+          "src": "assets/skins/weapon/primary/020-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2852,7 +2852,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/021-01.webp",
+          "src": "assets/skins/weapon/primary/021-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2871,7 +2871,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/022-01.webp",
+          "src": "assets/skins/weapon/primary/022-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2890,7 +2890,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/023-01.webp",
+          "src": "assets/skins/weapon/primary/023-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2909,7 +2909,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/024-01.webp",
+          "src": "assets/skins/weapon/primary/024-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2928,7 +2928,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/025-01.webp",
+          "src": "assets/skins/weapon/primary/025-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2947,7 +2947,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/026-01.webp",
+          "src": "assets/skins/weapon/primary/026-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2966,7 +2966,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/027-01.webp",
+          "src": "assets/skins/weapon/primary/027-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -2985,7 +2985,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/028-01.webp",
+          "src": "assets/skins/weapon/primary/028-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3004,7 +3004,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/029-01.webp",
+          "src": "assets/skins/weapon/primary/029-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3023,7 +3023,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/030-01.webp",
+          "src": "assets/skins/weapon/primary/030-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3042,7 +3042,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/031-01.webp",
+          "src": "assets/skins/weapon/primary/031-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3061,7 +3061,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/032-01.webp",
+          "src": "assets/skins/weapon/primary/032-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3080,7 +3080,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/033-01.webp",
+          "src": "assets/skins/weapon/primary/033-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3099,7 +3099,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/034-01.webp",
+          "src": "assets/skins/weapon/primary/034-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3118,7 +3118,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/035-01.webp",
+          "src": "assets/skins/weapon/primary/035-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3137,7 +3137,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/036-01.webp",
+          "src": "assets/skins/weapon/primary/036-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3156,7 +3156,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/037-01.webp",
+          "src": "assets/skins/weapon/primary/037-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3175,7 +3175,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/038-01.webp",
+          "src": "assets/skins/weapon/primary/038-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3194,7 +3194,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/039-01.webp",
+          "src": "assets/skins/weapon/primary/039-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3213,7 +3213,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/040-01.webp",
+          "src": "assets/skins/weapon/primary/040-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3232,7 +3232,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/041-01.webp",
+          "src": "assets/skins/weapon/primary/041-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3251,7 +3251,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/042-01.webp",
+          "src": "assets/skins/weapon/primary/042-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3270,7 +3270,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/043-01.webp",
+          "src": "assets/skins/weapon/primary/043-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3289,7 +3289,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/044-01.webp",
+          "src": "assets/skins/weapon/primary/044-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3308,7 +3308,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/045-01.webp",
+          "src": "assets/skins/weapon/primary/045-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3327,7 +3327,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/046-01.webp",
+          "src": "assets/skins/weapon/primary/046-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3346,7 +3346,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/047-01.webp",
+          "src": "assets/skins/weapon/primary/047-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3365,7 +3365,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/048-01.webp",
+          "src": "assets/skins/weapon/primary/048-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3384,7 +3384,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/049-01.webp",
+          "src": "assets/skins/weapon/primary/049-01.webp",
           "width": 1280,
           "height": 783
         }
@@ -3403,7 +3403,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/050-01.webp",
+          "src": "assets/skins/weapon/primary/050-01.webp",
           "width": 1280,
           "height": 556
         }
@@ -3422,7 +3422,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/051-01.webp",
+          "src": "assets/skins/weapon/primary/051-01.webp",
           "width": 1280,
           "height": 508
         }
@@ -3441,7 +3441,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/052-01.webp",
+          "src": "assets/skins/weapon/primary/052-01.webp",
           "width": 1280,
           "height": 585
         }
@@ -3460,7 +3460,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/053-01.webp",
+          "src": "assets/skins/weapon/primary/053-01.webp",
           "width": 1280,
           "height": 767
         }
@@ -3479,7 +3479,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/054-01.webp",
+          "src": "assets/skins/weapon/primary/054-01.webp",
           "width": 1088,
           "height": 758
         }
@@ -3498,7 +3498,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/055-01.webp",
+          "src": "assets/skins/weapon/primary/055-01.webp",
           "width": 1149,
           "height": 864
         }
@@ -3517,7 +3517,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/056-01.webp",
+          "src": "assets/skins/weapon/primary/056-01.webp",
           "width": 1280,
           "height": 546
         }
@@ -3536,7 +3536,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/057-01.webp",
+          "src": "assets/skins/weapon/primary/057-01.webp",
           "width": 1030,
           "height": 627
         }
@@ -3555,7 +3555,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/058-01.webp",
+          "src": "assets/skins/weapon/primary/058-01.webp",
           "width": 1280,
           "height": 638
         }
@@ -3574,7 +3574,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/059-01.webp",
+          "src": "assets/skins/weapon/primary/059-01.webp",
           "width": 1280,
           "height": 581
         }
@@ -3593,7 +3593,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/060-01.webp",
+          "src": "assets/skins/weapon/primary/060-01.webp",
           "width": 1280,
           "height": 649
         }
@@ -3612,7 +3612,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/primary/061-01.webp",
+          "src": "assets/skins/weapon/primary/061-01.webp",
           "width": 1280,
           "height": 593
         }
@@ -3631,7 +3631,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/062-01.mp4",
+          "src": "assets/skins/weapon/primary/062-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3650,7 +3650,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/063-01.mp4",
+          "src": "assets/skins/weapon/primary/063-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3669,7 +3669,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/064-01.mp4",
+          "src": "assets/skins/weapon/primary/064-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3688,7 +3688,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/065-01.mp4",
+          "src": "assets/skins/weapon/primary/065-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3707,7 +3707,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/066-01.mp4",
+          "src": "assets/skins/weapon/primary/066-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3726,7 +3726,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/067-01.mp4",
+          "src": "assets/skins/weapon/primary/067-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3745,7 +3745,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/068-01.mp4",
+          "src": "assets/skins/weapon/primary/068-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3764,7 +3764,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/primary/069-01.mp4",
+          "src": "assets/skins/weapon/primary/069-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -3783,7 +3783,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/001-01.webp",
+          "src": "assets/skins/weapon/secondary/001-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3802,7 +3802,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/002-01.webp",
+          "src": "assets/skins/weapon/secondary/002-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3821,7 +3821,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/003-01.webp",
+          "src": "assets/skins/weapon/secondary/003-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3840,7 +3840,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/004-01.webp",
+          "src": "assets/skins/weapon/secondary/004-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3859,7 +3859,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/005-01.webp",
+          "src": "assets/skins/weapon/secondary/005-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3878,7 +3878,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/006-01.webp",
+          "src": "assets/skins/weapon/secondary/006-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3897,7 +3897,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/007-01.webp",
+          "src": "assets/skins/weapon/secondary/007-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3916,7 +3916,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/008-01.webp",
+          "src": "assets/skins/weapon/secondary/008-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3935,7 +3935,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/009-01.webp",
+          "src": "assets/skins/weapon/secondary/009-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3954,7 +3954,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/010-01.webp",
+          "src": "assets/skins/weapon/secondary/010-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3973,7 +3973,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/011-01.webp",
+          "src": "assets/skins/weapon/secondary/011-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -3992,7 +3992,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/012-01.mp4",
+          "src": "assets/skins/weapon/secondary/012-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -4011,7 +4011,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/secondary/013-01.mp4",
+          "src": "assets/skins/weapon/secondary/013-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -4030,7 +4030,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/001-01.webp",
+          "src": "assets/skins/weapon/melee/001-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4049,7 +4049,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/002-01.webp",
+          "src": "assets/skins/weapon/melee/002-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4068,7 +4068,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/003-01.webp",
+          "src": "assets/skins/weapon/melee/003-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4087,7 +4087,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/004-01.webp",
+          "src": "assets/skins/weapon/melee/004-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4106,7 +4106,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/005-01.webp",
+          "src": "assets/skins/weapon/melee/005-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4125,7 +4125,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/006-01.webp",
+          "src": "assets/skins/weapon/melee/006-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4144,7 +4144,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/007-01.webp",
+          "src": "assets/skins/weapon/melee/007-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4163,7 +4163,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/008-01.webp",
+          "src": "assets/skins/weapon/melee/008-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4182,7 +4182,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/009-01.webp",
+          "src": "assets/skins/weapon/melee/009-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4201,7 +4201,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/010-01.webp",
+          "src": "assets/skins/weapon/melee/010-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4220,7 +4220,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/011-01.webp",
+          "src": "assets/skins/weapon/melee/011-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4239,7 +4239,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/012-01.webp",
+          "src": "assets/skins/weapon/melee/012-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4258,7 +4258,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/013-01.webp",
+          "src": "assets/skins/weapon/melee/013-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4277,7 +4277,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/014-01.webp",
+          "src": "assets/skins/weapon/melee/014-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4296,7 +4296,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/015-01.webp",
+          "src": "assets/skins/weapon/melee/015-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4315,7 +4315,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/016-01.webp",
+          "src": "assets/skins/weapon/melee/016-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4334,7 +4334,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/017-01.webp",
+          "src": "assets/skins/weapon/melee/017-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4353,7 +4353,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/018-01.webp",
+          "src": "assets/skins/weapon/melee/018-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4372,7 +4372,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/019-01.webp",
+          "src": "assets/skins/weapon/melee/019-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4391,7 +4391,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/020-01.webp",
+          "src": "assets/skins/weapon/melee/020-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4410,7 +4410,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/021-01.webp",
+          "src": "assets/skins/weapon/melee/021-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4429,7 +4429,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/022-01.webp",
+          "src": "assets/skins/weapon/melee/022-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4448,7 +4448,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/023-01.webp",
+          "src": "assets/skins/weapon/melee/023-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4467,7 +4467,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/024-01.webp",
+          "src": "assets/skins/weapon/melee/024-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4486,7 +4486,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/025-01.webp",
+          "src": "assets/skins/weapon/melee/025-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4505,7 +4505,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/026-01.webp",
+          "src": "assets/skins/weapon/melee/026-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4524,7 +4524,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/027-01.webp",
+          "src": "assets/skins/weapon/melee/027-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4543,7 +4543,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/028-01.webp",
+          "src": "assets/skins/weapon/melee/028-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4562,7 +4562,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/029-01.webp",
+          "src": "assets/skins/weapon/melee/029-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4581,7 +4581,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/030-01.webp",
+          "src": "assets/skins/weapon/melee/030-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4600,7 +4600,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/031-01.webp",
+          "src": "assets/skins/weapon/melee/031-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4619,7 +4619,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/032-01.webp",
+          "src": "assets/skins/weapon/melee/032-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4638,7 +4638,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/033-01.webp",
+          "src": "assets/skins/weapon/melee/033-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4657,7 +4657,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/034-01.webp",
+          "src": "assets/skins/weapon/melee/034-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4676,7 +4676,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/035-01.webp",
+          "src": "assets/skins/weapon/melee/035-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4695,7 +4695,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/036-01.webp",
+          "src": "assets/skins/weapon/melee/036-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4714,7 +4714,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/melee/037-01.gif",
+          "src": "assets/skins/weapon/melee/037-01.gif",
           "width": 800,
           "height": 450
         }
@@ -4733,7 +4733,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/melee/038-01.mp4",
+          "src": "assets/skins/weapon/melee/038-01.mp4",
           "width": 1920,
           "height": 1080
         }
@@ -4752,7 +4752,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/001-01.webp",
+          "src": "assets/skins/weapon/throwable/001-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4771,7 +4771,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/002-01.webp",
+          "src": "assets/skins/weapon/throwable/002-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4790,7 +4790,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/003-01.webp",
+          "src": "assets/skins/weapon/throwable/003-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4809,7 +4809,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/004-01.webp",
+          "src": "assets/skins/weapon/throwable/004-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4828,7 +4828,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/005-01.webp",
+          "src": "assets/skins/weapon/throwable/005-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4847,7 +4847,7 @@
         {
           "type": "image",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/006-01.webp",
+          "src": "assets/skins/weapon/throwable/006-01.webp",
           "width": 1280,
           "height": 720
         }
@@ -4866,7 +4866,7 @@
         {
           "type": "video",
           "role": "preview",
-          "src": "skin_images/weapon/throwable/007-01.mp4",
+          "src": "assets/skins/weapon/throwable/007-01.mp4",
           "width": 1920,
           "height": 1080
         }

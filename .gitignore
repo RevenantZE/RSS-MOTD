@@ -1,7 +1,7 @@
 # Local editor settings
 .vscode/
 
-# Local Discord skin export (production previews are generated into skin_images/)
+# Local Discord skin export (production previews are generated into assets/skins/)
 Human_Skin_List_Extract/
 Zombie_Skin_List_Extract/
 Primary_Weapon_Skin_List_Extract/

@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
+const CONTENT_DIR = path.join(ROOT, "data");
 const CONTENT_FILES = ["faq.json", "commands.json", "terms.json", "news.json", "skins.json"];
 const failures = [];
 const pendingFileChecks = [];
@@ -61,7 +62,7 @@ async function checkLocalFile(relativePath, label) {
 const content = {};
 for (const filename of CONTENT_FILES) {
   try {
-    content[filename] = JSON.parse(await readFile(path.join(ROOT, filename), "utf8"));
+    content[filename] = JSON.parse(await readFile(path.join(CONTENT_DIR, filename), "utf8"));
   } catch (error) {
     failures.push(filename + " is not valid JSON: " + error.message);
   }
@@ -77,7 +78,7 @@ for (const [filename, data] of Object.entries(content)) {
   checkDate(data.updatedAt, filename + ".updatedAt");
 }
 
-const langSource = await readFile(path.join(ROOT, "lang.js"), "utf8");
+const langSource = await readFile(path.join(ROOT, "assets", "js", "lang.js"), "utf8");
 const langContext = { window: {} };
 vm.runInNewContext(langSource, langContext, { filename: "lang.js" });
 const languages = langContext.window.LANG;
@@ -216,7 +217,7 @@ for (const [index, item] of (skins.items || []).entries()) {
     check(["image", "video"].includes(media.type), mediaLabel + ".type is unsupported: " + media.type);
     check(["thirdPerson", "firstPerson", "preview"].includes(media.role), mediaLabel + ".role is unsupported: " + media.role);
     await checkLocalFile(media.src, mediaLabel + ".src");
-    check(String(media.src || "").startsWith("skin_images/"), mediaLabel + ".src must be under skin_images/. ");
+    check(String(media.src || "").startsWith("assets/skins/"), mediaLabel + ".src must be under assets/skins/. ");
     check(Number(media.width) > 0 && Number(media.height) > 0, mediaLabel + " dimensions must be positive.");
     if (isText(media.src)) {
       try {
@@ -264,7 +265,7 @@ async function directorySize(relativeDirectory) {
   return total;
 }
 
-const skinBytes = await directorySize("skin_images");
+const skinBytes = await directorySize("assets/skins");
 await Promise.all(pendingFileChecks);
 if (failures.length) {
   console.error("Content validation failed:\n- " + failures.join("\n- "));
