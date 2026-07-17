@@ -3,7 +3,7 @@ name: Sync Discord news
 on:
   push:
     branches:
-      - dev
+      - main
     paths:
       - .github/workflows/sync-discord-news.yml
       - scripts/discord-news-converter.mjs
@@ -22,8 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     env:
-      TARGET_BRANCH: dev
+      TARGET_BRANCH: main
     steps:
       - name: Check out target branch
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
@@ -39,10 +41,12 @@ jobs:
         run: node scripts/sync-discord-news.mjs
 
       - name: Commit changed news
+        id: commit
         shell: bash
         run: |
           if git diff --quiet -- data/news.json; then
             echo "No announcement changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -50,3 +54,15 @@ jobs:
           git add data/news.json
           git commit -m "chore: sync Discord news"
           git push origin "HEAD:${TARGET_BRANCH}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: sync
+    if: ${{ needs.sync.outputs.changed == 'true' }}
+    uses: ./.github/workflows/deploy-pages.yml
+    with:
+      ref: main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

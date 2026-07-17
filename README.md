@@ -52,7 +52,8 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `scripts/build_skin_previews.py` | 여섯 로컬 Discord 추출 폴더를 하나의 스킨 카탈로그로 변환 |
 | `scripts/sync-discord-news.mjs` | Discord 메시지를 `data/news.json`으로 변환 |
 | `scripts/validate-content.mjs` | JSON 구조, 연결된 항목, 이미지 경로, 번역 키 검증 |
-| `.github/workflows/sync-discord-news.yml` | 15분마다 `dev`의 공지 동기화 |
+| `.github/workflows/sync-discord-news.yml` | 15분마다 `main`의 공지 동기화 후 변경 시 Pages 배포 |
+| `.github/workflows/deploy-pages.yml` | `main`을 검증하고 GitHub Pages에 배포 |
 | `.github/workflows/validate-content.yml` | `main`·`dev` 푸시와 PR의 콘텐츠 자동 검증 |
 | `vendor/` | `es-hangul`, `markdown-it` 로컬 파일 |
 | `assets/images/guide/` | FAQ에 사용하는 안내 이미지 |
@@ -129,7 +130,7 @@ FAQ 구조는 `data/faq.json`에서 관리하고 번역 문구는 `assets/js/lan
 | Variable | `DISCORD_NEWS_LIMIT` | 채널별로 가져올 공지 개수, 생략 시 20 |
 | Variable | `DISCORD_NEWS_ENABLED` | 준비가 끝난 뒤 `true` |
 
-토큰은 `data/news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 여러 채널을 지정하면 공지를 시간순으로 합치고 각 카드에 Discord 채널명을 표시합니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `data/news.json`을 `dev`에 커밋합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
+토큰은 `data/news.json`, JavaScript, 워크플로 파일에 직접 적지 않습니다. 여러 채널을 지정하면 공지를 시간순으로 합치고 각 카드에 Discord 채널명을 표시합니다. 워크플로는 15분마다 실행하며, 공지 내용이 바뀐 경우에만 `data/news.json`을 `main`에 커밋한 뒤 Pages를 명시적으로 다시 배포합니다. `news.json.updatedAt`에는 가장 최근 공지의 작성·수정 시각이 자동으로 기록되고 뉴스 탭 하단에 현지 날짜와 시간으로 표시됩니다. 수동 확인은 GitHub의 **Actions → Sync Discord news → Run workflow**에서 할 수 있습니다.
 
 공지의 첫 번째 비어 있지 않은 줄은 제목, 그 아래 줄은 본문으로 사용합니다. 본문은 Discord에서 사용한 제목, 굵게, 목록, 인용문, 링크, 인라인 코드와 코드 블록 Markdown을 웹에서도 렌더링합니다. Discord 사용자·역할 멘션은 웹에 표시하기 전에 `@서버닉네임`·`@역할명`으로 변환합니다. 이름을 확인할 수 없는 경우에도 숫자 ID는 노출하지 않습니다. 제목을 확실히 구분하려면 다음 형식을 권장합니다.
 
@@ -167,4 +168,4 @@ JSON을 불러오므로 `index.html`을 파일로 직접 열기보다 로컬 웹
 
 ## 배포
 
-GitHub Pages는 `dev` 브랜치의 루트(`/`)를 기준으로 배포합니다. `dev`에 푸시된 변경 사항은 공개 사이트에 반영됩니다.
+GitHub Pages는 `.github/workflows/deploy-pages.yml`이 `main` 브랜치의 루트(`/`)를 검증한 뒤 배포합니다. 일반 `main` 푸시뿐 아니라 공지 동기화가 새 커밋을 만든 경우에도 같은 배포 과정을 실행합니다.
