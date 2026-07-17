@@ -331,167 +331,167 @@
       }
     },
     "jp": {
-      "title": "Server Rules",
-      "warning": "Failure to follow the rules below may result in punishment.",
+      "title": "サーバールール",
+      "warning": "以下の内容に違反すると処罰の対象になります。",
       "sections": [
         {
           "id": "basic",
-          "title": "Basic Rules",
+          "title": "基本ルール",
           "numbered": true,
           "items": [
             {
               "id": "basic-respect",
-              "title": "Respect is Required",
-              "description": "Disrespectful behavior or language toward any players or admins is subject to punishment."
+              "title": "プレイヤーへの尊重",
+              "description": "全てのプレイヤーや管理人を尊重しない発言は処罰の対象です。"
             },
             {
               "id": "basic-sensitive-topics",
-              "title": "No Politics, Discrimination, or Hate Speech",
-              "description": "Any comments or discussions related to race, gender, religion, politics, or similar topics will result in severe punishment."
+              "title": "政治・差別・嫌悪表現",
+              "description": "人種・性別・宗教・政治等の発言は厳しく処罰されます。"
             },
             {
               "id": "basic-cheating",
-              "title": "No Cheating or Automated Scripts",
-              "description": "The use of exploits such as bunny hop scripts, aimbots, or other unfair advantages will result in an immediate permanent ban."
+              "title": "チート・マクロ等の使用",
+              "description": "オートバニーホップ・エイムボット等の使用行為は発見次第永久追放されます。"
             },
             {
               "id": "basic-advertising",
-              "title": "No Advertising or Advertising-related Nicknames",
-              "description": "Advertising external links, promoting businesses, or other promotional activities will result in warnings or punishment."
+              "title": "広告を含む名前の使用",
+              "description": "外部リンク等を含んだ名前を使用する行為は警告及び追放の対象です。"
             },
             {
               "id": "basic-spam",
-              "title": "No Spamming or Inappropriate Chat",
-              "description": "Voice/chat spam and repeated inappropriate or sexual comments are subject to punishment."
+              "title": "スパムや不健全なチャットでの発言",
+              "description": "音声やチャットでのスパム行為、及び不適切・性的な発言を繰り返す行為は警告及び追放の対象です。"
             },
             {
               "id": "basic-cliques",
-              "title": "No Excessive Closeness or Cliquish Behavior",
-              "description": "Excessive private conversations that negatively affect the gameplay experience may result in warnings or punishment."
+              "title": "過度なフレンドリー行為や排他的な行動",
+              "description": "ゲームプレイに悪影響を与えるような過度な私的な会話は警告及び処罰の対象です。"
             },
             {
               "id": "basic-atmosphere",
-              "title": "Behavior That Damages the Server Atmosphere",
-              "description": "Actions considered as intentional disruption or 'trolling' may result in punishment."
+              "title": "サーバー環境を損なう行為",
+              "description": "意図的な妨害行為やいわゆる「荒らし」とみなされる行為は、処罰の対象になります。"
             }
           ]
         },
         {
           "id": "map-gameplay",
-          "title": "Map Gameplay Rules",
+          "title": "マップルール",
           "numbered": true,
           "items": [
             {
               "id": "map-intentional-infection",
-              "title": "No Intentional Zombie Infection",
-              "description": "Intentionally becoming infected and putting teammates at risk may result in punishment at the admin's discretion."
+              "title": "Infrating(意図的にゾンビに感染する)行為",
+              "description": "故意に感染すると、バランスが著しく悪くなる為、管理人の裁量によって罰せられます。"
             },
             {
               "id": "map-bug-exploits",
-              "title": "No Exploiting Map Bugs",
-              "description": "Using bugs, glitches, or unintended map mechanics for unfair advantages is prohibited."
+              "title": "マップのバグの悪用",
+              "description": "バグ・グリッチ、又は製作者が意図しないマップの仕組みを利用して不正な優位性を得ることは禁止されています。"
             },
             {
               "id": "map-ledge-trolling",
-              "title": "No Ledge Trolling",
-              "description": "Intentionally getting infected on ledges and causing nearby teammates to be infected is subject to punishment at the admin's discretion."
+              "title": "悪意を持ったEdge(淵に立つ)行為",
+              "description": "手すり等で意図的に感染し、近くのチームメイトを感染させる行為は、管理人の裁量によって罰せられます。"
             },
             {
               "id": "map-ruining-rounds",
-              "title": "No Intentionally Ruining Rounds",
-              "description": "Actions that interfere with cooperative gameplay may result in punishment."
+              "title": "故意にラウンドを捨てない",
+              "description": "協力プレイを妨害する行為は、処罰の対象になります。"
             }
           ]
         },
         {
           "id": "rtv",
-          "title": "RTV Rules",
+          "title": "RTV(マップ変更投票)ルール",
           "numbered": true,
           "items": [
             {
               "id": "rtv-clear",
-              "title": "RTV Requests Are Allowed After Map Completion",
-              "description": "RTV requests are allowed after successfully escaping the map."
+              "title": "RTVリクエストはクリア後に許可されます",
+              "description": "RTVリクエストは、マップの全てのステージが終了した後にのみ許可されます。"
             },
             {
               "id": "rtv-broken",
-              "title": "RTV Is Allowed When Normal Progress Is Impossible Due to Map Issues",
-              "description": "RTV requests are allowed in situations caused by bugs or unexpected problems that prevent normal progression."
+              "title": "RTVはマップ側の問題により進行不可になった場合は許可されます。",
+              "description": "RTVのリクエストは、バグや予期せぬ問題によって進行不可になった場合は例外で許可されます。"
             }
           ]
         },
         {
           "id": "nominate",
-          "title": "Nominate Rules",
+          "title": "Nominate(マップ推薦)ルール",
           "numbered": true,
           "items": [
             {
               "id": "nominate-frequency",
-              "title": "Avoid Frequent Map Nominations",
-              "description": "Please avoid repeatedly nominating maps within a short period of time."
+              "title": "頻繁な推薦は避ける",
+              "description": "同一のマップを繰り返し推薦する行為はおやめください。"
             },
             {
               "id": "nominate-difficulty",
-              "title": "Difficult Maps Are Recommended When an Order Player Is Available",
-              "description": "Difficult maps are recommended when experienced players or admins who can provide guidance are present."
+              "title": "一部のマップは、リーダーが在籍している場合に推薦しましょう",
+              "description": "高難易度のマップは経験豊富なプレイヤーや、リーダー・管理人が在籍している時に推薦しましょう。"
             }
           ]
         },
         {
           "id": "order",
-          "title": "Order Rules",
+          "title": "リーダールール",
           "numbered": true,
           "items": [
             {
               "id": "order-listen",
-              "title": "Listen to the Order",
-              "description": "Ignoring the order player's instructions may result in warnings or punishment at the admin's discretion."
+              "title": "リーダーの指示を聞きましょう",
+              "description": "リーダーの指示を無視した場合、管理人の裁量により警告・処罰の対象になります。"
             },
             {
               "id": "order-respect",
-              "title": "Respect the Order Player",
-              "description": "Order players must also respect regular players. Disrespectful behavior or ignoring players may result in punishment at the admin's discretion."
+              "title": "リーダーを尊重しましょう",
+              "description": "リードするプレイヤーも一般プレイヤーを尊重しなければなりません。失礼な行為やプレイヤーを無視する行為は、管理人の裁量により警告・処罰の対象になります。"
             },
             {
               "id": "order-questions",
-              "title": "Asking Questions About Items or Map Progression Is Allowed",
-              "description": "If you do not know something, ask the order player or someone familiar with the map. Ignoring instructions or intentionally disrupting the game may result in action by admins."
+              "title": "アイテムやマップの進行状況に関する質問は許可しています",
+              "description": "分からない事があれば、リーダーかマップに詳しい人に尋ねて下さい。"
             },
             {
               "id": "order-voice",
-              "title": "Do Not Talk Over the Order During Instructions",
-              "description": "Interrupting or talking over the order player's instructions through voice chat may result in punishment."
+              "title": "リーダーが話している最中は話さないでください",
+              "description": "ボイスチャットでリーダーの指示を妨害したり、指示に割り込む行為は、管理人の裁量により警告・処罰の対象になります。"
             }
           ]
         },
         {
           "id": "disrespectful-behavior",
-          "title": "Disrespectful Behavior",
+          "title": "失礼な行為",
           "numbered": false,
           "items": [
             {
               "id": "behavior-delay",
-              "title": "Intentionally delaying the round by refusing to proceed"
+              "title": "意図的なdelay(遅延)行為"
             },
             {
               "id": "behavior-door-hug",
-              "title": "Staying near doors without defending and only holding the door from a distance"
+              "title": "防衛せずにドアの近くに留まり、遠くからドアハグする行為"
             },
             {
               "id": "behavior-priority-target",
-              "title": "Ignoring priority targets such as bosses"
+              "title": "ボス等の優先ターゲットを無視する行為"
             },
             {
               "id": "behavior-map-disrespect",
-              "title": "Insulting or showing negative attitude toward maps because you dislike them"
+              "title": "マップを凌辱したり、士気を下げる発言"
             }
           ],
-          "note": "The examples above are not strict rules, but admins may issue warnings or punishments if they are considered harmful to the server atmosphere."
+          "note": "上記の例はルールではありませんが、サーバーの雰囲気を悪化させていると判断した場合、管理人は警告又は処罰をすることがあります。"
         }
       ],
       "footer": {
-        "title": "Other",
-        "body": "Actions not specifically listed in these rules may still result in punishment at the administrator's discretion."
+        "title": "その他",
+        "body": "ルールに載っていない事項も管理人の裁量により処罰されることがあります。"
       }
     }
   }

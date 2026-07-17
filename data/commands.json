@@ -144,7 +144,7 @@
               "description": {
                 "ko": "아이템 소지자 하이드",
                 "en": "Hide item players",
-                "jp": "アイテム 所持者 ハイド"
+                "jp": "アイテムを所持している人の表示/非表示を切り替え"
               }
             },
             {
@@ -152,7 +152,7 @@
               "description": {
                 "ko": "다른 사람의 무기 숨기기",
                 "en": "Hide other players' weapons",
-                "jp": "他プレイヤーの武器を非表示"
+                "jp": "他プレイヤーの武器の表示/非表示を切り替え"
               }
             },
             {
@@ -160,7 +160,7 @@
               "description": {
                 "ko": "화면 흔들림 끄기",
                 "en": "Disable screen shake",
-                "jp": "画面の揺れを無効化"
+                "jp": "画面の揺れの有効/無効を切り替え"
               }
             },
             {
@@ -550,7 +550,7 @@
               "description": {
                 "ko": "번역 가능한 오더핑 잡기",
                 "en": "Take translatable leader ping",
-                "jp": "翻訳可能なリーダー権限を取得"
+                "jp": "チャットの文字を翻訳可能なリーダー権限を取得"
               }
             },
             {
