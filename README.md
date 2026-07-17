@@ -39,7 +39,7 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `scripts/validate-content.mjs` | JSON 구조, 연결된 항목, 이미지 경로, 번역 키 검증 |
 | `.github/workflows/sync-discord-news.yml` | 15분마다 `dev`의 공지 동기화 |
 | `.github/workflows/validate-content.yml` | `main`·`dev` 푸시와 PR의 콘텐츠 자동 검증 |
-| `vendor/` | PicoCSS, `es-hangul`, `markdown-it` 로컬 파일 |
+| `vendor/` | `es-hangul`, `markdown-it` 로컬 파일 |
 | `guide_image/` | FAQ에 사용하는 안내 이미지 |
 
 ## 콘텐츠 수정 방법
