@@ -6,7 +6,8 @@
     { "type": "command", "id": "/stopsound" },
     { "type": "command", "id": "/hide <0~9999>" },
     { "type": "faq", "id": "server_rules" },
-    { "type": "faq", "id": "voice_chat_volume" }
+    { "type": "faq", "id": "voice_chat_volume" },
+    { "type": "command", "id": "/music <0~100>" }
   ],
   "items": [
     {

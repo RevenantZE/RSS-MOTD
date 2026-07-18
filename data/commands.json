@@ -69,9 +69,9 @@
             {
               "command": "/music <0~100>",
               "description": {
-                "ko": "음악 소리 볼륨 설정",
-                "en": "Set music volume",
-                "jp": "音楽の音量を設定"
+                "ko": "맵 노래소리 조절",
+                "en": "Adjust map music volume",
+                "jp": "マップの音楽音量を調整"
               }
             },
             {
