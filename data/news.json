@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T08:45:39.766000+00:00",
+  "updatedAt": "2026-07-19T04:54:16.215000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1528261491298537572",
+      "title": "에셋 업데이트 (Asset Update)",
+      "content": "## - 일부 커스텀 웨폰에 전용 총소리가 추가되었습니다.\n(Custom firing sounds have been added to some custom weapons.)\n\n### 해당 되는 총기 목록(Affected Weapons)\n```blue_archive_mp7\nm4a1_mika\nbluearchive_usp\nmika_mp9\nmika_p90\nhina_mg42\nmg3\narea51_p90\nhnk_mp7\nbnt_mp9\ncoldwar_mac10\nron_mp5\nakmkpyk_ak47\ncag_hk416_m4a4\nurgim4_m4a1\nalternate_printstream\nforerunner_glock\nmp7_racing_miku\nusp_sussurro```\n\n## - 캐릭터 스킨이 추가되었습니다 (add human skin)\n\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1528116157201252513\n```아몬드 아이 (우마무스메) / Almond Eye (Umamusume)\n도로시 세렌디피티 (니케) / Dorothy Serendipity (Nikke)\n콜레다 수영복 (소녀전선2) / Koleda Swimsuit (GFL2)\n마메히나타 (VRChat) / Mamehinata (VRChat)\n바냐 (이터널리턴) / Vanya (Eternal Return)```\n\n에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요 (If you're experiencing an error, please subscribe using the link below and restart the game.)\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3671104537\n\n@RSS Player",
+      "publishedAt": "2026-07-19T04:45:33.251000+00:00",
+      "editedAt": "2026-07-19T04:54:16.215000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1528261491298537572",
+      "attachments": []
+    },
+    {
+      "id": "1528260627838009424",
+      "title": "패치노트",
+      "content": "## 개인 설정 메뉴, 명령어 추가\n\n> * 개인 설정 기능을 한 번에 관리할 수 있는 통합 메뉴가 추가되었습니다.\n> * 개인 설정 메뉴는 하이드, 사운드, 기능 카테고리로 구성됩니다.\n>\n> ### 개인 설정 메뉴 명령어 추가\n> * `!settings`　`!setting`　`!설정`\n\n## 서버 설정 확인 명령어 변경\n\n> * 기존 !setting 명령어가 개인 설정 메뉴 명령어로 변경되었습니다.\n> * 이에 따라 서버 설정을 확인하는 명령어가 별도로 분리되었습니다.\n>\n> ### * 서버 설정 확인 명령어\n> * `!svsetting`　`!서버설정`　`!서버세팅`\n\n## 화면 반동 설정 추가\n\n> * 화면 반동 감소 기능을 활성화하거나 비활성화할 수 있습니다.\n> * 해당 기능은 화면에 표시되는 시각적 반동만 감소시키며, 실제 총기 반동에는 영향을 주지 않습니다.\n> * 개인 설정의 기능 메뉴에서도 설정할 수 있습니다.\n>\n> ### 화면 반동 설정 명령어\n> * `!recoil`　`!반동`\n>\n> ### ※ 해당 기능으로 인해 인간 진영이 과도하게 강화되었다고 판단될 경우, 기능 삭제 또는 인간 진영 밸런스 조정이 진행될 수 있습니다.\n\n## 타인 장전음 숨김 기능 추가\n> * 다른 플레이어의 장전음을 숨길 수 있는 기능이 추가되었습니다.\n> * 사운드 메뉴에서도 설정할 수 있습니다.\n>\n> ### * 장전음 설정 명령어\n> * `!reloadsound`　`!장전소리`\n\n## !forcertv 어드민 명령어 추가\n* 어드민은 현재 RTV상태와 관계없이 맵을 즉시 변경할 수 있는 기능이 추가되었습니다.\n\n## MOTD 페이지 추가\n* `TAB` 키를 누른 상태에서 화면 좌측 하단의 서버 웹사이트를 클릭하면 RSS 서버 페이지로 이동할 수 있습니다.\n\n## 커스텀 웨폰 발사음 추가\n\n* 기존 커스텀 웨폰 중 일부 스킨에 전용 커스텀 발사음이 추가되었습니다.\n* 상점에서는 이름 뒤에 `[F]`가 표시된 스킨으로 전용 발사음 적용 여부를 확인할 수 있습니다.\n* 표시 예시 mika_p90 → mika_p90[F]\n\n## 스토어 무기 스킨 메뉴 개편\n* 무기 스킨 메뉴를 무기별로 분리하고 정렬했습니다.\n* 칼 스킨은 이번 메뉴 분할 대상에서 제외됩니다.\n\n---\n\n# Patch Notes\n\n## Personal Settings Menu and Commands Added\n\n> * A unified menu has been added, allowing players to manage their personal settings in one place.\n> * The Personal Settings menu is divided into **Hide**, **Sound**, and **Feature** categories.\n>\n> ### New Personal Settings Commands\n> * `!settings`　`!setting`\n\n## Server Settings Commands Changed\n\n> * The existing `!setting` command is now used to open the Personal Settings menu.\n> * As a result, the commands used to check the server settings have been separated.\n>\n> ### Server Settings Commands\n> * `!svsetting`\n\n## Screen Recoil Setting Added\n\n> * Screen recoil reduction can now be enabled or disabled.\n> * This feature only reduces visual screen recoil and does not affect the weapon’s actual recoil.\n> * This option can also be configured from the **Feature** menu in Personal Settings.\n>\n> ### Screen Recoil Command\n> * `!recoil`\n>\n> ### ※ If this feature is determined to provide an excessive advantage to the human team, it may be removed or followed by additional balance adjustments to the human team.\n\n## Other Players’ Reload Sound Toggle Added\n\n> * A new option has been added to mute reload sounds from other players.\n> * This option can also be configured from the **Sound** menu.\n>\n> ### Reload Sound Command\n> * `!reloadsound`\n\n## !forcertv Admin Command Added\n\n* Administrators can now change the map immediately, regardless of the current RTV status.\n\n## MOTD Page Added\n\n* While holding the `TAB` key, click the server website button in the bottom-left corner to open the RSS server page.\n\n## Custom Weapon Firing Sounds Added\n\n* Custom firing sounds have been added to selected existing custom weapon skins.\n* Skins with custom firing sounds are marked with `[F]` after their names in the store.\n* Display example: `mika_p90` → `mika_p90[F]`\n\n## Store Weapon Skin Menu Revamp\n\n* The weapon skin menu has been divided and organized by weapon type.\n* Knife skins are excluded from this menu reorganization.\n\n@RSS Player",
+      "publishedAt": "2026-07-19T04:42:07.386000+00:00",
+      "editedAt": "2026-07-19T04:45:51.520000+00:00",
+      "author": "투온전도사",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1528260627838009424",
+      "attachments": []
+    },
     {
       "id": "1525785201542955099",
       "title": "패치노트",
@@ -360,30 +384,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1513320950848946307",
-      "attachments": []
-    },
-    {
-      "id": "1512704937124171797",
-      "title": "마우스 우클릭을 누르고 있는 동안 하이드가 해제됩니다 (칼은제외)",
-      "content": "@RSS Player\n\n하이드 기능을 모르시다면 아래글을 참조하시면 좋습니다\nhttps://discord.com/channels/850664390779731978/1512499480866328637\nhttps://discord.com/channels/850664390779731978/1512711148544327702/1512711148544327702",
-      "publishedAt": "2026-06-06T06:29:21.709000+00:00",
-      "editedAt": "2026-06-06T07:06:37.594000+00:00",
-      "author": "라미",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1512704937124171797",
-      "attachments": []
-    },
-    {
-      "id": "1512046663085195405",
-      "title": "리더핑이 세분화 됩니다",
-      "content": "!c 기존 그대로\n!tc 기존 그대로 + 번역기능 추가\n\n팀선택으로 인한 자살 불가능 및 zm 모드 관전으로 이동시 부활 불가능",
-      "publishedAt": "2026-06-04T10:53:36.948000+00:00",
-      "editedAt": "2026-06-04T11:04:47.054000+00:00",
-      "author": "라미",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1512046663085195405",
       "attachments": []
     },
     {
