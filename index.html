@@ -77,6 +77,9 @@
         <button id="tab-skins" class="tab" data-tab="skins" role="tab" aria-selected="false" aria-controls="skins" tabindex="-1">
           <span data-lang="tab_skins">6) 스킨 프리뷰</span>
         </button>
+        <button id="tab-support" class="tab" data-tab="support" role="tab" aria-selected="false" aria-controls="support" tabindex="-1">
+          <span data-lang="tab_support">7) 후원하기</span>
+        </button>
       </div>
 
       <div class="global-search-wrap">
@@ -228,6 +231,23 @@
         <footer>
           <span><span data-lang="last_update">마지막 업데이트:</span> <span id="skinLastUpdate">-</span></span>
           <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="report_issue">잘못된 정보 제보</a>
+        </footer>
+      </section>
+
+      <!-- Support and VIP benefits -->
+      <section id="support" class="panel" role="tabpanel" aria-labelledby="tab-support" hidden>
+        <div class="section-title">
+          <h2 data-lang="support_title">후원하기</h2>
+          <div class="hint" data-lang="support_hint">지역에 맞는 후원 방법과 VIP 혜택을 확인하세요.</div>
+        </div>
+
+        <div id="supportContent" class="support-content">
+          <p class="support-empty" data-lang="support_loading">후원 정보를 불러오는 중...</p>
+        </div>
+
+        <footer>
+          <span><span data-lang="last_update">마지막 업데이트:</span> <span id="supportLastUpdate">-</span></span>
+          <a href="https://discord.gg/rssze" target="_blank" rel="noopener noreferrer" data-lang="support_contact">후원 문의</a>
         </footer>
       </section>
     </div>

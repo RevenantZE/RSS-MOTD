@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-20",
+  "methods": [
+    {
+      "id": "kakao",
+      "audience": {
+        "ko": "한국 후원자",
+        "en": "Supporters in Korea",
+        "jp": "韓国の支援者"
+      },
+      "title": {
+        "ko": "카카오페이 직접 송금",
+        "en": "Direct KakaoPay transfer",
+        "jp": "KakaoPayで直接送金"
+      },
+      "description": {
+        "ko": "아래 카카오톡 오픈채팅방에 입장한 뒤 운영자에게 카카오페이로 직접 송금해주세요. 웹 카드 결제는 제공하지 않습니다.",
+        "en": "Join the KakaoTalk open chat below, then send KakaoPay directly to the server operator. Card payment on this website is not available.",
+        "jp": "下のKakaoTalkオープンチャットに参加し、サーバー管理者へKakaoPayで直接送金してください。このサイトでのカード決済には対応していません。"
+      },
+      "notice": {
+        "ko": "카카오페이 송금 기능은 모바일에서만 사용할 수 있습니다.",
+        "en": "KakaoPay transfers are available on mobile devices only.",
+        "jp": "KakaoPayの送金機能はモバイル端末でのみ利用できます。"
+      },
+      "url": "https://open.kakao.com/o/sMXYCBBh"
+    },
+    {
+      "id": "kofi",
+      "audience": {
+        "ko": "해외 후원자",
+        "en": "International supporters",
+        "jp": "海外の支援者"
+      },
+      "title": {
+        "ko": "Ko-fi 구독",
+        "en": "Ko-fi membership",
+        "jp": "Ko-fiメンバーシップ"
+      },
+      "description": {
+        "ko": "해외 후원자는 아래 Ko-fi 페이지에서 구독해주세요.",
+        "en": "International supporters can subscribe through the Ko-fi page below.",
+        "jp": "海外から支援する場合は、下のKo-fiページからメンバーシップに登録してください。"
+      },
+      "notice": {
+        "ko": "결제와 구독 관리는 Ko-fi에서 진행됩니다.",
+        "en": "Payments and membership management are handled by Ko-fi.",
+        "jp": "決済とメンバーシップの管理はKo-fiで行われます。"
+      },
+      "url": "https://ko-fi.com/rssze"
+    }
+  ],
+  "benefitGroups": [
+    {
+      "id": "included",
+      "title": {
+        "ko": "VIP로 무료 이용 가능한 기능",
+        "en": "Features included with VIP",
+        "jp": "VIPで追加料金なしに利用できる機能"
+      },
+      "description": {
+        "ko": "VIP 이용 기간에는 다음 기능을 추가 비용 없이 사용할 수 있습니다.",
+        "en": "These features are available at no additional cost while your VIP is active.",
+        "jp": "VIPの有効期間中は、次の機能を追加料金なしで利用できます。"
+      },
+      "items": [
+        { "id": "model_color", "title": { "ko": "모델컬러", "en": "Model color", "jp": "モデルカラー" } },
+        { "id": "rainbow", "title": { "ko": "레인보우", "en": "Rainbow", "jp": "レインボー" } },
+        { "id": "tracer", "title": { "ko": "트레이서", "en": "Tracer", "jp": "トレーサー" } },
+        { "id": "chat_tag", "title": { "ko": "채팅태그", "en": "Chat tag", "jp": "チャットタグ" } },
+        { "id": "emote", "title": { "ko": "이모트", "en": "Emotes", "jp": "エモート" } },
+        { "id": "custom_radio", "title": { "ko": "커스텀라디오", "en": "Custom radio", "jp": "カスタムラジオ" } }
+      ]
+    },
+    {
+      "id": "exclusive",
+      "title": {
+        "ko": "VIP 전용 기능",
+        "en": "VIP-exclusive features",
+        "jp": "VIP限定機能"
+      },
+      "description": {
+        "ko": "다음 기능은 VIP만 사용할 수 있습니다.",
+        "en": "The following features are available only to VIP members.",
+        "jp": "次の機能はVIPのみ利用できます。"
+      },
+      "items": [
+        {
+          "id": "reserved_slot",
+          "title": { "ko": "예약슬롯", "en": "Reserved slot", "jp": "予約スロット" },
+          "description": {
+            "ko": "서버 인원이 63/64일 때도 접속할 수 있습니다. VIP가 없는 이용자는 63명 이상일 때 접속할 수 없습니다. 이 기준 인원은 서버 운영 상황에 따라 변경될 수 있습니다.",
+            "en": "You can join even when the server is at 63/64 players. Players without VIP cannot join at 63 players or more. This threshold may change depending on server operations.",
+            "jp": "サーバーが63/64人のときでも接続できます。VIPではない利用者は63人以上になると接続できません。この基準人数はサーバー運営状況により変更される場合があります。"
+          }
+        },
+        {
+          "id": "spectator_kick",
+          "title": { "ko": "관전킥", "en": "Spectator kick", "jp": "観戦者キック" },
+          "description": {
+            "ko": "서버 인원이 63명 이상이고 관전자에 어드민·오더를 제외한 이용자가 있으면, 해당 이용자를 서버에서 내보내고 접속할 수 있습니다.",
+            "en": "When the server has 63 or more players, a spectator who is not an admin or order caller can be removed so you can join.",
+            "jp": "サーバーが63人以上で、観戦者に管理者・オーダー担当者以外の利用者がいる場合、その利用者を退出させて接続できます。"
+          }
+        },
+        {
+          "id": "skin_shuffle",
+          "title": { "ko": "스킨셔플", "en": "Skin shuffle", "jp": "スキンシャッフル" },
+          "description": {
+            "ko": "원하는 스킨을 최대 5개 지정하면 해당 목록에서 무작위로 스킨이 적용됩니다.",
+            "en": "Choose up to five skins and a random skin from that list will be applied.",
+            "jp": "好きなスキンを最大5個指定すると、そのリストからランダムにスキンが適用されます。"
+          }
+        }
+      ]
+    }
+  ]
+}

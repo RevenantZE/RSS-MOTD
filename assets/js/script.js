@@ -15,6 +15,7 @@ let rulesData = null;
 let termGuideData = null;
 let newsData = null;
 let skinData = null;
+let supportData = null;
 let skinSearchQuery = "";
 let skinCategoryFilter = "human";
 let skinWeaponFilter = "primary";
@@ -601,6 +602,7 @@ function setLanguage(lang, syncUrl = true) {
   renderRules();
   renderTermGuide();
   renderNews();
+  renderSupport();
   if (document.body.dataset.activeTab === "skins") renderSkins();
   else skinCardsRendered = false;
   renderGlobalSearch();
@@ -2154,6 +2156,137 @@ addFilterKeyboardNavigation("skinWeaponFilters", "[data-skin-weapon]");
 addFilterKeyboardNavigation("skinPrimaryTypeFilters", "[data-skin-primary-type]:not([hidden])");
 
 window.addEventListener("load", loadSkins);
+
+// 9. Support methods and VIP benefits from data/support.json
+async function loadSupport() {
+  const container = document.getElementById("supportContent");
+  if (!container) return;
+
+  try {
+    supportData = await fetchJsonWithFallback("data/support.json");
+    setContentUpdatedAt("supportLastUpdate", supportData);
+    renderSupport();
+  } catch (err) {
+    console.error("support load failed:", err);
+    supportData = null;
+    const empty = document.createElement("p");
+    empty.className = "support-empty";
+    empty.textContent = window.LANG?.[getCurrentLang()]?.support_unavailable || "Unable to load support information.";
+    container.replaceChildren(empty);
+    container.title = `data/support.json load failed: ${err.message}`;
+  }
+}
+
+function createSupportMethodCard(method) {
+  const article = document.createElement("article");
+  article.className = `support-method-card support-method-${method.id || "default"}`;
+
+  const audience = document.createElement("span");
+  audience.className = "support-audience";
+  audience.textContent = localizeText(method.audience);
+
+  const title = document.createElement("h4");
+  title.textContent = localizeText(method.title);
+
+  const description = document.createElement("p");
+  description.className = "support-method-description";
+  description.textContent = localizeText(method.description);
+
+  const notice = document.createElement("p");
+  notice.className = "support-notice";
+  notice.textContent = localizeText(method.notice);
+
+  const url = safeHttpUrl(method.url);
+  const linkRow = document.createElement("div");
+  linkRow.className = "support-link-row";
+
+  const urlText = document.createElement("code");
+  urlText.className = "support-url";
+  urlText.textContent = url;
+
+  const actions = document.createElement("div");
+  actions.className = "support-method-actions";
+
+  const open = document.createElement("a");
+  open.className = "support-open-link";
+  open.href = url;
+  open.target = "_blank";
+  open.rel = "noopener noreferrer";
+  open.textContent = window.LANG?.[getCurrentLang()]?.support_open_link || "Open link";
+
+  const copy = document.createElement("button");
+  copy.type = "button";
+  copy.className = "support-copy-button";
+  copy.textContent = window.LANG?.[getCurrentLang()]?.support_copy_link || "Copy link";
+  copy.addEventListener("click", () => {
+    copyText(url).then(() => {
+      showToast(window.LANG?.[getCurrentLang()]?.support_copy_done || "Support link copied.");
+    }).catch(() => window.prompt("Copy link", url));
+  });
+
+  actions.append(open, copy);
+  linkRow.append(urlText, actions);
+  article.append(audience, title, description, notice, linkRow);
+  return article;
+}
+
+function createBenefitGroup(group) {
+  const article = document.createElement("article");
+  article.className = `support-benefit-group support-benefit-${group.id || "default"}`;
+
+  const title = document.createElement("h4");
+  title.textContent = localizeText(group.title);
+
+  const description = document.createElement("p");
+  description.className = "support-benefit-description";
+  description.textContent = localizeText(group.description);
+
+  const list = document.createElement("ul");
+  list.className = "support-benefit-list";
+  (group.items || []).forEach(item => {
+    const row = document.createElement("li");
+    const itemTitle = document.createElement("strong");
+    itemTitle.textContent = localizeText(item.title);
+    row.appendChild(itemTitle);
+    const itemDescription = localizeText(item.description);
+    if (itemDescription) {
+      const detail = document.createElement("p");
+      detail.textContent = itemDescription;
+      row.appendChild(detail);
+    }
+    list.appendChild(row);
+  });
+
+  article.append(title, description, list);
+  return article;
+}
+
+function renderSupport() {
+  const container = document.getElementById("supportContent");
+  if (!container || !supportData) return;
+
+  const methodsSection = document.createElement("section");
+  methodsSection.className = "support-section";
+  const methodsTitle = document.createElement("h3");
+  methodsTitle.textContent = window.LANG?.[getCurrentLang()]?.support_methods_title || "Support methods";
+  const methodGrid = document.createElement("div");
+  methodGrid.className = "support-method-grid";
+  methodGrid.append(...(supportData.methods || []).map(createSupportMethodCard));
+  methodsSection.append(methodsTitle, methodGrid);
+
+  const benefitsSection = document.createElement("section");
+  benefitsSection.className = "support-section";
+  const benefitsTitle = document.createElement("h3");
+  benefitsTitle.textContent = window.LANG?.[getCurrentLang()]?.support_benefits_title || "VIP benefits";
+  const benefitGrid = document.createElement("div");
+  benefitGrid.className = "support-benefit-grid";
+  benefitGrid.append(...(supportData.benefitGroups || []).map(createBenefitGroup));
+  benefitsSection.append(benefitsTitle, benefitGrid);
+
+  container.replaceChildren(methodsSection, benefitsSection);
+}
+
+window.addEventListener("load", loadSupport);
 
 const backToTop = document.getElementById("backToTop");
 
