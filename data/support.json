@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-20",
   "methods": [
     {
       "id": "kakao",
+      "languages": ["ko"],
       "audience": {
         "ko": "한국 후원자",
         "en": "Supporters in Korea",
@@ -28,6 +29,7 @@
     },
     {
       "id": "kofi",
+      "languages": ["en", "jp"],
       "audience": {
         "ko": "해외 후원자",
         "en": "International supporters",

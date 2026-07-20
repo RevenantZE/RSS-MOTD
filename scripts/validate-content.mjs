@@ -245,6 +245,9 @@ check(Array.isArray(support.methods) && support.methods.length > 0, "support.jso
 checkUnique((support.methods || []).map(method => method.id), "Support method ids");
 (support.methods || []).forEach((method, index) => {
   const label = "support.json.methods[" + index + "]";
+  check(Array.isArray(method.languages) && method.languages.length > 0, label + ".languages must not be empty.");
+  checkUnique(method.languages || [], label + ".languages");
+  (method.languages || []).forEach(lang => check(["ko", "en", "jp"].includes(lang), label + " has unsupported language: " + lang));
   checkLocalized(method.audience, label + ".audience");
   checkLocalized(method.title, label + ".title");
   checkLocalized(method.description, label + ".description");
@@ -256,6 +259,11 @@ check((support.methods || []).find(method => method.id === "kakao")?.url === "ht
 check((support.methods || []).find(method => method.id === "kofi")?.url === "https://ko-fi.com/rssze",
   "support.json kofi method must use the configured Ko-fi URL.");
 const kakaoMethod = (support.methods || []).find(method => method.id === "kakao");
+const kofiMethod = (support.methods || []).find(method => method.id === "kofi");
+check(JSON.stringify(kakaoMethod?.languages) === JSON.stringify(["ko"]),
+  "support.json Kakao method must be visible only in Korean.");
+check(JSON.stringify(kofiMethod?.languages) === JSON.stringify(["en", "jp"]),
+  "support.json Ko-fi method must be visible only in English and Japanese.");
 check(/카카오페이/.test(kakaoMethod?.description?.ko || ""), "support.json Kakao description must explain direct KakaoPay transfer.");
 check(/모바일/.test(kakaoMethod?.notice?.ko || ""), "support.json Kakao notice must state that transfer is mobile-only.");
 

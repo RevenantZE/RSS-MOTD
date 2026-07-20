@@ -2197,13 +2197,6 @@ function createSupportMethodCard(method) {
   notice.textContent = localizeText(method.notice);
 
   const url = safeHttpUrl(method.url);
-  const linkRow = document.createElement("div");
-  linkRow.className = "support-link-row";
-
-  const urlText = document.createElement("code");
-  urlText.className = "support-url";
-  urlText.textContent = url;
-
   const actions = document.createElement("div");
   actions.className = "support-method-actions";
 
@@ -2225,8 +2218,7 @@ function createSupportMethodCard(method) {
   });
 
   actions.append(open, copy);
-  linkRow.append(urlText, actions);
-  article.append(audience, title, description, notice, linkRow);
+  article.append(audience, title, description, notice, actions);
   return article;
 }
 
@@ -2271,7 +2263,9 @@ function renderSupport() {
   methodsTitle.textContent = window.LANG?.[getCurrentLang()]?.support_methods_title || "Support methods";
   const methodGrid = document.createElement("div");
   methodGrid.className = "support-method-grid";
-  methodGrid.append(...(supportData.methods || []).map(createSupportMethodCard));
+  const currentLang = getCurrentLang();
+  const visibleMethods = (supportData.methods || []).filter(method => method.languages?.includes(currentLang));
+  methodGrid.append(...visibleMethods.map(createSupportMethodCard));
   methodsSection.append(methodsTitle, methodGrid);
 
   const benefitsSection = document.createElement("section");

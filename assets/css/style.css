@@ -1508,7 +1508,7 @@ button.back-to-top:focus-visible{border-color:var(--accent); background:rgba(21,
 .support-method-grid,
 .support-benefit-grid{
   display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-columns:1fr;
   gap:14px;
 }
 .support-method-card,
@@ -1566,25 +1566,7 @@ button.back-to-top:focus-visible{border-color:var(--accent); background:rgba(21,
   font-size:12px;
   font-weight:700;
 }
-.support-link-row{
-  display:grid;
-  gap:9px;
-  margin-top:15px;
-}
-.support-url{
-  display:block;
-  min-width:0;
-  padding:9px 11px;
-  overflow:hidden;
-  border:1px solid rgba(31,42,61,.95);
-  border-radius:9px;
-  background:#070b12;
-  color:#cfe6ff;
-  font-size:12px;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-}
-.support-method-actions{display:flex; flex-wrap:wrap; gap:8px}
+.support-method-actions{display:flex; flex-wrap:wrap; gap:8px; margin-top:15px}
 .support-open-link,
 .support-copy-button{
   display:inline-flex;
@@ -1659,7 +1641,6 @@ button.back-to-top:focus-visible{border-color:var(--accent); background:rgba(21,
   .skin-character-previews{grid-template-columns:1fr}
   .skin-preview img,.skin-preview video{max-height:none}
   .skin-section-tools{width:100%; margin-left:0; justify-content:space-between}
-  .support-method-grid,.support-benefit-grid{grid-template-columns:1fr}
   .support-method-actions > *{flex:1 1 auto}
 }
 

@@ -12,6 +12,12 @@ test("uses the configured KakaoTalk and Ko-fi support links", () => {
   assert.equal(methods.kofi.url, "https://ko-fi.com/rssze");
 });
 
+test("shows Kakao only in Korean and Ko-fi only in English and Japanese", () => {
+  const methods = Object.fromEntries(support.methods.map(method => [method.id, method]));
+  assert.deepEqual(methods.kakao.languages, ["ko"]);
+  assert.deepEqual(methods.kofi.languages, ["en", "jp"]);
+});
+
 test("explains direct KakaoPay transfer and the mobile-only restriction", () => {
   const kakao = support.methods.find(method => method.id === "kakao");
   assert.match(kakao.description.ko, /카카오톡 오픈채팅방/);
