@@ -1,5 +1,7 @@
 # Local editor settings
 .vscode/
+__pycache__/
+*.py[cod]
 
 # Local Discord skin export (production previews are generated into assets/skins/)
 Human_Skin_List_Extract/
