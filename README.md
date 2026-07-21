@@ -67,7 +67,7 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `.github/workflows/sync-discord-news.yml` | 15분마다 `main`의 공지 동기화 후 변경 시 Pages 배포 |
 | `.github/workflows/sync-discord-human-skins.yml` | 모든 스킨 스레드를 15분마다 확인하고 변경 시 Pages 배포 |
 | `.github/workflows/deploy-pages.yml` | `main`을 검증하고 GitHub Pages에 배포 |
-| `.github/workflows/validate-content.yml` | `main`·`dev` 푸시와 PR의 콘텐츠 자동 검증 |
+| `.github/workflows/validate-content.yml` | `main` 푸시와 PR의 콘텐츠 자동 검증 |
 | `vendor/` | `es-hangul`, `markdown-it` 로컬 파일 |
 | `assets/images/guide/` | FAQ에 사용하는 안내 이미지 |
 

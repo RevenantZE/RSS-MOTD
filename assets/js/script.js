@@ -3,7 +3,8 @@ import { getChoseong } from "../../vendor/es-hangul.mjs";
 import {
   commandPageDeepLink,
   resolveFilterDeepLink,
-  skinCategoryDeepLink
+  skinCategoryDeepLink,
+  skinWeaponDeepLink
 } from "./deep-link-state.mjs";
 import {
   addRecentView,
@@ -475,7 +476,7 @@ function applyFilterDeepLink(state) {
   skinCategoryFilter = state.skinCategory || "human";
   skinSearchQuery = "";
   if (skinCategoryFilter === "weapon") {
-    skinWeaponFilter = "primary";
+    skinWeaponFilter = state.skinWeapon || "primary";
     skinPrimaryTypeFilter = "all";
   }
   const search = document.getElementById("skinSearch");
@@ -2184,7 +2185,8 @@ document.querySelectorAll("[data-skin-category]").forEach(button => {
 document.querySelectorAll("[data-skin-weapon]").forEach(button => {
   button.addEventListener("click", () => {
     skinWeaponFilter = button.dataset.skinWeapon;
-    clearSkinItemHash();
+    skinPrimaryTypeFilter = "all";
+    pushLocationHash(skinWeaponDeepLink(skinWeaponFilter));
     renderSkins();
   });
 });

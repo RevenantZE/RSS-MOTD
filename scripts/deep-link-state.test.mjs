@@ -4,7 +4,8 @@ import test from "node:test";
 import {
   commandPageDeepLink,
   resolveFilterDeepLink,
-  skinCategoryDeepLink
+  skinCategoryDeepLink,
+  skinWeaponDeepLink
 } from "../assets/js/deep-link-state.mjs";
 
 test("resolves canonical skin category links", () => {
@@ -23,6 +24,29 @@ test("resolves canonical skin category links", () => {
   assert.deepEqual(resolveFilterDeepLink("#skins-spray"), {
     tab: "skins",
     skinCategory: "spray"
+  });
+});
+
+test("resolves weapon category links", () => {
+  assert.deepEqual(resolveFilterDeepLink("#skins-weapon-primary"), {
+    tab: "skins",
+    skinCategory: "weapon",
+    skinWeapon: "primary"
+  });
+  assert.deepEqual(resolveFilterDeepLink("#skins-weapon-secondary"), {
+    tab: "skins",
+    skinCategory: "weapon",
+    skinWeapon: "secondary"
+  });
+  assert.deepEqual(resolveFilterDeepLink("#skins-weapon-melee"), {
+    tab: "skins",
+    skinCategory: "weapon",
+    skinWeapon: "melee"
+  });
+  assert.deepEqual(resolveFilterDeepLink("#skins-weapon-throwable"), {
+    tab: "skins",
+    skinCategory: "weapon",
+    skinWeapon: "throwable"
   });
 });
 
@@ -48,6 +72,9 @@ test("builds only the requested canonical links", () => {
   assert.equal(skinCategoryDeepLink("zombie"), "skins-zombie");
   assert.equal(skinCategoryDeepLink("spray"), "skins-spray");
   assert.equal(skinCategoryDeepLink("unknown"), null);
+  assert.equal(skinWeaponDeepLink("primary"), "skins-weapon-primary");
+  assert.equal(skinWeaponDeepLink("throwable"), "skins-weapon-throwable");
+  assert.equal(skinWeaponDeepLink("unknown"), null);
   assert.equal(commandPageDeepLink("all"), "commands");
   assert.equal(commandPageDeepLink("donator"), "commands-donator");
   assert.equal(commandPageDeepLink("server"), "cmds");
