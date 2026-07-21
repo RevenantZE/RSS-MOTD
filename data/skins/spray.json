@@ -1,6 +1,877 @@
 {
   "version": 5,
   "category": "spray",
-  "updatedAt": "2026-07-21T00:00:00+09:00",
-  "items": []
+  "updatedAt": "2026-07-16T06:37:37.589000+00:00",
+  "items": [
+    {
+      "id": "spray-001",
+      "order": 1,
+      "name": "spray 1 , 스프레이 1",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438222961973919775",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/001-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-002",
+      "order": 2,
+      "name": "spray 2 , 스프레이 2",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223159596810473",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/002-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-003",
+      "order": 3,
+      "name": "spray 3 , 스프레이 3",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223805364305981",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/003-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-004",
+      "order": 4,
+      "name": "spray 4  , 스프레이 4",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223852063952976",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/004-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-005",
+      "order": 5,
+      "name": "spray 5  , 스프레이 5",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223882891952238",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/005-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-006",
+      "order": 6,
+      "name": "spray 6  , 스프레이 6",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223911228674221",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/006-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-007",
+      "order": 7,
+      "name": "spray 7  , 스프레이 7",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223943952502904",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/007-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-008",
+      "order": 8,
+      "name": "spray 8  , 스프레이 8",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224035262759093",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/008-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-009",
+      "order": 9,
+      "name": "spray 9 , 스프레이 9",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224159040737391",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/009-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-010",
+      "order": 10,
+      "name": "spray 10  , 스프레이 10",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224192779587644",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/010-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-011",
+      "order": 11,
+      "name": "spray 11  , 스프레이 11",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224220394885170",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/011-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-012",
+      "order": 12,
+      "name": "spray 12  , 스프레이 12",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224243287523561",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/012-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-013",
+      "order": 13,
+      "name": "spray 13  , 스프레이 13",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224269044617299",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/013-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-014",
+      "order": 14,
+      "name": "spray 14  , 스프레이 14",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224291798978643",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/014-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-015",
+      "order": 15,
+      "name": "spray 15  , 스프레이 15",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224321389658174",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/015-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-016",
+      "order": 16,
+      "name": "spray  16 , 스프레이 16",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224350267576611",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/016-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-017",
+      "order": 17,
+      "name": "spray 17  , 스프레이 17",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224378113556600",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/017-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-018",
+      "order": 18,
+      "name": "spray 18 , 스프레이 18",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118592158339092",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/018-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-019",
+      "order": 19,
+      "name": "spray 19 , 스프레이 19",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118649335222424",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/019-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-020",
+      "order": 20,
+      "name": "spray 20 , 스프레이 20",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118694033653820",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/020-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-021",
+      "order": 21,
+      "name": "spray 21 , 스프레이 21",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118724572516372",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/021-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-022",
+      "order": 22,
+      "name": "spray 22 , 스프레이 22",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118760744059011",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/022-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-023",
+      "order": 23,
+      "name": "spray 23 , 스프레이 23",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118785847099412",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/023-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-024",
+      "order": 24,
+      "name": "spray 24 , 스프레이 24",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118818004963438",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/024-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-025",
+      "order": 25,
+      "name": "spray 25 , 스프레이 25",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118846756782101",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/025-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "spray-026",
+      "order": 26,
+      "name": "spray 26 , 스프레이 26",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574249321042113",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/026-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-027",
+      "order": 27,
+      "name": "spray 27 , 스프레이 27",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574311228837888",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/027-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-028",
+      "order": 28,
+      "name": "spray 28 , 스프레이 28",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574352496721950",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/028-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-029",
+      "order": 29,
+      "name": "spray 29 , 스프레이 29",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574408230502637",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/029-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-030",
+      "order": 30,
+      "name": "spray 30 , 스프레이 30",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574453852209397",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/030-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-031",
+      "order": 31,
+      "name": "spray 31 , 스프레이 31",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574530352119828",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/031-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-032",
+      "order": 32,
+      "name": "spray 32 , 스프레이 32",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574584806506710",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/032-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-033",
+      "order": 33,
+      "name": "spray 33 , 스프레이 33",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574633506832415",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/033-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-034",
+      "order": 34,
+      "name": "spray 34 , 스프레이 34",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574691664924743",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/034-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-035",
+      "order": 35,
+      "name": "spray 35 , 스프레이 35",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574781175435376",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/035-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-036",
+      "order": 36,
+      "name": "spray 36 , 스프레이 36",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574841758224526",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/036-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-037",
+      "order": 37,
+      "name": "spray 37 , 스프레이 37",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574900646248650",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/037-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-038",
+      "order": 38,
+      "name": "spray 38 , 스프레이 38",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446574977917648896",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/038-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-039",
+      "order": 39,
+      "name": "spray 39 , 스프레이 39",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446575589916934226",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/039-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-040",
+      "order": 40,
+      "name": "spray 40 , 스프레이 40",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446575640362090569",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/040-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-041",
+      "order": 41,
+      "name": "spray 41 , 스프레이 41",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446575681625391104",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/041-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-042",
+      "order": 42,
+      "name": "spray 43 , 스프레이 43",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446575840291983503",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/042-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-043",
+      "order": 43,
+      "name": "spray 44 , 스프레이 44",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446575905957871668",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/043-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-044",
+      "order": 44,
+      "name": "spray 45 , 스프레이 45",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1446576009129361559",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/044-01.webp",
+          "width": 1153,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "id": "spray-045",
+      "order": 45,
+      "name": "spray 42 , 스프레이 42",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1472998553373905211",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/045-01.webp",
+          "width": 783,
+          "height": 593
+        }
+      ]
+    },
+    {
+      "id": "spray-046",
+      "order": 46,
+      "name": "spray 46 , 스프레이 46",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1472999304162574346",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/046-01.webp",
+          "width": 981,
+          "height": 713
+        }
+      ]
+    },
+    {
+      "id": "spray-047",
+      "order": 47,
+      "name": "spray 47 , 스프레이 47",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1472999355811238132",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/047-01.webp",
+          "width": 919,
+          "height": 792
+        }
+      ]
+    },
+    {
+      "id": "spray-048",
+      "order": 48,
+      "name": "spray 48",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1477697674953097276",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/048-01.webp",
+          "width": 698,
+          "height": 562
+        }
+      ]
+    },
+    {
+      "id": "spray-049",
+      "order": 49,
+      "name": "spray 49",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1479379462167724042",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/049-01.webp",
+          "width": 792,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "id": "spray-050",
+      "order": 50,
+      "name": "spray 50",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202411041525784",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/050-01.webp",
+          "width": 318,
+          "height": 313
+        }
+      ]
+    },
+    {
+      "id": "spray-051",
+      "order": 51,
+      "name": "spray 51",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202421447721111",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/051-01.webp",
+          "width": 202,
+          "height": 195
+        }
+      ]
+    },
+    {
+      "id": "spray-052",
+      "order": 52,
+      "name": "spray 52",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202436773711983",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/052-01.webp",
+          "width": 184,
+          "height": 205
+        }
+      ]
+    },
+    {
+      "id": "spray-053",
+      "order": 53,
+      "name": "spray 53",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202452976177182",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/053-01.webp",
+          "width": 190,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "id": "spray-054",
+      "order": 54,
+      "name": "spray 54",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202470013698140",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/054-01.webp",
+          "width": 164,
+          "height": 162
+        }
+      ]
+    },
+    {
+      "id": "spray-055",
+      "order": 55,
+      "name": "spray 55",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202478976667668",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/055-01.webp",
+          "width": 164,
+          "height": 162
+        }
+      ]
+    },
+    {
+      "id": "spray-056",
+      "order": 56,
+      "name": "spray 56",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202494013247488",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/056-01.webp",
+          "width": 165,
+          "height": 166
+        }
+      ]
+    },
+    {
+      "id": "spray-057",
+      "order": 57,
+      "name": "spray 57",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202513734860810",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/057-01.webp",
+          "width": 160,
+          "height": 164
+        }
+      ]
+    },
+    {
+      "id": "spray-058",
+      "order": 58,
+      "name": "spray 58",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1527202531619377202",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/058-01.webp",
+          "width": 254,
+          "height": 265
+        }
+      ]
+    }
+  ]
 }
