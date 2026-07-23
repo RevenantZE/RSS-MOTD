@@ -392,6 +392,37 @@ body[data-active-tab="support"] .global-search-wrap{display:none}
 .quick-start-item strong{overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:13px}
 .quick-start-snippet{display:-webkit-box; overflow:hidden; color:var(--muted); font-size:11px; line-height:1.45; -webkit-box-orient:vertical; -webkit-line-clamp:2}
 
+.latest-news-preview{
+  margin:0 0 16px;
+  padding:14px;
+  border:1px solid rgba(255,180,84,.34);
+  border-radius:14px;
+  background:linear-gradient(135deg,rgba(255,180,84,.1),rgba(7,10,15,.2));
+}
+.latest-news-preview:empty{display:none}
+.latest-news-preview-header{display:flex; align-items:center; justify-content:space-between; gap:14px}
+.latest-news-preview-header h3{margin:0; color:var(--text); font-size:17px}
+.latest-news-preview-header p{margin:4px 0 0; color:var(--muted); font-size:12px}
+.latest-news-open-tab{
+  flex:none;
+  padding:7px 11px;
+  border:1px solid rgba(255,180,84,.4);
+  border-radius:999px;
+  background:rgba(255,180,84,.1);
+  color:var(--text);
+  font:inherit;
+  font-size:12px;
+  font-weight:750;
+  cursor:pointer;
+}
+.latest-news-open-tab:hover,.latest-news-open-tab:focus-visible{border-color:rgb(255,180,84); color:rgb(255,200,125)}
+.latest-news-details{margin:12px 0 0}
+.latest-news-details:not([open]) > summary{margin-bottom:-2px; border-bottom-color:transparent}
+.latest-news-details > summary strong{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.latest-news-details > summary time{flex:none; color:var(--muted); font-size:12px; font-weight:500}
+.latest-news-body{padding:8px 2px 2px}
+.latest-news-body .news-content{padding:14px 0 2px; border:0; background:transparent}
+
 /* FAQ (Accordion) */
 details{
   background: rgba(7,10,15,.25);
@@ -1065,6 +1096,8 @@ button.back-to-top:focus-visible{border-color:var(--accent); background:rgba(21,
   .quick-start-heading{display:block}
   .quick-start-heading p{margin-top:4px}
   .quick-start-list{grid-template-columns:1fr}
+  .latest-news-preview-header{align-items:flex-start; flex-direction:column}
+  .latest-news-details > summary{align-items:flex-start; flex-direction:column}
 
   .command-row {
     grid-template-columns: 1fr;
@@ -2015,6 +2048,7 @@ html[data-theme="light"] :is(
 }
 html[data-theme="light"] :is(.quick-start,.term-section h3){background:rgba(23,105,194,.075)}
 html[data-theme="light"] .quick-start{background:linear-gradient(135deg,rgba(23,105,194,.08),rgba(255,255,255,.72))}
+html[data-theme="light"] .latest-news-preview{background:linear-gradient(135deg,rgba(184,105,0,.08),rgba(255,255,255,.72))}
 html[data-theme="light"] :is(.quick-start-item,details > summary,.share-button,.related-link,.command-action):hover,
 html[data-theme="light"] :is(.quick-start-item,details > summary,.share-button,.related-link,.command-action):focus-visible{
   background:rgba(23,105,194,.08);

@@ -1666,10 +1666,102 @@ function renderNewsMarkdown(container, value) {
   container.innerHTML = renderer.render(String(value || ""));
 }
 
+function getLatestNewsItem(items) {
+  return items.reduce((latest, item) => {
+    if (!latest) return item;
+    const latestTime = Date.parse(latest.publishedAt || "") || 0;
+    const itemTime = Date.parse(item.publishedAt || "") || 0;
+    return itemTime > latestTime ? item : latest;
+  }, null);
+}
+
+function renderLatestNewsPreview() {
+  const container = document.getElementById("latestNewsPreview");
+  if (!container) return;
+  const latest = getLatestNewsItem(Array.isArray(newsData?.items) ? newsData.items : []);
+  if (!latest) {
+    container.replaceChildren();
+    return;
+  }
+
+  const header = document.createElement("div");
+  header.className = "latest-news-preview-header";
+  const headingGroup = document.createElement("div");
+  const title = document.createElement("h3");
+  title.id = "latestNewsPreviewTitle";
+  title.textContent = window.LANG?.[getCurrentLang()]?.faq_latest_news_title || "Latest announcement";
+  const description = document.createElement("p");
+  description.textContent = window.LANG?.[getCurrentLang()]?.faq_latest_news_description
+    || "Expand to read the most recent announcement.";
+  headingGroup.append(title, description);
+
+  const openNewsButton = document.createElement("button");
+  openNewsButton.type = "button";
+  openNewsButton.className = "latest-news-open-tab";
+  openNewsButton.textContent = window.LANG?.[getCurrentLang()]?.faq_latest_news_open_tab || "View all news";
+  openNewsButton.addEventListener("click", () => {
+    openTab("news");
+    document.getElementById("tab-news")?.focus();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  header.append(headingGroup, openNewsButton);
+
+  const details = document.createElement("details");
+  details.className = "latest-news-details";
+  const summary = document.createElement("summary");
+  const latestTitle = document.createElement("strong");
+  latestTitle.textContent = latest.title || "Announcement";
+  const published = document.createElement("time");
+  published.dateTime = latest.publishedAt || "";
+  published.textContent = formatContentDate(latest.publishedAt);
+  summary.append(latestTitle, published);
+
+  const body = document.createElement("div");
+  body.className = "latest-news-body";
+  const content = document.createElement("div");
+  content.className = "news-content";
+  renderNewsMarkdown(content, latest.content || latest.summary || "");
+  body.appendChild(content);
+
+  const attachments = document.createElement("div");
+  attachments.className = "news-attachments";
+  (latest.attachments || []).forEach(attachment => {
+    const href = safeHttpUrl(attachment.url);
+    if (!href) return;
+    const link = document.createElement("a");
+    link.href = href;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    if (String(attachment.contentType || "").startsWith("image/")) {
+      const image = document.createElement("img");
+      image.src = href;
+      image.alt = attachment.filename || "Announcement image";
+      image.loading = "lazy";
+      link.appendChild(image);
+    } else {
+      link.textContent = attachment.filename || href;
+    }
+    attachments.appendChild(link);
+  });
+  if (attachments.childElementCount) body.appendChild(attachments);
+
+  const original = document.createElement("a");
+  original.className = "news-original";
+  original.href = safeHttpUrl(latest.url) || "https://discord.gg/rssze";
+  original.target = "_blank";
+  original.rel = "noopener noreferrer";
+  original.textContent = window.LANG?.[getCurrentLang()]?.news_original || "View original";
+  body.appendChild(original);
+
+  details.append(summary, body);
+  container.replaceChildren(header, details);
+}
+
 function renderNews() {
   const list = document.getElementById("newsList");
   if (!list || !newsData) return;
   setContentUpdatedAt("newsLastUpdate", newsData);
+  renderLatestNewsPreview();
 
   const items = Array.isArray(newsData.items) ? newsData.items : [];
   if (!items.length) {
