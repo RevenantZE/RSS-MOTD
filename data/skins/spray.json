@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "spray",
-  "updatedAt": "2026-07-16T06:37:37.589000+00:00",
+  "updatedAt": "2026-07-23T16:23:12.474000+00:00",
   "items": [
     {
       "id": "spray-001",
@@ -870,6 +870,231 @@
           "src": "assets/skins/spray/058-01.webp",
           "width": 254,
           "height": 265
+        }
+      ]
+    },
+    {
+      "id": "spray-059",
+      "order": 59,
+      "name": "spray 59",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885376561287480",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/059-01.webp",
+          "width": 284,
+          "height": 260
+        }
+      ]
+    },
+    {
+      "id": "spray-060",
+      "order": 60,
+      "name": "spray 60",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885452092444803",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/060-01.webp",
+          "width": 390,
+          "height": 367
+        }
+      ]
+    },
+    {
+      "id": "spray-061",
+      "order": 61,
+      "name": "spray 61",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885509994807358",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/061-01.webp",
+          "width": 325,
+          "height": 281
+        }
+      ]
+    },
+    {
+      "id": "spray-062",
+      "order": 62,
+      "name": "spray 62",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885604245012610",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/062-01.webp",
+          "width": 410,
+          "height": 383
+        }
+      ]
+    },
+    {
+      "id": "spray-063",
+      "order": 63,
+      "name": "spray 63",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885689921929287",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/063-01.webp",
+          "width": 347,
+          "height": 325
+        }
+      ]
+    },
+    {
+      "id": "spray-064",
+      "order": 64,
+      "name": "spray 64",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885808600023131",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/064-01.webp",
+          "width": 568,
+          "height": 536
+        }
+      ]
+    },
+    {
+      "id": "spray-065",
+      "order": 65,
+      "name": "spray 65",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885887029182504",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/065-01.webp",
+          "width": 586,
+          "height": 645
+        }
+      ]
+    },
+    {
+      "id": "spray-066",
+      "order": 66,
+      "name": "spray 66",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529885961297858570",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/066-01.webp",
+          "width": 314,
+          "height": 290
+        }
+      ]
+    },
+    {
+      "id": "spray-067",
+      "order": 67,
+      "name": "spray 67",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886055044616274",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/067-01.webp",
+          "width": 530,
+          "height": 531
+        }
+      ]
+    },
+    {
+      "id": "spray-068",
+      "order": 68,
+      "name": "spray 68",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886137542250678",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/068-01.webp",
+          "width": 378,
+          "height": 371
+        }
+      ]
+    },
+    {
+      "id": "spray-069",
+      "order": 69,
+      "name": "spray 69",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886231708700833",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/069-01.webp",
+          "width": 431,
+          "height": 426
+        }
+      ]
+    },
+    {
+      "id": "spray-070",
+      "order": 70,
+      "name": "spray 70",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886334083272765",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/070-01.webp",
+          "width": 558,
+          "height": 528
+        }
+      ]
+    },
+    {
+      "id": "spray-071",
+      "order": 71,
+      "name": "spray 71",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886464664408095",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/071-01.webp",
+          "width": 260,
+          "height": 257
+        }
+      ]
+    },
+    {
+      "id": "spray-072",
+      "order": 72,
+      "name": "spray 72",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886540661264585",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/072-01.webp",
+          "width": 335,
+          "height": 331
+        }
+      ]
+    },
+    {
+      "id": "spray-073",
+      "order": 73,
+      "name": "spray 73",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1529886613067268210",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/073-01.webp",
+          "width": 401,
+          "height": 372
         }
       ]
     }
