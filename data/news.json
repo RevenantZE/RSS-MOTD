@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T01:56:39.871000+00:00",
+  "updatedAt": "2026-08-01T03:39:10.934000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1532939749080305734",
+      "title": "RSS 에셋 업데이트",
+      "content": "## 캐릭터 스킨이 추가 되었습니다\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1532926523613380639\n\n```레바테인 (엔드필드)\n요원 키프펠 (VRCHAT)\n토키토리 (어드민 전용)\n키프펠 (VRCHAT) (어드민 전용)```\n- 어드민 전용 스킨은 추후에 일반 유저 들도 다른 방식으로 획득처 제공 예정\n\n## 일부 스킨 가격 상승\n\n- 일부 스킨 가격이 상승했습니다. (50개가량)\n- 500원 ~ 1000원 사이로 가격 올렸습니다.\n\n## 신규 커스텀 무기가 추가 되었습니다\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1532928600934973532\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1532932014150385704\n\n```AK47 Prana [F] (ak47)\nKaltist HK433 [F] (mp5sd)\nCSO:NataKnife [A]\nApex Krultepes Karambit (카람빗)```\n- [F] 표시가 있는 무기는 전용 발사음이 적용\n- [A] 표시가 있는 무기는 전용 애니메이션이 적용\n\n## 커스텀 무기 사운드 추가 및 조정\n```Rival-9 Aris 전용 발사음 추가\nAK47 Prana 전용 발사음 추가\n일부 기존 커스텀 무기 사운드 조정```\n\n## 신규 커스텀 라디오가 추가 되었습니다\n\n- 커스텀 라디오 사운드  (여성 라디오 추가)\n\n## 스프레이가 추가 되었습니다\n\n신규 스프레이 3종 추가\nhttps://discord.com/channels/850664390779731978/1438222899562545253/1532937777518219324\n\n## 에셋 최적화\n- 구매기록이 2달동안 없는 캐릭터 스킨 정리 앞의 조건을 기반으로 사용률이 저조하다고 판단되면 정리진행 (에셋정리)\n### 삭제된 스킨 목록\n```루카리오 (포켓몬)\n제인도 (젠존제)\n이블린 (젠존제)\n니코 (원샷)\n비타 (붕괴3rd)```\n- 구형 커스텀 무기 사운드 파일 정리\n\n---\n\n# RSS  Asset Update\n\n## New character skins added\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1532926523613380639\n\n```Laevatain (Endfield)\nKipfel Tactical (VRCHAT)\nTokitori (ADMIN ONLY)\nKipfel (VRCHAT) (ADMIN ONLY)```\n- Admin-exclusive skins will be made available to regular players through other methods in a future update\n\n## Price Adjustments\n\n- Prices for some skins have been increased.(50 skins)\n- Prices have been increased by 500–1,000 credit\n\n## New Custom Weapon added\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1532928600934973532\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1532932014150385704\n\n```AK47 Prana [F] (ak47)\nKaltist HK433 [F] (mp5sd)\nCSO:NataKnife [A]\nApex Krultepes Karambit```\n- [F]  Custom firing sound\n- [A]  Custom animation\n\n## Custom Weapon Sounds\n```Added a custom firing sound for Rival-9 Aris.\nAdded a custom firing sound for AK-47 Prana.\nAdjusted sound effects for several existing custom weapons.```\n\n## New Custom Radio Sounds added\n\n-  Added female radio voice lines\n\n## New Spray added\n\nAdded spray list\nhttps://discord.com/channels/850664390779731978/1438222899562545253/1532937777518219324\n\n##  Asset Optimization\n- Character skins with  no purchase history for the past 2 months may be removed if they are determined to have low usage based on the criteria above.\n\n### Removed character skins list\n```Lucario (Pokemon)\nJane Doe (ZZZ)\nEvelyn (ZZZ)\nNiko (OneShot)\nVita (Honkai Impact 3rd)```\n- Cleaned up old custom weapon sound files.\n\n@RSS Player",
+      "publishedAt": "2026-08-01T02:35:16.824000+00:00",
+      "editedAt": "2026-08-01T03:39:10.934000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1532939749080305734",
+      "attachments": []
+    },
     {
       "id": "1531626988102615102",
       "title": "RSS ZE 에셋 업데이트",
@@ -360,18 +372,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1514964005989384263",
-      "attachments": []
-    },
-    {
-      "id": "1513947867268513912",
-      "title": "- 세팅 조정",
-      "content": "총기들의 거리에 따른 데미지 감소율을 조정했습니다\n\n데미지 감소율\n```ansi\nbizon     27% ▶ \u001b[2;31m22%\u001b[0m\nmac10     25% ▶ \u001b[2;31m20%\u001b[0m\nmp5       25% ▶ \u001b[2;31m20%\u001b[0m\nmp7       24% ▶ \u001b[2;31m19%\u001b[0m\nmp9       28% ▶ \u001b[2;31m23%\u001b[0m\np90       25% ▶ \u001b[2;31m20%\u001b[0m\nump       32% ▶ \u001b[2;31m24%\u001b[0m\n\nak47      18% ▶ \u001b[2;31m12%\u001b[0m\ngalil     18% ▶ \u001b[2;31m12%\u001b[0m\nm4a4      15% ▶ \u001b[2;31m10%\u001b[0m\nm4a1-s    18% ▶ \u001b[2;31m12%\u001b[0m\nfamas     15% ▶ \u001b[2;31m10%\u001b[0m\naug       13% ▶ \u001b[2;31m9%\u001b[0m\nsg553     15% ▶ \u001b[2;31m10%\u001b[0m\n\nmag7      40% ▶ 40%\nnova      35% ▶ 35%\nsawedoff  50% ▶ \u001b[2;31m45%\u001b[0m\nxm        30% ▶ 30%\n\nm249      22% ▶ \u001b[2;31m19%\u001b[0m\nnegev     20% ▶ \u001b[2;31m16%\u001b[0m\n\ng3sg1     10% ▶ \u001b[2;31m8%\u001b[0m\nscar      10% ▶ 10%\n```\n@RSS Player",
-      "publishedAt": "2026-06-09T16:48:19.348000+00:00",
-      "editedAt": null,
-      "author": "있었는데요",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1513947867268513912",
       "attachments": []
     },
     {
