@@ -164,6 +164,22 @@
               }
             },
             {
+              "command": "/selfgag",
+              "description": {
+                "ko": "대상자 채팅 차단",
+                "en": "Mute the target player's chat",
+                "jp": "対象プレイヤーのチャットをミュート"
+              }
+            },
+            {
+              "command": "/selfungag",
+              "description": {
+                "ko": "대상자 채팅 차단 해제",
+                "en": "Unmute the target player's chat",
+                "jp": "対象プレイヤーのチャットミュートを解除"
+              }
+            },
+            {
               "command": "/noshake",
               "description": {
                 "ko": "화면 흔들림 끄기",
