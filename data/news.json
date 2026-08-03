@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T14:47:11.576000+00:00",
+  "updatedAt": "2026-08-03T10:15:02.315000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1533780226746744923",
+      "title": "RSS 에셋 업데이트 및 스토어 업데이트",
+      "content": "## 신규 무기 스킨 추가\n\n> * Miku PA (Ursus)(주무기)\n> * Miku HE (HE 수류탄 스킨)(투척무기)\n> * Baron Bunny HE (HE 수류탄 스킨)(투척무기)\n\n## 히든 스킨 출시\n\n> * 히든 스킨들은 오직 뽑기(가챠)를 통해서만 획득 가능.\n> * 히든 스킨은 뒤에 [H] 가 붙음.\n> * 전용 애니메이션이 들어간 스킨은 히든으로 넘어가지만 VIP는 그대로 사용 가능.\n> * 앞으로 지속적으로 히든 스킨 추가 예정. (무기 , 캐릭터 상관없이)\n> * 히든 스킨은 스토어의 구매창에서 노출 X\n\n## 히든 캐릭터 스킨\n\n> * 갈브레나 오버클럭 (명조)\n> * 히유키 서리 (명조)\n> * 토키토리\n> * 키프펠 (VRCHAT)\n\n## 히든 무기 스킨\n\n> * cosmic_apex_karambit[A](근접무기)\n> * cosmic_apex_karambit_yellow[A](근접무기)\n> * bangalore_kukri[A](근접무기)\n> * apex_kunai_red[A](근접무기)\n> * apex_kunai_blue[A](근접무기)\n> * hl_hyper_negev(주무기)\n\n---\n\n# RSS Asset & Store Update\n\n## New Weapon Skins Added\n\n> * Miku PA (Ursus)(Primary)\n> * Miku HE (HE Grenade Skin)(Throwable)\n> * Baron Bunny HE (HE Grenade Skin)(Throwable)\n\n## Hidden Skins Released\n\n> * Hidden skins can only be obtained through Gacha.\n> * Hidden skins are tagged with [H].\n> * Skins with custom animations are moved to Hidden, but VIP users can still use them normally.\n> * More hidden skins will be added continuously (Weapons and Characters).\n> * Hidden skins are NOT displayed in the store purchasing menu.\n\n## Hidden Character Skins\n\n> * Galbrena Overclock (WuWa)\n> * Hiyuki Frost (WuWa)\n> * Tokitory\n> * Kipfel (VRCHAT)\n\n## Hidden Weapon Skins\n\n> * cosmic_apex_karambit[A](Melee)\n> * cosmic_apex_karambit_yellow[A](Melee)\n> * bangalore_kukri[A](Melee)\n> * apex_kunai_red[A](Melee)\n> * apex_kunai_blue[A](Melee)\n> * hl_hyper_negev(Primary)\n\n@RSS Player",
+      "publishedAt": "2026-08-03T10:15:02.315000+00:00",
+      "editedAt": null,
+      "author": "킁",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1533780226746744923",
+      "attachments": []
+    },
+    {
+      "id": "1533779937985560748",
+      "title": "RSS 플러그인 업데이트",
+      "content": "## 뽑기 시스템 추가\n\n> * `!gacha`, `!가챠`, `!뽑기` 명령어로 가챠 메뉴를 오픈가능.\n> * 스토어 메뉴 4번에서도 가챠 메뉴를 이용가능.\n> * 살아있는 플레이어만 이용가능. (사망 또는 관전 상태에서는 이용 불가)\n> * 웜업 또는 어드민이 허용한 경우에만 이용가능.\n>\n> ### 가챠 종류 및 가격 (1뽑당)\n> * 캐릭터 스킨: 5,000 크레딧\n> * 주무기 스킨: 3,000 크레딧\n> * 보조무기 스킨: 2,000 크레딧\n> * 근접무기 스킨: 4,000 크레딧\n> * 투척무기 스킨: 2,000 크레딧\n\n## 보상 안내\n\n> * https://discord.com/channels/850664390779731978/1533767724499468359\n\n## 가챠 운영방식\n\n> * 플레이어 앞에 슬롯머신이 생성되며, 조준한 상태에서 `E`키를 누르면 시작\n> * 10초 동안 상호작용하지 않으면 자동으로 연출이 시작\n> * 라운드 종료, 사망, 연결 종료 등으로 연출이 취소돼도 확정된 보상은 정상 지급\n> * 서버의 웜업 시간이 기본 150초로 설정\n> * 웜업 중에는 감염 카운트다운이 진행 X\n> * 웜업 종료 시 가챠는 자동으로 비활성화\n> * 이미 영구제로 보유한 스킨은 해당 플레이어의 가챠 목록에서 제외\n> * 기간제 스킨을 다시 획득하면 기존 만료일에 기간이 추가\n> * 기존 기간이 만료됐다면 획득 시점부터 새 기간이 적용\n\n## 토큰샵 기능 추가\n\n> * 쩜육 라디오 1주일 가격: 80 토큰\n> * 여자 라디오 1주일 가격: 100 토큰\n> * 라디오 볼륨 살짝 증가\n> * 수류탄 트레일 1주일 가격: 30 토큰\n\n## 기타 변경사항 및 명령어 추가\n\n> * `!motd` 명령어 추가\n> * `/selfgag`, `/selfungag` 명령어 추가 (`/`로만 사용 가능)\n> * `!1`, `!2`, `!3`, `!4` ... 메뉴 관련 명령어 채팅창에 숨김 처리\n\n---\n\n# RSS Plugin Update\n\n## Gacha System Added\n\n> * Open the menu via `!gacha` command.\n> * Also accessible via Store menu option 4.\n> * Only available for alive players (unavailable for dead or spectating players).\n> * Only available during warmup or when allowed by an admin.\n>\n> ### Gacha Types & Cost (per roll)\n> * Character Skin: 5,000 Credits\n> * Primary Weapon Skin: 3,000 Credits\n> * Secondary Weapon Skin: 2,000 Credits\n> * Melee Weapon Skin: 4,000 Credits\n> * Throwable Skin: 2,000 Credits\n\n## Reward Details\n\n> * https://discord.com/channels/850664390779731978/1533767724499468359\n\n## Operation Method\n\n> * A slot machine spawns in front of the player; aim and press `E` to start.\n> * Starts automatically after 10 seconds of no interaction.\n> * Predetermined rewards are granted even if cancelled by round end, death, or disconnect.\n> * Server warmup time is set to 150 seconds by default.\n> * Infection countdown does NOT progress during warmup.\n> * Gacha automatically deactivates when warmup ends.\n> * Skins already owned permanently are excluded from the player's gacha pool.\n> * Obtaining a temporary skin again extends the existing expiration duration.\n> * If expired, the new duration applies from the time of acquisition.\n\n## Token Shop Features Added\n\n> * 1.6 Radio (1 week): 80 Tokens\n> * Female Radio (1 week): 100 Tokens\n> * Slightly increased radio volume\n> * Grenade Trail (1 week): 30 Tokens\n\n## Other Changes & New Commands\n\n> * Added `!motd` command\n> * Added `/selfgag` and `/selfungag` commands (Available only with `/`)\n> * Hidden menu selection commands (`!1`, `!2`, `!3`, `!4` ...) from chat\n\n@RSS Player",
+      "publishedAt": "2026-08-03T10:13:53.469000+00:00",
+      "editedAt": null,
+      "author": "킁",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1533779937985560748",
+      "attachments": []
+    },
     {
       "id": "1532939749080305734",
       "title": "RSS 에셋 업데이트",
@@ -336,30 +360,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1517075741756358676",
-      "attachments": []
-    },
-    {
-      "id": "1516769524928610345",
-      "title": "토큰샵 커스텀 웨펀 프리뷰 기능이 비활성화되었습니다.",
-      "content": "@RSS Player\n\n!store를 이용해서 커스텀웨폰을 구매할 수 있습니다.\nhttps://discord.com/channels/850664390779731978/1268569844522025032\n커스텀 웨폰 목록\n\nHide 메뉴가 추가 되었습니다.\n\n- 하이드 기능 : 주변 팀원을 안보이게 하는 거리를 조절합니다.\n- 무기 하이드 기능 : 무기 하이드 활성화 비활성화 합니다.\n- 우클릭 하이드 : 우클릭시 근처 팀원이 하이드가 풀립니다.\n\nVIP 기능 추가\n수류탄 트레일 기능 : !trail <R> <G> <B> 를 통해 수류탄 투척 색깔을 바꿀 수 있습니다.\nRainbow 기능 추가 : !Rainbow를 통해 모델 컬러의 색깔을 지속적으로 바꿀 수 있습니다.\n\n일시적 제한 해제\n인게임 70000달러를 소모해서 !smoke 명령어를 통해 빙결탄 구매가 가능합니다.",
-      "publishedAt": "2026-06-17T11:40:34.958000+00:00",
-      "editedAt": "2026-06-17T11:57:47.303000+00:00",
-      "author": "Rami",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1516769524928610345",
-      "attachments": []
-    },
-    {
-      "id": "1516486664137084989",
-      "title": "에셋 업데이트 (Asset Update)",
-      "content": "- 인간 스킨이 추가되었습니다 (add human skin)\n\nhttps://discord.com/channels/850664390779731978/1424467148574691540/1516485085052932138\n```Academy Rover (WuWa) / 아카데미 방랑자 (명조)\nCamellya Solar5 (WuWa) / 카멜리아 Solar5 (명조)\nCantarella (WuWa) / 칸타렐라 (명조)\nDenia Solar5 (WuWa) / 데니아 Solar5 (명조)\nIuno Solar5 (WuWa) / 유노 Solar5 (명조)\nLynae Solar5 (WuWa) / 린네 Solar5 (명조)\nPhoebe Solar5 (WuWa) / 페비 Solar5 (명조)\nRover (WuWa) / 방랑자 (명조)\nShiroko Terror (Blue Archive) / 시로코 테러 (블루아카이브)```\n\n- 무기 스킨이 추가되었습니다 (add custom weapon skin)\n\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1516480906326577182\n```hl_hyper_negev```\n\n에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요 (If you're experiencing an error, please subscribe using the link below and restart the game.)\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3671104537\n\n@RSS Player",
-      "publishedAt": "2026-06-16T16:56:35.690000+00:00",
-      "editedAt": "2026-06-16T17:02:08.327000+00:00",
-      "author": "``Asmodeus``",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1516486664137084989",
       "attachments": []
     },
     {
