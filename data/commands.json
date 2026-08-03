@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-08-03",
   "pages": [
     {
       "id": "basic",
@@ -345,6 +345,22 @@
                 "ko": "스토어 메뉴 오픈",
                 "en": "Open store menu",
                 "jp": "ストアメニューを開く"
+              }
+            },
+            {
+              "command": "/gacha",
+              "description": {
+                "ko": "뽑기 스토어 열기",
+                "en": "Open the gacha store",
+                "jp": "ガチャストアを開く"
+              }
+            },
+            {
+              "command": "/gachachance",
+              "description": {
+                "ko": "뽑기 확률 확인",
+                "en": "Check gacha rates",
+                "jp": "ガチャ確率を確認"
               }
             },
             {
