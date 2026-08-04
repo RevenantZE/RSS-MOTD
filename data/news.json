@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T03:21:36.499000+00:00",
+  "updatedAt": "2026-08-04T09:29:44.865000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -15,11 +15,23 @@
   ],
   "items": [
     {
+      "id": "1534126577238020147",
+      "title": "스토어 업데이트",
+      "content": "## 토큰샵 가격 인하\n\n> 아래 가격은 모두 **1주일 이용권 기준**입니다.\n>\n> * 모델 컬러: ~~80 토큰~~ → **25 토큰**\n> * 레인보우 모델: ~~100 토큰~~ → **50 토큰**\n> * 트레이서: ~~50 토큰~~ → **40 토큰**\n> * 쩜육 라디오: ~~80 토큰~~ → **50 토큰**\n\n## 신규 라디오 추가\n\n> * CSO Idol Miho Radio\n> * CSO Anemone Radio\n> * CSO Alpaca Anemone Radio\n> * CSO Gladius Radio\n\n## 신규 라디오 출시 할인\n\n> 신규 라디오 가격도 **1주일 이용권 기준**입니다.\n>\n> * 출시 할인 가격: **75 토큰**\n> * 다음 주부터 **150 토큰**으로 인상됩니다.\n\n---\n\n# Store Update\n\n## Token Shop Price Reductions\n\n> All prices below are for a **1-week duration**.\n>\n> * Model Color: ~~80 Tokens~~ → **25 Tokens**\n> * Rainbow Model: ~~100 Tokens~~ → **50 Tokens**\n> * Tracer: ~~50 Tokens~~ → **40 Tokens**\n> * 1.6 Radio: ~~80 Tokens~~ → **50 Tokens**\n\n## New Radios Added\n\n> * CSO Idol Miho Radio\n> * CSO Anemone Radio\n> * CSO Alpaca Anemone Radio\n> * CSO Gladius Radio\n\n## New Radio Launch Discount\n\n> New radio prices are also for a **1-week duration**.\n>\n> * Launch Discount Price: **75 Tokens**\n> * The price will increase to **150 Tokens** next week.\n\n@RSS Player",
+      "publishedAt": "2026-08-04T09:11:18.707000+00:00",
+      "editedAt": "2026-08-04T09:11:48.739000+00:00",
+      "author": "투온전도사",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1534126577238020147",
+      "attachments": []
+    },
+    {
       "id": "1533998270496374905",
       "title": "RSS 에셋 업데이트",
-      "content": "## 슬롯 머신 애니메이션 변동\n- 다양한 가챠 연출을 위한 시작 Pos 값 조정\n\n## 캐릭터 스킨 추가\n\n## -일반-\n- https://discord.com/channels/850664390779731978/1517461614356594700/1533995053918195722\n- 플랑도르 스칼렛 (동방)\n- 미니 귤복복 (젠존제)\n- 미니 미야비 (젠존제)\n- 미니 자오 (젠존제)\n- 스키퍼 (마다가스카의 펭귄)\n- 요시노 (데이트 어 라이브)\n\n## -히든-\n- https://discord.com/channels/850664390779731978/1533778592100646962/1533996463246278726\n- 닭둘기 [H]\n\n에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n---\n\n# RSS Asset Update\n\n## Slot Machine Animation\n- Adjusted the animation start position values to create more diverse gacha effects.\n\n## Add human skin added\n\n## -Normal-\n- https://discord.com/channels/850664390779731978/1517461614356594700/1533995053918195722\n- Flandre Scarlet (Touhou)\n- Chibi FuFu (ZZZ)\n- Chibi MiyaBi (ZZZ)\n- Chibi Zhao (ZZZ)\n- Skipper (Penguins of Madagascar)\n- Yoshino (Date a live)\n\n## -Hidden-\n- https://discord.com/channels/850664390779731978/1533778592100646962/1533996463246278726\n- Chickenleetle [H]\n\nIf you're experiencing an error, please subscribe using the link below and restart the game\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n@RSS Player",
+      "content": "## 슬롯 머신 애니메이션 변동\n- 다양한 가챠 연출을 위한 시작 Pos 값 조정\n\n## 캐릭터 스킨 추가\n\n## -일반-\n https://discord.com/channels/850664390779731978/1517461614356594700/1533995053918195722\n- 플랑도르 스칼렛 (동방)\n- 미니 귤복복 (젠존제)\n- 미니 미야비 (젠존제)\n- 미니 자오 (젠존제)\n- 스키퍼 (마다가스카의 펭귄)\n- 요시노 (데이트 어 라이브)\n\n## -히든-\n https://discord.com/channels/850664390779731978/1533778592100646962/1533996463246278726\n- 닭둘기 [H]\n\n에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n---\n\n# RSS Asset Update\n\n## Slot Machine Animation\n- Adjusted the animation start position values to create more diverse gacha effects.\n\n## Add human skin added\n\n## -Normal-\n https://discord.com/channels/850664390779731978/1517461614356594700/1533995053918195722\n- Flandre Scarlet (Touhou)\n- Chibi FuFu (ZZZ)\n- Chibi MiyaBi (ZZZ)\n- Chibi Zhao (ZZZ)\n- Skipper (Penguins of Madagascar)\n- Yoshino (Date a live)\n\n## -Hidden-\n https://discord.com/channels/850664390779731978/1533778592100646962/1533996463246278726\n- Chickenleetle [H]\n\nIf you're experiencing an error, please subscribe using the link below and restart the game\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n@RSS Player",
       "publishedAt": "2026-08-04T00:41:27.996000+00:00",
-      "editedAt": "2026-08-04T03:21:36.499000+00:00",
+      "editedAt": "2026-08-04T09:29:44.865000+00:00",
       "author": "``Asmodeus``",
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
@@ -336,18 +348,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1517572266429513769",
-      "attachments": []
-    },
-    {
-      "id": "1517483392999100516",
-      "title": "!store에 좀비스킨이 추가되었습니다.",
-      "content": "@RSS Player\n\n종류\n1.기본 좀비\n2.프로즌\n3.컬티스트\n4.마크좀비\n5.데모고르곤\nhttps://discord.com/channels/850664390779731978/1517475506771984574\n언젠가 프리뷰가 추가될 예정 (눈치)\n\n가격은 1000크레딧입니다.\n\n많관부",
-      "publishedAt": "2026-06-19T10:57:14.369000+00:00",
-      "editedAt": "2026-06-19T11:03:27.259000+00:00",
-      "author": "Rami",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1517483392999100516",
       "attachments": []
     },
     {
