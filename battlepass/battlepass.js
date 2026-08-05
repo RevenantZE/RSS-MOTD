@@ -17,6 +17,10 @@
       const value = strings[element.dataset.lang];
       if (value != null) element.textContent = value;
     });
+    document.querySelectorAll("[data-lang-aria-label]").forEach(element => {
+      const value = strings[element.dataset.langAriaLabel];
+      if (value != null) element.setAttribute("aria-label", value);
+    });
     document.querySelectorAll("[data-language]").forEach(button => {
       const active = button.dataset.language === lang;
       button.classList.toggle("active", active);

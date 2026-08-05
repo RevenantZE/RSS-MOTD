@@ -153,8 +153,8 @@
                                         "id":  "weekly_top_defender",
                                         "title":  {
                                                       "ko":  "Top Defender 상위 5위 5회",
-                                                      "en":  "Place Top 5 Defender 5 times",
-                                                      "jp":  "Place Top 5 Defender 5 times"
+                                                      "en":  "Place among the Top 5 Defenders 5 times",
+                                                      "jp":  "Place among the Top 5 Defenders 5 times"
                                                   },
                                         "description":  {
                                                             "ko":  "라운드 종료 시 Top Defender 상위 5위 안에 5회 들어가세요.",
@@ -261,29 +261,29 @@
                     },
                     {
                         "level":  2,
-                        "icon":  "▰",
+                        "icon":  "◈",
                         "name":  {
-                                     "ko":  "보급 상자",
-                                     "en":  "Supply Crate",
-                                     "jp":  "Supply Crate"
+                                     "ko":  "1 토큰",
+                                     "en":  "1 Token",
+                                     "jp":  "1 Token"
                                  }
                     },
                     {
                         "level":  3,
-                        "icon":  "✦",
+                        "icon":  "◆",
                         "name":  {
-                                     "ko":  "스프레이 토큰",
-                                     "en":  "Spray Token",
-                                     "jp":  "Spray Token"
+                                     "ko":  "750 크레딧",
+                                     "en":  "750 Credits",
+                                     "jp":  "750 Credits"
                                  }
                     },
                     {
                         "level":  4,
-                        "icon":  "▲",
+                        "icon":  "◈",
                         "name":  {
-                                     "ko":  "경험치 부스트 10%",
-                                     "en":  "XP Boost 10%",
-                                     "jp":  "XP Boost 10%"
+                                     "ko":  "1 토큰",
+                                     "en":  "1 Token",
+                                     "jp":  "1 Token"
                                  }
                     },
                     {
@@ -297,24 +297,33 @@
                     },
                     {
                         "level":  6,
-                        "icon":  "◉",
+                        "icon":  "◈",
                         "name":  {
-                                     "ko":  "닉네임 색상",
-                                     "en":  "Name Color",
-                                     "jp":  "Name Color"
+                                     "ko":  "2 토큰",
+                                     "en":  "2 Tokens",
+                                     "jp":  "2 Tokens"
                                  }
                     },
                     {
                         "level":  7,
-                        "icon":  "▰",
+                        "icon":  "◆",
                         "name":  {
-                                     "ko":  "미스터리 상자",
-                                     "en":  "Mystery Crate",
-                                     "jp":  "Mystery Crate"
+                                     "ko":  "1,250 크레딧",
+                                     "en":  "1,250 Credits",
+                                     "jp":  "1,250 Credits"
                                  }
                     },
                     {
                         "level":  8,
+                        "icon":  "◈",
+                        "name":  {
+                                     "ko":  "2 토큰",
+                                     "en":  "2 Tokens",
+                                     "jp":  "2 Tokens"
+                                 }
+                    },
+                    {
+                        "level":  9,
                         "icon":  "◆",
                         "name":  {
                                      "ko":  "1,500 크레딧",
@@ -323,25 +332,34 @@
                                  }
                     },
                     {
-                        "level":  9,
-                        "icon":  "≈",
-                        "name":  {
-                                     "ko":  "트레일 색상",
-                                     "en":  "Trail Color",
-                                     "jp":  "Trail Color"
-                                 }
-                    },
-                    {
                         "level":  10,
-                        "icon":  "◇",
+                        "icon":  "◈",
                         "name":  {
-                                     "ko":  "희귀 무기 스킨",
-                                     "en":  "Rare Weapon Skin",
-                                     "jp":  "Rare Weapon Skin"
+                                     "ko":  "3 토큰",
+                                     "en":  "3 Tokens",
+                                     "jp":  "3 Tokens"
                                  }
                     },
                     {
                         "level":  11,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "1,750 크레딧",
+                                     "en":  "1,750 Credits",
+                                     "jp":  "1,750 Credits"
+                                 }
+                    },
+                    {
+                        "level":  12,
+                        "icon":  "◈",
+                        "name":  {
+                                     "ko":  "3 토큰",
+                                     "en":  "3 Tokens",
+                                     "jp":  "3 Tokens"
+                                 }
+                    },
+                    {
+                        "level":  13,
                         "icon":  "◆",
                         "name":  {
                                      "ko":  "2,000 크레딧",
@@ -350,43 +368,52 @@
                                  }
                     },
                     {
-                        "level":  12,
-                        "icon":  "票",
-                        "name":  {
-                                     "ko":  "투표 토큰 ×3",
-                                     "en":  "Vote Token ×3",
-                                     "jp":  "Vote Token ×3"
-                                 }
-                    },
-                    {
-                        "level":  13,
-                        "icon":  "≋",
-                        "name":  {
-                                     "ko":  "무지개 트레일",
-                                     "en":  "Rainbow Trail",
-                                     "jp":  "Rainbow Trail"
-                                 }
-                    },
-                    {
                         "level":  14,
-                        "icon":  "▰",
+                        "icon":  "◈",
                         "name":  {
-                                     "ko":  "미스터리 상자",
-                                     "en":  "Mystery Crate",
-                                     "jp":  "Mystery Crate"
+                                     "ko":  "4 토큰",
+                                     "en":  "4 Tokens",
+                                     "jp":  "4 Tokens"
                                  }
                     },
                     {
                         "level":  15,
-                        "icon":  "✺",
+                        "icon":  "◆",
                         "name":  {
-                                     "ko":  "에픽 스프레이",
-                                     "en":  "Epic Spray",
-                                     "jp":  "Epic Spray"
+                                     "ko":  "2,250 크레딧",
+                                     "en":  "2,250 Credits",
+                                     "jp":  "2,250 Credits"
                                  }
                     },
                     {
                         "level":  16,
+                        "icon":  "◈",
+                        "name":  {
+                                     "ko":  "4 토큰",
+                                     "en":  "4 Tokens",
+                                     "jp":  "4 Tokens"
+                                 }
+                    },
+                    {
+                        "level":  17,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "2,500 크레딧",
+                                     "en":  "2,500 Credits",
+                                     "jp":  "2,500 Credits"
+                                 }
+                    },
+                    {
+                        "level":  18,
+                        "icon":  "◈",
+                        "name":  {
+                                     "ko":  "5 토큰",
+                                     "en":  "5 Tokens",
+                                     "jp":  "5 Tokens"
+                                 }
+                    },
+                    {
+                        "level":  19,
                         "icon":  "◆",
                         "name":  {
                                      "ko":  "3,000 크레딧",
@@ -395,39 +422,12 @@
                                  }
                     },
                     {
-                        "level":  17,
-                        "icon":  "▲",
-                        "name":  {
-                                     "ko":  "경험치 부스트 20%",
-                                     "en":  "XP Boost 20%",
-                                     "jp":  "XP Boost 20%"
-                                 }
-                    },
-                    {
-                        "level":  18,
-                        "icon":  "V",
-                        "name":  {
-                                     "ko":  "VIP · 3일",
-                                     "en":  "VIP · 3 Days",
-                                     "jp":  "VIP · 3 Days"
-                                 }
-                    },
-                    {
-                        "level":  19,
-                        "icon":  "▰",
-                        "name":  {
-                                     "ko":  "전설 상자",
-                                     "en":  "Legendary Crate",
-                                     "jp":  "Legendary Crate"
-                                 }
-                    },
-                    {
                         "level":  20,
                         "icon":  "♛",
                         "name":  {
-                                     "ko":  "어비스 워든 스킨",
-                                     "en":  "Abyss Warden Skin",
-                                     "jp":  "Abyss Warden Skin"
+                                     "ko":  "XXX 스킨",
+                                     "en":  "XXX Skin",
+                                     "jp":  "XXX Skin"
                                  }
                     }
                 ]

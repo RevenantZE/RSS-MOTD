@@ -12,13 +12,13 @@
   <script src="./concept-6.js" defer></script>
 </head>
 <body class="concept-page journey-concept" data-battlepass-demo="true">
-  <a class="skip-link" href="#battlepassContent">본문으로 건너뛰기</a>
+  <a class="skip-link" href="#battlepassContent" data-lang="bp_skip">본문으로 건너뛰기</a>
   <header class="concept-header">
     <a id="motdBackLink" class="concept-back" href="../?lang=ko#faq">← MOTD</a>
-    <div class="concept-brand"><strong>RSS · ADVENTURE JOURNEY</strong><span data-lang="bp_title">RSS 배틀 패스</span></div>
+    <div class="concept-brand"><span data-lang="bp_title">RSS 배틀 패스</span></div>
     <div class="concept-actions">
       <div id="steamAccount" class="steam-account" aria-live="polite"></div>
-      <div class="concept-languages" aria-label="언어 선택">
+      <div class="concept-languages" aria-label="언어 선택" data-lang-aria-label="bp_language_label">
         <button type="button" class="langbtn active" data-language="ko" aria-pressed="true">한국어</button>
         <button type="button" class="langbtn" data-language="en" aria-pressed="false">English</button>
         <button type="button" class="langbtn" data-language="jp" aria-pressed="false">日本語</button>
@@ -26,17 +26,17 @@
     </div>
   </header>  <main id="battlepassContent" class="journey-shell" data-auth-state="loading" tabindex="-1">
     <section id="battlepassAuthGate" class="battlepass-auth-gate" aria-live="polite">
-      <strong>Steam 로그인 확인 중...</strong>
-      <p>배틀패스 진행도를 불러오고 있습니다.</p>
+      <strong data-lang="bp_loading_title">Steam 로그인 확인 중...</strong>
+      <p data-lang="bp_loading_description">배틀패스 진행도를 불러오고 있습니다.</p>
       <a id="steamLoginButton" class="steam-login-button" href="./api/login.php?lang=ko" hidden>Steam으로 로그인</a>
     </section>
-    <nav class="journey-mode-tabs" aria-label="배틀 패스 화면">
-      <button type="button" class="active" data-journey-mode="rewards" aria-selected="true"><span>✦</span><b>레벨별 보상</b></button>
-      <button type="button" data-journey-mode="missions" aria-selected="false"><span>▣</span><b>임무</b></button>
+    <nav class="journey-mode-tabs" aria-label="배틀 패스 화면" data-lang-aria-label="bp_screen_label">
+      <button type="button" class="active" data-journey-mode="rewards" aria-selected="true"><span>✦</span><b data-lang="bp_mode_rewards">레벨별 보상</b></button>
+      <button type="button" data-journey-mode="missions" aria-selected="false"><span>▣</span><b data-lang="bp_mode_missions">임무</b></button>
     </nav>
-    <section class="journey-topbar"><div class="journey-rank"><span>패스 등급</span><strong>07</strong></div><div class="journey-level-xp"><div><span>패스 경험치</span><b>6,850 / 8,000</b></div><div><i style="--progress:85.6%"></i></div></div><div class="journey-weekly"><div><span>이번 주 경험치</span><b>4,125 / 10,000</b></div><div><i style="--progress:41.25%"></i></div></div><em>SEASON 01</em></section>
+    <section class="journey-topbar"><div class="journey-rank"><span data-lang="bp_pass_rank">패스 등급</span><strong>07</strong></div><div class="journey-level-xp"><div><span data-lang="bp_pass_xp">패스 경험치</span><b>6,850 / 8,000</b></div><div><i style="--progress:85.6%"></i></div></div><div class="journey-weekly"><div><span data-lang="bp_weekly_xp">이번 주 경험치</span><b>4,125 / 10,000</b></div><div><i style="--progress:41.25%"></i></div></div><em>SEASON 01</em></section>
     <section class="journey-window" data-journey-panel="missions" hidden>
-      <nav class="journey-nav" aria-label="임무 분류"><button type="button" class="active" data-mission-filter="daily" aria-selected="true"><span>◈</span>금일 임무</button><button type="button" data-mission-filter="weekly" aria-selected="false"><span>✦</span>이번 주 임무<small>4일 12시간</small></button><button type="button" data-mission-filter="season" aria-selected="false"><span>◇</span>이번 시즌 임무<small>28일</small></button></nav>
+      <nav class="journey-nav" aria-label="임무 분류" data-lang-aria-label="bp_mission_filter_label"><button type="button" class="active" data-mission-filter="daily" aria-selected="true"><span>◈</span><b data-lang="bp_nav_daily">금일 임무</b></button><button type="button" data-mission-filter="weekly" aria-selected="false"><span>✦</span><b data-lang="bp_nav_weekly">이번 주 임무</b><small data-lang="bp_weekly_remaining">4일 12시간</small></button><button type="button" data-mission-filter="season" aria-selected="false"><span>◇</span><b data-lang="bp_nav_season">이번 시즌 임무</b><small data-lang="bp_season_remaining">28일</small></button></nav>
       <div class="journey-content"><header><div><span data-lang="bp_quest_eyebrow">MISSIONS</span><h1 id="journeyMissionTitle">금일 임무</h1></div><p id="journeyMissionHint">매일 초기화되는 임무입니다.</p></header><div class="journey-missions">      <article class="journey-mission" data-mission-type="daily">
         <header><span data-lang="bp_daily">일일</span><strong>+500 XP</strong></header>
         <h3 data-lang="bp_quest_rounds">아무 맵에서 3라운드 플레이</h3>
@@ -98,7 +98,7 @@
     <section class="journey-rewards" data-journey-panel="rewards">
       <header><div><span data-lang="bp_reward_eyebrow">REWARD TRACK</span><h2 data-lang="bp_reward_title">레벨별 보상</h2></div><aside><b>♛</b><span data-lang="bp_final_name">심연의 수호자 캐릭터 스킨</span></aside></header>
       <div class="journey-track-shell">
-        <div class="journey-tier-labels"><div><i>◇</i><span>패스 보상</span></div></div>
+        <div class="journey-tier-labels"><div><i>◇</i><span data-lang="bp_pass_reward">패스 보상</span></div></div>
         <div class="journey-level-scroll"><ol class="journey-level-track">            <li class="journey-level-column complete">
               <header>Lv.01</header>
               <div class="journey-tier-reward free"><i>◆</i><strong>500 Credits</strong><small>REWARD</small></div>
