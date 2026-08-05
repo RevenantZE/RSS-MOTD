@@ -1,0 +1,434 @@
+{
+    "season":  {
+                   "id":  "SEASON 01"
+               },
+    "player":  {
+                   "passLevel":  7,
+                   "passXp":  6850,
+                   "passXpTarget":  8000,
+                   "weeklyXp":  4125,
+                   "weeklyXpTarget":  10000,
+                   "claimedRewards":  [
+                                          1,
+                                          2,
+                                          3,
+                                          4,
+                                          5,
+                                          6
+                                      ]
+               },
+    "missions":  {
+                     "daily":  [
+                                   {
+                                       "id":  "daily_playtime",
+                                       "title":  {
+                                                     "ko":  "서버에서 30분 플레이",
+                                                     "en":  "Play for 30 minutes",
+                                                     "jp":  "Play for 30 minutes"
+                                                 },
+                                       "description":  {
+                                                           "ko":  "관전 시간을 제외하고 서버에서 30분 동안 플레이하세요.",
+                                                           "en":  "Play actively for 30 minutes, excluding spectator time.",
+                                                           "jp":  "Play actively for 30 minutes, excluding spectator time."
+                                                       },
+                                       "xp":  400,
+                                       "progress":  18,
+                                       "target":  30
+                                   },
+                                   {
+                                       "id":  "daily_human_wins",
+                                       "title":  {
+                                                     "ko":  "인간으로 2라운드 승리",
+                                                     "en":  "Win 2 rounds as a human",
+                                                     "jp":  "Win 2 rounds as a human"
+                                                 },
+                                       "description":  {
+                                                           "ko":  "인간으로 생존하여 2라운드 승리하세요.",
+                                                           "en":  "Survive and win 2 rounds as a human.",
+                                                           "jp":  "Survive and win 2 rounds as a human."
+                                                       },
+                                       "xp":  400,
+                                       "progress":  2,
+                                       "target":  2
+                                   },
+                                   {
+                                       "id":  "daily_zombie_kills",
+                                       "title":  {
+                                                     "ko":  "좀비 20명 처치",
+                                                     "en":  "Kill 20 zombies",
+                                                     "jp":  "Kill 20 zombies"
+                                                 },
+                                       "description":  {
+                                                           "ko":  "인간으로 좀비 20명을 처치하세요.",
+                                                           "en":  "Kill 20 zombies while playing as a human.",
+                                                           "jp":  "Kill 20 zombies while playing as a human."
+                                                       },
+                                       "xp":  400,
+                                       "progress":  11,
+                                       "target":  20
+                                   },
+                                   {
+                                       "id":  "daily_mother_infections",
+                                       "title":  {
+                                                     "ko":  "숙주 좀비로 인간 5명 감염",
+                                                     "en":  "Infect 5 humans as a mother zombie",
+                                                     "jp":  "Infect 5 humans as a mother zombie"
+                                                 },
+                                       "description":  {
+                                                           "ko":  "숙주 좀비로 인간 5명을 감염시키세요.",
+                                                           "en":  "Infect 5 humans while you are a mother zombie.",
+                                                           "jp":  "Infect 5 humans while you are a mother zombie."
+                                                       },
+                                       "xp":  400,
+                                       "progress":  3,
+                                       "target":  5
+                                   }
+                               ],
+                     "weekly":  [
+                                    {
+                                        "id":  "weekly_playtime",
+                                        "title":  {
+                                                      "ko":  "서버에서 180분 플레이",
+                                                      "en":  "Play for 180 minutes",
+                                                      "jp":  "Play for 180 minutes"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "관전 시간을 제외하고 서버에서 180분 동안 플레이하세요.",
+                                                            "en":  "Play actively for 180 minutes, excluding spectator time.",
+                                                            "jp":  "Play actively for 180 minutes, excluding spectator time."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  112,
+                                        "target":  180
+                                    },
+                                    {
+                                        "id":  "weekly_human_wins",
+                                        "title":  {
+                                                      "ko":  "인간으로 10라운드 승리",
+                                                      "en":  "Win 10 rounds as a human",
+                                                      "jp":  "Win 10 rounds as a human"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "인간으로 생존하여 10라운드 승리하세요.",
+                                                            "en":  "Survive and win 10 rounds as a human.",
+                                                            "jp":  "Survive and win 10 rounds as a human."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  6,
+                                        "target":  10
+                                    },
+                                    {
+                                        "id":  "weekly_zombie_kills",
+                                        "title":  {
+                                                      "ko":  "좀비 150명 처치",
+                                                      "en":  "Kill 150 zombies",
+                                                      "jp":  "Kill 150 zombies"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "인간으로 좀비 150명을 처치하세요.",
+                                                            "en":  "Kill 150 zombies while playing as a human.",
+                                                            "jp":  "Kill 150 zombies while playing as a human."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  84,
+                                        "target":  150
+                                    },
+                                    {
+                                        "id":  "weekly_mother_infections",
+                                        "title":  {
+                                                      "ko":  "숙주 좀비로 인간 30명 감염",
+                                                      "en":  "Infect 30 humans as a mother zombie",
+                                                      "jp":  "Infect 30 humans as a mother zombie"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "숙주 좀비로 인간 30명을 감염시키세요.",
+                                                            "en":  "Infect 30 humans while you are a mother zombie.",
+                                                            "jp":  "Infect 30 humans while you are a mother zombie."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  19,
+                                        "target":  30
+                                    },
+                                    {
+                                        "id":  "weekly_top_defender",
+                                        "title":  {
+                                                      "ko":  "Top Defender 상위 5위 5회",
+                                                      "en":  "Place Top 5 Defender 5 times",
+                                                      "jp":  "Place Top 5 Defender 5 times"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "라운드 종료 시 Top Defender 상위 5위 안에 5회 들어가세요.",
+                                                            "en":  "Finish in the Top 5 Defenders at the end of a round 5 times.",
+                                                            "jp":  "Finish in the Top 5 Defenders at the end of a round 5 times."
+                                                        },
+                                        "xp":  1500,
+                                        "progress":  3,
+                                        "target":  5
+                                    }
+                                ],
+                     "season":  [
+                                    {
+                                        "id":  "season_store_purchase",
+                                        "title":  {
+                                                      "ko":  "스토어에서 상품 1개 구매",
+                                                      "en":  "Buy 1 item from the Store",
+                                                      "jp":  "Buy 1 item from the Store"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "크레딧 스토어에서 아무 상품이나 1개 구매하세요.",
+                                                            "en":  "Purchase any item from the Credit Store.",
+                                                            "jp":  "Purchase any item from the Credit Store."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  1,
+                                        "target":  1
+                                    },
+                                    {
+                                        "id":  "season_token_purchase",
+                                        "title":  {
+                                                      "ko":  "토큰샵에서 상품 1개 구매",
+                                                      "en":  "Buy 1 item from the Token Shop",
+                                                      "jp":  "Buy 1 item from the Token Shop"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "토큰샵에서 아무 상품이나 1개 구매하세요.",
+                                                            "en":  "Purchase any item from the Token Shop.",
+                                                            "jp":  "Purchase any item from the Token Shop."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  0,
+                                        "target":  1
+                                    },
+                                    {
+                                        "id":  "season_gacha_draws",
+                                        "title":  {
+                                                      "ko":  "가챠 3회 이용",
+                                                      "en":  "Use Gacha 3 times",
+                                                      "jp":  "Use Gacha 3 times"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "가챠 결제가 성공한 경우에만 진행됩니다.",
+                                                            "en":  "Only successful Gacha purchases count.",
+                                                            "jp":  "Only successful Gacha purchases count."
+                                                        },
+                                        "xp":  1000,
+                                        "progress":  2,
+                                        "target":  3
+                                    },
+                                    {
+                                        "id":  "season_unique_maps",
+                                        "title":  {
+                                                      "ko":  "서로 다른 맵 10개 플레이",
+                                                      "en":  "Play 10 different maps",
+                                                      "jp":  "Play 10 different maps"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "각 맵에서 1분 이상 활성 플레이해야 인정됩니다.",
+                                                            "en":  "Play actively for at least 1 minute on each map.",
+                                                            "jp":  "Play actively for at least 1 minute on each map."
+                                                        },
+                                        "xp":  1500,
+                                        "progress":  6,
+                                        "target":  10
+                                    },
+                                    {
+                                        "id":  "season_gameplay_credits",
+                                        "title":  {
+                                                      "ko":  "게임 플레이로 5,000 크레딧 획득",
+                                                      "en":  "Earn 5,000 credits through gameplay",
+                                                      "jp":  "Earn 5,000 credits through gameplay"
+                                                  },
+                                        "description":  {
+                                                            "ko":  "플레이타임·라운드 승리·처치·감염·Top Defender 보상으로 획득하세요.",
+                                                            "en":  "Earn credits from playtime, wins, kills, infections, and Top Defender rewards.",
+                                                            "jp":  "Earn credits from playtime, wins, kills, infections, and Top Defender rewards."
+                                                        },
+                                        "xp":  1500,
+                                        "progress":  2850,
+                                        "target":  5000
+                                    }
+                                ]
+                 },
+    "rewards":  [
+                    {
+                        "level":  1,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "500 크레딧",
+                                     "en":  "500 Credits",
+                                     "jp":  "500 Credits"
+                                 }
+                    },
+                    {
+                        "level":  2,
+                        "icon":  "▰",
+                        "name":  {
+                                     "ko":  "보급 상자",
+                                     "en":  "Supply Crate",
+                                     "jp":  "Supply Crate"
+                                 }
+                    },
+                    {
+                        "level":  3,
+                        "icon":  "✦",
+                        "name":  {
+                                     "ko":  "스프레이 토큰",
+                                     "en":  "Spray Token",
+                                     "jp":  "Spray Token"
+                                 }
+                    },
+                    {
+                        "level":  4,
+                        "icon":  "▲",
+                        "name":  {
+                                     "ko":  "경험치 부스트 10%",
+                                     "en":  "XP Boost 10%",
+                                     "jp":  "XP Boost 10%"
+                                 }
+                    },
+                    {
+                        "level":  5,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "1,000 크레딧",
+                                     "en":  "1,000 Credits",
+                                     "jp":  "1,000 Credits"
+                                 }
+                    },
+                    {
+                        "level":  6,
+                        "icon":  "◉",
+                        "name":  {
+                                     "ko":  "닉네임 색상",
+                                     "en":  "Name Color",
+                                     "jp":  "Name Color"
+                                 }
+                    },
+                    {
+                        "level":  7,
+                        "icon":  "▰",
+                        "name":  {
+                                     "ko":  "미스터리 상자",
+                                     "en":  "Mystery Crate",
+                                     "jp":  "Mystery Crate"
+                                 }
+                    },
+                    {
+                        "level":  8,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "1,500 크레딧",
+                                     "en":  "1,500 Credits",
+                                     "jp":  "1,500 Credits"
+                                 }
+                    },
+                    {
+                        "level":  9,
+                        "icon":  "≈",
+                        "name":  {
+                                     "ko":  "트레일 색상",
+                                     "en":  "Trail Color",
+                                     "jp":  "Trail Color"
+                                 }
+                    },
+                    {
+                        "level":  10,
+                        "icon":  "◇",
+                        "name":  {
+                                     "ko":  "희귀 무기 스킨",
+                                     "en":  "Rare Weapon Skin",
+                                     "jp":  "Rare Weapon Skin"
+                                 }
+                    },
+                    {
+                        "level":  11,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "2,000 크레딧",
+                                     "en":  "2,000 Credits",
+                                     "jp":  "2,000 Credits"
+                                 }
+                    },
+                    {
+                        "level":  12,
+                        "icon":  "票",
+                        "name":  {
+                                     "ko":  "투표 토큰 ×3",
+                                     "en":  "Vote Token ×3",
+                                     "jp":  "Vote Token ×3"
+                                 }
+                    },
+                    {
+                        "level":  13,
+                        "icon":  "≋",
+                        "name":  {
+                                     "ko":  "무지개 트레일",
+                                     "en":  "Rainbow Trail",
+                                     "jp":  "Rainbow Trail"
+                                 }
+                    },
+                    {
+                        "level":  14,
+                        "icon":  "▰",
+                        "name":  {
+                                     "ko":  "미스터리 상자",
+                                     "en":  "Mystery Crate",
+                                     "jp":  "Mystery Crate"
+                                 }
+                    },
+                    {
+                        "level":  15,
+                        "icon":  "✺",
+                        "name":  {
+                                     "ko":  "에픽 스프레이",
+                                     "en":  "Epic Spray",
+                                     "jp":  "Epic Spray"
+                                 }
+                    },
+                    {
+                        "level":  16,
+                        "icon":  "◆",
+                        "name":  {
+                                     "ko":  "3,000 크레딧",
+                                     "en":  "3,000 Credits",
+                                     "jp":  "3,000 Credits"
+                                 }
+                    },
+                    {
+                        "level":  17,
+                        "icon":  "▲",
+                        "name":  {
+                                     "ko":  "경험치 부스트 20%",
+                                     "en":  "XP Boost 20%",
+                                     "jp":  "XP Boost 20%"
+                                 }
+                    },
+                    {
+                        "level":  18,
+                        "icon":  "V",
+                        "name":  {
+                                     "ko":  "VIP · 3일",
+                                     "en":  "VIP · 3 Days",
+                                     "jp":  "VIP · 3 Days"
+                                 }
+                    },
+                    {
+                        "level":  19,
+                        "icon":  "▰",
+                        "name":  {
+                                     "ko":  "전설 상자",
+                                     "en":  "Legendary Crate",
+                                     "jp":  "Legendary Crate"
+                                 }
+                    },
+                    {
+                        "level":  20,
+                        "icon":  "♛",
+                        "name":  {
+                                     "ko":  "어비스 워든 스킨",
+                                     "en":  "Abyss Warden Skin",
+                                     "jp":  "Abyss Warden Skin"
+                                 }
+                    }
+                ]
+}

@@ -1,175 +1,185 @@
 <!doctype html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RSS 배틀 패스</title>
-  <meta name="description" content="RSS 좀비탈출서버 배틀 패스 UI" />
-  <meta name="theme-color" content="#090d18" />
-  <link rel="stylesheet" href="./battlepass.css" />
+  <meta name="description" content="RSS 좀비탈출서버 배틀 패스 UI 시안" />
+  <meta name="theme-color" content="#0b1117" />
+  <link rel="stylesheet" href="./concept-6.css" />
   <script src="./lang.js" defer></script>
   <script src="./battlepass.js" defer></script>
+  <script src="./concept-6.js" defer></script>
 </head>
-<body class="battlepass-page">
+<body class="concept-page journey-concept" data-battlepass-demo="true">
   <a class="skip-link" href="#battlepassContent">본문으로 건너뛰기</a>
-  <header class="battlepass-site-header">
-    <a id="motdBackLink" class="battlepass-back" href="../?lang=ko#faq" aria-label="MOTD로 돌아가기">← MOTD</a>
-    <div class="battlepass-brand">
-      <strong>RSS ZOMBIE ESCAPE</strong>
-      <span data-lang="bp_title">RSS 배틀 패스</span>
+  <header class="concept-header">
+    <a id="motdBackLink" class="concept-back" href="../?lang=ko#faq">← MOTD</a>
+    <div class="concept-brand"><strong>RSS · ADVENTURE JOURNEY</strong><span data-lang="bp_title">RSS 배틀 패스</span></div>
+    <div class="concept-actions">
+      <div id="steamAccount" class="steam-account" aria-live="polite"></div>
+      <div class="concept-languages" aria-label="언어 선택">
+        <button type="button" class="langbtn active" data-language="ko" aria-pressed="true">한국어</button>
+        <button type="button" class="langbtn" data-language="en" aria-pressed="false">English</button>
+        <button type="button" class="langbtn" data-language="jp" aria-pressed="false">日本語</button>
+      </div>
     </div>
-    <div class="battlepass-languages" aria-label="언어 선택">
-      <button type="button" class="langbtn active" data-language="ko" aria-pressed="true">한국어</button>
-      <button type="button" class="langbtn" data-language="en" aria-pressed="false">English</button>
-      <button type="button" class="langbtn" data-language="jp" aria-pressed="false">日本語</button>
-    </div>
-  </header>
-  <main id="battlepassContent" class="battlepass-wrap" tabindex="-1">
-    <section class="battlepass-panel" aria-label="Battle Pass">
-<div class="bp-shell">
-          <header class="bp-hero">
-            <div class="bp-hero-main">
-              <div class="bp-kicker-row">
-                <span class="bp-season-badge" data-lang="bp_season_badge">SEASON 01 · UI DEMO</span>
-                <span class="bp-days-left"><span aria-hidden="true">◷</span> <span data-lang="bp_days_left">시즌 종료까지 28일</span></span>
-              </div>
-              <h2 data-lang="bp_title">RSS 배틀 패스</h2>
-              <p class="bp-hero-description" data-lang="bp_hint">플레이와 퀘스트로 패스 경험치를 모아 시즌 한정 보상을 획득하세요.</p>
-
-              <div class="bp-progress-card">
-                <div class="bp-level-emblem" aria-label="현재 레벨 7">
-                  <span>LEVEL</span>
-                  <strong>07</strong>
-                </div>
-                <div class="bp-progress-info">
-                  <div class="bp-progress-heading">
-                    <div>
-                      <span data-lang="bp_current_progress">현재 진행도</span>
-                      <strong>6,850 <small>/ 8,000 XP</small></strong>
-                    </div>
-                    <span class="bp-progress-percent">86%</span>
-                  </div>
-                  <div class="bp-progress-bar" role="progressbar" aria-label="레벨 8 진행도" aria-valuemin="0" aria-valuemax="8000" aria-valuenow="6850">
-                    <span style="--bp-progress:85.6%"></span>
-                  </div>
-                  <div class="bp-next-reward">
-                    <span data-lang="bp_next_reward">다음 보상</span>
-                    <strong><span aria-hidden="true">◆</span> 1,500 Credits</strong>
-                  </div>
-                </div>
-              </div>
-
-              <div class="bp-stats" aria-label="배틀 패스 요약">
-                <div><span data-lang="bp_stat_level">패스 레벨</span><strong>7 / 20</strong></div>
-                <div><span data-lang="bp_stat_quests">완료 퀘스트</span><strong>12</strong></div>
-                <div><span data-lang="bp_stat_streak">연속 플레이</span><strong>4일</strong></div>
-              </div>
-            </div>
-
-            <aside class="bp-final-reward" aria-labelledby="bpFinalRewardTitle">
-              <div class="bp-final-flare" aria-hidden="true"></div>
-              <div class="bp-final-level">LV.20</div>
-              <div class="bp-final-art" aria-hidden="true">
-                <span class="bp-final-crown">✦</span>
-                <span class="bp-final-silhouette">♛</span>
-              </div>
-              <div class="bp-final-copy">
-                <span data-lang="bp_final_label">FINAL REWARD</span>
-                <h3 id="bpFinalRewardTitle" data-lang="bp_final_name">심연의 수호자 캐릭터 스킨</h3>
-                <p data-lang="bp_final_description">20레벨 달성자만 획득하는 시즌 한정 전설 등급 보상</p>
-              </div>
-            </aside>
-          </header>
-
-          <section class="bp-section bp-quests" aria-labelledby="bpQuestTitle">
-            <div class="bp-section-heading">
-              <div>
-                <span class="bp-eyebrow" data-lang="bp_quest_eyebrow">MISSIONS</span>
-                <h3 id="bpQuestTitle" data-lang="bp_quest_title">시즌 퀘스트</h3>
-              </div>
-              <p data-lang="bp_quest_hint">퀘스트 진행도는 화면 구성을 위한 예시입니다.</p>
-            </div>
-            <div class="bp-quest-grid">
-              <article class="bp-quest-card">
-                <div class="bp-quest-top"><span class="bp-quest-type daily" data-lang="bp_daily">일일</span><strong>+500 XP</strong></div>
-                <h4 data-lang="bp_quest_rounds">아무 맵에서 3라운드 플레이</h4>
-                <p data-lang="bp_quest_rounds_desc">팀과 함께 라운드를 끝까지 진행하세요.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:66%"></span></div>
-                <div class="bp-quest-count"><span>2 / 3</span><span>66%</span></div>
-              </article>
-              <article class="bp-quest-card">
-                <div class="bp-quest-top"><span class="bp-quest-type daily" data-lang="bp_daily">일일</span><strong>+650 XP</strong></div>
-                <h4 data-lang="bp_quest_infect">좀비로 인간 15명 감염</h4>
-                <p data-lang="bp_quest_infect_desc">감염 라운드에서 팀의 돌파를 도우세요.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:60%"></span></div>
-                <div class="bp-quest-count"><span>9 / 15</span><span>60%</span></div>
-              </article>
-              <article class="bp-quest-card complete">
-                <div class="bp-quest-top"><span class="bp-quest-type daily" data-lang="bp_daily">일일</span><strong>+400 XP</strong></div>
-                <h4 data-lang="bp_quest_items">맵 아이템 5회 사용</h4>
-                <p data-lang="bp_quest_items_desc">아이템을 적절한 순간에 사용하세요.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:100%"></span></div>
-                <div class="bp-quest-count"><span>5 / 5</span><span data-lang="bp_complete">완료</span></div>
-              </article>
-              <article class="bp-quest-card weekly">
-                <div class="bp-quest-top"><span class="bp-quest-type weekly" data-lang="bp_weekly">주간</span><strong>+1,500 XP</strong></div>
-                <h4 data-lang="bp_quest_wins">8라운드 승리</h4>
-                <p data-lang="bp_quest_wins_desc">인간 또는 좀비로 라운드 승리에 기여하세요.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:62.5%"></span></div>
-                <div class="bp-quest-count"><span>5 / 8</span><span>62%</span></div>
-              </article>
-              <article class="bp-quest-card weekly">
-                <div class="bp-quest-top"><span class="bp-quest-type weekly" data-lang="bp_weekly">주간</span><strong>+1,800 XP</strong></div>
-                <h4 data-lang="bp_quest_time">서버에서 180분 플레이</h4>
-                <p data-lang="bp_quest_time_desc">플레이 시간은 라운드 참가 중에만 누적됩니다.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:62%"></span></div>
-                <div class="bp-quest-count"><span>112 / 180</span><span>62%</span></div>
-              </article>
-              <article class="bp-quest-card weekly">
-                <div class="bp-quest-top"><span class="bp-quest-type weekly" data-lang="bp_weekly">주간</span><strong>+2,000 XP</strong></div>
-                <h4 data-lang="bp_quest_boss">보스에게 25,000 피해 주기</h4>
-                <p data-lang="bp_quest_boss_desc">우선 타겟을 공격해 팀의 클리어를 도우세요.</p>
-                <div class="bp-quest-progress"><span style="--bp-progress:48%"></span></div>
-                <div class="bp-quest-count"><span>12,100 / 25,000</span><span>48%</span></div>
-              </article>
-            </div>
-          </section>
-
-          <section class="bp-section bp-rewards" aria-labelledby="bpRewardTitle">
-            <div class="bp-section-heading">
-              <div>
-                <span class="bp-eyebrow" data-lang="bp_reward_eyebrow">REWARD TRACK</span>
-                <h3 id="bpRewardTitle" data-lang="bp_reward_title">레벨별 보상</h3>
-              </div>
-              <p data-lang="bp_reward_hint">가로로 이동해 1~20레벨 보상을 확인하세요.</p>
-            </div>
-            <div class="bp-reward-scroll" tabindex="0" aria-label="1레벨부터 20레벨까지 배틀 패스 보상">
-              <ol class="bp-reward-track">
-                <li class="bp-reward is-complete"><span class="bp-reward-level">01</span><span class="bp-reward-icon">◆</span><strong>500 Credits</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-complete"><span class="bp-reward-level">02</span><span class="bp-reward-icon">▣</span><strong>Supply Crate</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-complete"><span class="bp-reward-level">03</span><span class="bp-reward-icon">✦</span><strong>Spray Token</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-complete"><span class="bp-reward-level">04</span><span class="bp-reward-icon">▲</span><strong>XP Boost 10%</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-complete milestone"><span class="bp-reward-level">05</span><span class="bp-reward-icon">◆</span><strong>1,000 Credits</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-complete"><span class="bp-reward-level">06</span><span class="bp-reward-icon">◈</span><strong>Name Color</strong><small data-lang="bp_claimed">획득 완료</small></li>
-                <li class="bp-reward is-current"><span class="bp-reward-level">07</span><span class="bp-reward-icon">▣</span><strong>Mystery Crate</strong><small data-lang="bp_current">현재 레벨</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">08</span><span class="bp-reward-icon">◆</span><strong>1,500 Credits</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">09</span><span class="bp-reward-icon">≋</span><strong>Trail Color</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward milestone"><span class="bp-reward-level">10</span><span class="bp-reward-icon">◇</span><strong>Rare Weapon Skin</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">11</span><span class="bp-reward-icon">◆</span><strong>2,000 Credits</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">12</span><span class="bp-reward-icon">票</span><strong>Vote Token ×3</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">13</span><span class="bp-reward-icon">≈</span><strong>Rainbow Trail</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">14</span><span class="bp-reward-icon">▣</span><strong>Mystery Crate</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward milestone"><span class="bp-reward-level">15</span><span class="bp-reward-icon">✺</span><strong>Epic Spray</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">16</span><span class="bp-reward-icon">◆</span><strong>3,000 Credits</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">17</span><span class="bp-reward-icon">▲</span><strong>XP Boost 20%</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">18</span><span class="bp-reward-icon">V</span><strong>VIP · 3 Days</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward"><span class="bp-reward-level">19</span><span class="bp-reward-icon">▰</span><strong>Legendary Crate</strong><small data-lang="bp_locked">잠김</small></li>
-                <li class="bp-reward is-final"><span class="bp-reward-level">20</span><span class="bp-reward-icon">♛</span><strong data-lang="bp_final_short">Abyss Warden Skin</strong><small data-lang="bp_final_reward">최종 보상</small></li>
-              </ol>
-            </div>
-          </section>
-        </div>
+  </header>  <main id="battlepassContent" class="journey-shell" data-auth-state="loading" tabindex="-1">
+    <section id="battlepassAuthGate" class="battlepass-auth-gate" aria-live="polite">
+      <strong>Steam 로그인 확인 중...</strong>
+      <p>배틀패스 진행도를 불러오고 있습니다.</p>
+      <a id="steamLoginButton" class="steam-login-button" href="./api/login.php?lang=ko" hidden>Steam으로 로그인</a>
     </section>
-  </main>
+    <nav class="journey-mode-tabs" aria-label="배틀 패스 화면">
+      <button type="button" class="active" data-journey-mode="rewards" aria-selected="true"><span>✦</span><b>레벨별 보상</b></button>
+      <button type="button" data-journey-mode="missions" aria-selected="false"><span>▣</span><b>임무</b></button>
+    </nav>
+    <section class="journey-topbar"><div class="journey-rank"><span>패스 등급</span><strong>07</strong></div><div class="journey-level-xp"><div><span>패스 경험치</span><b>6,850 / 8,000</b></div><div><i style="--progress:85.6%"></i></div></div><div class="journey-weekly"><div><span>이번 주 경험치</span><b>4,125 / 10,000</b></div><div><i style="--progress:41.25%"></i></div></div><em>SEASON 01</em></section>
+    <section class="journey-window" data-journey-panel="missions" hidden>
+      <nav class="journey-nav" aria-label="임무 분류"><button type="button" class="active" data-mission-filter="daily" aria-selected="true"><span>◈</span>금일 임무</button><button type="button" data-mission-filter="weekly" aria-selected="false"><span>✦</span>이번 주 임무<small>4일 12시간</small></button><button type="button" data-mission-filter="season" aria-selected="false"><span>◇</span>이번 시즌 임무<small>28일</small></button></nav>
+      <div class="journey-content"><header><div><span data-lang="bp_quest_eyebrow">MISSIONS</span><h1 id="journeyMissionTitle">금일 임무</h1></div><p id="journeyMissionHint">매일 초기화되는 임무입니다.</p></header><div class="journey-missions">      <article class="journey-mission" data-mission-type="daily">
+        <header><span data-lang="bp_daily">일일</span><strong>+500 XP</strong></header>
+        <h3 data-lang="bp_quest_rounds">아무 맵에서 3라운드 플레이</h3>
+        <p data-lang="bp_quest_rounds_desc">팀과 함께 라운드를 끝까지 진행하세요.</p>
+        <div class="journey-meter"><i style="--progress:66%"></i></div>
+        <footer><span>2 / 3</span><b>66%</b></footer>
+      </article>
+      <article class="journey-mission" data-mission-type="daily">
+        <header><span data-lang="bp_daily">일일</span><strong>+650 XP</strong></header>
+        <h3 data-lang="bp_quest_infect">좀비로 인간 15명 감염</h3>
+        <p data-lang="bp_quest_infect_desc">감염 라운드에서 팀의 돌파를 도우세요.</p>
+        <div class="journey-meter"><i style="--progress:60%"></i></div>
+        <footer><span>9 / 15</span><b>60%</b></footer>
+      </article>
+      <article class="journey-mission complete" data-mission-type="daily">
+        <header><span data-lang="bp_daily">일일</span><strong>+400 XP</strong></header>
+        <h3 data-lang="bp_quest_items">맵 아이템 5회 사용</h3>
+        <p data-lang="bp_quest_items_desc">아이템을 적절한 순간에 사용하세요.</p>
+        <div class="journey-meter"><i style="--progress:100%"></i></div>
+        <footer><span>5 / 5</span><b>100%</b></footer>
+      </article>
+      <article class="journey-mission weekly" data-mission-type="weekly" hidden>
+        <header><span data-lang="bp_weekly">주간</span><strong>+1500 XP</strong></header>
+        <h3 data-lang="bp_quest_wins">8라운드 승리</h3>
+        <p data-lang="bp_quest_wins_desc">인간 또는 좀비로 라운드 승리에 기여하세요.</p>
+        <div class="journey-meter"><i style="--progress:62%"></i></div>
+        <footer><span>5 / 8</span><b>62%</b></footer>
+      </article>
+      <article class="journey-mission weekly" data-mission-type="weekly" hidden>
+        <header><span data-lang="bp_weekly">주간</span><strong>+1800 XP</strong></header>
+        <h3 data-lang="bp_quest_time">서버에서 180분 플레이</h3>
+        <p data-lang="bp_quest_time_desc">플레이 시간은 라운드 참가 중에만 누적됩니다.</p>
+        <div class="journey-meter"><i style="--progress:62%"></i></div>
+        <footer><span>112 / 180</span><b>62%</b></footer>
+      </article>
+      <article class="journey-mission weekly" data-mission-type="weekly" hidden>
+        <header><span data-lang="bp_weekly">주간</span><strong>+2000 XP</strong></header>
+        <h3 data-lang="bp_quest_boss">보스에게 25,000 피해 주기</h3>
+        <p data-lang="bp_quest_boss_desc">우선 타겟을 공격해 팀의 클리어를 도우세요.</p>
+        <div class="journey-meter"><i style="--progress:48%"></i></div>
+        <footer><span>12,100 / 25,000</span><b>48%</b></footer>
+      </article>
+      <article class="journey-mission season" data-mission-type="season" hidden>
+        <header><span>시즌</span><strong>+3000 XP</strong></header>
+        <h3>누적 30라운드 생존</h3><p>이번 시즌 동안 인간으로 라운드 종료까지 생존하세요.</p>
+        <div class="journey-meter"><i style="--progress:70%"></i></div><footer><span>21 / 30</span><b>70%</b></footer>
+      </article>
+      <article class="journey-mission season" data-mission-type="season" hidden>
+        <header><span>시즌</span><strong>+3500 XP</strong></header>
+        <h3>좀비 250명 처치</h3><p>이번 시즌 동안 좀비를 처치하세요.</p>
+        <div class="journey-meter"><i style="--progress:54%"></i></div><footer><span>135 / 250</span><b>54%</b></footer>
+      </article>
+      <article class="journey-mission season" data-mission-type="season" hidden>
+        <header><span>시즌</span><strong>+5000 XP</strong></header>
+        <h3>서로 다른 맵 15개 완료</h3><p>시즌 동안 여러 맵을 플레이하고 최종 스테이지에 도달하세요.</p>
+        <div class="journey-meter"><i style="--progress:40%"></i></div><footer><span>6 / 15</span><b>40%</b></footer>
+      </article></div></div>
+    </section>
+    <section class="journey-rewards" data-journey-panel="rewards">
+      <header><div><span data-lang="bp_reward_eyebrow">REWARD TRACK</span><h2 data-lang="bp_reward_title">레벨별 보상</h2></div><aside><b>♛</b><span data-lang="bp_final_name">심연의 수호자 캐릭터 스킨</span></aside></header>
+      <div class="journey-track-shell">
+        <div class="journey-tier-labels"><div><i>◇</i><span>패스 보상</span></div></div>
+        <div class="journey-level-scroll"><ol class="journey-level-track">            <li class="journey-level-column complete">
+              <header>Lv.01</header>
+              <div class="journey-tier-reward free"><i>◆</i><strong>500 Credits</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column complete">
+              <header>Lv.02</header>
+              <div class="journey-tier-reward free"><i>▣</i><strong>Supply Crate</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column complete">
+              <header>Lv.03</header>
+              <div class="journey-tier-reward free"><i>✦</i><strong>Spray Token</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column complete">
+              <header>Lv.04</header>
+              <div class="journey-tier-reward free"><i>▲</i><strong>XP Boost 10%</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column complete">
+              <header>Lv.05</header>
+              <div class="journey-tier-reward free"><i>◆</i><strong>1,000 Credits</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column complete">
+              <header>Lv.06</header>
+              <div class="journey-tier-reward free"><i>◈</i><strong>Name Color</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column current">
+              <header>Lv.07</header>
+              <div class="journey-tier-reward free"><i>▣</i><strong>Mystery Crate</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.08</header>
+              <div class="journey-tier-reward free"><i>◆</i><strong>1,500 Credits</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.09</header>
+              <div class="journey-tier-reward free"><i>≋</i><strong>Trail Color</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.10</header>
+              <div class="journey-tier-reward free"><i>◇</i><strong>Rare Weapon Skin</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.11</header>
+              <div class="journey-tier-reward free"><i>◆</i><strong>2,000 Credits</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.12</header>
+              <div class="journey-tier-reward free"><i>票</i><strong>Vote Token ×3</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.13</header>
+              <div class="journey-tier-reward free"><i>≈</i><strong>Rainbow Trail</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.14</header>
+              <div class="journey-tier-reward free"><i>▣</i><strong>Mystery Crate</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.15</header>
+              <div class="journey-tier-reward free"><i>✺</i><strong>Epic Spray</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.16</header>
+              <div class="journey-tier-reward free"><i>◆</i><strong>3,000 Credits</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.17</header>
+              <div class="journey-tier-reward free"><i>▲</i><strong>XP Boost 20%</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.18</header>
+              <div class="journey-tier-reward free"><i>V</i><strong>VIP · 3 Days</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column locked">
+              <header>Lv.19</header>
+              <div class="journey-tier-reward free"><i>▰</i><strong>Legendary Crate</strong><small>REWARD</small></div>
+            </li>
+            <li class="journey-level-column final">
+              <header>Lv.20</header>
+              <div class="journey-tier-reward free"><i>♛</i><strong>Abyss Warden Skin</strong><small>REWARD</small></div>
+            </li></ol></div>
+      </div>
+    </section>  </main>
 </body>
 </html>
