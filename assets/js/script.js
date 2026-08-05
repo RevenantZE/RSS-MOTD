@@ -233,7 +233,7 @@ async function fetchJsonWithFallback(filename) {
   throw new Error(errors.join(" | "));
 }
 
-const tabs = document.querySelectorAll(".tab");
+const tabs = document.querySelectorAll(".tab[data-tab]");
 const panels = document.querySelectorAll(".panel");
 const newsResizeHandle = document.getElementById("newsResizeHandle");
 let newsPanelWidth = Number(readStorage(NEWS_WIDTH_STORAGE_KEY)) || NEWS_DEFAULT_WIDTH;
@@ -631,6 +631,12 @@ function setLanguage(lang, syncUrl = true) {
   // 선택한 언어 저장 및 HTML 문서속서를 반영
   writeStorage("lang", lang);
   document.documentElement.lang = lang === "jp" ? "ja" : lang;
+  const battlePassLink = document.getElementById("tab-battlepass");
+  if (battlePassLink) {
+    const battlePassUrl = new URL("./battlepass/", location.href);
+    battlePassUrl.searchParams.set("lang", lang);
+    battlePassLink.href = battlePassUrl.toString();
+  }
   const strings = window.LANG?.[lang] || {};
   document.title = strings.document_title || strings.site_title || document.title;
   document.querySelector('meta[name="description"]')?.setAttribute("content", strings.meta_description || "");

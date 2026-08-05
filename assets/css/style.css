@@ -147,11 +147,15 @@ header{
   background: rgba(77,163,255,.14);
 }
 
+.battlepass-link{text-decoration:none; display:inline-flex; align-items:center}
+
 .global-search-wrap{
   padding:16px 16px 0;
 }
 body[data-active-tab="skins"] .global-search-wrap,
-body[data-active-tab="support"] .global-search-wrap{display:none}
+body[data-active-tab="support"] .battlepass-link{text-decoration:none; display:inline-flex; align-items:center}
+
+.global-search-wrap{display:none}
 .global-search-wrap .term-search{margin-bottom:0}
 .global-search-results{margin-top:8px}
 .global-search-summary{
