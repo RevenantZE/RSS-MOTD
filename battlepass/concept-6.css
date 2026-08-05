@@ -53,3 +53,84 @@
 .journey-shell[data-auth-state="authenticated"] .battlepass-auth-gate{display:none}
 .journey-shell[data-auth-state="loading"]>:not(.battlepass-auth-gate),.journey-shell[data-auth-state="unauthenticated"]>:not(.battlepass-auth-gate),.journey-shell[data-auth-state="error"]>:not(.battlepass-auth-gate){display:none!important}
 @media(max-width:700px){.concept-actions{grid-column:1/-1;justify-self:stretch;display:grid}.steam-account{justify-content:center}.concept-languages{justify-self:stretch}.concept-languages .langbtn{flex:1}}
+/* Larger mission typography and simplified mission rows. */
+.journey-mode-tabs button b{font-size:15px}
+.journey-topbar :is(.journey-level-xp,.journey-weekly)>div:first-child{font-size:13px}
+.journey-nav button{font-size:15px}
+.journey-nav button small{font-size:11px}
+.journey-content>header span,.journey-rewards>header>div span{font-size:11px}
+.journey-content>header p{font-size:12px}
+.journey-mission{
+  grid-template-columns:minmax(280px,1fr) 98px minmax(210px,280px);
+  grid-template-rows:1fr;
+  column-gap:22px;
+  min-height:108px;
+  padding:18px 22px;
+}
+.journey-mission header{display:contents}
+.journey-mission header span,.journey-mission>p{display:none}
+.journey-mission header strong{
+  position:static;
+  grid-column:2;
+  grid-row:1;
+  align-self:center;
+  justify-self:center;
+  width:86px;
+  height:62px;
+  font-size:12px;
+}
+.journey-mission h3{
+  grid-column:1;
+  grid-row:1;
+  align-self:center;
+  margin:0;
+  font-size:19px;
+  line-height:1.35;
+}
+.journey-meter{grid-column:3;grid-row:1;align-self:center;height:11px;margin:0}
+.journey-mission footer{
+  grid-column:3;
+  grid-row:1;
+  align-self:center;
+  width:100%;
+  font-size:11px;
+  transform:translateY(21px);
+}
+.journey-mission footer b{font-size:16px}
+.journey-level-column>header{font-size:13px}
+.journey-tier-reward strong{font-size:11px;line-height:1.3}
+.journey-tier-reward small{font-size:9px}
+@media(max-width:900px){
+  .journey-mission{grid-template-columns:minmax(0,1fr) 86px;grid-template-rows:auto auto auto;min-height:118px}
+  .journey-mission h3{grid-column:1;grid-row:1/3;font-size:17px}
+  .journey-mission header strong{grid-column:2;grid-row:1/3;width:78px;height:58px}
+  .journey-meter{grid-column:1/3;grid-row:3;margin-top:12px}
+  .journey-mission footer{grid-column:1/3;grid-row:3;transform:translateY(22px)}
+}
+@media(max-width:650px){
+  .journey-mode-tabs button b{font-size:13px}
+  .journey-nav button{font-size:12px}
+  .journey-mission{padding:16px}
+}
+/* Claimed rewards use the same muted treatment as completed missions. */
+.journey-level-column.complete{
+  border-right-color:#777b7d;
+  background:#c8c8c4;
+  color:#747673;
+  filter:saturate(.2);
+}
+.journey-level-column.complete>header{
+  background:#666d75;
+  color:#d9d8d2;
+}
+.journey-level-column.complete .journey-tier-reward{
+  border-bottom-color:#aaa9a4;
+  background:#cececa;
+}
+.journey-level-column.complete .journey-tier-reward i{
+  background:#72787d;
+  color:#d2d0c8;
+}
+.journey-level-column.complete .journey-tier-reward strong,
+.journey-level-column.complete .journey-tier-reward small{color:#747673}
+.journey-level-column.complete .journey-tier-reward::after{content:none}

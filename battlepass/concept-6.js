@@ -50,6 +50,10 @@
     return new Intl.NumberFormat(getLanguage() === "ko" ? "ko-KR" : "en-US").format(value);
   }
 
+  function claimedRewardLabel() {
+    return getLanguage() === "ko" ? "수령 완료" : "CLAIMED";
+  }
+
   function clampPercent(current, target) {
     if (!Number.isFinite(current) || !Number.isFinite(target) || target <= 0) return 0;
     return Math.max(0, Math.min(100, Math.round((current / target) * 100)));
@@ -78,13 +82,9 @@
     article.dataset.missionId = mission.id;
 
     const header = makeElement("header");
-    header.append(
-      makeElement("span", "", copy[getLanguage()][type][2]),
-      makeElement("strong", "", "+" + formatNumber(mission.xp) + " XP")
-    );
+    header.append(makeElement("strong", "", "+" + formatNumber(mission.xp) + " XP"));
 
     const heading = makeElement("h3", "", localize(mission.title));
-    const description = makeElement("p", "", localize(mission.description));
     const meter = makeElement("div", "journey-meter");
     const meterFill = makeElement("i");
     meterFill.style.setProperty("--progress", percentage + "%");
@@ -96,7 +96,7 @@
       makeElement("b", "", percentage + "%")
     );
 
-    article.append(header, heading, description, meter, footer);
+    article.append(header, heading, meter, footer);
     return article;
   }
 
@@ -127,7 +127,7 @@
     rewardCard.append(
       makeElement("i", "", reward.icon),
       makeElement("strong", "", localize(reward.name)),
-      makeElement("small", "", "REWARD")
+      makeElement("small", "", claimed ? claimedRewardLabel() : "REWARD")
     );
     column.append(rewardCard);
     return column;
