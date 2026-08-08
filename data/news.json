@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T09:29:44.865000+00:00",
+  "updatedAt": "2026-08-08T21:13:17.010000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1535757332091510844",
+      "title": "RSS 에셋 업데이트 안내",
+      "content": "## 가챠 시스템 개선\n- 가챠 웜업 시간이 2분으로 조정\n- 서버 인원이 20명 미만이면 모든 가챠 결과가 전체 채팅에 출력\n- 히든 캐릭터 영구제 획득 시 캐릭터별 전용 결과 음성이 재생\n- 가챠 도중 라운드 종료·웜업 종료·연결 종료가 발생해도 보상 안내가 유지\n\n# 신규 캐릭터 스킨이 추가되었습니다\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1535741975079428228\n- 치사 수영복 (명조)\n- 호루스 (에테르 게이저)\n- 여우의 별자리 (명조)\n- 레미엘 댄 (젠존제)\n- 이누바시리 모미지 (동방 프로젝트)\n- 이자요이 사쿠야 (동방 프로젝트)\n- 야마카제 (함대 컬렉션)\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1535744178544181288\n- 카멜탈 (명조) [H]\n- 치사 수영복 장발 (명조) [H]\n- 데이드릭 (스카이림) [H]\n- 호루스 완벽한 합주 (에테르 게이저) [H]\n- 나기사 수영복 (블루아카이브) [H]\n- 레미엘 댄 달밤의 속삭임 (젠존제) [H]\n- 레미엘 댄 그림자 위의 독무 (젠존제) [H]\n\n# 신규 커스텀 무기가 추가되었습니다\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1535741294624776232\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1535752839278886943\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1535752330014887946\n- BO3 Weevil P90\n- CX9 Miko (M4A4)\n- Dresden40 Bizon\n- Fartooth AK47\n- Hanna MP7\n- Hoshino XM1014\n- kaltsit_ak47\n- Summer UMP45\n- ba_Ushio Noa Katana\n- ba_Kayoko_elite\n- Kurumi UMP45\n- Miyako MP9\n- ba_Noa Classic Knife\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1535738660949860362\n- Bizon Printstream\n- Hiyuki MP9\n- Lacrimosa MP7\n- Momoi MP5\n- Virtuosa MP9\n\n### 히든 무기는 상점 구매 목록에서 숨겨지며 가챠를 통해 획득할 수 있습니다.\n\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n---\n\n# RSS Asset Update\n\n## Gacha System Improvements\n- The gacha warm-up time has been adjusted to 2 minutes.\n- If the server has fewer than 20 players, all gacha results will be displayed in global chat.\n- When obtaining a permanent hidden character, a character-specific voice line will play for the result.\n- Reward information will remain displayed even if the round ends, the warm-up ends, or the player disconnects during the gacha.\n\n# New human skin added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1535741975079428228\n- Chisa Swimsuit (WuWa)\n- Horus (Aether Gazer)\n- Hsin (WuWa)\n- Remielle Dan (ZZZ)\n- Inubashiri Momiji (Touhou Project)\n- Izayoi Sakuya (Touhou Project)\n- Yamakaze (Kantai Collection)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1535744178544181288\n- Camellya Brainrot (WuWa) [H]\n- Chisa Swimsuit LongH (WuWa) [H]\n- Daedric (Skyrim) [H]\n- Horus Perfect Ensemble (Aether Gazer) [H]\n- Nagisa Swimsuit (Blue Archive) [H]\n- Remielle Dan Black (ZZZ) [H]\n- Remielle Dan Swimsuit (ZZZ) [H]\n\n# New Custom weapon skin added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1535741294624776232\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1535752839278886943\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1535752330014887946\n- BO3 Weevil P90\n- CX9 Miko (M4A4)\n- Dresden40 Bizon\n- Fartooth AK47\n- Hanna MP7\n- Hoshino XM1014\n- kaltsit_ak47\n- Summer UMP45\n- ba_Ushio Noa Katana\n- ba_Kayoko_elite\n- Kurumi UMP45\n- Miyako MP9\n- ba_Noa Classic Knife\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1535738660949860362\n- Bizon Printstream\n- Hiyuki MP9\n- Lacrimosa MP7\n- Momoi MP5\n- Virtuosa MP9\n\n### Hidden weapons are hidden from the shop's purchase list and can only be obtained through the gacha system.\n\n### If you're experiencing an error, please subscribe using the link below and restart the game\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n@RSS Player",
+      "publishedAt": "2026-08-08T21:11:20.962000+00:00",
+      "editedAt": "2026-08-08T21:13:17.010000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1535757332091510844",
+      "attachments": []
+    },
     {
       "id": "1534126577238020147",
       "title": "스토어 업데이트",
@@ -312,18 +324,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1518935045899948203",
-      "attachments": []
-    },
-    {
-      "id": "1518551965364392057",
-      "title": "중요🚨 이번 주말에 여러분들이 보유한 모든 크레딧이 -> 토큰으로 변환될 예정입니다. 크레딧을 사용하실 분들은 토요일이 되기 전 모두 사용해 주세요",
-      "content": "@RSS Player\n# (IMPORTANT 🚨 All of your current Credits will be converted into Tokens this weekend. If you wish to spend your Credits, please use them all before Saturday.) #\n\n> 토큰과 크레딧이 개편될 예정입니다. 자세한 내용은 빠른 시일내에 추가로 공지드리겠습니다.\n> (The Token and Credit systems are getting a major overhaul. Further details will be announced shortly.)\n\n# 테스트 중인 명령어와 기능을 추가하였습니다. (Added Experimental Commands & Features)#\n\n## !sfx 0~100 가 추가되었습니다. (Added !sfx 0~100) ##\n\n> 주 사용처는 주변 좀비가 맞는 소리를 조절해 줍니다. 테스트 중인 기능이므로 버그가 발생하면 제보 부탁드립니다.\n> (This command allows you to adjust the volume of surrounding zombies taking damage.\n> Since this is an experimental feature, please report any bugs you encounter.)\n\n## 프롭들이 이제 E 키를 누르고 있으면 밀리게 됩니다. (Props can now be pushed by holding the E key)##\n\n> 버그가 있기 때문에 제대로 작동하지 않을 가능성이 있습니다. 버그가 발생하면 제보 부탁드립니다.\n> (There might be bugs, and it may not function perfectly at the moment. Please report any issues if you find them.)\n\n#  서버 기능및 스토어 변경 점 (Server Features & Store Updates) #\n\n## !bw로 버튼 와치 채팅 표시 기능을 추가하였습니다. (Added !bw to configure Button Watch chat display) ##\n\n> 기본 세팅은 버튼와치가 보이지 않으며 !bw를 통해 1. 끄기 2. 채팅에만 출력 3. 콘솔에만 출력 4. 채팅 + 콘솔 출력\n> 할지 안 할지 결정할 수 있습니다. (채팅창에 출력되는게 거슬리면 끄시면 됩니다.)\n> (By default, Button Watch is hidden. You can use !bw to cycle through the options: 1. Turn Off, 2. Chat Only, 3. Console Only, 4. Chat + Console. (If you find the chat notifications annoying, you can simply turn it off.))\n\n## 스프레이의 여러 가지 요소가 변경되었습니다. (Spray Overhaul)##\n\n> 이제 !sprayhide를 통해 스프레이를 가릴 수 있습니다.\n> (You can now hide sprays using !sprayhide.)\n> 스프레이의 작동 방식 변경하였습니다. 이제 움직이는 프롭(자판기, 자동차, 헬기, 문, 등)에 스프레이가 따라다닙니다.\n> (Updated the spray physics: sprays will now attach to and move along with moving props (such as vending machines, cars, helicopters, doors, etc.).\n\n## 스토어가 개편되었습니다. (Store Overhaul)##\n\n> 인간 스킨가격이 인하됩니다. (토요일부터)\n> (Reduced the prices of Human Skins From Saturday.)\n> 토큰스킨과 인간스킨 구매 기간을 이제 7~28일로 정해서 구입할 수 있게 변경하였습니다.\n> (You can now choose a rental duration of 7 to 28 days when purchasing Token Skins and Human Skins.)\n> 커스텀 웨폰에 구입할때 소비되는 재화가 크레딧으로 변경되었습니다.\n> (The currency required to purchase Custom Weapons has been changed to Credits.)\n>\n> **스토어 스킨탭에 적혀있는 가격은 빠른 시일내에 업데이트 하도록 하겠습니다. **\n> **(The price tags listed in the Store Skin tab will be updated very soon.)**\n\n## 부가 기능의 기본 세팅값을 변경하였습니다. (Changed Default Settings for Extra Features)##\n\n>  !tracerhide 기본 값 끄기 ->  켜기\n> (!tracerhide: Changed default from OFF -> ON)\n>  !stopsound 총소리 기본 값 켜기 -> 끄기\n> (!stopsound (Gunfire sounds): Changed default from ON -> OFF)",
-      "publishedAt": "2026-06-22T09:43:21.874000+00:00",
-      "editedAt": "2026-06-23T12:18:41.789000+00:00",
-      "author": "Mentalspin",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1518551965364392057",
       "attachments": []
     },
     {
