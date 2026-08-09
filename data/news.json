@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T21:13:17.010000+00:00",
+  "updatedAt": "2026-08-09T04:34:47.417000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1535868713310617660",
+      "title": "RSS 업데이트",
+      "content": "@RSS Player\n\n## 밸런스 패치 ##\n- 모든 세팅의 최대, 최소 경직이 10% 감소하였습니다.\n> 하드 세팅 예시\n> 이전 **76%** ▶️ 조정 후** 68%**\n> 이전 **73%** ▶️ 조정 후 **65% **\n>\n# RSS Update #\n\n## Balance Patch ##\n- Maximum and minimum tagging for all settings has been decreased by 10%.\n> Hard Setting Example\n> Previous 76% ▶️ Adjusted 68%\n> Previous 73% ▶️ Adjusted 65%",
+      "publishedAt": "2026-08-09T04:33:56.314000+00:00",
+      "editedAt": "2026-08-09T04:34:47.417000+00:00",
+      "author": "Mentalspin",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1535868713310617660",
+      "attachments": []
+    },
     {
       "id": "1535757332091510844",
       "title": "RSS 에셋 업데이트 안내",
@@ -312,18 +324,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1518954449211490334",
-      "attachments": []
-    },
-    {
-      "id": "1518935045899948203",
-      "title": "수정된 내용이 있어 재공지합니다 혼란을 드려서 죄송합니다.",
-      "content": "@RSS Player\n\nRe-announcing due to an update in the details. Sorry for the confusion\n\n# 중요🚨 이번 주말에 여러분들이 보유한 모든 크레딧이 -> 토큰으로 변환될 예정입니다. #\n# 크레딧을 사용하실 분들은 주말이 되기 전에 모두 사용하여 주세요 #\n\n> 이번 주 토요일부터 현재 보유한 모든 크레딧이 1000:1 비율로 토큰으로 변환될 예정입니다. (좀탈 미겜 포함)\n> 지금 판매 중인 모든 스킨들을 최대 35일까지 재구매하실 수 있습니다.\n> 현재 VIP 보유 중이거나 근 시일내에 VIP가 끝날 예정인 분들도 모두 구매 가능합니다.\n\n# 🖥️ 편의성 개편 #\n> 보스 HP HUD가 일정 수치로 넘어가면 표시되지 않던 현상을 수정하였습니다.\n\n# 🛒 스토어가 개편됩니다. #\n\n> 이번 주말부터 인간스킨과 무기스킨의 가격이 인하되기 때문에 전반적으로 크레딧 수급량이 줄어들 예정이며\n> VIP의 토큰 수급 2배 혜택은 크레딧 2배 혜택으로 바뀔 예정입니다.\n\n> **기존 크레딧 수급 방법: 30분당 지급**\n> **변경될 크레딧 수급 방법: 30분당 지급 + 분당 크레딧 지급 **\n\n## 🛒 크레딧이 소모되는 상품 ##\n> 인간 스킨\n>\n> 좀비 스킨\n>\n> 무기 스킨\n>\n> VIP (아주 비싸게 판매될 예정)\n\n## 🪙 토큰이 소모되는 상품 ##\n> 이모트\n>\n> 라디오\n>\n> 레인보우\n>\n> 모델 컬러\n>\n> 트레이서\n>\n> 스킨 셔플 기능 (VIP전용)\n>\n> **모두 후원자 전용 기능으로 점차 바뀔 예정이며 토큰으로 판매될 예정입니다.**\n\n# IMPORTANT 🚨 All of your remaining Credits will be converted to Tokens this weekend. If you want to use your Credits, please spend them BEFORE the weekend #\n\n> Starting this Saturday, all currently held Credits will be converted into Tokens at a 1000:1 ratio. (This applies to all servers, including Zombie Escape and Minigame).\n> All skins currently on sale can be repurchased for up to 35 days. Current VIPs and those whose VIP memberships are about to end are all eligible to purchase.\n\n# 🖥️ Convenience Improvements #\n\n> Fixed Boss HP HUD: Resolved an issue where the Boss HP HUD would disappear or fail to display when the health values exceeded a certain threshold.\n\n# 🛒 Store Overhaul #\n> Starting this weekend, the prices for Human Skins and Weapon Skins will be reduced.\n>\n> VIP Benefit Adjustment: The VIP \"2x Token Gain\" benefit will be changed to \"2x Credit Gain.\"\n>\n> **Old System: Fixed Credit payout every 30 minutes.**\n> **New System: Credit payout every 30 minutes + additional Credits rewarded per minute.**\n\n## 🛒 Items Purchased with Credits ##\n\n> Human Skins\n>\n> Zombie Skins\n>\n> Weapon Skins\n>\n> VIP Membership (Will be priced very high)\n\n## 🪙 Items Purchased with Tokens ##\n> Emotes\n>\n> Radio\n>\n> Rainbow Effect\n>\n> Model Color Customization\n>\n> Bullet Tracers\n>\n> Skin Shuffle Feature (VIP Only)",
-      "publishedAt": "2026-06-23T11:05:35.391000+00:00",
-      "editedAt": "2026-06-23T12:17:42.179000+00:00",
-      "author": "Mentalspin",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1518935045899948203",
       "attachments": []
     },
     {
