@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T04:34:47.417000+00:00",
+  "updatedAt": "2026-08-11T21:26:45.504000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -17,9 +17,9 @@
     {
       "id": "1535868713310617660",
       "title": "RSS 업데이트",
-      "content": "@RSS Player\n\n## 밸런스 패치 ##\n- 모든 세팅의 최대, 최소 경직이 10% 감소하였습니다.\n> 하드 세팅 예시\n> 이전 **76%** ▶️ 조정 후** 68%**\n> 이전 **73%** ▶️ 조정 후 **65% **\n>\n# RSS Update #\n\n## Balance Patch ##\n- Maximum and minimum tagging for all settings has been decreased by 10%.\n> Hard Setting Example\n> Previous 76% ▶️ Adjusted 68%\n> Previous 73% ▶️ Adjusted 65%",
+      "content": "@RSS Player\n\n## 밸런스 패치 ##\n- 모든 세팅의 최대, 최소 경직이 10% 감소하였습니다.\n> 하드 세팅 예시\n> 이전 **76%** ▶️ 조정 후** 68%**\n> 이전 **73%** ▶️ 조정 후 **65% **\n\n# RSS Update #\n\n## Balance Patch ##\n- Maximum and minimum tagging for all settings has been decreased by 10%.\n> Hard Setting Example\n> Previous 76% ▶️ Adjusted 68%\n> Previous 73% ▶️ Adjusted 65%",
       "publishedAt": "2026-08-09T04:33:56.314000+00:00",
-      "editedAt": "2026-08-09T04:34:47.417000+00:00",
+      "editedAt": "2026-08-11T21:26:45.504000+00:00",
       "author": "Mentalspin",
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
