@@ -608,7 +608,7 @@
       "attachmentIds": [
         "1510432080432070676"
       ],
-      "name": "mp7_racing_muku"
+      "name": "mp7_racing_muku(MP7)"
     },
     "1510433102604800110": {
       "skinId": "weapon-primary-068",
@@ -617,7 +617,7 @@
       "attachmentIds": [
         "1510433101615071243"
       ],
-      "name": "mp9_kanade"
+      "name": "mp9_kanade(MP9)"
     },
     "1516480906326577182": {
       "skinId": "weapon-primary-069",
@@ -734,7 +734,7 @@
       "attachmentIds": [
         "1500754964782252162"
       ],
-      "name": "forerunner_glock"
+      "name": "forerunner_glock(glock)"
     },
     "1510433445590073495": {
       "skinId": "weapon-secondary-013",
@@ -743,7 +743,7 @@
       "attachmentIds": [
         "1510433444566536192"
       ],
-      "name": "ups_sussurro"
+      "name": "ups_sussurro(usp)"
     },
     "1476629327155302411": {
       "skinId": "weapon-melee-001",
@@ -1311,6 +1311,294 @@
         "1529697013321695273"
       ],
       "name": "fb_Ducktoy (Flashbang)"
+    },
+    "1531619131042824302": {
+      "skinId": "weapon-primary-070",
+      "subcategory": "primary",
+      "mediaMessageId": "1531619131042824302",
+      "attachmentIds": [
+        "1531619130518667284"
+      ],
+      "name": "css_p90 [F](P90)"
+    },
+    "1531619238286983321": {
+      "skinId": "weapon-primary-071",
+      "subcategory": "primary",
+      "mediaMessageId": "1531619238286983321",
+      "attachmentIds": [
+        "1531619238001774695"
+      ],
+      "name": "css_tmp [F](MP5)"
+    },
+    "1531619328573575359": {
+      "skinId": "weapon-primary-072",
+      "subcategory": "primary",
+      "mediaMessageId": "1531619328573575359",
+      "attachmentIds": [
+        "1531619328275775648"
+      ],
+      "name": "genshin_negev(NEGEV)"
+    },
+    "1531619428624633956": {
+      "skinId": "weapon-primary-073",
+      "subcategory": "primary",
+      "mediaMessageId": "1531619428624633956",
+      "attachmentIds": [
+        "1531619428075049090"
+      ],
+      "name": "hk_mp5a4 [F](MP5)"
+    },
+    "1531619526355976275": {
+      "skinId": "weapon-primary-074",
+      "subcategory": "primary",
+      "mediaMessageId": "1531619526355976275",
+      "attachmentIds": [
+        "1531619525785555167"
+      ],
+      "name": "m91_negev [F](NEGEV)"
+    },
+    "1532928600934973532": {
+      "skinId": "weapon-primary-075",
+      "subcategory": "primary",
+      "mediaMessageId": "1532928600934973532",
+      "attachmentIds": [
+        "1532928600565878884"
+      ],
+      "name": "AK47 Prana [F] (ak47)"
+    },
+    "1532929370040041562": {
+      "skinId": "weapon-primary-076",
+      "subcategory": "primary",
+      "mediaMessageId": "1532929370040041562",
+      "attachmentIds": [
+        "1532929369734119434"
+      ],
+      "name": "Kaltist HK433 [F] (mp5sd)"
+    },
+    "1535741294624776232": {
+      "skinId": "weapon-primary-077",
+      "subcategory": "primary",
+      "mediaMessageId": "1535741294624776232",
+      "attachmentIds": [
+        "1535741293060296854"
+      ],
+      "name": "bo3_weevil_p90 (P90)"
+    },
+    "1535741579455897700": {
+      "skinId": "weapon-primary-078",
+      "subcategory": "primary",
+      "mediaMessageId": "1535741579455897700",
+      "attachmentIds": [
+        "1535741579166359572"
+      ],
+      "name": "cx9_miko [F] (M4a4)"
+    },
+    "1535741740965691424": {
+      "skinId": "weapon-primary-079",
+      "subcategory": "primary",
+      "mediaMessageId": "1535741740965691424",
+      "attachmentIds": [
+        "1535741741561286687"
+      ],
+      "name": "dresden40_bizon (bizon)"
+    },
+    "1535742008210231367": {
+      "skinId": "weapon-primary-080",
+      "subcategory": "primary",
+      "mediaMessageId": "1535742008210231367",
+      "attachmentIds": [
+        "1535742007870226573"
+      ],
+      "name": "fartooth_ak47[F] (AK47)"
+    },
+    "1535742256823271456": {
+      "skinId": "weapon-primary-081",
+      "subcategory": "primary",
+      "mediaMessageId": "1535742256823271456",
+      "attachmentIds": [
+        "1535742256370290858"
+      ],
+      "name": "hanna_mp7[F] (mp7)"
+    },
+    "1535742468300218448": {
+      "skinId": "weapon-primary-082",
+      "subcategory": "primary",
+      "mediaMessageId": "1535742468300218448",
+      "attachmentIds": [
+        "1535742467981443152"
+      ],
+      "name": "hoshino_xm[F] (xm1014)"
+    },
+    "1535742845833576520": {
+      "skinId": "weapon-primary-083",
+      "subcategory": "primary",
+      "mediaMessageId": "1535742845833576520",
+      "attachmentIds": [
+        "1535742845451767858"
+      ],
+      "name": "summer_ump [F] (ump45)"
+    },
+    "1535751943992123403": {
+      "skinId": "weapon-primary-084",
+      "subcategory": "primary",
+      "mediaMessageId": "1535751943992123403",
+      "attachmentIds": [
+        "1535751943962632202"
+      ],
+      "name": "kaltsit_ak47(AK47)"
+    },
+    "1535753391618269209": {
+      "skinId": "weapon-primary-085",
+      "subcategory": "primary",
+      "mediaMessageId": "1535753391618269209",
+      "attachmentIds": [
+        "1535753391211548755"
+      ],
+      "name": "kurumi_ump45[F](UMP45)"
+    },
+    "1535753744820478064": {
+      "skinId": "weapon-primary-086",
+      "subcategory": "primary",
+      "mediaMessageId": "1535753744820478064",
+      "attachmentIds": [
+        "1535753744522809415"
+      ],
+      "name": "miyako_mp9[F](MP9)"
+    },
+    "1531618471303970827": {
+      "skinId": "weapon-secondary-014",
+      "subcategory": "secondary",
+      "mediaMessageId": "1531618471303970827",
+      "attachmentIds": [
+        "1531618471086133308"
+      ],
+      "name": "batrinity_elite [F](elite)"
+    },
+    "1531618677449818132": {
+      "skinId": "weapon-secondary-015",
+      "subcategory": "secondary",
+      "mediaMessageId": "1531618677449818132",
+      "attachmentIds": [
+        "1531618677068402808"
+      ],
+      "name": "batrinity_usp_mika [F](usp)"
+    },
+    "1531618832370897017": {
+      "skinId": "weapon-secondary-016",
+      "subcategory": "secondary",
+      "mediaMessageId": "1531618832370897017",
+      "attachmentIds": [
+        "1531618832077033542"
+      ],
+      "name": "batrinity_usp_nagisa [F](usp)"
+    },
+    "1535752839278886943": {
+      "skinId": "weapon-secondary-017",
+      "subcategory": "secondary",
+      "mediaMessageId": "1535752839278886943",
+      "attachmentIds": [
+        "1535752839010328737"
+      ],
+      "name": "kayoko_elite[F](elite)"
+    },
+    "1531617992360591452": {
+      "skinId": "weapon-melee-039",
+      "subcategory": "melee",
+      "mediaMessageId": "1531617992360591452",
+      "attachmentIds": [
+        "1531617992025178244"
+      ],
+      "name": "stamp"
+    },
+    "1532001737068773457": {
+      "skinId": "weapon-melee-040",
+      "subcategory": "melee",
+      "mediaMessageId": "1532001737068773457",
+      "attachmentIds": [
+        "1532001736523518084"
+      ],
+      "name": "CSS:Knife [A]"
+    },
+    "1532932014150385704": {
+      "skinId": "weapon-melee-041",
+      "subcategory": "melee",
+      "mediaMessageId": "1532932014150385704",
+      "attachmentIds": [
+        "1532932013869498438"
+      ],
+      "name": "Apex Krultepes Karambit (카람빗)"
+    },
+    "1532932781141921792": {
+      "skinId": "weapon-melee-042",
+      "subcategory": "melee",
+      "mediaMessageId": "1532932781141921792",
+      "attachmentIds": [
+        "1532932780713967666"
+      ],
+      "name": "CSO:NataKnife [A]"
+    },
+    "1533786271074488401": {
+      "skinId": "weapon-melee-043",
+      "subcategory": "melee",
+      "mediaMessageId": "1533786271074488401",
+      "attachmentIds": [
+        "1533786271007113401"
+      ],
+      "name": "Miku_pa (Ursus)"
+    },
+    "1535752330014887946": {
+      "skinId": "weapon-melee-044",
+      "subcategory": "melee",
+      "mediaMessageId": "1535752330014887946",
+      "attachmentIds": [
+        "1535752329666625636"
+      ],
+      "name": "ba_ushionoa_katana(Kukri)"
+    },
+    "1535754119380205618": {
+      "skinId": "weapon-melee-045",
+      "subcategory": "melee",
+      "mediaMessageId": "1535754119380205618",
+      "attachmentIds": [
+        "1535754119032344780"
+      ],
+      "name": "ba_noa_classicknife(classic)"
+    },
+    "1531616495958757377": {
+      "skinId": "weapon-throwable-026",
+      "subcategory": "throwable",
+      "mediaMessageId": "1531616495958757377",
+      "attachmentIds": [
+        "1531616495598178417"
+      ],
+      "name": "fb_Ducktoy (Flashbang)"
+    },
+    "1531618320690712706": {
+      "skinId": "weapon-throwable-027",
+      "subcategory": "throwable",
+      "mediaMessageId": "1531618320690712706",
+      "attachmentIds": [
+        "1531618320074281162"
+      ],
+      "name": "cyberderp_nade"
+    },
+    "1533786653062336612": {
+      "skinId": "weapon-throwable-028",
+      "subcategory": "throwable",
+      "mediaMessageId": "1533786653062336612",
+      "attachmentIds": [
+        "1533786652718137539"
+      ],
+      "name": "miku_he (nade)"
+    },
+    "1533786971338575953": {
+      "skinId": "weapon-throwable-029",
+      "subcategory": "throwable",
+      "mediaMessageId": "1533786971338575953",
+      "attachmentIds": [
+        "1533786971313537075"
+      ],
+      "name": "baron_bunny_he (nade)"
     }
   }
 }

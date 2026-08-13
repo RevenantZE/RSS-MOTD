@@ -951,6 +951,236 @@
       ],
       "name": "Vanya (Eternal Return)",
       "nameKo": "바냐 (이터널리턴)"
+    },
+    "1531614293340983327": {
+      "skinId": "096",
+      "imageMessageId": "1531614347497832499",
+      "attachmentIds": [
+        "1531614293210955796",
+        "1531614347132932216"
+      ],
+      "name": "Fire Combine",
+      "nameKo": "파이어 콤바인"
+    },
+    "1531614519376216155": {
+      "skinId": "097",
+      "imageMessageId": "1531614529438351430",
+      "attachmentIds": [
+        "1531614519061778452",
+        "1531614529019187220"
+      ],
+      "name": "Yaoguang (HSR)",
+      "nameKo": "효광 (붕스)"
+    },
+    "1531614726851924018": {
+      "skinId": "098",
+      "imageMessageId": "1531614743528345630",
+      "attachmentIds": [
+        "1531614726419906650",
+        "1531614743205249135"
+      ],
+      "name": "Lyanh Matsuri (Eternal Return)",
+      "nameKo": "이안 마츠리 (이터널리턴)"
+    },
+    "1531614939515584543": {
+      "skinId": "099",
+      "imageMessageId": "1531614959052783616",
+      "attachmentIds": [
+        "1531614939029180537",
+        "1531614958796669069"
+      ],
+      "name": "Tia Swimsuit (Eternal Return)",
+      "nameKo": "띠아 수영복 (이터널리턴)"
+    },
+    "1531615108751425607": {
+      "skinId": "100",
+      "imageMessageId": "1531615151642640404",
+      "attachmentIds": [
+        "1531615108155838595",
+        "1531615151223214211"
+      ],
+      "name": "Debi School (Eternal Return)",
+      "nameKo": "데비 교복 (이터널리턴)"
+    },
+    "1531615468509724813": {
+      "skinId": "101",
+      "imageMessageId": "1531615488688259182",
+      "attachmentIds": [
+        "1531615468056608850",
+        "1531615488197656606"
+      ],
+      "name": "Ralsei (Deltarune)",
+      "nameKo": "랄세이 (델타룬)"
+    },
+    "1531615729512742923": {
+      "skinId": "102",
+      "imageMessageId": "1531615741575434341",
+      "attachmentIds": [
+        "1531615729135124541",
+        "1531615741290352660"
+      ],
+      "name": "Turretgirl (Portal)",
+      "nameKo": "터렛걸 (포탈)"
+    },
+    "1531615881552199790": {
+      "skinId": "103",
+      "imageMessageId": "1531615909305782364",
+      "attachmentIds": [
+        "1531615881275244585",
+        "1531615908873637988"
+      ],
+      "name": "Aria (ZZZ)",
+      "nameKo": "아리아 (젠존제)"
+    },
+    "1532926523613380639": {
+      "skinId": "104",
+      "imageMessageId": "1532926536070729932",
+      "attachmentIds": [
+        "1532926523336560851",
+        "1532926535772672151"
+      ],
+      "name": "Laevatain (Endfield)",
+      "nameKo": "레바테인 (엔드필드)"
+    },
+    "1532926662088327411": {
+      "skinId": "105",
+      "imageMessageId": "1532926672855109743",
+      "attachmentIds": [
+        "1532926661798924438",
+        "1532926672565829843"
+      ],
+      "name": "Kipfel_Tactical (VRChat)",
+      "nameKo": "요원 키프펠 (VRChat)"
+    },
+    "1533995053918195722": {
+      "skinId": "106",
+      "imageMessageId": "1533995102203281528",
+      "attachmentIds": [
+        "1533995053536510092",
+        "1533995101913878659"
+      ],
+      "name": "Flandre Scarlet (Touhou Project)",
+      "nameKo": "플랑도르 스칼렛 (동방 프로젝트)"
+    },
+    "1533995347721064580": {
+      "skinId": "107",
+      "imageMessageId": "1533995371984982247",
+      "attachmentIds": [
+        "1533995347590905866",
+        "1533995371603169411"
+      ],
+      "name": "Chibi FuFu (ZZZ)",
+      "nameKo": "미니 귤복복 (젠존제)"
+    },
+    "1533995517439377409": {
+      "skinId": "108",
+      "imageMessageId": "1533995551056462054",
+      "attachmentIds": [
+        "1533995517166616637",
+        "1533995550796550154"
+      ],
+      "name": "Chibi MiyaBi (ZZZ)",
+      "nameKo": "미니 미야비"
+    },
+    "1533995836256813278": {
+      "skinId": "109",
+      "imageMessageId": "1533995845354131467",
+      "attachmentIds": [
+        "1533995836285911082",
+        "1533995845131702302"
+      ],
+      "name": "Chibi Zhao (ZZZ)",
+      "nameKo": "미니 자오 (젠존제)"
+    },
+    "1533996126296998031": {
+      "skinId": "110",
+      "imageMessageId": "1533996143950958633",
+      "attachmentIds": [
+        "1533996126208921671",
+        "1533996143732723833"
+      ],
+      "name": "Skipper (Penguins of Madagascar)",
+      "nameKo": "스키퍼 (마다가스카의 펭귄)"
+    },
+    "1533996276159352964": {
+      "skinId": "111",
+      "imageMessageId": "1533996286993240134",
+      "attachmentIds": [
+        "1533996275748442152",
+        "1533996286091595908"
+      ],
+      "name": "Yoshino (Date a live)",
+      "nameKo": "요시노 (데이트 어 라이브)"
+    },
+    "1535741975079428228": {
+      "skinId": "112",
+      "imageMessageId": "1535741988836483133",
+      "attachmentIds": [
+        "1535741974794211459",
+        "1535741988656250970"
+      ],
+      "name": "Chisa Swimsuit (WuWa)",
+      "nameKo": "치사 수영복 (명조)"
+    },
+    "1535742180948443228": {
+      "skinId": "113",
+      "imageMessageId": "1535742198421790722",
+      "attachmentIds": [
+        "1535742180650655844",
+        "1535742198233038898"
+      ],
+      "name": "Horus (Aether Gazer)",
+      "nameKo": "호루스 (에테르 게이저)"
+    },
+    "1535742354181455892": {
+      "skinId": "114",
+      "imageMessageId": "1535742370388119613",
+      "attachmentIds": [
+        "1535742353900310658",
+        "1535742370056896602"
+      ],
+      "name": "Hsin (WuWa)",
+      "nameKo": "여우의 별자리 (명조)"
+    },
+    "1535742507189805117": {
+      "skinId": "115",
+      "imageMessageId": "1535742519915192440",
+      "attachmentIds": [
+        "1535742506875101195",
+        "1535742519504277535"
+      ],
+      "name": "Remielle Dan (ZZZ)",
+      "nameKo": "레미엘 댄 (젠존제)"
+    },
+    "1535742730150486087": {
+      "skinId": "116",
+      "imageMessageId": "1535742739063378000",
+      "attachmentIds": [
+        "1535742729869590629",
+        "1535742738710929458"
+      ],
+      "name": "Inubashiri Momiji (Touhou Project)",
+      "nameKo": "이누바시리 모미지 (동방 프로젝트)"
+    },
+    "1535743068039286845": {
+      "skinId": "117",
+      "imageMessageId": "1535743090483142767",
+      "attachmentIds": [
+        "1535743067615920218",
+        "1535743090453778573"
+      ],
+      "name": "Izayoi Sakuya (Touhou Project)",
+      "nameKo": "이자요이 사쿠야 (동방 프로젝트)"
+    },
+    "1535743430863355924": {
+      "skinId": "118",
+      "imageMessageId": "1535743445505937409",
+      "attachmentIds": [
+        "1535743430183886968",
+        "1535743445128454224"
+      ],
+      "name": "Yamakaze (Kantai Collection)",
+      "nameKo": "야마카제 (함대 컬렉션)"
     }
   }
 }

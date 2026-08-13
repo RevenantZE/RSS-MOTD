@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-07-19T04:49:16.591000+00:00",
+  "updatedAt": "2026-08-08T20:16:10.142000+00:00",
   "items": [
     {
       "id": "001",
@@ -2183,6 +2183,535 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/095-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "096",
+      "order": 96,
+      "name": "Fire Combine",
+      "nameKo": "파이어 콤바인",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531614293340983327",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/096-third.webp",
+          "width": 800,
+          "height": 1031
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/096-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "097",
+      "order": 97,
+      "name": "Yaoguang (HSR)",
+      "nameKo": "효광 (붕스)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531614519376216155",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/097-third.webp",
+          "width": 800,
+          "height": 806
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/097-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "098",
+      "order": 98,
+      "name": "Lyanh Matsuri (Eternal Return)",
+      "nameKo": "이안 마츠리 (이터널리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531614726851924018",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/098-third.webp",
+          "width": 800,
+          "height": 898
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/098-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "099",
+      "order": 99,
+      "name": "Tia Swimsuit (Eternal Return)",
+      "nameKo": "띠아 수영복 (이터널리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531614939515584543",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/099-third.webp",
+          "width": 762,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/099-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "order": 100,
+      "name": "Debi School (Eternal Return)",
+      "nameKo": "데비 교복 (이터널리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531615108751425607",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/100-third.webp",
+          "width": 800,
+          "height": 961
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/100-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "order": 101,
+      "name": "Ralsei (Deltarune)",
+      "nameKo": "랄세이 (델타룬)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531615468509724813",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/101-third.webp",
+          "width": 800,
+          "height": 943
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/101-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "order": 102,
+      "name": "Turretgirl (Portal)",
+      "nameKo": "터렛걸 (포탈)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531615729512742923",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/102-third.webp",
+          "width": 800,
+          "height": 765
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/102-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "order": 103,
+      "name": "Aria (ZZZ)",
+      "nameKo": "아리아 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1531615881552199790",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/103-third.webp",
+          "width": 800,
+          "height": 855
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/103-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "order": 104,
+      "name": "Laevatain (Endfield)",
+      "nameKo": "레바테인 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1532926523613380639",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/104-third.webp",
+          "width": 800,
+          "height": 956
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/104-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "order": 105,
+      "name": "Kipfel_Tactical (VRChat)",
+      "nameKo": "요원 키프펠 (VRChat)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1532926662088327411",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/105-third.webp",
+          "width": 800,
+          "height": 816
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/105-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "order": 106,
+      "name": "Flandre Scarlet (Touhou Project)",
+      "nameKo": "플랑도르 스칼렛 (동방 프로젝트)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533995053918195722",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/106-third.webp",
+          "width": 800,
+          "height": 951
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/106-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "order": 107,
+      "name": "Chibi FuFu (ZZZ)",
+      "nameKo": "미니 귤복복 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533995347721064580",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/107-third.webp",
+          "width": 800,
+          "height": 698
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/107-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "order": 108,
+      "name": "Chibi MiyaBi (ZZZ)",
+      "nameKo": "미니 미야비",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533995517439377409",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/108-third.webp",
+          "width": 800,
+          "height": 893
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/108-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "order": 109,
+      "name": "Chibi Zhao (ZZZ)",
+      "nameKo": "미니 자오 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533995836256813278",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/109-third.webp",
+          "width": 800,
+          "height": 912
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/109-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "order": 110,
+      "name": "Skipper (Penguins of Madagascar)",
+      "nameKo": "스키퍼 (마다가스카의 펭귄)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533996126296998031",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/110-third.webp",
+          "width": 800,
+          "height": 916
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/110-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "order": 111,
+      "name": "Yoshino (Date a live)",
+      "nameKo": "요시노 (데이트 어 라이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1533996276159352964",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/111-third.webp",
+          "width": 800,
+          "height": 987
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/111-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "order": 112,
+      "name": "Chisa Swimsuit (WuWa)",
+      "nameKo": "치사 수영복 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535741975079428228",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/112-third.webp",
+          "width": 800,
+          "height": 935
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/112-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "order": 113,
+      "name": "Horus (Aether Gazer)",
+      "nameKo": "호루스 (에테르 게이저)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535742180948443228",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/113-third.webp",
+          "width": 800,
+          "height": 935
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/113-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "order": 114,
+      "name": "Hsin (WuWa)",
+      "nameKo": "여우의 별자리 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535742354181455892",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/114-third.webp",
+          "width": 800,
+          "height": 910
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/114-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "order": 115,
+      "name": "Remielle Dan (ZZZ)",
+      "nameKo": "레미엘 댄 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535742507189805117",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/115-third.webp",
+          "width": 800,
+          "height": 772
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/115-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "order": 116,
+      "name": "Inubashiri Momiji (Touhou Project)",
+      "nameKo": "이누바시리 모미지 (동방 프로젝트)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535742730150486087",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/116-third.webp",
+          "width": 800,
+          "height": 938
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/116-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "order": 117,
+      "name": "Izayoi Sakuya (Touhou Project)",
+      "nameKo": "이자요이 사쿠야 (동방 프로젝트)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535743068039286845",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/117-third.webp",
+          "width": 800,
+          "height": 1025
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/117-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "order": 118,
+      "name": "Yamakaze (Kantai Collection)",
+      "nameKo": "야마카제 (함대 컬렉션)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1535743430863355924",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/118-third.webp",
+          "width": 800,
+          "height": 1046
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/118-first.webp",
           "width": 1280,
           "height": 720
         }

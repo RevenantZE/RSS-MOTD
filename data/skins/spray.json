@@ -1,12 +1,12 @@
 {
   "version": 5,
   "category": "spray",
-  "updatedAt": "2026-07-27T18:45:07.355000+00:00",
+  "updatedAt": "2026-08-09T11:18:00.909000+00:00",
   "items": [
     {
       "id": "spray-001",
       "order": 1,
-      "name": "spray 1 , 스프레이 1",
+      "name": "spray 0",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438222961973919775",
       "media": [
         {
@@ -21,7 +21,7 @@
     {
       "id": "spray-002",
       "order": 2,
-      "name": "spray 2 , 스프레이 2",
+      "name": "spray 1",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223159596810473",
       "media": [
         {
@@ -36,7 +36,7 @@
     {
       "id": "spray-003",
       "order": 3,
-      "name": "spray 3 , 스프레이 3",
+      "name": "spray 2",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223805364305981",
       "media": [
         {
@@ -51,7 +51,7 @@
     {
       "id": "spray-004",
       "order": 4,
-      "name": "spray 4  , 스프레이 4",
+      "name": "spray 3",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223852063952976",
       "media": [
         {
@@ -66,7 +66,7 @@
     {
       "id": "spray-005",
       "order": 5,
-      "name": "spray 5  , 스프레이 5",
+      "name": "spray 4",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223882891952238",
       "media": [
         {
@@ -81,7 +81,7 @@
     {
       "id": "spray-006",
       "order": 6,
-      "name": "spray 6  , 스프레이 6",
+      "name": "spray 5",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223911228674221",
       "media": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "spray-007",
       "order": 7,
-      "name": "spray 7  , 스프레이 7",
+      "name": "spray 6",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438223943952502904",
       "media": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "spray-008",
       "order": 8,
-      "name": "spray 8  , 스프레이 8",
+      "name": "spray 7",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224035262759093",
       "media": [
         {
@@ -126,7 +126,7 @@
     {
       "id": "spray-009",
       "order": 9,
-      "name": "spray 9 , 스프레이 9",
+      "name": "spray 8",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224159040737391",
       "media": [
         {
@@ -141,7 +141,7 @@
     {
       "id": "spray-010",
       "order": 10,
-      "name": "spray 10  , 스프레이 10",
+      "name": "spray 9",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224192779587644",
       "media": [
         {
@@ -156,7 +156,7 @@
     {
       "id": "spray-011",
       "order": 11,
-      "name": "spray 11  , 스프레이 11",
+      "name": "spray 10",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224220394885170",
       "media": [
         {
@@ -171,7 +171,7 @@
     {
       "id": "spray-012",
       "order": 12,
-      "name": "spray 12  , 스프레이 12",
+      "name": "spray 11",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224243287523561",
       "media": [
         {
@@ -186,7 +186,7 @@
     {
       "id": "spray-013",
       "order": 13,
-      "name": "spray 13  , 스프레이 13",
+      "name": "spray 12",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224269044617299",
       "media": [
         {
@@ -201,7 +201,7 @@
     {
       "id": "spray-014",
       "order": 14,
-      "name": "spray 14  , 스프레이 14",
+      "name": "spray 13",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224291798978643",
       "media": [
         {
@@ -216,7 +216,7 @@
     {
       "id": "spray-015",
       "order": 15,
-      "name": "spray 15  , 스프레이 15",
+      "name": "spray 14",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224321389658174",
       "media": [
         {
@@ -231,7 +231,7 @@
     {
       "id": "spray-016",
       "order": 16,
-      "name": "spray  16 , 스프레이 16",
+      "name": "spray 15",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224350267576611",
       "media": [
         {
@@ -246,7 +246,7 @@
     {
       "id": "spray-017",
       "order": 17,
-      "name": "spray 17  , 스프레이 17",
+      "name": "spray 16",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1438224378113556600",
       "media": [
         {
@@ -261,7 +261,7 @@
     {
       "id": "spray-018",
       "order": 18,
-      "name": "spray 18 , 스프레이 18",
+      "name": "spray 17",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118592158339092",
       "media": [
         {
@@ -276,7 +276,7 @@
     {
       "id": "spray-019",
       "order": 19,
-      "name": "spray 19 , 스프레이 19",
+      "name": "spray 18",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118649335222424",
       "media": [
         {
@@ -291,7 +291,7 @@
     {
       "id": "spray-020",
       "order": 20,
-      "name": "spray 20 , 스프레이 20",
+      "name": "spray 19",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118694033653820",
       "media": [
         {
@@ -306,7 +306,7 @@
     {
       "id": "spray-021",
       "order": 21,
-      "name": "spray 21 , 스프레이 21",
+      "name": "spray 20",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118724572516372",
       "media": [
         {
@@ -321,7 +321,7 @@
     {
       "id": "spray-022",
       "order": 22,
-      "name": "spray 22 , 스프레이 22",
+      "name": "spray 21",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118760744059011",
       "media": [
         {
@@ -336,7 +336,7 @@
     {
       "id": "spray-023",
       "order": 23,
-      "name": "spray 23 , 스프레이 23",
+      "name": "spray 22",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118785847099412",
       "media": [
         {
@@ -351,7 +351,7 @@
     {
       "id": "spray-024",
       "order": 24,
-      "name": "spray 24 , 스프레이 24",
+      "name": "spray 23",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118818004963438",
       "media": [
         {
@@ -366,7 +366,7 @@
     {
       "id": "spray-025",
       "order": 25,
-      "name": "spray 25 , 스프레이 25",
+      "name": "spray 24",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1439118846756782101",
       "media": [
         {
@@ -1155,6 +1155,66 @@
           "src": "assets/skins/spray/077-01.webp",
           "width": 260,
           "height": 279
+        }
+      ]
+    },
+    {
+      "id": "spray-078",
+      "order": 78,
+      "name": "spray 77",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1532937777518219324",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/078-01.webp",
+          "width": 232,
+          "height": 225
+        }
+      ]
+    },
+    {
+      "id": "spray-079",
+      "order": 79,
+      "name": "spray 78",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1532937817657970911",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/079-01.webp",
+          "width": 214,
+          "height": 215
+        }
+      ]
+    },
+    {
+      "id": "spray-080",
+      "order": 80,
+      "name": "spray 79",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1532937880744497213",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/080-01.webp",
+          "width": 219,
+          "height": 220
+        }
+      ]
+    },
+    {
+      "id": "spray-081",
+      "order": 81,
+      "name": "spray 49",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1535970402512412682",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/081-01.webp",
+          "width": 613,
+          "height": 597
         }
       ]
     }
