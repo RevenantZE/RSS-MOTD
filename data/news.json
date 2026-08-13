@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T21:26:45.504000+00:00",
+  "updatedAt": "2026-08-13T12:55:48.961000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1537444566368522280",
+      "title": "미니게임 업데이트",
+      "content": "# 코스 기록 시스템\n* 타이머가 설정된 맵에서 시작 구역을 벗어나면 타이머가 자동으로 시작되며, 도착 구역에 진입하면 기록이 저장됩니다.\n* 개인 최고 기록(PB) 표시\n* 서버 최고 기록(SR) 및 기록 보유자 표시\n* 서버 최고 기록 갱신 시 전체 채팅 알림\n* 최고 기록 1위부터 5위까지 지원\n* 관전 중인 플레이어의 타이머 HUD 지원\n* !restart, !r, !start 명령어 추가 — 코스 시작 지점으로 이동\n\n# 기록 확인 명령어\n* !maptop — 현재 맵의 서버 기록 TOP 5 확인\n* !myrecords — 자신의 기록 내역을 콘솔에서 확인\n\n# 일시정지 기능\n* 코스 진행 중 잠시 쉬거나 리플레이를 확인할 수 있도록 일시정지 기능이 추가되었습니다.\n* !pause — 현재 위치를 저장하고 타이머 및 움직임 정지\n* !resume — 저장된 위치로 돌아가 타이머 재개\n* 일시정지한 시간은 최종 기록에 포함되지 않음\n* 관전 또는 리플레이 확인 후에도 저장된 위치에서 재개 가능\n* 관전 상태에서 재개하면 자동으로 팀에 참가하고 스폰한 뒤 복귀\n\n# 서버 최고 기록 리플레이\n* 각 코스의 서버 최고 기록을 봇 리플레이로 관전할 수 있습니다.\n* !replay — 서버 최고 기록 리플레이 관전\n* !replaynext — 30초 앞으로 이동\n* !replayprev — 30초 뒤로 이동\n* !replaygoto <초> — 지정한 시간으로 이동\n* 리플레이 종료 시 봇 자동 제거\n* 리플레이 봇은 맵의 trigger_* 엔티티에 영향을 주지 않음\n\n# 코스 클리어 보상 업데이트\n* 타이머가 활성화 된 맵을 클리어시 (100 * tier) 만큼의 크레딧을 지급합니다.\n* 타이머가 활성화 된 맵 첫 클리어시 (2500 * tier) 만큼의 크레딧을 지급합니다.\n* 타이머가 활성화 된 맵 서버 최고 기록 경신 시 100 크레딧을 지급합니다.\n\n# 현재 코스 타이머가 활성화 된 맵 리스트\n* (C1)mg_nxr_course_v2\n* (C2)mg_minecraft_adventure\n* (C2)mg_zeizeiii\n* (C2+)mg_nothing\n* (C3)mg_100traps_r\n* (C3)mg_dobaba_t\n* (C3+)mg_minecraft_course_jb\n* (C3+)mg_yourstory_t\n* (C4)mg_nothing_hard\n* (C4)mg_fiery_t\n* (C4)mg_koaes_t\n* (C5)kzpro_only_up_extended\n* (C5+)mg_saturn\n* (C6) mg_terminal\n* (C6+)mg_danes_hard_max_t",
+      "publishedAt": "2026-08-13T12:55:48.961000+00:00",
+      "editedAt": null,
+      "author": "bunnyhop",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1537444566368522280",
+      "attachments": []
+    },
     {
       "id": "1535868713310617660",
       "title": "RSS 업데이트",
@@ -312,18 +324,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1520009829328879706",
-      "attachments": []
-    },
-    {
-      "id": "1518954449211490334",
-      "title": "인간 스킨 가격이 인하됩니다. > 이번 주 토요일부터 인간 스킨가격이 인하됩니다.",
-      "content": "@RSS Player 잘못된 사항 또 있어서 재공지합니다. 또 혼란을 드려서 죄송합니다. 😭\n\nCorrection to the previous announcement. I’m so sorry for causing confusion again. 😭\nHuman skin prices will be reduced. > Starting this Saturday, human skin prices will be reduced",
-      "publishedAt": "2026-06-23T12:22:41.501000+00:00",
-      "editedAt": null,
-      "author": "Mentalspin",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1518954449211490334",
       "attachments": []
     },
     {
