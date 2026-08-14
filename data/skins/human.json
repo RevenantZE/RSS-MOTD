@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-08-08T20:16:10.142000+00:00",
+  "updatedAt": "2026-08-14T15:07:20.186000+00:00",
   "items": [
     {
       "id": "001",
@@ -2712,6 +2712,121 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/118-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "order": 119,
+      "name": "Vesper (ZZZ)",
+      "nameKo": "베스퍼 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1537837113746133034",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/119-third.webp",
+          "width": 800,
+          "height": 899
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/119-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "order": 120,
+      "name": "Ellen Joe School Uniform (ZZZ)",
+      "nameKo": "엘렌 조 교복 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1537837852656930936",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/120-third.webp",
+          "width": 800,
+          "height": 888
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/120-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "order": 121,
+      "name": "Marlene Swimsuit (Eternal Return)",
+      "nameKo": "마를렌 수영복 (이터널 리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1537838933990314084",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/121-third.webp",
+          "width": 466,
+          "height": 888
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/121-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "order": 122,
+      "name": "Stella (Flower Knight Girl)",
+      "nameKo": "스텔라 (플라워 나이트 걸)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1537839342720917544",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/122-third.webp",
+          "width": 800,
+          "height": 953
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/122-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "order": 123,
+      "name": "Tsukiyuki Miyako Swimsuit (Blue Archive)",
+      "nameKo": "츠키유키 미야코 수영복 (블루 아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1537840020142956555",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/123-third.webp",
+          "width": 800,
+          "height": 925
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/123-first.webp",
           "width": 1280,
           "height": 720
         }

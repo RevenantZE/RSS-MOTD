@@ -1181,6 +1181,56 @@
       ],
       "name": "Yamakaze (Kantai Collection)",
       "nameKo": "야마카제 (함대 컬렉션)"
+    },
+    "1537837113746133034": {
+      "skinId": "119",
+      "imageMessageId": "1537837604458864772",
+      "attachmentIds": [
+        "1537837113813237821",
+        "1537837604018593842"
+      ],
+      "name": "Vesper (ZZZ)",
+      "nameKo": "베스퍼 (젠존제)"
+    },
+    "1537837852656930936": {
+      "skinId": "120",
+      "imageMessageId": "1537837868024725585",
+      "attachmentIds": [
+        "1537837852304478228",
+        "1537837867739381851"
+      ],
+      "name": "Ellen Joe School Uniform (ZZZ)",
+      "nameKo": "엘렌 조 교복 (젠존제)"
+    },
+    "1537838933990314084": {
+      "skinId": "121",
+      "imageMessageId": "1537839123870654474",
+      "attachmentIds": [
+        "1537838933042405417",
+        "1537839123568795698"
+      ],
+      "name": "Marlene Swimsuit (Eternal Return)",
+      "nameKo": "마를렌 수영복 (이터널 리턴)"
+    },
+    "1537839342720917544": {
+      "skinId": "122",
+      "imageMessageId": "1537839812675903528",
+      "attachmentIds": [
+        "1537839342243025036",
+        "1537839812348739656"
+      ],
+      "name": "Stella (Flower Knight Girl)",
+      "nameKo": "스텔라 (플라워 나이트 걸)"
+    },
+    "1537840020142956555": {
+      "skinId": "123",
+      "imageMessageId": "1537840052430970940",
+      "attachmentIds": [
+        "1537840019430051960",
+        "1537840051914932264"
+      ],
+      "name": "Tsukiyuki Miyako Swimsuit (Blue Archive)",
+      "nameKo": "츠키유키 미야코 수영복 (블루 아카이브)"
     }
   }
 }
