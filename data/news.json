@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T12:55:48.961000+00:00",
+  "updatedAt": "2026-08-14T09:59:38.220000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1537762617332994139",
+      "title": "RSS 서버 에셋 업데이트 안내",
+      "content": "## 에셋 구조 개편\n\n### 기존 통합 에셋을 용도별로 분할\n- **Core** : 공용 리소스\n- **Character** : 캐릭터 모델\n- **Weapon** : 일반 커스텀 무기\n- **Weapon2** : 전용 애니메이션 커스텀 무기\n\n### 에셋 분할 이후 최초 접속 시 추가 다운로드가 발생할 수 있습니다.\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요.\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n# 신규 캐릭터 스킨 추가\n## -일반 -\n- 베스퍼 (젠레스 존 제로)\n- 엘렌 조 교복 (젠레스 존 제로)\n- 마를렌 수영복 (이터널 리턴)\n- 스텔라 (플라워 나이트 걸)\n- 츠키유키 미야코 수영복 (블루 아카이브)\n\n# 신규 커스텀 무기 추가\n## -히든-\n- BlueArchive Shiroko Doll MP5-SD [F][A][H]\n- Apex Octane Balisong [A][H]\n- Apex Octane Balisong Printstream [A][H]\n\n### 해당 애니메이션 무기는 VIP 는 당분간 무료로 사용이 가능합니다.\n\n## 전용 커스텀 무기 히든 -> 일반 전환\n## -일반-\n- CSO:NataKnife[A]\n\n### 3000 크레딧에 구매 가능합니다.\n\n---\n\n# RSS Server Asset Update Notice\n\n## Asset Structure Reorganization\n\n### The existing integrated assets have been divided by purpose\n- **Core**: Shared resources\n- **Character**: Character models\n- **Weapon**: Standard custom weapons\n- **Weapon2**: Custom weapons with dedicated animations\n\n### Additional downloads may occur when connecting for the first time after the asset split.\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n# New Character Skins\n\n## -Standard-\n- Vesper (Zenless Zone Zero)\n- Ellen Joe School Uniform (Zenless Zone Zero)\n- Marlene Swimsuit (Eternal Return)\n- Stella (Flower Knight Girl)\n- Tsukiyuki Miyako Swimsuit (Blue Archive)\n\n# New Custom Weapons\n\n## -Hidden-\n- BlueArchive Shiroko Doll MP5-SD [F][A][H]\n- Apex Octane Balisong [A][H]\n- Apex Octane Balisong Printstream [A][H]\n\n### These animated weapons will be available to VIP members for free until further notice.\n\n## Dedicated Custom Weapon Changed from Hidden to Standard\n\n## -Standard-\n- CSO:NataKnife[A]\n\n### Available for purchase for 3,000 Credits.\n\n@RSS Player",
+      "publishedAt": "2026-08-14T09:59:38.220000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1537762617332994139",
+      "attachments": []
+    },
     {
       "id": "1537444566368522280",
       "title": "미니게임 업데이트",
@@ -300,18 +312,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1520375505591865344",
-      "attachments": []
-    },
-    {
-      "id": "1520249378974204026",
-      "title": "크레딧이 1000:1로 토큰으로 전환 되었습니다",
-      "content": "@RSS Player\n\n또한 상점 스킨가격이 절반으로 인하되었습니다.(추 후에 조정예정)\n\nVIP혜택이 토큰 2배에서 분당 크레딧 2배로 전환됩니다.\n\n```크레딧수급량이 줄어듭니다.```\n\n라운드승리 130 - 50\n인간으로 좀비킬 20 - 2\n좀비로 인간킬 5 - 4\n기존 수급방식 30분마다 100크레딧 지급\n새로운 수급방식 분당 5크레딧 지급\n출석체크 30분 400 - 300\n탑디펜더 100 - 20\n퀴즈 수급량 감소(6.28일 예정)\n\n```토큰 사용처 추가 예정```\n모델컬러\n레인보우\n수류탄트레일\n트레이서\n라디오\n토큰 -> 크레딧 환전기능\nvip 구매\n이모트 기능\n특정맵 노미시 토큰소모",
-      "publishedAt": "2026-06-27T02:08:16.815000+00:00",
-      "editedAt": "2026-08-03T13:23:32.522000+00:00",
-      "author": "Rami",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1520249378974204026",
       "attachments": []
     },
     {
