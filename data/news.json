@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T17:53:29.771000+00:00",
+  "updatedAt": "2026-08-15T19:40:42.796000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1538271237829169162",
+      "title": "RSS 플러그인 업데이트 안내",
+      "content": "## 사운드 기능 개선\n>  **본인 총소리 볼륨 조절기능 추가**\n>\n> - 본인이 발사하는 기본 및 커스텀 총소리의 볼륨을 조절할 수 있습니다.\n> - 명령어: !firesound <0~100>\n> - 0~100 : 본인 총소리 볼륨 설정\n\n## 추가 에셋 다운로드 토글 기능\n\n> - 설정 메뉴 → 기능 메뉴 → 추가 에셋 다운로드\n> - 명령어: !assets 또는 !에셋\n>\n> ON — 기본 설정\n>\n> - 에셋을 순차적으로 확인하고 다운로드합니다.\n> - 에셋 업데이트 여부를 자동으로 확인합니다.\n> - 서버 접속 중 최대 5회의 추가 로딩이 진행됩니다.\n>\n> OFF — 빠른 접속\n>\n> - 에셋의 로딩을 생략합니다.\n> - 기존에 다운로드한 에셋은 정상적으로 마운트됩니다.\n> - 워크숍 맵과 기타 애드온은 기존 방식대로 확인하고 다운로드합니다.\n>\n> - 설정은 계정별로 자동 저장되며, **다음 재접속 또는 맵 변경부터 적용**됩니다.\n> - 에셋 업데이트 후 모델이 보이지 않거나 오류 박스가 표시되면, 설정을 **ON**으로 변경한 뒤 다시 접속해 주세요.\n\n---\n\n# RSS Plugin Update Notice\n\n## Sound Improvements\n\n> ** Personal Gunfire Volume Control **\n>\n> - You can adjust the volume of default and custom gunfire sounds produced by your own weapons.\n> - Command: !firesound <0–100>\n> - 0–100: Set your own gunfire volume\n\n## Additional Asset Download Toggle\n>\n> - Settings Menu → Features Menu → Additional Asset Downloads\n> - Command: !assets\n>\n> ON — Default Setting\n>\n> - Checks and downloads all five additional asset packs in sequence.\n> - Automatically checks for asset updates.\n> - Up to five additional loading steps may occur while connecting.\n>\n> OFF — Faster Connection\n>\n> - Skips the five sequential asset-loading steps.\n> - Previously downloaded assets are still mounted normally.\n> - Workshop maps and other addons are still checked and downloaded as usual.\n>\n> - Your setting is saved per account and takes effect **after reconnecting or changing maps**.\n> - If models are missing or appear as error boxes after an asset update, change the setting to **ON** and reconnect.\n\n@RSS Player",
+      "publishedAt": "2026-08-15T19:40:42.796000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1538271237829169162",
+      "attachments": []
+    },
     {
       "id": "1537762617332994139",
       "title": "RSS 서버 에셋 업데이트 안내",
@@ -276,18 +288,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1521198924646449235",
-      "attachments": []
-    },
-    {
-      "id": "1521198906346700821",
-      "title": "공지",
-      "content": "@RSS Player",
-      "publishedAt": "2026-06-29T17:01:21.782000+00:00",
-      "editedAt": null,
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1521198906346700821",
       "attachments": []
     },
     {
