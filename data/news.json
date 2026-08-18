@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T19:40:42.796000+00:00",
+  "updatedAt": "2026-08-18T17:19:02.144000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1539322696062607451",
+      "title": "RSS 에셋 업데이트",
+      "content": "# 신규 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1539314711672266792\n- 이부키 (블루 아카이브)\n- 로시 (엔드필드)\n- 선택받은 불사자 (다크 소울)\n- 수수 (명조)\n\n# 신규 무기 스킨 추가\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1539316717778378872\n- CSO Custom SVD [F][H] (M4A4)\n- Blue Archive Mika Doll [F][A][H] (P90)\n- Energy Sword Halo [A][H]\n\n# 신규 스프레이 추가 예정\n\n- Call of Duty ZE4\n- Meccha Chameleon Doro\n\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Character Skins added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1539314711672266792\n- Ibuki (Blue Archive)\n- Rossi (Endfield)\n- Chosen Undead (Dark Souls)\n- Suisui (WuWa)\n\n# New Weapon Skins added\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1539316717778378872\n- CSO Custom SVD [F][H](M4A4)\n- Blue Archive Mika Doll [F][A][H] (P90)\n- Energy Sword Halo [A][H]\n\n## New Sprays soon added\n\n- Call of Duty ZE4\n- Meccha Chameleon Doro\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
+      "publishedAt": "2026-08-18T17:18:49.974000+00:00",
+      "editedAt": "2026-08-18T17:19:02.144000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1539322696062607451",
+      "attachments": []
+    },
     {
       "id": "1538271237829169162",
       "title": "RSS 플러그인 업데이트 안내",
@@ -276,18 +288,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1521199090468257875",
-      "attachments": []
-    },
-    {
-      "id": "1521198924646449235",
-      "title": "기능 추가",
-      "content": "## 1. `!menupos` 명령어 추가\n\n> 콘솔창에서 3가지 해상도 중 하나를 선택하여 메뉴 위치를 조절할 수 있습니다. (4:3, 16:9, 16:10)\n\n## 2. `!zvolume` 기능 추가\n\n> 좀비 관련 사운드 볼륨만 따로 조절할 수 있는 `zvolume` 기능이 추가되었습니다.\n>\n> `!music`, `!sfx`, `!zvolume` 등을 입력하여 사운드 메뉴를 열 수 있습니다.\n\n## 3. 퀴즈 수급량 조절\n\n> 퀴즈 보상 수급량이 조절되었습니다.\n\n### 토큰 보상은 기존과 동일합니다\n\n```txt\n0.1% : 500 토큰\n3%   : 10 토큰\n12%  : 5 토큰\n25%  : 3 토큰\n30%  : 2 토큰\n30%  : 1 토큰\n```\n\n### 크레딧 보상이 1/10로 줄어들었습니다\n\n```txt\n3%   : 300 크레딧 -> 30 크레딧\n12%  : 150 크레딧 -> 15 크레딧\n25%  : 90 크레딧  -> 9 크레딧\n30%  : 60 크레딧  -> 6 크레딧\n30%  : 30 크레딧  -> 3 크레딧\n```\n\n# 스토어 업데이트\n\n## 1. 토큰샵 아이템 추가\n\n토큰샵에 아래 아이템들이 추가되었습니다.\n\n> * `modelcolor`\n> * `rainbow`\n> * `tracer`\n> * 채팅 태그\n\n## 2. 기간 구매 할인 적용\n\n인간 스킨, 좀비 스킨, 무기 스킨, 토큰샵 기능들을 구매할 때\n`7일`, `14일`, `21일`, `28일` 단위로 구매할 수 있습니다.\n\n> 구매 기간이 길수록 할인된 가격으로 구매할 수 있습니다.\n\n```txt\n7일  : 100% 가격\n14일 : 190% 가격\n21일 : 280% 가격\n28일 : 360% 가격\n```\n\n예를 들어 7일 가격이 1,000 크레딧이라면,\n\n```txt\n7일  : 1,000 크레딧\n14일 : 1,900 크레딧\n21일 : 2,800 크레딧\n28일 : 3,600 크레딧\n```\n\n## 3. 보유 기간 누적 구매 변경\n\n이미 아이템을 보유하고 있더라도 추가로 구매할 수 있으며,\n최대 `35일`까지 보유 기간을 누적할 수 있도록 변경되었습니다.\n\n## 4. 환전 기능 추가\n\n토큰 관련 환전 기능이 추가되었습니다.\n교환 비율은 언제든지 바뀔 수 있습니다..",
-      "publishedAt": "2026-06-29T17:01:26.145000+00:00",
-      "editedAt": "2026-06-29T17:06:34.278000+00:00",
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1521198924646449235",
       "attachments": []
     },
     {
