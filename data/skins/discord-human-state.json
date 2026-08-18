@@ -1231,6 +1231,46 @@
       ],
       "name": "Tsukiyuki Miyako Swimsuit (Blue Archive)",
       "nameKo": "츠키유키 미야코 수영복 (블루 아카이브)"
+    },
+    "1539314711672266792": {
+      "skinId": "124",
+      "imageMessageId": "1539314724682858577",
+      "attachmentIds": [
+        "1539314711273934909",
+        "1539314724238401646"
+      ],
+      "name": "Ibuki (Blue Archive)",
+      "nameKo": "이부키 (블루 아카이브)"
+    },
+    "1539315069085683762": {
+      "skinId": "125",
+      "imageMessageId": "1539315083044327484",
+      "attachmentIds": [
+        "1539315068813180938",
+        "1539315082717306951"
+      ],
+      "name": "Rossi (Arknights: Endfield)",
+      "nameKo": "로시 (명일방주: 엔드필드)"
+    },
+    "1539315455817285732": {
+      "skinId": "126",
+      "imageMessageId": "1539315469260034048",
+      "attachmentIds": [
+        "1539315455502590134",
+        "1539315468899450880"
+      ],
+      "name": "Chosen Undead (Dark Souls)",
+      "nameKo": "선택받은 불사자 (다크 소울)"
+    },
+    "1539315897506996375": {
+      "skinId": "127",
+      "imageMessageId": "1539315930037747823",
+      "attachmentIds": [
+        "1539315897196609607",
+        "1539315929735897189"
+      ],
+      "name": "Suisui (WuWa)",
+      "nameKo": "수수 (명조)"
     }
   }
 }

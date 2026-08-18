@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-08-14T15:07:20.186000+00:00",
+  "updatedAt": "2026-08-18T16:51:56.828000+00:00",
   "items": [
     {
       "id": "001",
@@ -2827,6 +2827,98 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/123-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "order": 124,
+      "name": "Ibuki (Blue Archive)",
+      "nameKo": "이부키 (블루 아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1539314711672266792",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/124-third.webp",
+          "width": 800,
+          "height": 950
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/124-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "order": 125,
+      "name": "Rossi (Arknights: Endfield)",
+      "nameKo": "로시 (명일방주: 엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1539315069085683762",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/125-third.webp",
+          "width": 749,
+          "height": 1024
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/125-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "order": 126,
+      "name": "Chosen Undead (Dark Souls)",
+      "nameKo": "선택받은 불사자 (다크 소울)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1539315455817285732",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/126-third.webp",
+          "width": 789,
+          "height": 1042
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/126-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "order": 127,
+      "name": "Suisui (WuWa)",
+      "nameKo": "수수 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1539315897506996375",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/127-third.webp",
+          "width": 800,
+          "height": 779
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/127-first.webp",
           "width": 1280,
           "height": 720
         }
