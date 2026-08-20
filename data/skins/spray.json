@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "spray",
-  "updatedAt": "2026-08-18T14:46:58.108000+00:00",
+  "updatedAt": "2026-08-20T05:51:15.511000+00:00",
   "items": [
     {
       "id": "spray-001",
@@ -1230,6 +1230,21 @@
           "src": "assets/skins/spray/082-01.webp",
           "width": 219,
           "height": 215
+        }
+      ]
+    },
+    {
+      "id": "spray-083",
+      "order": 83,
+      "name": "spray 81",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1438222899562545253/1539874438034624593",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/spray/083-01.webp",
+          "width": 206,
+          "height": 208
         }
       ]
     }
