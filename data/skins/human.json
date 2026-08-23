@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-08-23T09:49:48.978000+00:00",
+  "updatedAt": "2026-08-23T09:51:51.081000+00:00",
   "items": [
     {
       "id": "001",
@@ -2942,6 +2942,29 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/128-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "order": 129,
+      "name": "Yuuka (Blue Archive)",
+      "nameKo": "유우카 (블루 아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1541022137442377728",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/129-third.webp",
+          "width": 800,
+          "height": 928
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/129-first.webp",
           "width": 1280,
           "height": 720
         }

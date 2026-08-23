@@ -1281,6 +1281,16 @@
       ],
       "name": "Hoshimi Miyabi (ZZZ)",
       "nameKo": "호시미 미야비 (젠존제)"
+    },
+    "1541022137442377728": {
+      "skinId": "129",
+      "imageMessageId": "1541022148800282626",
+      "attachmentIds": [
+        "1541022137136189480",
+        "1541022148557144094"
+      ],
+      "name": "Yuuka (Blue Archive)",
+      "nameKo": "유우카 (블루 아카이브)"
     }
   }
 }

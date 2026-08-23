@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "weapon",
-  "updatedAt": "2026-08-13T12:17:11.391000+00:00",
+  "updatedAt": "2026-08-23T10:06:11.937000+00:00",
   "items": [
     {
       "id": "weapon-primary-001",
@@ -2733,7 +2733,7 @@
       "id": "weapon-secondary-017",
       "subcategory": "secondary",
       "order": 17,
-      "name": "kayoko_elite[F](elite)",
+      "name": "kayoko_elite (Elite) [F]",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1535752839278886943",
       "media": [
         {
@@ -2916,6 +2916,54 @@
           "type": "image",
           "role": "preview",
           "src": "assets/skins/weapon/throwable/029-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-secondary-018",
+      "subcategory": "secondary",
+      "order": 18,
+      "name": "CSO Dual Infinity (Elite) [F][A][E]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1541025072947535892",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/018-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-secondary-019",
+      "subcategory": "secondary",
+      "order": 19,
+      "name": "CSO Dual Infinity Final (Elite) [F][A][E]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1541025324509175919",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/019-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-melee-046",
+      "subcategory": "melee",
+      "order": 46,
+      "name": "Blue Archive Aris Butterfly Knife(Butterfly Knife)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1541023173540192296",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/046-01.webp",
           "width": 1280,
           "height": 720
         }

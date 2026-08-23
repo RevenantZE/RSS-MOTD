@@ -1499,7 +1499,7 @@
       "attachmentIds": [
         "1535752839010328737"
       ],
-      "name": "kayoko_elite[F](elite)"
+      "name": "kayoko_elite (Elite) [F]"
     },
     "1531617992360591452": {
       "skinId": "weapon-melee-039",
@@ -1599,6 +1599,33 @@
         "1533786971313537075"
       ],
       "name": "baron_bunny_he (nade)"
+    },
+    "1541025072947535892": {
+      "skinId": "weapon-secondary-018",
+      "subcategory": "secondary",
+      "mediaMessageId": "1541025072947535892",
+      "attachmentIds": [
+        "1541025072553136218"
+      ],
+      "name": "CSO Dual Infinity (Elite) [F][A][E]"
+    },
+    "1541025324509175919": {
+      "skinId": "weapon-secondary-019",
+      "subcategory": "secondary",
+      "mediaMessageId": "1541025324509175919",
+      "attachmentIds": [
+        "1541025324182147102"
+      ],
+      "name": "CSO Dual Infinity Final (Elite) [F][A][E]"
+    },
+    "1541023173540192296": {
+      "skinId": "weapon-melee-046",
+      "subcategory": "melee",
+      "mediaMessageId": "1541023173540192296",
+      "attachmentIds": [
+        "1541023173133213697"
+      ],
+      "name": "Blue Archive Aris Butterfly Knife(Butterfly Knife)"
     }
   }
 }
