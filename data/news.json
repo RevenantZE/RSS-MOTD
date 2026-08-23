@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T05:24:04.768000+00:00",
+  "updatedAt": "2026-08-23T10:22:39.312000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1541029263149506560",
+      "title": "RSS 에셋 업데이트",
+      "content": "# 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- 호시미 미야비 (젠존제)\n- 유우카 기본 (블루 아카이브)\n\n ## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- 레이븐 (이환) [H]\n\n# 무기 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - 해당 무기스킨은 이벤트 참여로 얻으실 수 있습니다\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## 비활성화된 무기 스킨\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - 크래쉬로 인한 비활성화\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# Added Character Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- Hoshimi Miyabi (Zenless Zone Zero)\n- Yuuka  (Blue Archive)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- Raven (NTE) [H]\n\n# Added Weapon Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - This weapon skin can be obtained by participating in the event.\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## Disable Weapon skin\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - Disabled due to crashes\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
+      "publishedAt": "2026-08-23T10:20:07.274000+00:00",
+      "editedAt": "2026-08-23T10:22:39.312000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1541029263149506560",
+      "attachments": []
+    },
     {
       "id": "1540950772924284979",
       "title": "RSS 플러그인 업데이트",
@@ -300,18 +312,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1522473337710968873",
-      "attachments": []
-    },
-    {
-      "id": "1521827388772712539",
-      "title": "패치노트",
-      "content": "@RSS Player\n\n### 도움말 명령어 추가\n* `!help 1` : 기본 / 소리 / 편의성\n* `!help 2` : 스토어 / 맵 / 투표 / 엔트와치\n* `!help 3` : 리더 / 탑디펜더\n* `!help 4` : 후원자 명령어\n\n### 맵 노미네이션 규칙 변경\n* **최대 인원이 40명 이상**인 맵을 노미네이션할 때 **토큰 10개**가 소모됩니다.\n* **주의:** 노미네이션을 취소하더라도 소모된 토큰은 **환불되지 않습니다.**\n\n---\n\n# Patch Notes\n\n### New Help Commands\n* `!help 1` : General / Sound / QoL\n* `!help 2` : Store / Map / Vote / EntWatch\n* `!help 3` : Leader / Top Defender\n* `!help 4` : Donator Commands\n\n### Map Nomination Rule Updates\n* Nominating maps with a **maximum capacity of 40 or more players** will now cost **10 Tokens**.\n* **Notice:** Tokens spent on nominations are **non-refundable**, even if the nomination is canceled.",
-      "publishedAt": "2026-07-01T10:38:43.669000+00:00",
-      "editedAt": "2026-07-01T10:39:14.681000+00:00",
-      "author": "킁",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1521827388772712539",
       "attachments": []
     },
     {
