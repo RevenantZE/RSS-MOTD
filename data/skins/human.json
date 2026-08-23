@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-08-18T16:51:56.828000+00:00",
+  "updatedAt": "2026-08-23T09:49:48.978000+00:00",
   "items": [
     {
       "id": "001",
@@ -2919,6 +2919,29 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/127-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "order": 128,
+      "name": "Hoshimi Miyabi (ZZZ)",
+      "nameKo": "호시미 미야비 (젠존제)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1541021621475745792",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/128-third.webp",
+          "width": 770,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/128-first.webp",
           "width": 1280,
           "height": 720
         }
