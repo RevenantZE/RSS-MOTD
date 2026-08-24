@@ -633,7 +633,7 @@ function setLanguage(lang, syncUrl = true) {
   document.documentElement.lang = lang === "jp" ? "ja" : lang;
   const battlePassLink = document.getElementById("tab-battlepass");
   if (battlePassLink) {
-    const battlePassUrl = new URL("https://14.6.92.207:8443/battlepass/concept-6.html");
+    const battlePassUrl = new URL("https://pass.rsscs2.kr/battlepass/");
     battlePassUrl.searchParams.set("lang", lang);
     battlePassUrl.searchParams.set("tab", "missions");
     battlePassLink.href = battlePassUrl.toString();
