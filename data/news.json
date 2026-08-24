@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T02:36:04.931000+00:00",
+  "updatedAt": "2026-08-24T04:57:41.444000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1541304217245847562",
+      "title": "RSS 업데이트",
+      "content": "## 밸런스 패치 ##\n\n## 경직 콘솔값을 변경하였습니다. ##\n> - mp_tagging_scale 9 ▶️  mp_tagging_scale 500\n\n## 하드와 노말 세팅의 최대, 최소 경직이 3% 감소하였습니다. ##\n> - 하드 세팅\n> - 이전 최대경직 **68%** ▶️ 조정 후** 65%**\n> - 이전 최소경직 **65%** ▶️ 조정 후 **62% **\n>\n> - 노말 세팅\n> - 이전 최대경직 **72%** ▶️ 조정 후** 69%**\n> - 이전 최소경직 **69%** ▶️ 조정 후 **66% **\n\n---\n\n# RSS Update #\n\nHuman Nerf / Zombie Buff\n\n## Balance Patch ##\n- Adjusted the console command values for tagging settings.\n> mp_tagging_scale 9 ▶️  mp_tagging_scale 500\n\n- maximum and minimum tagging for Hard and Normal settings have been reduced by 3%.\n> Hard Setting\n> Maximum tagging Previous **68%** ▶️ Adjusted ** 65%**\n> Minimum tagging Previous **65%** ▶️ Adjusted **62% **\n>\n>  Normal Setting\n>  Maximum tagging Previous **72%** ▶️ Adjusted ** 69%**\n>  Minimum tagging Previous **69%** ▶️ Adjusted **66% **\n\n@RSS Player",
+      "publishedAt": "2026-08-24T04:32:41.439000+00:00",
+      "editedAt": "2026-08-24T04:57:03.297000+00:00",
+      "author": "Mentalspin",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1541304217245847562",
+      "attachments": []
+    },
     {
       "id": "1541274871764619264",
       "title": "서버 이전 작업 때문에 금일 12시부터 서버닫아놓습니다",
@@ -29,9 +41,9 @@
     {
       "id": "1541029263149506560",
       "title": "RSS 에셋 업데이트",
-      "content": "# 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- 호시미 미야비 (젠존제)\n- 유우카 기본 (블루 아카이브)\n\n ## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- 레이븐 (이환) [H]\n\n# 무기 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - 해당 무기스킨은 이벤트 참여로 얻으실 수 있습니다\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## 비활성화된 무기 스킨\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - 크래쉬로 인한 비활성화\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# Added Character Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- Hoshimi Miyabi (Zenless Zone Zero)\n- Yuuka  (Blue Archive)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- Raven (NTE) [H]\n\n# Added Weapon Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - This weapon skin can be obtained by participating in the event.\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## Disable Weapon skin\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - Disabled due to crashes\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
+      "content": "# 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- 호시미 미야비 (젠존제)\n- 유우카 (블루 아카이브)\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- 레이븐 (이환) [H]\n\n# 무기 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - 해당 무기스킨은 이벤트 참여로 얻으실 수 있습니다\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## 비활성화된 무기 스킨\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - 크래쉬로 인한 비활성화\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# Added Character Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- Hoshimi Miyabi (Zenless Zone Zero)\n- Yuuka  (Blue Archive)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- Raven (NTE) [H]\n\n# Added Weapon Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - This weapon skin can be obtained by participating in the event.\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## Disable Weapon skin\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - Disabled due to crashes\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
       "publishedAt": "2026-08-23T10:20:07.274000+00:00",
-      "editedAt": "2026-08-23T10:22:39.312000+00:00",
+      "editedAt": "2026-08-24T04:57:41.444000+00:00",
       "author": "``Asmodeus``",
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
@@ -288,18 +300,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1524702888348221600",
-      "attachments": []
-    },
-    {
-      "id": "1523172675294593249",
-      "title": "패치노트",
-      "content": "@RSS Player\n\n### 사운드 명령어 추가\n* `!firesound` : 본인 총 소리 끄기 켜기\n* `!radiosfx <0~100>` : 커스텀 라디오 볼륨 조절\n* `!hitmarkersfx <0~100>` : 히트마커 사운드 볼륨 조절\n* `!hitsound <0~100>` : 피격 사운드 볼륨 조절\n\n### 사운드 메뉴 개선\n* 기존에 있던 music, sfx, zvolume 외에 위 사운드들이 추가 되었습니다.\n\n### 맵 노미네이션\n* **!nomlist**에서 추천한 사람의 닉네임을 확인할 수 있습니다.\n\n---\n\n# Patch Notes\n\n### New Sound Commands\n\n* `!firesound` : Toggle your own gunfire sound on/off.\n* `!radiosfx <0~100>` : Adjust custom radio volume.\n* `!hitmarkersfx <0~100>` : Adjust hitmarker sound volume.\n* `!hitsound <0~100>` : Adjust hurt sound volume.\n\n### Sound Menu Improvements\n\n* The sound options listed above have been added to the existing `music`, `sfx`, and `zvolume` sound menu.\n\n### Map Nomination\n\n* You can now check the nickname of the player who nominated each map in **!nomlist**.",
-      "publishedAt": "2026-07-05T03:44:24.970000+00:00",
-      "editedAt": null,
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1523172675294593249",
       "attachments": []
     },
     {
