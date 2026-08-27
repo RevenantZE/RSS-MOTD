@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T10:55:53.116000+00:00",
+  "updatedAt": "2026-08-27T16:22:59.557000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1542570134185705562",
+      "title": "RSS 에셋 업데이트 안내",
+      "content": "# 신규 무기 스킨\n\n## -히든-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n# 신규 좀비 스킨\n\n## -일반-\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# ZM 전용 에셋 추가\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n\n# 무기 롤백\n\n- Miku_pa (ursus)\n\n# HUD 패널 업데이트\n\n- Top Defender 패널을 추가했습니다.\n- Top Boss Dealer 패널을 추가했습니다.\n- 보스 피해량 1~3위와 본인 순위를 확인할 수 있습니다.\n- EntWatch 아이템 정보 패널을 개선했습니다.\n- 패치노트 및 공지 확인 패널을 추가했습니다.\n- 패널의 가독성과 정보 표시 방식을 개선했습니다.\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Weapon Skins\n\n## -Hidden-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n## New Zombie Skins\n\n## -Normal-\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# ZM Assets\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n\n# Weapon RollBack\n\n- Miku_pa (ursus)\n\n# HUD Panel Update\n\n- Added the Top Defender panel.\n- Added the Top Boss Dealer panel.\n- Boss damage rankings now display the top three players and your personal rank.\n- Improved the EntWatch item information panel.\n- Added a panel for viewing patch notes and announcements.\n- Improved panel readability and information presentation.\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
+      "publishedAt": "2026-08-27T16:22:59.557000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1542570134185705562",
+      "attachments": []
+    },
     {
       "id": "1542481734614917180",
       "title": "좀비탈출서버 업데이트",
@@ -276,18 +288,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1528261491298537572",
-      "attachments": []
-    },
-    {
-      "id": "1528260627838009424",
-      "title": "패치노트",
-      "content": "## 개인 설정 메뉴, 명령어 추가\n\n> * 개인 설정 기능을 한 번에 관리할 수 있는 통합 메뉴가 추가되었습니다.\n> * 개인 설정 메뉴는 하이드, 사운드, 기능 카테고리로 구성됩니다.\n>\n> ### 개인 설정 메뉴 명령어 추가\n> * `!settings`　`!setting`　`!설정`\n\n## 서버 설정 확인 명령어 변경\n\n> * 기존 !setting 명령어가 개인 설정 메뉴 명령어로 변경되었습니다.\n> * 이에 따라 서버 설정을 확인하는 명령어가 별도로 분리되었습니다.\n>\n> ### * 서버 설정 확인 명령어\n> * `!svsetting`　`!서버설정`　`!서버세팅`\n\n## 화면 반동 설정 추가\n\n> * 화면 반동 감소 기능을 활성화하거나 비활성화할 수 있습니다.\n> * 해당 기능은 화면에 표시되는 시각적 반동만 감소시키며, 실제 총기 반동에는 영향을 주지 않습니다.\n> * 개인 설정의 기능 메뉴에서도 설정할 수 있습니다.\n> * [예시 영상](https://discord.com/channels/850664390779731978/851836386411020370/1528267405577424958)\n>\n> ### 화면 반동 설정 명령어\n> * `!recoil`　`!반동`\n>\n> ### ※ 해당 기능으로 인해 인간 진영이 과도하게 강화되었다고 판단될 경우, 기능 삭제 또는 인간 진영 밸런스 조정이 진행될 수 있습니다.\n\n## 타인 장전음 숨김 기능 추가\n> * 다른 플레이어의 장전음을 숨길 수 있는 기능이 추가되었습니다.\n> * 사운드 메뉴에서도 설정할 수 있습니다.\n>\n> ### * 장전음 설정 명령어\n> * `!reloadsound`　`!장전소리`\n\n## !forcertv 어드민 명령어 추가\n* 어드민은 현재 RTV상태와 관계없이 맵을 즉시 변경할 수 있는 기능이 추가되었습니다.\n\n## MOTD 페이지 추가\n* `TAB` 키를 누른 상태에서 화면 좌측 하단의 서버 웹사이트를 클릭하면 RSS 서버 페이지로 이동할 수 있습니다.\n\n## 커스텀 웨폰 발사음 추가\n\n* 기존 커스텀 웨폰 중 일부 스킨에 전용 커스텀 발사음이 추가되었습니다.\n* 상점에서는 이름 뒤에 `[F]`가 표시된 스킨으로 전용 발사음 적용 여부를 확인할 수 있습니다.\n* 표시 예시 mika_p90 → mika_p90[F]\n\n## 스토어 무기 스킨 메뉴 개편\n* 무기 스킨 메뉴를 무기별로 분리하고 정렬했습니다.\n* 칼 스킨은 이번 메뉴 분할 대상에서 제외됩니다.\n\n---\n\n# Patch Notes\n\n## Personal Settings Menu and Commands Added\n\n> * A unified menu has been added, allowing players to manage their personal settings in one place.\n> * The Personal Settings menu is divided into **Hide**, **Sound**, and **Feature** categories.\n>\n> ### New Personal Settings Commands\n> * `!settings`　`!setting`\n\n## Server Settings Commands Changed\n\n> * The existing `!setting` command is now used to open the Personal Settings menu.\n> * As a result, the commands used to check the server settings have been separated.\n>\n> ### Server Settings Commands\n> * `!svsetting`\n\n## Screen Recoil Setting Added\n\n> * Screen recoil reduction can now be enabled or disabled.\n> * This feature only reduces visual screen recoil and does not affect the weapon’s actual recoil.\n> * This option can also be configured from the **Feature** menu in Personal Settings.\n>\n> ### Screen Recoil Command\n> * `!recoil`\n>\n> ### ※ If this feature is determined to provide an excessive advantage to the human team, it may be removed or followed by additional balance adjustments to the human team.\n\n## Other Players’ Reload Sound Toggle Added\n\n> * A new option has been added to mute reload sounds from other players.\n> * This option can also be configured from the **Sound** menu.\n>\n> ### Reload Sound Command\n> * `!reloadsound`\n\n## !forcertv Admin Command Added\n\n* Administrators can now change the map immediately, regardless of the current RTV status.\n\n## MOTD Page Added\n\n* While holding the `TAB` key, click the server website button in the bottom-left corner to open the RSS server page.\n\n## Custom Weapon Firing Sounds Added\n\n* Custom firing sounds have been added to selected existing custom weapon skins.\n* Skins with custom firing sounds are marked with `[F]` after their names in the store.\n* Display example: `mika_p90` → `mika_p90[F]`\n\n## Store Weapon Skin Menu Revamp\n\n* The weapon skin menu has been divided and organized by weapon type.\n* Knife skins are excluded from this menu reorganization.\n\n@RSS Player",
-      "publishedAt": "2026-07-19T04:42:07.386000+00:00",
-      "editedAt": "2026-07-19T05:16:13.048000+00:00",
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1528260627838009424",
       "attachments": []
     },
     {
