@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T11:47:01.955000+00:00",
+  "updatedAt": "2026-08-27T10:55:53.116000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1542481734614917180",
+      "title": "좀비탈출서버 업데이트",
+      "content": "## 패치노트 패널 추가\n\n- 서버 업데이트 공지를 게임 안에서 확인할 수 있습니다.\n\n### 사용 방법\n\n- 명령어: `!패치노트`, `!patchnote`\n\n## 콘솔 메시지 HUD 추가\n\n- 맵에서 출력되는 영문 콘솔 메시지를 화면 상단의 커스텀 HUD로 표시할 수 있습니다.\n- 명령어: `!console [0-3]`\n\n### 표시 모드\n\n- `0`: 채팅창에 영문 원문만 표시\n- `1`: 채팅창에 영문 원문 + HUD에 영문 원문 표시\n- `2`: 한국어 사용자는 채팅창에 영문 원문과 한국어 번역 표시\n- `3`: 채팅창에는 한국어 번역만 표시하고 영문 원문은 HUD에 표시\n\n> 인자 없이 `!console`을 입력하면 다음 모드로 전환됩니다.\n\n## 보스 데미지 순위 HUD 추가\n\n- 라운드 종료 시 보스 데미지 상위 5명을 커스텀 HUD로 표시하도록 변경했습니다.\n\n## EntWatch HUD 개편\n\n- 아이템 소유자와 쿨타임을 표시하는 EntWatch를 커스텀 HUD 방식으로 변경했습니다.\n\n### 관련 명령어\n\n- `!ehud`: 끄기 / 전체 표시 / 아이템 이름만 표시\n- `!hudpos <x> <y>`: HUD 위치 설정\n- `!hudsize <small|medium|large>`: 글자 크기 설정\n- `!hudcolor R G B` : 글자 색상 설정\n\n### HUD 위치 설정\n\n- `0 0`: 왼쪽 위\n- `50 50`: 화면 중앙\n- `100 100`: 오른쪽 아래\n\n> 좌표는 HUD의 왼쪽 위를 기준으로 하므로 100에 가까우면 일부 내용이 화면 밖으로 나갈 수 있습니다.\n\n---\n\n# ZE Server Update\n\n## Patch Note Panel\n\n- Server update announcements can now be viewed directly in-game.\n\n### Commands\n\n- English announcements: `!patchnote en`\n\n## Console Message HUD\n\n- English map console messages can now be displayed through a custom HUD at the top of the screen.\n\n- Command: `!console [0-3]`\n\n### Display Modes\n\n- `0`: Show the original English message in chat only\n- `1`: Show the original message in both chat and the HUD\n- `2`: Korean users receive the original and translated messages in chat\n- `3`: Show the Korean translation in chat and the original English message in the HUD\n\n> Using `!console` without a number cycles to the next mode.\n\n## Boss Damage Ranking HUD\n\n- The top five boss damage dealers are now displayed using a custom HUD at the end of the round.\n\n## EntWatch HUD Rework\n\n- The EntWatch item owner and cooldown display has been moved to the custom HUD system.\n\n### Commands\n\n- `!ehud`: Off / Full information / Item names only\n- `!hudpos <x> <y>`: Set the HUD position\n- `!hudsize <small|medium|large>`: Set the text size\n- `!hucolor R G B`: Set color of the text\n\n### HUD Position\n\n`!hudpos` uses screen percentage coordinates and supports one decimal place.\n\n- `0 0`: Upper-left\n- `50 50`: Center\n- `100 100`: Lower-right\n\n> Positioning uses the upper-left corner of the HUD. Values close to 100 may place part of the content outside the screen.\n\n@RSS Player",
+      "publishedAt": "2026-08-27T10:31:43.457000+00:00",
+      "editedAt": "2026-08-27T10:55:53.116000+00:00",
+      "author": "투온전도사",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1542481734614917180",
+      "attachments": []
+    },
     {
       "id": "1541413522972614677",
       "title": "서버 정상 오픈했습니다.",
@@ -276,18 +288,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1528260627838009424",
-      "attachments": []
-    },
-    {
-      "id": "1525785201542955099",
-      "title": "패치노트",
-      "content": "@RSS Player\n\n## 인간 버니합 조정\n\n* 인간 버니합의 난이도가 상승했습니다.\n* 버니합 판정을 더욱 세분화했습니다.\n\n## 하이드 기능 업데이트\n\n> ### 아이템 보유자 하이드 기능 추가\n>\n> * `!itemhide` 명령어가 추가되었습니다.\n> * 하이드 메뉴에서 아이템 보유자 하이드 기능을 활성화하거나 비활성화할 수 있습니다.\n> * 일반 하이드 기능이 활성화되어 있어야 작동합니다.\n>\n> ### 글로우 대상 하이드 미적용\n>\n> * 글로우가 적용된 대상은 하이드가 되지 않게 변경되었습니다.\n\n## 사운드 메뉴 개편 및 명령어 추가\n\n> * 사운드 설정을 카테고리 메뉴 형식으로 재구성했습니다.\n> * 음악, 좀비, 총소리, 기능 설정을 각각의 하위 메뉴로 분리했습니다.\n>\n> ### 사운드 메뉴 명령어 추가\n> * `!sounds`   `!사운드`   `!소리`\n\n---\n\n# Patch Notes\n\n## Human Bunny Hop Adjustments\n\n* Bunny hopping as a human has been made more difficult.\n* Bunny hop detection has been refined with more detailed judgment criteria.\n\n## Hide Feature Updates\n\n> ### Item Holder Hide Feature\n>\n> * The `!itemhide` command has been added.\n> * The item holder hide feature can be enabled or disabled from the hide menu.\n> * The regular hide feature must be enabled for this option to work.\n>\n> ### Glow Target Hide Exclusion\n>\n> * Targets with an active glow effect are now excluded from the hide feature.\n\n## Sound Menu Overhaul and New Commands\n\n> * Sound settings have been reorganized into a category-based menu.\n> * Music, zombie sounds, gunfire sounds, and feature volume have been separated into individual submenus.\n>\n> ### New Sound Menu Commands\n> * `!sounds`",
-      "publishedAt": "2026-07-12T08:45:39.766000+00:00",
-      "editedAt": null,
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1525785201542955099",
       "attachments": []
     },
     {
