@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T16:22:59.557000+00:00",
+  "updatedAt": "2026-08-29T05:58:52.861000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -15,11 +15,23 @@
   ],
   "items": [
     {
+      "id": "1543133986132459562",
+      "title": "좀비스킨 스토어 사용 불가 및 환불 안내",
+      "content": "## 아래의 스킨들이 스토어에서 빠집니다.\n\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n### 구매자는 새벽에 크레딧 환불이 들어갈 예정입니다.\n- 이용에 불편을드려 죄송합니다.\n\n@RSS Player",
+      "publishedAt": "2026-08-29T05:43:32.337000+00:00",
+      "editedAt": "2026-08-29T05:58:52.861000+00:00",
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1543133986132459562",
+      "attachments": []
+    },
+    {
       "id": "1542570134185705562",
       "title": "RSS 에셋 업데이트 안내",
-      "content": "# 신규 무기 스킨\n\n## -히든-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n# 신규 좀비 스킨\n\n## -일반-\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# ZM 전용 에셋 추가\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n\n# 무기 롤백\n\n- Miku_pa (ursus)\n\n# HUD 패널 업데이트\n\n- Top Defender 패널을 추가했습니다.\n- Top Boss Dealer 패널을 추가했습니다.\n- 보스 피해량 1~3위와 본인 순위를 확인할 수 있습니다.\n- EntWatch 아이템 정보 패널을 개선했습니다.\n- 패치노트 및 공지 확인 패널을 추가했습니다.\n- 패널의 가독성과 정보 표시 방식을 개선했습니다.\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Weapon Skins\n\n## -Hidden-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n## New Zombie Skins\n\n## -Normal-\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# ZM Assets\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n\n# Weapon RollBack\n\n- Miku_pa (ursus)\n\n# HUD Panel Update\n\n- Added the Top Defender panel.\n- Added the Top Boss Dealer panel.\n- Boss damage rankings now display the top three players and your personal rank.\n- Improved the EntWatch item information panel.\n- Added a panel for viewing patch notes and announcements.\n- Improved panel readability and information presentation.\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
+      "content": "# 신규 무기 스킨\n\n## -히든-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n# ZM 전용 에셋 추가\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# 무기 롤백\n\n- Miku_pa (ursus)\n\n# HUD 패널 업데이트\n\n- Top Defender 패널을 추가했습니다.\n- Top Boss Dealer 패널을 추가했습니다.\n- 보스 피해량 1~3위와 본인 순위를 확인할 수 있습니다.\n- EntWatch 아이템 정보 패널을 개선했습니다.\n- 패치노트 및 공지 확인 패널을 추가했습니다.\n- 패널의 가독성과 정보 표시 방식을 개선했습니다.\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Weapon Skins\n\n## -Hidden-\n- Shiroko Terror Doll (Kuroko) — MP9 `[F][A][H]`\n- Hoshino — XM1014 `[F][A][H]`\n\n# ZM Assets\n\n- CSO Normal Zombie Hand\n- CSO Zombie Bomb\n- CSO Normal Host Zombie\n- CSO Normal Zombie\n- CSO Psycho Host Zombie\n- CSO Psycho Zombie\n\n# Weapon RollBack\n\n- Miku_pa (ursus)\n\n# HUD Panel Update\n\n- Added the Top Defender panel.\n- Added the Top Boss Dealer panel.\n- Boss damage rankings now display the top three players and your personal rank.\n- Improved the EntWatch item information panel.\n- Added a panel for viewing patch notes and announcements.\n- Improved panel readability and information presentation.\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@RSS Player",
       "publishedAt": "2026-08-27T16:22:59.557000+00:00",
-      "editedAt": null,
+      "editedAt": "2026-08-29T05:32:14.906000+00:00",
       "author": "Somast",
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
@@ -474,18 +486,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1477728511300075570",
-      "attachments": []
-    },
-    {
-      "id": "1466730058852073648",
-      "title": "금일 CS2 업데이트로 인해 스토어 사용 바인드 명령어 exec menu_bind가 사용이 불가능해졌습니다.",
-      "content": "@RSS Player\n\n스토어 메뉴창이 사용이 안되는 분들은 아래 명령어를 콘솔창에 입력해주시면 메뉴창이 사용 가능합니다.\n```\nbind 1 \"slot1; menuselect 1\"; bind 2 \"slot2; menuselect 2\"; bind 3 \"slot3; menuselect 3\"; bind 4 \"slot4; menuselect 4\"; bind 5 \"slot5; menuselect 5\"; bind 6 \"slot6; menuselect 6\"; bind 7 \"slot7; menuselect 7\"; bind 8 \"slot8; menuselect 8\"; bind 9 \"slot9; menuselect 9\"\n```",
-      "publishedAt": "2026-01-30T09:41:36.557000+00:00",
-      "editedAt": "2026-03-01T12:20:29.716000+00:00",
-      "author": "킁",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1466730058852073648",
       "attachments": []
     }
   ]
