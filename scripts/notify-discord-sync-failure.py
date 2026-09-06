@@ -17,6 +17,10 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 WORKFLOWS = {"Sync Discord news": "공지 동기화", "Sync Discord skins": "스킨 동기화"}
 FAILURES = {"failure", "timed_out"}
+WORKFLOW_FILES = {
+    "Sync Discord news": "sync-discord-news.yml",
+    "Sync Discord skins": "sync-discord-human-skins.yml",
+}
 STEP_LABELS = {
     "Check out target branch": "저장소 다운로드",
     "Check out main source": "저장소 다운로드",
@@ -93,6 +97,66 @@ def should_notify(event: dict, repository: str) -> bool:
         and run.get("head_branch") == "main"
         and run.get("head_repository", {}).get("full_name", "").casefold() == repository.casefold()
     )
+
+
+def github_headers(token: str) -> dict:
+    return {
+        "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2026-03-10",
+    }
+
+
+def run_order(run: dict) -> tuple:
+    timestamp = run.get("updated_at") or run.get("run_started_at") or run["created_at"]
+    return (datetime.fromisoformat(timestamp.replace("Z", "+00:00")),
+            int(run["id"]), int(run.get("run_attempt", 1)))
+
+
+def is_first_failure(repository: str, run: dict, token: str) -> bool:
+    """Use persisted run outcomes to suppress a failure streak until success."""
+    api = f"https://api.github.com/repos/{repository}/actions"
+    headers = github_headers(token)
+    try:
+        current_order = run_order(run)
+        previous = []
+        # A rerun shares its run ID, so the ordinary run list loses the older attempt.
+        for attempt in range(int(run["run_attempt"]) - 1, 0, -1):
+            earlier = json.loads(request_bytes(f"{api}/runs/{int(run['id'])}/attempts/{attempt}", headers))
+            if earlier.get("conclusion") in FAILURES | {"success"}:
+                previous.append(earlier)
+                break
+        workflow = WORKFLOW_FILES[run["name"]]
+        for page in range(1, 11):
+            response = json.loads(request_bytes(
+                f"{api}/workflows/{workflow}/runs?branch=main&status=completed&per_page=100&page={page}", headers,
+            ))
+            runs = response["workflow_runs"]
+            for candidate in runs:
+                if (candidate.get("head_branch") != "main"
+                        or candidate.get("head_repository", {}).get("full_name", "").casefold() != repository.casefold()):
+                    continue
+                if int(candidate["id"]) == int(run["id"]) and int(candidate.get("run_attempt", 1)) == int(run["run_attempt"]):
+                    continue
+                order = run_order(candidate)
+                if order > current_order and candidate["conclusion"] == "success":
+                    # A delayed failure event must not alert after recovery.
+                    return False
+                if order < current_order and candidate.get("conclusion") in FAILURES | {"success"}:
+                    previous.append(candidate)
+                    continue
+                # A cancelled rerun must not erase a failure from an older attempt.
+                for attempt in range(int(candidate.get("run_attempt", 1)) - 1, 0, -1):
+                    earlier = json.loads(request_bytes(f"{api}/runs/{int(candidate['id'])}/attempts/{attempt}", headers))
+                    if run_order(earlier) < current_order and earlier.get("conclusion") in FAILURES | {"success"}:
+                        previous.append(earlier)
+                        break
+            if previous:
+                return max(previous, key=run_order)["conclusion"] == "success"
+            if len(runs) < 100:
+                return True
+    except (ValueError, KeyError, TypeError):
+        raise NotificationError("Could not determine the previous sync result") from None
+    raise NotificationError("Sync history limit reached; notification suppressed")
 
 
 def clean_lines(log: str, step: dict) -> list[str]:
@@ -181,10 +245,7 @@ def extract_problems(log: str, step: dict) -> list[dict]:
 
 def failure_reports(repository: str, run: dict, token: str) -> list[dict]:
     api = f"https://api.github.com/repos/{repository}/actions"
-    headers = {
-        "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-        "X-GitHub-Api-Version": "2026-03-10",
-    }
+    headers = github_headers(token)
     try:
         response = json.loads(request_bytes(
             f"{api}/runs/{int(run['id'])}/attempts/{int(run['run_attempt'])}/jobs?per_page=100", headers,
@@ -206,7 +267,35 @@ def failure_reports(repository: str, run: dict, token: str) -> list[dict]:
     return reports or [{"step": "작업 실행", "problems": [{"reason": "실패한 단계가 기록되지 않았습니다. 실행 링크에서 확인하세요.", "urls": []}]}]
 
 
-def build_payload(repository: str, run: dict, reports: list[dict]) -> dict:
+def message_authors(reports: list[dict], bot_token: str) -> dict[str, str]:
+    """Resolve authors from Discord, without trusting IDs or mentions in log text."""
+    problems = [problem for report in reports for problem in report["problems"]][:5]
+    urls = dict.fromkeys(url for problem in problems for url in problem["urls"][:3])
+    authors = {}
+    for url in urls:
+        if not re.fullmatch(MESSAGE_URL, url):
+            continue
+        channel_id, message_id = url.rsplit("/", 2)[-2:]
+        try:
+            message = json.loads(request_bytes(
+                f"https://discord.com/api/v10/channels/{channel_id}/messages/{message_id}",
+                {"Authorization": f"Bot {bot_token}"},
+            ))
+            author_id = str(message.get("author", {}).get("id", ""))
+            if (str(message.get("id")) == message_id and str(message.get("channel_id")) == channel_id
+                    and re.fullmatch(r"[0-9]{17,20}", author_id)):
+                authors[url] = author_id
+        except NotificationError as error:
+            # Missing/inaccessible messages should not prevent the failure alert.
+            if str(error) not in {"HTTP 403", "HTTP 404"}:
+                break
+        except (ValueError, TypeError, AttributeError):
+            continue
+    return authors
+
+
+def build_payload(repository: str, run: dict, reports: list[dict], authors: dict | None = None) -> dict:
+    authors = authors or {}
     run_id, attempt = int(run["id"]), int(run["run_attempt"])
     link = f"https://github.com/{repository}/actions/runs/{run_id}/attempts/{attempt}"
     content = f"RSS-MOTD {WORKFLOWS[run['name']]} 실패\n실행 #{int(run['run_number'])} · 시도 {attempt}\n"
@@ -215,16 +304,25 @@ def build_payload(repository: str, run: dict, reports: list[dict]) -> dict:
     for report in reports:
         for problem in report["problems"]:
             block = f"\n단계: {report['step']}\n원인: {problem['reason']}\n"
-            block += "\n".join(f"[문제 메시지 열기](<{url}>)" for url in problem["urls"][:3])
-            blocks.append(block.rstrip())
-    for index, block in enumerate(blocks):
+            urls = problem["urls"][:3]
+            user_ids = list(dict.fromkeys(str(authors[url]) for url in urls
+                                         if url in authors and re.fullmatch(r"[0-9]{17,20}", str(authors[url]))))
+            if user_ids:
+                block += "작성자: " + " ".join(f"<@{user_id}>" for user_id in user_ids) + "\n"
+            elif urls:
+                block += "작성자: 확인 불가\n"
+            block += "\n".join(f"[문제 메시지 열기](<{url}>)" for url in urls)
+            blocks.append((block.rstrip(), user_ids))
+    mentioned_users = set()
+    for index, (block, user_ids) in enumerate(blocks):
         if index == 5 or len((content + block + footer).encode("utf-16-le")) // 2 > 1850:
             content += "\n추가 오류는 실행 로그에서 확인하세요.\n"
             break
         content += block + "\n"
+        mentioned_users.update(user_ids)
     return {
         "content": content + footer,
-        "allowed_mentions": {"parse": []},
+        "allowed_mentions": {"parse": [], "users": sorted(mentioned_users)},
         "nonce": hashlib.sha256(f"{repository}:{run_id}:{attempt}".encode()).hexdigest()[:24],
         "enforce_nonce": True,
     }
@@ -245,9 +343,13 @@ def main() -> None:
     if not bot_token or not github_token:
         raise NotificationError("DISCORD_BOT_TOKEN and GITHUB_TOKEN are required")
     run = event["workflow_run"]
+    if not is_first_failure(repository, run, github_token):
+        print("Sync is still failing or has already recovered; notification suppressed.")
+        return
     reports = failure_reports(repository, run, github_token)
+    authors = message_authors(reports, bot_token)
     request_bytes(f"https://discord.com/api/v10/channels/{channel}/messages",
-                  {"Authorization": f"Bot {bot_token}"}, build_payload(repository, run, reports))
+                  {"Authorization": f"Bot {bot_token}"}, build_payload(repository, run, reports, authors))
     print("Discord sync failure notification sent.")
 
 

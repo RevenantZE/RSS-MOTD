@@ -32,5 +32,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_SYNC_ALERT_CHANNEL_ID: "661972168586035211"
+          DISCORD_SYNC_ALERT_CHANNEL_ID: "851797089909997579"
         run: python3 scripts/notify-discord-sync-failure.py

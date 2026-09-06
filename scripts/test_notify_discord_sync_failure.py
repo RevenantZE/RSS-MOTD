@@ -27,6 +27,7 @@ EVENT = {
         "id": 123456789, "run_number": 42, "run_attempt": 2,
         "name": "Sync Discord skins", "conclusion": "failure", "head_branch": "main",
         "head_repository": {"full_name": REPOSITORY},
+        "created_at": "2026-09-06T12:00:00Z", "updated_at": "2026-09-06T12:01:00Z",
     },
 }
 
@@ -101,7 +102,7 @@ class NotificationTests(unittest.TestCase):
         self.assertLessEqual(len(payload["content"].encode("utf-16-le")) // 2, 2000)
         self.assertIn("추가 오류", payload["content"])
         self.assertIn("actions/runs/123456789/attempts/2", payload["content"])
-        self.assertEqual(payload["allowed_mentions"], {"parse": []})
+        self.assertEqual(payload["allowed_mentions"], {"parse": [], "users": []})
         self.assertTrue(payload["enforce_nonce"])
         rerun = {**EVENT["workflow_run"], "run_attempt": 3}
         self.assertNotEqual(payload["nonce"], notify.build_payload(REPOSITORY, rerun, [])["nonce"])
@@ -124,6 +125,98 @@ class NotificationTests(unittest.TestCase):
         payload = notify.build_payload(REPOSITORY, EVENT["workflow_run"], reports)
         self.assertIn("조회하지 못", payload["content"])
         self.assertIn("actions/runs/123456789", payload["content"])
+
+    def test_only_first_failure_is_sent_until_a_success(self):
+        history = []
+        decisions = []
+        for number, outcome in enumerate(["success", "failure", "failure", "cancelled", "failure", "success", "failure"], 1):
+            run = {**EVENT["workflow_run"], "id": number, "run_attempt": 1, "conclusion": outcome,
+                   "updated_at": f"2026-09-06T12:{number:02}:00Z"}
+            history.insert(0, run)
+            event = {"action": "completed", "workflow_run": run}
+            with patch.object(notify, "request_bytes", return_value=json.dumps({"workflow_runs": history}).encode()):
+                decisions.append(notify.should_notify(event, REPOSITORY) and notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"))
+        self.assertEqual(decisions, [False, True, False, False, False, False, True])
+
+    def test_history_is_scoped_to_the_sync_workflow(self):
+        for name, filename in notify.WORKFLOW_FILES.items():
+            with self.subTest(name=name):
+                run = {**EVENT["workflow_run"], "name": name, "run_attempt": 1}
+                with patch.object(notify, "request_bytes", return_value=b'{"workflow_runs": []}') as request:
+                    self.assertTrue(notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"))
+                self.assertIn(f"/workflows/{filename}/runs?branch=main&status=completed", request.call_args.args[0])
+
+    def test_repeated_failure_on_same_run_checks_earlier_attempt(self):
+        run = EVENT["workflow_run"]
+        earlier = {**run, "run_attempt": 1, "updated_at": "2026-09-06T11:59:00Z"}
+        for outcome, expected in [("failure", False), ("success", True)]:
+            with self.subTest(outcome=outcome):
+                earlier["conclusion"] = outcome
+                with patch.object(notify, "request_bytes", side_effect=[json.dumps(earlier).encode(), json.dumps({"workflow_runs": [run]}).encode()]) as request:
+                    self.assertEqual(notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"), expected)
+                self.assertIn("/runs/123456789/attempts/1", request.call_args_list[0].args[0])
+
+    def test_late_failure_event_after_recovery_does_not_send(self):
+        run = {**EVENT["workflow_run"], "run_attempt": 1}
+        recovered = {**run, "id": 123456790, "conclusion": "success", "updated_at": "2026-09-06T12:05:00Z"}
+        with patch.object(notify, "request_bytes", return_value=json.dumps({"workflow_runs": [recovered, run]}).encode()):
+            self.assertFalse(notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"))
+
+    def test_cancelled_runs_do_not_reset_failure_streak_across_pages(self):
+        run = {**EVENT["workflow_run"], "run_attempt": 1}
+        ignored = {**run, "id": 100, "conclusion": "cancelled", "updated_at": "2026-09-06T11:59:00Z"}
+        prior = {**ignored, "conclusion": "failure"}
+        with patch.object(notify, "request_bytes", side_effect=[json.dumps({"workflow_runs": [ignored] * 100}).encode(), json.dumps({"workflow_runs": [prior]}).encode()]) as request:
+            self.assertFalse(notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"))
+        self.assertIn("page=2", request.call_args.args[0])
+
+    def test_history_lookup_failure_does_not_risk_duplicate_alerts(self):
+        run = {**EVENT["workflow_run"], "run_attempt": 1}
+        with patch.object(notify, "request_bytes", side_effect=notify.NotificationError("HTTP 503")):
+            with self.assertRaises(notify.NotificationError):
+                notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN")
+
+    def test_cancelled_rerun_preserves_the_earlier_failed_attempt(self):
+        run = {**EVENT["workflow_run"], "run_attempt": 1}
+        cancelled = {**run, "id": 123456788, "run_attempt": 2, "conclusion": "cancelled", "updated_at": "2026-09-06T11:59:00Z"}
+        earlier = {**cancelled, "run_attempt": 1, "conclusion": "failure", "updated_at": "2026-09-06T11:55:00Z"}
+        with patch.object(notify, "request_bytes", side_effect=[json.dumps({"workflow_runs": [run, cancelled]}).encode(), json.dumps(earlier).encode()]) as request:
+            self.assertFalse(notify.is_first_failure(REPOSITORY, run, "FAKE_TOKEN"))
+        self.assertIn("/runs/123456788/attempts/1", request.call_args.args[0])
+
+    def test_message_authors_are_resolved_from_discord_and_cached_per_url(self):
+        reports = [{"step": "무기 스킨 다운로드", "problems": [{"reason": "첨부 누락", "urls": [MESSAGE_URL]}] * 2}]
+        author_id = "111111111111111111"
+        message = {"id": MESSAGE_URL.rsplit("/", 1)[-1], "channel_id": MESSAGE_URL.rsplit("/", 2)[-2],
+                   "author": {"id": author_id, "username": "@everyone"}, "content": "PRIVATE_MESSAGE_BODY"}
+        with patch.object(notify, "request_bytes", return_value=json.dumps(message).encode()) as request:
+            authors = notify.message_authors(reports, "FAKE_BOT_TOKEN")
+        request.assert_called_once()
+        self.assertEqual(authors, {MESSAGE_URL: author_id})
+        payload = notify.build_payload(REPOSITORY, EVENT["workflow_run"], reports, authors)
+        self.assertIn(f"<@{author_id}>", payload["content"])
+        self.assertEqual(payload["allowed_mentions"], {"parse": [], "users": [author_id]})
+        self.assertNotIn("@everyone", payload["content"])
+        self.assertNotIn("PRIVATE_MESSAGE_BODY", payload["content"])
+
+    def test_deleted_message_still_has_link_without_mention(self):
+        reports = [{"step": "스킨 다운로드", "problems": [{"reason": "첨부 누락", "urls": [MESSAGE_URL]}]}]
+        with patch.object(notify, "request_bytes", side_effect=notify.NotificationError("HTTP 404")):
+            authors = notify.message_authors(reports, "FAKE_BOT_TOKEN")
+        payload = notify.build_payload(REPOSITORY, EVENT["workflow_run"], reports, authors)
+        self.assertIn("작성자: 확인 불가", payload["content"])
+        self.assertIn(MESSAGE_URL, payload["content"])
+        self.assertEqual(payload["allowed_mentions"]["users"], [])
+
+    def test_authors_for_hidden_problems_are_not_pinged(self):
+        urls = [f"https://discord.com/channels/574971804712435722/1476635405691654438/{1517551693267599462 + index}" for index in range(6)]
+        authors = {url: str(111111111111111111 + index) for index, url in enumerate(urls)}
+        reports = [{"step": "스킨 다운로드", "problems": [{"reason": "첨부 누락", "urls": [url]} for url in urls]}]
+        payload = notify.build_payload(REPOSITORY, EVENT["workflow_run"], reports, authors)
+        self.assertNotIn(authors[urls[-1]], payload["allowed_mentions"]["users"])
+        for author_id in payload["allowed_mentions"]["users"]:
+            self.assertIn(f"<@{author_id}>", payload["content"])
+        self.assertLessEqual(len(payload["content"].encode("utf-16-le")) // 2, 2000)
 
     def test_storage_redirect_does_not_receive_github_token(self):
         request = Request("https://api.github.com/repos/org/repo/actions/jobs/1/logs", headers={"Authorization": "Bearer FAKE_TOKEN"})
@@ -150,12 +243,23 @@ class NotificationTests(unittest.TestCase):
             event_path = Path(directory) / "event.json"
             event_path.write_text(json.dumps(EVENT), encoding="utf-8")
             env = {"GITHUB_REPOSITORY": REPOSITORY, "GITHUB_EVENT_PATH": str(event_path),
-                   "DISCORD_SYNC_ALERT_CHANNEL_ID": "661972168586035211",
+                   "DISCORD_SYNC_ALERT_CHANNEL_ID": "851797089909997579",
                    "DISCORD_BOT_TOKEN": "FAKE_BOT_TOKEN", "GITHUB_TOKEN": "FAKE_GITHUB_TOKEN"}
-            with patch.dict(os.environ, env, clear=True), patch.object(notify, "failure_reports", return_value=[]), patch.object(notify, "request_bytes") as request:
+            with patch.dict(os.environ, env, clear=True), patch.object(notify, "is_first_failure", return_value=True), patch.object(notify, "failure_reports", return_value=[]), patch.object(notify, "request_bytes") as request:
                 notify.main()
-            self.assertEqual(request.call_args.args[0], "https://discord.com/api/v10/channels/661972168586035211/messages")
+            self.assertEqual(request.call_args.args[0], "https://discord.com/api/v10/channels/851797089909997579/messages")
             self.assertEqual(request.call_args.args[1], {"Authorization": "Bot FAKE_BOT_TOKEN"})
+
+    def test_main_does_not_fetch_messages_or_send_for_repeated_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            event_path = Path(directory) / "event.json"
+            event_path.write_text(json.dumps(EVENT), encoding="utf-8")
+            env = {"GITHUB_REPOSITORY": REPOSITORY, "GITHUB_EVENT_PATH": str(event_path),
+                   "DISCORD_SYNC_ALERT_CHANNEL_ID": "851797089909997579",
+                   "DISCORD_BOT_TOKEN": "FAKE_BOT_TOKEN", "GITHUB_TOKEN": "FAKE_GITHUB_TOKEN"}
+            with patch.dict(os.environ, env, clear=True), patch.object(notify, "is_first_failure", return_value=False), patch.object(notify, "request_bytes") as request:
+                notify.main()
+            request.assert_not_called()
 
 
 if __name__ == "__main__":
