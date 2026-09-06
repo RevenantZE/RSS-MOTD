@@ -303,7 +303,10 @@ def synchronize(
         if must_download:
             destination_base = asset_root / subcategory / f"{number}-01"
             relative_base = f"assets/skins/weapon/{subcategory}/{number}-01"
-            item["media"] = [write_media(record["media"], destination_base, relative_base)]
+            with common.media_failure_context(
+                guild_id, thread_ids[subcategory], message_id, record["media_message_id"],
+            ):
+                item["media"] = [write_media(record["media"], destination_base, relative_base)]
             asset_changes += 1
         elif not item.get("media"):
             raise RuntimeError(f"existing weapon skin {item_id} has no media metadata")
@@ -365,7 +368,7 @@ def main() -> None:
         warnings.extend(thread_warnings)
 
     for warning in warnings:
-        print(f"warning: {warning}", file=sys.stderr)
+        common.print_message_warning(warning, guild_id, thread_ids.get(warning.split(":", 1)[0], ""))
     if warnings:
         raise SystemExit(f"Refusing weapon update: {len(warnings)} malformed record(s)")
 

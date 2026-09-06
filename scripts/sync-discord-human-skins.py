@@ -25,6 +25,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -100,7 +101,7 @@ def pair_skin_messages(messages: list[dict[str, Any]]) -> tuple[list[dict[str, A
         if not images or not pending:
             continue
 
-        pending["_images"].extend(images)
+        pending["_images"].extend(dict(image, _message_id=str(message["id"])) for image in images)
         if len(pending["_images"]) < 2:
             continue
 
@@ -126,6 +127,28 @@ def pair_skin_messages(messages: list[dict[str, Any]]) -> tuple[list[dict[str, A
 def source_message_id(item: dict[str, Any]) -> str:
     match = SOURCE_MESSAGE_PATTERN.search(str(item.get("sourceUrl") or ""))
     return match.group(1) if match else ""
+
+
+def print_message_warning(warning: str, guild_id: str, thread_id: str) -> None:
+    message = re.search(r"\bmessage (\d+)", warning)
+    if message and str(guild_id).isdigit() and str(thread_id).isdigit():
+        warning += f" (https://discord.com/channels/{guild_id}/{thread_id}/{message.group(1)})"
+    print(f"warning: {warning}", file=sys.stderr)
+
+
+@contextmanager
+def media_failure_context(guild_id: str, thread_id: str, *message_ids: str):
+    """Keep the source messages identifiable without logging their contents."""
+    try:
+        yield
+    except Exception:
+        for message_id in dict.fromkeys(str(value) for value in message_ids):
+            if all(str(value).isdigit() for value in (guild_id, thread_id, message_id)):
+                print(
+                    f"RSS_MOTD_MEDIA_FAILURE https://discord.com/channels/{guild_id}/{thread_id}/{message_id}",
+                    file=sys.stderr,
+                )
+        raise
 
 
 def next_character_id(items: list[dict[str, Any]], category: str) -> str:
@@ -323,8 +346,16 @@ def synchronize(
         )
 
         if must_download:
-            third_size = convert_image(download_attachment(record["third_person"]), third_path, 800)
-            first_size = convert_image(download_attachment(record["first_person"]), first_path, 1280)
+            with media_failure_context(
+                guild_id, thread_id, message_id,
+                record["third_person"].get("_message_id", record["image_message_id"]),
+            ):
+                third_size = convert_image(download_attachment(record["third_person"]), third_path, 800)
+            with media_failure_context(
+                guild_id, thread_id, message_id,
+                record["first_person"].get("_message_id", record["image_message_id"]),
+            ):
+                first_size = convert_image(download_attachment(record["first_person"]), first_path, 1280)
             item["media"] = [
                 {"type": "image", "role": "thirdPerson", "src": third_src, "width": third_size[0], "height": third_size[1]},
                 {"type": "image", "role": "firstPerson", "src": first_src, "width": first_size[0], "height": first_size[1]},
@@ -387,7 +418,7 @@ def main() -> None:
 
     records, warnings = pair_skin_messages(messages)
     for warning in warnings:
-        print(f"warning: {warning}", file=sys.stderr)
+        print_message_warning(warning, guild_id, thread_id)
     if warnings and not args.allow_warnings:
         raise SystemExit(
             f"Refusing to update {args.category}: {len(warnings)} malformed skin record(s)"

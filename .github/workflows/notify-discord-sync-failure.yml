@@ -1,0 +1,36 @@
+name: Notify Discord sync failure
+
+on:
+  workflow_run:
+    workflows:
+      - Sync Discord news
+      - Sync Discord skins
+    types:
+      - completed
+    branches:
+      - main
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  notify:
+    if: >-
+      ${{ contains(fromJSON('["failure", "timed_out"]'), github.event.workflow_run.conclusion)
+          && github.event.workflow_run.head_repository.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out notification code from the default branch
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Send failure details to Discord
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_SYNC_ALERT_CHANNEL_ID: "661972168586035211"
+        run: python3 scripts/notify-discord-sync-failure.py

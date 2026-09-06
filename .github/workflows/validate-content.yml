@@ -21,3 +21,6 @@ jobs:
 
       - name: Test Discord announcement conversion
         run: node --test scripts/discord-news-converter.test.mjs
+
+      - name: Test Discord failure notifications
+        run: python3 -m unittest scripts/test_notify_discord_sync_failure.py

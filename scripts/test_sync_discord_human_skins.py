@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import importlib.util
+import io
 import tempfile
 import unittest
+from contextlib import redirect_stderr
 from pathlib import Path
 from unittest.mock import patch
 
@@ -60,6 +62,31 @@ class HumanSkinSyncTests(unittest.TestCase):
         self.assertEqual(records[0]["name_message_id"], "100")
         self.assertEqual(records[0]["third_person"]["id"], "portrait")
         self.assertEqual(records[0]["first_person"]["id"], "landscape")
+        self.assertEqual(records[0]["third_person"]["_message_id"], "100")
+        self.assertEqual(records[0]["first_person"]["_message_id"], "101")
+        self.assertNotIn("_message_id", messages[0]["attachments"][0])
+
+    def test_warning_includes_the_source_message_link(self) -> None:
+        output = io.StringIO()
+        with redirect_stderr(output):
+            sync.print_message_warning("name message 123 has fewer than two following images", "574", "151")
+        self.assertIn("https://discord.com/channels/574/151/123", output.getvalue())
+
+    def test_media_failure_reports_unique_links_and_preserves_exception(self) -> None:
+        output = io.StringIO()
+        original = RuntimeError("download failed")
+        with redirect_stderr(output), self.assertRaises(RuntimeError) as caught:
+            with sync.media_failure_context("574", "151", "100", "101", "101"):
+                raise original
+        self.assertIs(caught.exception, original)
+        self.assertEqual(output.getvalue().splitlines(), [
+            "RSS_MOTD_MEDIA_FAILURE https://discord.com/channels/574/151/100",
+            "RSS_MOTD_MEDIA_FAILURE https://discord.com/channels/574/151/101",
+        ])
+        output = io.StringIO()
+        with redirect_stderr(output), sync.media_failure_context("574", "151", "100"):
+            pass
+        self.assertEqual(output.getvalue(), "")
 
     def test_first_run_seeds_state_without_reencoding_existing_assets(self) -> None:
         record = {

@@ -203,11 +203,12 @@ def synchronize(
             bool(previous) and previous.get("attachmentId") != signature
         )
         if must_download:
-            item["media"] = [save_media(
-                record["media"],
-                asset_dir / f"{number}-01",
-                f"assets/skins/spray/{number}-01",
-            )]
+            with common.media_failure_context(guild_id, thread_id, message_id, record["media_message_id"]):
+                item["media"] = [save_media(
+                    record["media"],
+                    asset_dir / f"{number}-01",
+                    f"assets/skins/spray/{number}-01",
+                )]
             asset_changes += 1
         elif not item.get("media"):
             raise RuntimeError(f"existing spray {item_id} has no media metadata")
@@ -258,7 +259,7 @@ def main() -> None:
 
     records, warnings = pair_spray_messages(messages)
     for warning in warnings:
-        print(f"warning: {warning}", file=sys.stderr)
+        common.print_message_warning(warning, guild_id, thread_id)
     if warnings and not args.allow_warnings:
         raise SystemExit(f"Refusing spray update: {len(warnings)} malformed record(s)")
     if not records:
