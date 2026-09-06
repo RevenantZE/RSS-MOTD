@@ -129,7 +129,7 @@
           "alt": {
             "ko": "Steam 보기 메뉴에서 게임 서버 선택",
             "en": "Select Game Servers from the Steam View menu",
-            "jp": "Select Game Servers from the Steam View menu"
+            "jp": "Steamの表示メニューからゲームサーバーを選択してください"
           }
         },
         { "type": "spacer" },
@@ -141,7 +141,7 @@
           "alt": {
             "ko": "CS2 플레이 화면의 서버 브라우저 지구본 아이콘",
             "en": "Server browser globe icon on the CS2 Play screen",
-            "jp": "Server browser globe icon on the CS2 Play screen"
+            "jp": "CS2のプレイ画面にある地球儀アイコン"
           }
         },
         { "type": "spacer" },
@@ -153,7 +153,7 @@
           "alt": {
             "ko": "Steam 게임 서버 즐겨찾기 추가 버튼",
             "en": "Add server button in Steam Game Servers Favorites",
-            "jp": "Add server button in Steam Game Servers Favorites"
+            "jp": "Steamのサーバーのお気に入りに+ボタンを追加"
           }
         },
         { "type": "spacer" },
@@ -162,7 +162,7 @@
           "type": "code",
           "id": "serverAddress",
           "copy": true,
-          "value": "14.6.92.207:27015"
+          "value": "rsscs2.kr:27015"
         },
         {
           "type": "image",
@@ -171,7 +171,7 @@
           "alt": {
             "ko": "RSS 서버 주소 입력 화면",
             "en": "RSS server address entry dialog",
-            "jp": "RSS server address entry dialog"
+            "jp": "RSSサーバーアドレスの入力ダイアログ"
           }
         }
       ]
