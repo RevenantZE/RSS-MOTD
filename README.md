@@ -3,6 +3,8 @@
 RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitHub Pages에서 별도 서버 없이 동작하며 FAQ, 서버 규칙, 명령어 목록, 좀비탈출 용어 사전, 공지, 스킨 프리뷰, 후원 안내를 제공합니다.
 
 - 사이트: https://revenantze.github.io/RSS-MOTD/
+- 저장소: https://github.com/revenantze/rss-motd
+- 배틀패스: https://pass.rsscs2.kr/battlepass/ (별도 서버에서 운영)
 - 지원 UI 언어: 한국어, English, 日本語
 - 용어 사전 데이터: 한국어, 日本語 제공 (English 준비 중)
 
@@ -11,17 +13,25 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 - FAQ·서버 규칙·명령어·용어·공지·스킨을 한 번에 찾는 통합 검색
 - 한국어 초성 검색 (`ㄱㅈ` → `고좀`)
 - 명령어 카테고리 필터와 브라우저별 즐겨찾기
+- 최근 본 항목 기록과 바로가기
 - 명령어, 코드, 항목 링크 복사와 다국어 완료 알림
 - URL 해시를 이용한 FAQ·규칙·명령어·용어 바로가기
 - 키보드 좌우 방향키 탭 이동
-- Discord 공지 채널을 `data/news.json`으로 동기화하는 GitHub Actions 예시
-- 인간·좀비·무기(주무기·보조무기·근접무기·투척무기)를 나눠 보여주는 이미지·영상 스킨 갤러리
+- Discord 공지 채널을 `data/news.json`으로 자동 동기화
+- 인간·좀비·무기(주무기·보조무기·근접무기·투척무기)·스프레이를 나눠 보여주는 이미지·영상 스킨 갤러리
+- Discord 스킨 스레드에서 카탈로그와 미디어 자동 동기화
 - 주무기를 기관단총·소총·산탄총·기관총·저격총으로 자동 분류하고 전체 보기에서도 분류별로 묶어서 표시
 - 스킨 이미지를 페이지 안의 모달로 확대
 - 한국어 화면에는 카카오페이 직접 송금 안내를, 영어·일본어 화면에는 Ko-fi 구독 링크를 표시
 - VIP 무료 이용 기능과 VIP 전용 기능을 구분한 혜택 안내
 
-즐겨찾기는 브라우저의 `localStorage`에 저장됩니다. 다른 기기나 브라우저와 동기화되지 않으며 사이트 데이터를 삭제하면 함께 사라집니다.
+즐겨찾기와 최근 본 항목은 브라우저의 `localStorage`에 저장됩니다. 다른 기기나 브라우저와 동기화되지 않으며 사이트 데이터를 삭제하면 함께 사라집니다.
+
+## 배틀패스 연결
+
+MOTD의 **배틀 패스** 탭은 `https://pass.rsscs2.kr/battlepass/`로 이동합니다. 현재 선택한 언어를 `lang=ko|en|jp`로 전달하고 `tab=missions`로 임무 화면을 엽니다.
+
+실제 배틀패스 화면과 Steam 로그인·진행도 API는 별도 서버에서 운영합니다. 이 저장소에는 배틀패스 데모나 운영 서버 소스가 포함되어 있지 않으며, GitHub Pages 배포는 배틀패스 서버 파일을 갱신하지 않습니다.
 
 ## 파일 구조
 
@@ -29,15 +39,15 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 /
 ├─ index.html
 ├─ data/                  # FAQ, 규칙, 명령어, 용어, 공지, 후원 데이터
-│  └─ skins/              # 인간·좀비·무기 스킨 카탈로그
+│  └─ skins/              # 인간·좀비·무기·스프레이 카탈로그와 동기화 상태
 ├─ assets/
 │  ├─ css/                # 사이트 스타일
 │  ├─ js/                 # 화면 동작과 다국어 UI
 │  ├─ images/guide/       # FAQ 안내 이미지
 │  └─ skins/              # 스킨 이미지와 영상
-├─ scripts/               # 데이터 생성·동기화·검증 도구
+├─ scripts/               # 데이터 생성·동기화·검증 도구와 테스트
 ├─ vendor/                # 외부 라이브러리 로컬 사본
-└─ .github/workflows/     # 자동 검증과 Discord 공지 동기화
+└─ .github/workflows/     # 자동 검증, Discord 공지·스킨 동기화, Pages 배포
 ```
 
 | 파일 | 역할 |
@@ -46,17 +56,20 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 | `assets/css/style.css` | 전체 화면 스타일과 반응형 UI |
 | `assets/js/script.js` | 검색, 탭, JSON 렌더링, 즐겨찾기, 복사 기능 |
 | `assets/js/lang.js` | 고정 UI와 FAQ 문구의 한국어·영어·일본어 번역 |
+| `assets/js/deep-link-state.mjs` | 탭과 필터의 URL 상태 처리 |
+| `assets/js/recent-views.mjs` | 최근 본 항목 저장과 복원 |
 | `data/faq.json` | FAQ 항목과 답변 블록 |
 | `data/rules.json` | 언어별 서버 규칙과 안내 문구 |
 | `data/commands.json` | 명령어 카테고리, 명령어, 설명 |
 | `data/terms.json` | 언어별 용어 사전 |
-| `data/news.json` | Discord에서 가져온 최근 공지와 로컬 샘플 |
+| `data/news.json` | Discord에서 자동 동기화한 실제 공지 |
 | `data/support.json` | 지역별 후원 링크와 다국어 VIP 혜택 안내 |
 | `data/skins/human.json` | 인간 스킨 이름, 미디어 경로, Discord 원문 링크 |
 | `data/skins/zombie.json` | 좀비 스킨 이름, 미디어 경로, Discord 원문 링크 |
 | `data/skins/weapon.json` | 무기 스킨 분류, 이름, 미디어 경로, Discord 원문 링크 |
 | `data/skins/spray.json` | 스프레이 이름, 미디어 경로, Discord 원문 링크 |
 | `data/skins/weapon-types.json` | 주무기 이름의 마지막 괄호를 무기군으로 연결하는 설정 |
+| `data/skins/discord-*-state.json` | Discord 메시지·첨부 파일과 기존 카탈로그 항목의 연결 상태 |
 | `assets/skins/` | GitHub Pages용 WebP·GIF·MP4 스킨 미리보기 |
 | `scripts/build_skin_previews.py` | 여섯 로컬 Discord 추출 폴더를 카테고리별 스킨 카탈로그로 변환 |
 | `scripts/sync-discord-human-skins.py` | Discord 인간·좀비 스킨 스레드에서 이름과 이미지를 동기화 |
@@ -73,7 +86,7 @@ RSS 좀비탈출서버에서 사용하는 정적 안내 사이트입니다. GitH
 
 ## 콘텐츠 수정 방법
 
-콘텐츠를 수정한 뒤 해당 JSON 파일의 `updatedAt`을 `YYYY-MM-DD` 형식으로 함께 변경합니다.
+직접 관리하는 콘텐츠를 수정한 뒤 해당 JSON 파일의 `updatedAt`을 `YYYY-MM-DD` 형식으로 함께 변경합니다. Discord 공지와 스킨 동기화 도구는 데이터를 갱신할 때 `updatedAt`도 자동으로 기록합니다.
 
 커밋 전에 아래 명령으로 JSON 문법, 중복 ID, FAQ 관련 항목, 번역 키, 스킨 이미지 경로를 한 번에 확인할 수 있습니다.
 
@@ -136,7 +149,7 @@ FAQ 구조는 `data/faq.json`에서 관리하고 번역 문구는 `assets/js/lan
 
 ### Discord 공지 연동
 
-기본 `data/news.json`에는 화면 확인용 샘플이 들어 있습니다. 실제 연동은 Discord 봇과 GitHub 저장소 설정을 마친 뒤 활성화합니다.
+`data/news.json`에는 Discord에서 동기화한 실제 공지가 들어 있습니다. 공지 내용은 Discord에서 수정하며, 다음 동기화 때 JSON과 사이트에 반영됩니다. 다른 저장소에서 연동을 설정하려면 아래 절차를 따릅니다.
 
 1. Discord Developer Portal에서 봇을 만들고 **Message Content Intent**를 활성화한 뒤 서버에 추가합니다.
 2. 봇에 공지 채널의 `View Channel`, `Read Message History` 권한을 줍니다.
@@ -236,4 +249,4 @@ JSON을 불러오므로 `index.html`을 파일로 직접 열기보다 로컬 웹
 
 ## 배포
 
-GitHub Pages는 `.github/workflows/deploy-pages.yml`이 `main` 브랜치의 루트(`/`)를 검증한 뒤 배포합니다. 일반 `main` 푸시뿐 아니라 공지 동기화가 새 커밋을 만든 경우에도 같은 배포 과정을 실행합니다.
+GitHub Pages는 `.github/workflows/deploy-pages.yml`이 `main` 브랜치의 루트(`/`)를 검증한 뒤 배포합니다. 일반 `main` 푸시뿐 아니라 공지·스킨 동기화가 새 커밋을 만든 경우에도 같은 배포 과정을 실행합니다.
