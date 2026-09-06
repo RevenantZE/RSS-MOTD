@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "zombie",
-  "updatedAt": "2026-07-17T12:28:00Z",
+  "updatedAt": "2026-09-05T06:59:40.867000+00:00",
   "items": [
     {
       "id": "zombie-001",
@@ -140,6 +140,28 @@
         }
       ],
       "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1517494914873557042"
+    },
+    {
+      "id": "zombie-007",
+      "order": 7,
+      "name": "SBPL",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517475506771984574/1545689728882311189",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/zombie/007-third.webp",
+          "width": 759,
+          "height": 1022
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/zombie/007-first.webp",
+          "width": 740,
+          "height": 923
+        }
+      ]
     }
   ]
 }

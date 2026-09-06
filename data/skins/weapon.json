@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "weapon",
-  "updatedAt": "2026-08-23T10:06:11.937000+00:00",
+  "updatedAt": "2026-09-06T06:50:13.920000+00:00",
   "items": [
     {
       "id": "weapon-primary-001",
@@ -2733,7 +2733,7 @@
       "id": "weapon-secondary-017",
       "subcategory": "secondary",
       "order": 17,
-      "name": "kayoko_elite (Elite) [F]",
+      "name": "kayoko_elite  [F] (Elite)",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1535752839278886943",
       "media": [
         {
@@ -2925,7 +2925,7 @@
       "id": "weapon-secondary-018",
       "subcategory": "secondary",
       "order": 18,
-      "name": "CSO Dual Infinity (Elite) [F][A][E]",
+      "name": "CSO Dual Infinity  [F][A][E] (Elite)",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1541025072947535892",
       "media": [
         {
@@ -2941,7 +2941,7 @@
       "id": "weapon-secondary-019",
       "subcategory": "secondary",
       "order": 19,
-      "name": "CSO Dual Infinity Final (Elite) [F][A][E]",
+      "name": "CSO Dual Infinity Final [F][A][E] (Elite)",
       "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1541025324509175919",
       "media": [
         {
@@ -2964,6 +2964,73 @@
           "type": "image",
           "role": "preview",
           "src": "assets/skins/weapon/melee/046-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-primary-087",
+      "subcategory": "primary",
+      "order": 87,
+      "name": "CSO XM1014 [F][A] (XM1014)",
+      "weaponType": "shotgun",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1544307158433271898",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/087-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-primary-088",
+      "subcategory": "primary",
+      "order": 88,
+      "name": "CSO CV47 [F][A] (AK 47)",
+      "weaponType": "rifle",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1544307798815277167",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/088-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-primary-089",
+      "subcategory": "primary",
+      "order": 89,
+      "name": "CSO_Dual_MP7A1[F][A](MP7)",
+      "weaponType": "smg",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1545692138698706954",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/089-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-secondary-020",
+      "subcategory": "secondary",
+      "order": 20,
+      "name": "CSO_DualDeagle [F][A] (Deagle)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635695958462554/1545692577129300021",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/secondary/020-01.webp",
           "width": 1280,
           "height": 720
         }

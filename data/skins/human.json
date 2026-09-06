@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-08-23T09:51:51.081000+00:00",
+  "updatedAt": "2026-09-05T18:22:31.026000+00:00",
   "items": [
     {
       "id": "001",
@@ -2965,6 +2965,512 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/129-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "order": 130,
+      "name": "Lynae Swimsuit (WuWa)",
+      "nameKo": "린네 수영복 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544301851107659907",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/130-third.webp",
+          "width": 775,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/130-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "order": 131,
+      "name": "Detective (Silver Palace)",
+      "nameKo": "탐정 (실버 팰리스)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544302161188622366",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/131-third.webp",
+          "width": 800,
+          "height": 915
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/131-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "order": 132,
+      "name": "Plana (Blue Archive)",
+      "nameKo": "프라나 (블루 아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544302521202384957",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/132-third.webp",
+          "width": 755,
+          "height": 917
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/132-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "order": 133,
+      "name": "Lappland (Arknights)",
+      "nameKo": "라플란드 (명일방주)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544302767110230097",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/133-third.webp",
+          "width": 800,
+          "height": 962
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/133-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "order": 134,
+      "name": "Coraline (Eternal Return)",
+      "nameKo": "코렐라인 (이터널 리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544303018994835546",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/134-third.webp",
+          "width": 758,
+          "height": 1050
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/134-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "order": 135,
+      "name": "Pedobear",
+      "nameKo": "페도베어",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544303241511182386",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/135-third.webp",
+          "width": 800,
+          "height": 959
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/135-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "order": 136,
+      "name": "AR-15 (GFL2)",
+      "nameKo": "AR-15 (소녀전선2)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544304072243413024",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/136-third.webp",
+          "width": 786,
+          "height": 1029
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/136-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "order": 137,
+      "name": "Welrod (GFL2) [C]",
+      "nameKo": "웰로드 (소녀전선2) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544304439610056714",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/137-third.webp",
+          "width": 800,
+          "height": 985
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/137-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "order": 138,
+      "name": "Saber Alter (Fate)",
+      "nameKo": "세이버 얼터 (페이트)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544304787804131379",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/138-third.webp",
+          "width": 762,
+          "height": 953
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/138-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "order": 139,
+      "name": "Miku",
+      "nameKo": "미쿠",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1544305028284547162",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/139-third.webp",
+          "width": 800,
+          "height": 991
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/139-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "order": 140,
+      "name": "Cheyanne (GFL2) [C]",
+      "nameKo": "샤이엔 (소녀전선2) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545684605158293555",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/140-third.webp",
+          "width": 796,
+          "height": 1006
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/140-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "order": 141,
+      "name": "Arcane (Endfield)",
+      "nameKo": "결 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545686447875694642",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/141-third.webp",
+          "width": 800,
+          "height": 984
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/141-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "order": 142,
+      "name": "Ember (Endfield)",
+      "nameKo": "엠버 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545686697390641243",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/142-third.webp",
+          "width": 800,
+          "height": 937
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/142-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "order": 143,
+      "name": "Gilberta (Endfield)",
+      "nameKo": "질베르타 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545687094402220042",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/143-third.webp",
+          "width": 798,
+          "height": 1061
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/143-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "order": 144,
+      "name": "Liino (Endfield)",
+      "nameKo": "리노 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545687495147126794",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/144-third.webp",
+          "width": 776,
+          "height": 1051
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/144-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "order": 145,
+      "name": "Maid Momoi (Blue Archive)",
+      "nameKo": "메이드 모모이 (블루 아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545687749976260659",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/145-third.webp",
+          "width": 759,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/145-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "order": 146,
+      "name": "Suoming (WuWa)",
+      "nameKo": "쇄명 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545688356199989278",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/146-third.webp",
+          "width": 800,
+          "height": 1048
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/146-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "order": 147,
+      "name": "Yvonne (Endfield)",
+      "nameKo": "이본 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545688703198953502",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/147-third.webp",
+          "width": 800,
+          "height": 1055
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/147-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "order": 148,
+      "name": "Klee (Genshin Impact)",
+      "nameKo": "클레 (원신)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545689074667364572",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/148-third.webp",
+          "width": 741,
+          "height": 992
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/148-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "order": 149,
+      "name": "OTs-14 (GFL2)",
+      "nameKo": "OTs-14 (소녀전선2)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545689320239661106",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/149-third.webp",
+          "width": 800,
+          "height": 1024
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/149-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "order": 150,
+      "name": "Neco Arc",
+      "nameKo": "네코 아르크",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545860795819106394",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/150-third.webp",
+          "width": 800,
+          "height": 612
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/150-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "order": 151,
+      "name": "Qingxiao (WuWa)",
+      "nameKo": "청초 (명조)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1545861674240581663",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/151-third.webp",
+          "width": 800,
+          "height": 996
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/151-first.webp",
           "width": 1280,
           "height": 720
         }

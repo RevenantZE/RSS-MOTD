@@ -1499,7 +1499,7 @@
       "attachmentIds": [
         "1535752839010328737"
       ],
-      "name": "kayoko_elite (Elite) [F]"
+      "name": "kayoko_elite  [F] (Elite)"
     },
     "1531617992360591452": {
       "skinId": "weapon-melee-039",
@@ -1607,7 +1607,7 @@
       "attachmentIds": [
         "1541025072553136218"
       ],
-      "name": "CSO Dual Infinity (Elite) [F][A][E]"
+      "name": "CSO Dual Infinity  [F][A][E] (Elite)"
     },
     "1541025324509175919": {
       "skinId": "weapon-secondary-019",
@@ -1616,7 +1616,7 @@
       "attachmentIds": [
         "1541025324182147102"
       ],
-      "name": "CSO Dual Infinity Final (Elite) [F][A][E]"
+      "name": "CSO Dual Infinity Final [F][A][E] (Elite)"
     },
     "1541023173540192296": {
       "skinId": "weapon-melee-046",
@@ -1626,6 +1626,42 @@
         "1541023173133213697"
       ],
       "name": "Blue Archive Aris Butterfly Knife(Butterfly Knife)"
+    },
+    "1544307158433271898": {
+      "skinId": "weapon-primary-087",
+      "subcategory": "primary",
+      "mediaMessageId": "1544307158433271898",
+      "attachmentIds": [
+        "1544307158110306384"
+      ],
+      "name": "CSO XM1014 [F][A] (XM1014)"
+    },
+    "1544307798815277167": {
+      "skinId": "weapon-primary-088",
+      "subcategory": "primary",
+      "mediaMessageId": "1544307798815277167",
+      "attachmentIds": [
+        "1544307798702170112"
+      ],
+      "name": "CSO CV47 [F][A] (AK 47)"
+    },
+    "1545692138698706954": {
+      "skinId": "weapon-primary-089",
+      "subcategory": "primary",
+      "mediaMessageId": "1545692138698706954",
+      "attachmentIds": [
+        "1545692138392518706"
+      ],
+      "name": "CSO_Dual_MP7A1[F][A](MP7)"
+    },
+    "1545692577129300021": {
+      "skinId": "weapon-secondary-020",
+      "subcategory": "secondary",
+      "mediaMessageId": "1545692577129300021",
+      "attachmentIds": [
+        "1545692576861130834"
+      ],
+      "name": "CSO_DualDeagle [F][A] (Deagle)"
     }
   }
 }

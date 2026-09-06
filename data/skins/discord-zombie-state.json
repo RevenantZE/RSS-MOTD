@@ -61,6 +61,16 @@
       ],
       "name": "Demogorgon",
       "nameKo": "데모고르곤"
+    },
+    "1545689728882311189": {
+      "skinId": "zombie-007",
+      "imageMessageId": "1545689862995181590",
+      "attachmentIds": [
+        "1545689728521732107",
+        "1545689862953373696"
+      ],
+      "name": "SBPL",
+      "nameKo": ""
     }
   }
 }
