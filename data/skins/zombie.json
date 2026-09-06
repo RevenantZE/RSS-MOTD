@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "zombie",
-  "updatedAt": "2026-09-05T06:59:40.867000+00:00",
+  "updatedAt": "2026-09-05T06:59:45.047000+00:00",
   "items": [
     {
       "id": "zombie-001",
@@ -158,8 +158,8 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/zombie/007-first.webp",
-          "width": 740,
-          "height": 923
+          "width": 1280,
+          "height": 720
         }
       ]
     }
