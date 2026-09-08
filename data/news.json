@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T18:53:25.349000+00:00",
+  "updatedAt": "2026-09-08T15:17:47.079000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1546893303369306112",
+      "title": "기부자 관련 혜택 공지",
+      "content": "## 스킨 혜택과 관련하여 미리 공지합니다.\n\n- 현재 : VIP는 일반 캐릭터 스킨 및 모든 히든무기 스킨을 무료로 사용할 수 있습니다.\n- 패치 예정 : VIP는 매주 월요일 00시 기준으로 로테이션을 통하여 제공됩니다.\n> - 캐릭터 스킨 : 기존 혜택(일반 캐릭터 스킨 전부 사용 가능) + 히든 스킨 중 3개 제공\n> - 무기 스킨 : 히든 주무기 , 히든 보조무기 , 히든 근접무기 , 히든 투척무기 각각 1개씩 제공\n\n- 로테이션을 통하여 히든 캐릭터 및 무기스킨을 1주일동안 사용가능합니다. ( 월요일 00시를 기준으로 사용할 수 있는 스킨 로테이션 )\n\n- 패치 예정 날짜 : 10/08\n\n@RSS Player",
+      "publishedAt": "2026-09-08T14:41:43.411000+00:00",
+      "editedAt": "2026-09-08T15:17:47.079000+00:00",
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1546893303369306112",
+      "attachments": []
+    },
     {
       "id": "1545868906613448797",
       "title": "RSS 에셋 업데이트",
@@ -469,24 +481,6 @@
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1498285643430891611",
       "attachments": []
-    },
-    {
-      "id": "1479441529251561523",
-      "title": "https://store.steampowered.com/app/4465480/CounterStrikeGlobal_Offensive/https://store.steampowered.com/app/4465480/Coun",
-      "content": "@RSS Player\n\nRSS 글로벌 오펜시브 서버가 <t:1772798400:f>  테스트로 열립니다.\n\n접속하는 방법\n\n설정 - 개발자 콘솔 - 허용\n\n를 누르고 `connect 14.6.92.207:27018` 입력\n\n많은 관심 부탁드립니다.\n\n2560 화질 이상을 사용하실 경우에는 실행 옵션에\n\n`-w 1920 -h 1080`를 입력하시고\n\n`설정 - 설치된 파일 - 로컬파일 탐색 - csgo - cfg 폴더에 autoexec.cfg 파일을 넣습니다.`\n\n3820을 사용중이실 경우\n\ncfg 파일 내에 mat_setvideomode 2560 1440 0 수치를 조정 하시면 됩니다.",
-      "publishedAt": "2026-03-06T11:32:27.268000+00:00",
-      "editedAt": "2026-03-06T11:51:09.551000+00:00",
-      "author": "Rami",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1479441529251561523",
-      "attachments": [
-        {
-          "filename": "Counter-Strike:Global Offensive",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4465480/e264be8e65c7902fa206eca244739c52cffb72f5/header.jpg?t=1772671666",
-          "contentType": "image/unknown"
-        }
-      ]
     }
   ]
 }
