@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "weapon",
-  "updatedAt": "2026-09-06T06:50:13.920000+00:00",
+  "updatedAt": "2026-09-13T13:24:54.932000+00:00",
   "items": [
     {
       "id": "weapon-primary-001",
@@ -3031,6 +3031,56 @@
           "type": "image",
           "role": "preview",
           "src": "assets/skins/weapon/secondary/020-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-primary-090",
+      "subcategory": "primary",
+      "order": 90,
+      "name": "BlueArchive_Natsu_Doll — UMP-45 [A] (UMP 45)",
+      "weaponType": "smg",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1548683735057170584",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/090-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-primary-091",
+      "subcategory": "primary",
+      "order": 91,
+      "name": "Glock 18C (MP9)",
+      "weaponType": "smg",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476635405691654438/1548684620285878372",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/primary/091-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-melee-047",
+      "subcategory": "melee",
+      "order": 47,
+      "name": "Ichika_Karambit (Karambit)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476629319605555324/1548685044237869258",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/melee/047-01.webp",
           "width": 1280,
           "height": 720
         }

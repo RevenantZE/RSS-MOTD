@@ -1662,6 +1662,33 @@
         "1545692576861130834"
       ],
       "name": "CSO_DualDeagle [F][A] (Deagle)"
+    },
+    "1548683735057170584": {
+      "skinId": "weapon-primary-090",
+      "subcategory": "primary",
+      "mediaMessageId": "1548683735057170584",
+      "attachmentIds": [
+        "1548683734700789870"
+      ],
+      "name": "BlueArchive_Natsu_Doll — UMP-45 [A] (UMP 45)"
+    },
+    "1548684620285878372": {
+      "skinId": "weapon-primary-091",
+      "subcategory": "primary",
+      "mediaMessageId": "1548684620285878372",
+      "attachmentIds": [
+        "1548684619992530974"
+      ],
+      "name": "Glock 18C (MP9)"
+    },
+    "1548685044237869258": {
+      "skinId": "weapon-melee-047",
+      "subcategory": "melee",
+      "mediaMessageId": "1548685044237869258",
+      "attachmentIds": [
+        "1548685043642138674"
+      ],
+      "name": "Ichika_Karambit (Karambit)"
     }
   }
 }
