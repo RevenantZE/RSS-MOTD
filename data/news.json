@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T11:44:08.336000+00:00",
+  "updatedAt": "2026-09-13T04:32:47.844000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1548546970639929468",
+      "title": "RSS 에셋 업데이트 안내",
+      "content": "# 신규 무기 스킨\n\n## -일반-\n\n- BlueArchive_Natsu_Doll — UMP-45 `[A]`\n- Glock 18C — MP9\n- 이치카 카람빗  — Karambit\n\n## -히든-\n\n- L4D2 Overly Dual M9 — Dual Berettas `[F][A][H]`\n- COD MW Minigun — Negev `[F][A][H]`\n\n> - `[F]` 커스텀 발사음\n> - `[A]` 커스텀 애니메이션\n> - `[H]` 히든 스킨\n\n### 에러가 발생하는 경우 아래 에셋을 구독한 후 게임을 재시작해 주세요.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Weapon Skins\n\n## -Normal-\n\n- BlueArchive_Natsu_Doll — UMP-45 `[A]`\n- Glock 18C — MP9\n- Ichika Karambit — Karambit\n\n## -Hidden-\n\n- L4D2 Overly Dual M9 — Dual Berettas `[F][A][H]`\n- COD MW Minigun — Negev `[F][A][H]`\n\n> - `[F]` Custom firing sound\n> - `[A]` Custom animation\n> - `[H]` Hidden skin\n\n### If you encounter any errors, subscribe to the assets below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@Ze Player",
+      "publishedAt": "2026-09-13T04:12:48.412000+00:00",
+      "editedAt": "2026-09-13T04:32:47.844000+00:00",
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1548546970639929468",
+      "attachments": []
+    },
     {
       "id": "1548293346298957877",
       "title": "서버 모드별 역할 분리 안내 / Server Mode Roles Update",
@@ -336,18 +348,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1533780226746744923",
-      "attachments": []
-    },
-    {
-      "id": "1533779937985560748",
-      "title": "RSS 플러그인 업데이트",
-      "content": "## 뽑기 시스템 추가\n\n> * `!gacha`, `!가챠`, `!뽑기` 명령어로 가챠 메뉴를 오픈가능.\n> * 스토어 메뉴 4번에서도 가챠 메뉴를 이용가능.\n> * 살아있는 플레이어만 이용가능. (사망 또는 관전 상태에서는 이용 불가)\n> * 웜업 또는 어드민이 허용한 경우에만 이용가능.\n>\n> ### 가챠 종류 및 가격 (1뽑당)\n> * 캐릭터 스킨: 5,000 크레딧\n> * 주무기 스킨: 3,000 크레딧\n> * 보조무기 스킨: 2,000 크레딧\n> * 근접무기 스킨: 4,000 크레딧\n> * 투척무기 스킨: 2,000 크레딧\n\n## 보상 안내\n\n> * https://discord.com/channels/850664390779731978/1533767724499468359\n\n## 가챠 운영방식\n\n> * 플레이어 앞에 슬롯머신이 생성되며, 조준한 상태에서 `E`키를 누르면 시작\n> * 10초 동안 상호작용하지 않으면 자동으로 연출이 시작\n> * 라운드 종료, 사망, 연결 종료 등으로 연출이 취소돼도 확정된 보상은 정상 지급\n> * 서버의 웜업 시간이 기본 150초로 설정\n> * 웜업 중에는 감염 카운트다운이 진행 X\n> * 웜업 종료 시 가챠는 자동으로 비활성화\n> * 이미 영구제로 보유한 스킨은 해당 플레이어의 가챠 목록에서 제외\n> * 기간제 스킨을 다시 획득하면 기존 만료일에 기간이 추가\n> * 기존 기간이 만료됐다면 획득 시점부터 새 기간이 적용\n\n## 토큰샵 기능 추가\n\n> * 쩜육 라디오 1주일 가격: 80 토큰\n> * 여자 라디오 1주일 가격: 100 토큰\n> * 라디오 볼륨 살짝 증가\n> * 수류탄 트레일 1주일 가격: 30 토큰\n\n## 기타 변경사항 및 명령어 추가\n\n> * `!motd` 명령어 추가\n> * `/selfgag`, `/selfungag` 명령어 추가 (`/`로만 사용 가능)\n> * `!1`, `!2`, `!3`, `!4` ... 메뉴 관련 명령어 채팅창에 숨김 처리\n\n---\n\n# RSS Plugin Update\n\n## Gacha System Added\n\n> * Open the menu via `!gacha` command.\n> * Also accessible via Store menu option 4.\n> * Only available for alive players (unavailable for dead or spectating players).\n> * Only available during warmup or when allowed by an admin.\n>\n> ### Gacha Types & Cost (per roll)\n> * Character Skin: 5,000 Credits\n> * Primary Weapon Skin: 3,000 Credits\n> * Secondary Weapon Skin: 2,000 Credits\n> * Melee Weapon Skin: 4,000 Credits\n> * Throwable Skin: 2,000 Credits\n\n## Reward Details\n\n> * https://discord.com/channels/850664390779731978/1533767724499468359\n\n## Operation Method\n\n> * A slot machine spawns in front of the player; aim and press `E` to start.\n> * Starts automatically after 10 seconds of no interaction.\n> * Predetermined rewards are granted even if cancelled by round end, death, or disconnect.\n> * Server warmup time is set to 150 seconds by default.\n> * Infection countdown does NOT progress during warmup.\n> * Gacha automatically deactivates when warmup ends.\n> * Skins already owned permanently are excluded from the player's gacha pool.\n> * Obtaining a temporary skin again extends the existing expiration duration.\n> * If expired, the new duration applies from the time of acquisition.\n\n## Token Shop Features Added\n\n> * 1.6 Radio (1 week): 80 Tokens\n> * Female Radio (1 week): 100 Tokens\n> * Slightly increased radio volume\n> * Grenade Trail (1 week): 30 Tokens\n\n## Other Changes & New Commands\n\n> * Added `!motd` command\n> * Added `/selfgag` and `/selfungag` commands (Available only with `/`)\n> * Hidden menu selection commands (`!1`, `!2`, `!3`, `!4` ...) from chat\n\n@Ze Player",
-      "publishedAt": "2026-08-03T10:13:53.469000+00:00",
-      "editedAt": null,
-      "author": "킁",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1533779937985560748",
       "attachments": []
     },
     {
