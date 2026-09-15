@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T13:52:27.270000+00:00",
+  "updatedAt": "2026-09-15T09:54:02.808000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1549357622212169752",
+      "title": "필독사항 공지",
+      "content": "- 최근에 많은 사람들이 에셋이 많아짐에 따라 입장조차 못하는 불상사가 생겨 에셋의 방식을 바꿧습니다.\n- https://discord.com/channels/850664390779731978/853637982552326144/1549350148306378765 09/15 패치 이후 첫 접속시 아래와 같이 행동해주셔야합니다.\n\n- 첫 접속 시 무조건 에러모델로 뜹니다.\n\n- `!에셋다운로드` 를 인게임에서 타이핑하시면됩니다.\n```해당 다운로드 과정 중 팅기셔도 2분가량의 자리 보호효과가 남아있으니 안심하고 하셔도됩니다.\n만약에, 재접속을 했는데도 불구하고 에러박스로 뜬다면 2~3번 더 쳐주세요.```\n\n- 추가적으로, 본인이 에셋구독을 해둔 경우에는 `!에셋`으로 추가 다운로드를 끄셔도됩니다. (빠른 접속 보장)\n\n---\n\n# Important Notice\n\n- Due to the increasing number of assets, some players have recently been unable to join the server. Therefore, the asset download system has been changed.\n\n- https://discord.com/channels/850664390779731978/853637982552326144/1549350148306378765 Please follow the instructions below when connecting for the first time after the September 15 update.\n\n- Custom assets will always appear as error models during your first connection.\n\n- Type `!assetdownload` in the in-game chat.\n```\nDuring the download process, your slot will be protected for approximately two minutes after reconnecting.\nIf error models still appear after reconnecting, enter the command two or three more times.\n```\n\n- If you have already subscribed to the required assets, you may disable additional downloads with `!asset`. This will allow you to join the server faster.\n\n@Ze Player",
+      "publishedAt": "2026-09-15T09:54:02.808000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1549357622212169752",
+      "attachments": []
+    },
+    {
+      "id": "1549350148306378765",
+      "title": "RSS 플러그인 업데이트 안내",
+      "content": "# 엔트와치 HUD 개선\n\n- 관전자는 이제 인간 및 좀비 진영의 아이템을 볼 수 있습니다.\n- 관전 중에도 본인의 HUD 위치·크기·색상 설정이 유지됩니다.\n- 관전 종료 후 난입하면 타인의 허드가 남던 현상을 수정했습니다.\n- 좀비 아이템이 없을 때 이전 인간 HUD가 남는 현상을 수정했습니다.\n\n# 쇼네임·속도 HUD 개선\n\n- 쇼네임과 속도 HUD가 서로 덮어쓰지 않도록 개선했습니다.\n- 두 기능을 모두 사용하면 위쪽에 속도, 아래쪽에 상대 이름이 표시됩니다.\n- 쇼네임과 속도 HUD는 각각 독립적으로 ON/OFF할 수 있습니다.\n\n# 라디오·채팅 휠 개선\n\n- 라디오 사용 횟수를 기존 쿨다운당 3회에서 1회로 변경했습니다.\n- 등록된 채팅 휠 명령 64종에 별도 쿨다운을 적용했습니다.\n- 리더 핑과 수류탄 라디오의 기존 동작은 유지됩니다.\n\n# 3인칭\n\n- 핑 영향을 받던 3인칭의 카메라를 개선했습니다.\n\n# 리더·ZHide·사망 플레이어 개선\n\n- 사망한 플레이어의 래그돌을 클라이언트에서 숨기도록 개선했습니다.\n\n# 에셋 설정·슬롯 보호 개선\n\n- `!에셋`은 에셋 설정만 ON/OFF하며 자동으로 재접속하지 않습니다.\n- `!에셋다운로드`는 설정을 ON으로 변경하고 그 자리에서 즉시 재접속 합니다.\n- OFF: 추가 다운로드를 비활성화 합니다.\n- ON: 추가 다운로드를 활성화 합니다.\n- 변경 사항은 다음 접속부터 적용됩니다.\n\n> - 실제 다운로드 용량은 클라이언트 다운로드 상태에 따라 달라집니다. 매번 모든 에셋을 다시 다운로드하는 것은 아닙니다.\n\n---\n\n# RSS Plugin Update\n\n# EntWatch HUD Improvements\n\n- Spectators can now view items belonging to both the human and zombie teams.\n- Your personal HUD position, size, and color settings are maintained while spectating.\n- Fixed an issue where another player's HUD remained after joining the round from spectator mode.\n- Fixed an issue where the previous human HUD remained when the zombie item list was empty.\n\n# Show Name & Speed HUD Improvements\n\n- Improved the Show Name and Speed HUDs so they no longer overwrite each other.\n- When both features are enabled, speed is displayed above the target player's name.\n- The Show Name and Speed HUDs can be enabled or disabled independently.\n\n# Radio & Chat Wheel Improvements\n\n- Radio usage has been changed from three uses to one use per cooldown.\n- Separate cooldowns have been applied to 64 registered chat wheel commands.\n- Existing leader ping and grenade radio behavior remains unchanged.\n\n# Third-Person Camera\n\n- Improved the third-person camera to reduce the effects of network latency.\n\n# Leader, ZHide & Dead Player Improvements\n\n- Improved client-side handling to hide dead player ragdolls.\n\n# Asset Settings & Slot Protection Improvements\n\n- `!asset` now only enables or disables additional asset downloads without automatically reconnecting.\n- `!assetdownload` enables additional asset downloads and immediately reconnects you.\n- OFF: Disables additional asset downloads.\n- ON: Enables additional asset downloads.\n- Changes take effect on your next connection.\n\n> - The actual download size depends on your client cache. This does not mean that every asset will be downloaded again each time.\n\n@Ze Player",
+      "publishedAt": "2026-09-15T09:24:20.890000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1549350148306378765",
+      "attachments": []
+    },
     {
       "id": "1548546970639929468",
       "title": "RSS 에셋 업데이트 안내",
@@ -339,18 +363,6 @@
       "attachments": []
     },
     {
-      "id": "1533780226746744923",
-      "title": "RSS 에셋 업데이트 및 스토어 업데이트",
-      "content": "## 신규 무기 스킨 추가\n\n> * Miku PA (Ursus)(주무기)\n> * Miku HE (HE 수류탄 스킨)(투척무기)\n> * Baron Bunny HE (HE 수류탄 스킨)(투척무기)\n\n## 히든 스킨 출시\n\n> * 히든 스킨들은 오직 뽑기(가챠)를 통해서만 획득 가능.\n> * 히든 스킨은 뒤에 [H] 가 붙음.\n> * 전용 애니메이션이 들어간 스킨은 히든으로 넘어가지만 VIP는 그대로 사용 가능.\n> * 앞으로 지속적으로 히든 스킨 추가 예정. (무기 , 캐릭터 상관없이)\n> * 히든 스킨은 스토어의 구매창에서 노출 X\n\n## 히든 캐릭터 스킨\n\n> * 갈브레나 오버클럭 (명조)\n> * 히유키 서리 (명조)\n> * 토키토리\n> * 키프펠 (VRCHAT)\n\n## 히든 무기 스킨\n\n> * cosmic_apex_karambit[A](근접무기)\n> * cosmic_apex_karambit_yellow[A](근접무기)\n> * bangalore_kukri[A](근접무기)\n> * apex_kunai_red[A](근접무기)\n> * apex_kunai_blue[A](근접무기)\n> * hl_hyper_negev(주무기)\n\n---\n\n# RSS Asset & Store Update\n\n## New Weapon Skins Added\n\n> * Miku PA (Ursus)(Primary)\n> * Miku HE (HE Grenade Skin)(Throwable)\n> * Baron Bunny HE (HE Grenade Skin)(Throwable)\n\n## Hidden Skins Released\n\n> * Hidden skins can only be obtained through Gacha.\n> * Hidden skins are tagged with [H].\n> * Skins with custom animations are moved to Hidden, but VIP users can still use them normally.\n> * More hidden skins will be added continuously (Weapons and Characters).\n> * Hidden skins are NOT displayed in the store purchasing menu.\n\n## Hidden Character Skins\n\n> * Galbrena Overclock (WuWa)\n> * Hiyuki Frost (WuWa)\n> * Tokitory\n> * Kipfel (VRCHAT)\n\n## Hidden Weapon Skins\n\n> * cosmic_apex_karambit[A](Melee)\n> * cosmic_apex_karambit_yellow[A](Melee)\n> * bangalore_kukri[A](Melee)\n> * apex_kunai_red[A](Melee)\n> * apex_kunai_blue[A](Melee)\n> * hl_hyper_negev(Primary)\n\n@Ze Player",
-      "publishedAt": "2026-08-03T10:15:02.315000+00:00",
-      "editedAt": null,
-      "author": "킁",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1533780226746744923",
-      "attachments": []
-    },
-    {
       "id": "1525101351162613891",
       "title": "서버가 복구되었습니다.일부맵은 cs2 업데이트로 인해 비활성화 해뒀습니다.",
       "content": "@Ze Player\n\nserver has been restored. Some maps have been disabled due to the CS2 update\n\n비활성화 된 맵리스트\nDisabled Map list\n\n-  ze_raccoon_facility_p\n-  ze_random_escape_p\n-  ze_random_p",
@@ -480,18 +492,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1514964005989384263",
-      "attachments": []
-    },
-    {
-      "id": "1513544801906196510",
-      "title": "좀탈콘(아님)아이디어 받는중",
-      "content": "https://discord.com/channels/850664390779731978/1513542272409665728\n\n### 상품없음\n많관부",
-      "publishedAt": "2026-06-08T14:06:41.077000+00:00",
-      "editedAt": null,
-      "author": "bunnyhop",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1513544801906196510",
       "attachments": []
     }
   ]
