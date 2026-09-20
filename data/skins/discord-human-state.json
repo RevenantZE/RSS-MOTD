@@ -1511,6 +1511,76 @@
       ],
       "name": "Qingxiao (WuWa)",
       "nameKo": "청초 (명조)"
+    },
+    "1551050306673188864": {
+      "skinId": "152",
+      "imageMessageId": "1551050325543092254",
+      "attachmentIds": [
+        "1551050305985060955",
+        "1551050325241233459"
+      ],
+      "name": "Typhoeus (Endfield)",
+      "nameKo": "티프로스 (엔드필드)"
+    },
+    "1551050565990223942": {
+      "skinId": "153",
+      "imageMessageId": "1551050588505243734",
+      "attachmentIds": [
+        "1551050565469999134",
+        "1551050588106653776"
+      ],
+      "name": "Among Us",
+      "nameKo": "어몽어스"
+    },
+    "1551051060339155065": {
+      "skinId": "154",
+      "imageMessageId": "1551051081621180459",
+      "attachmentIds": [
+        "1551051059760201788",
+        "1551051081214328972"
+      ],
+      "name": "Jetavie Swimsuit (Punishing: Gray Raven)",
+      "nameKo": "제타비 수영복 (퍼니싱: 그레이 레이븐)"
+    },
+    "1551051369413214319": {
+      "skinId": "155",
+      "imageMessageId": "1551051396411953193",
+      "attachmentIds": [
+        "1551051368930877451",
+        "1551051395841531985"
+      ],
+      "name": "GooGooGaGa",
+      "nameKo": "구구가가"
+    },
+    "1551051838059577475": {
+      "skinId": "156",
+      "imageMessageId": "1551051856510328882",
+      "attachmentIds": [
+        "1551051837736489011",
+        "1551051856153677835"
+      ],
+      "name": "Speaki (Trickal)",
+      "nameKo": "스피키 (트릭컬)"
+    },
+    "1551052224136876125": {
+      "skinId": "157",
+      "imageMessageId": "1551052276909604915",
+      "attachmentIds": [
+        "1551052223998468176",
+        "1551052276599230625"
+      ],
+      "name": "Shinku Crimson Fury (NTE)",
+      "nameKo": "신쿠 적염 해방 (이환)"
+    },
+    "1551054138840842290": {
+      "skinId": "158",
+      "imageMessageId": "1551054183921352704",
+      "attachmentIds": [
+        "1551054138345783336",
+        "1551054183439015966"
+      ],
+      "name": "Tokisaki Kurumi (DATE A LIVE)",
+      "nameKo": "토키사키 쿠루미 (데이트 어 라이브)"
     }
   }
 }

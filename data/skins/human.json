@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-09-05T18:22:31.026000+00:00",
+  "updatedAt": "2026-09-20T02:15:34.640000+00:00",
   "items": [
     {
       "id": "001",
@@ -3471,6 +3471,167 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/151-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "order": 152,
+      "name": "Typhoeus (Endfield)",
+      "nameKo": "티프로스 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551050306673188864",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/152-third.webp",
+          "width": 800,
+          "height": 1050
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/152-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "order": 153,
+      "name": "Among Us",
+      "nameKo": "어몽어스",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551050565990223942",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/153-third.webp",
+          "width": 800,
+          "height": 768
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/153-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "order": 154,
+      "name": "Jetavie Swimsuit (Punishing: Gray Raven)",
+      "nameKo": "제타비 수영복 (퍼니싱: 그레이 레이븐)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551051060339155065",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/154-third.webp",
+          "width": 800,
+          "height": 915
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/154-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "order": 155,
+      "name": "GooGooGaGa",
+      "nameKo": "구구가가",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551051369413214319",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/155-third.webp",
+          "width": 800,
+          "height": 753
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/155-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "order": 156,
+      "name": "Speaki (Trickal)",
+      "nameKo": "스피키 (트릭컬)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551051838059577475",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/156-third.webp",
+          "width": 800,
+          "height": 815
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/156-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "order": 157,
+      "name": "Shinku Crimson Fury (NTE)",
+      "nameKo": "신쿠 적염 해방 (이환)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551052224136876125",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/157-third.webp",
+          "width": 800,
+          "height": 997
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/157-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "order": 158,
+      "name": "Tokisaki Kurumi (DATE A LIVE)",
+      "nameKo": "토키사키 쿠루미 (데이트 어 라이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1551054138840842290",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/158-third.webp",
+          "width": 800,
+          "height": 964
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/158-first.webp",
           "width": 1280,
           "height": 720
         }
