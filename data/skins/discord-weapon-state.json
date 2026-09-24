@@ -1689,6 +1689,15 @@
         "1548685043642138674"
       ],
       "name": "Ichika_Karambit (Karambit)"
+    },
+    "1552514534063865866": {
+      "skinId": "weapon-throwable-030",
+      "subcategory": "throwable",
+      "mediaMessageId": "1552514534063865866",
+      "attachmentIds": [
+        "1552514532482490448"
+      ],
+      "name": "CSO_Songpyeon_Grenade[A][E]"
     }
   }
 }

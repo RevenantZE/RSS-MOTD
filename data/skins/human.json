@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-09-20T02:15:34.640000+00:00",
+  "updatedAt": "2026-09-24T02:52:46.413000+00:00",
   "items": [
     {
       "id": "001",
@@ -3632,6 +3632,75 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/158-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "order": 159,
+      "name": "Faelynn (GFL2)",
+      "nameKo": "페일린 (소녀전선2)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1552511837562470413",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/159-third.webp",
+          "width": 780,
+          "height": 1079
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/159-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "order": 160,
+      "name": "Teddy Travel (Punishing: Gray Raven)",
+      "nameKo": "테디베어 여행복 (퍼니싱: 그레이 레이븐)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1552512738134073456",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/160-third.webp",
+          "width": 689,
+          "height": 1058
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/160-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "order": 161,
+      "name": "Arabella (CZN)",
+      "nameKo": "아라벨라 (카오스 제로 나이트메어)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1552513061787664444",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/161-third.webp",
+          "width": 789,
+          "height": 1071
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/161-first.webp",
           "width": 1280,
           "height": 720
         }

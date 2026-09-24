@@ -1581,6 +1581,36 @@
       ],
       "name": "Tokisaki Kurumi (DATE A LIVE)",
       "nameKo": "토키사키 쿠루미 (데이트 어 라이브)"
+    },
+    "1552511837562470413": {
+      "skinId": "159",
+      "imageMessageId": "1552511865056137229",
+      "attachmentIds": [
+        "1552511836669218916",
+        "1552511863529676800"
+      ],
+      "name": "Faelynn (GFL2)",
+      "nameKo": "페일린 (소녀전선2)"
+    },
+    "1552512738134073456": {
+      "skinId": "160",
+      "imageMessageId": "1552512766491889696",
+      "attachmentIds": [
+        "1552512736930304032",
+        "1552512764759638016"
+      ],
+      "name": "Teddy Travel (Punishing: Gray Raven)",
+      "nameKo": "테디베어 여행복 (퍼니싱: 그레이 레이븐)"
+    },
+    "1552513061787664444": {
+      "skinId": "161",
+      "imageMessageId": "1552513096117911582",
+      "attachmentIds": [
+        "1552513059858157588",
+        "1552513094008311808"
+      ],
+      "name": "Arabella (CZN)",
+      "nameKo": "아라벨라 (카오스 제로 나이트메어)"
     }
   }
 }

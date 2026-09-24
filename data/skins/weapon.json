@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "weapon",
-  "updatedAt": "2026-09-13T13:24:54.932000+00:00",
+  "updatedAt": "2026-09-24T03:00:30.641000+00:00",
   "items": [
     {
       "id": "weapon-primary-001",
@@ -3081,6 +3081,22 @@
           "type": "image",
           "role": "preview",
           "src": "assets/skins/weapon/melee/047-01.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "weapon-throwable-030",
+      "subcategory": "throwable",
+      "order": 30,
+      "name": "CSO_Songpyeon_Grenade[A][E]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1476637634779414558/1552514534063865866",
+      "media": [
+        {
+          "type": "image",
+          "role": "preview",
+          "src": "assets/skins/weapon/throwable/030-01.webp",
           "width": 1280,
           "height": 720
         }
