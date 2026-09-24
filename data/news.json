@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T02:26:59.147000+00:00",
+  "updatedAt": "2026-09-24T04:46:47.766000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1552519626888446053",
+      "title": "RSS 에셋 업데이트",
+      "content": "# 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1552511837562470413\n- 페일린 (소녀전선2)\n- 테디베어 여행복 (퍼니싱: 그레이 레이븐)\n- 아라벨라 (카오스 제로 나이트메어)\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1552513405519269941\n- 페일린 환희의 아지랑이 (소녀전선2) [C][H]\n\n# 무기 스킨 추가\n\n## -이벤트 스킨-\nhttps://discord.com/channels/850664390779731978/1476637634779414558/1552514534063865866\n- CSO_Songpyeon_Grenade[A][E]\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1552515355908382750\n- HATSUNE MIKU DP-27 (m249)[F][A][H]\n- Barrett M82A1 CQ (scar20)[F][A][H]\n- L4D2_Overly_FMG9 [F][A][H]\n- L4D2_Overly_Vector [F][A][H]\n\n### 에러가 발생하는 경우 아래 에셋을 구독한 후 게임을 재시작해 주세요.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Character skins added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1552511837562470413\n- Faelynn (GFL2)\n- Teddy Travel (Punishing: Gray Raven)\n- Arabella (CZN)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1552513405519269941\n- Faelynn Bloomers (GFL2) [C][H]\n\n# New Weapon skins added\n\n## -Event Skin-\nhttps://discord.com/channels/850664390779731978/1476637634779414558/1552514534063865866\n- CSO_Songpyeon_Grenade[A][E]\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1552515355908382750\n- HATSUNE MIKU DP-27 (m249)[F][A][H]\n- Barrett M82A1 CQ (scar20)[F][A][H]\n- L4D2_Overly_FMG9 [F][A][H]\n- L4D2_Overly_Vector [F][A][H]\n\n### If you encounter any errors, subscribe to the assets below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@Ze Player @Mg Player",
+      "publishedAt": "2026-09-24T03:18:43.470000+00:00",
+      "editedAt": "2026-09-24T04:46:47.766000+00:00",
+      "author": "``Asmodeus``",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1552519626888446053",
+      "attachments": []
+    },
     {
       "id": "1551057054951677973",
       "title": "RSS 에셋 업데이트",
@@ -348,18 +360,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1535757332091510844",
-      "attachments": []
-    },
-    {
-      "id": "1534126577238020147",
-      "title": "스토어 업데이트",
-      "content": "## 토큰샵 가격 인하\n\n> 아래 가격은 모두 **1주일 이용권 기준**입니다.\n>\n> * 모델 컬러: ~~80 토큰~~ → **25 토큰**\n> * 레인보우 모델: ~~100 토큰~~ → **50 토큰**\n> * 트레이서: ~~50 토큰~~ → **40 토큰**\n> * 쩜육 라디오: ~~80 토큰~~ → **50 토큰**\n\n## 신규 라디오 추가\n\n> * CSO Idol Miho Radio\n> * CSO Anemone Radio\n> * CSO Alpaca Anemone Radio\n> * CSO Gladius Radio\n\n## 신규 라디오 출시 할인\n\n> 신규 라디오 가격도 **1주일 이용권 기준**입니다.\n>\n> * 출시 할인 가격: **75 토큰**\n> * 다음 주부터 **150 토큰**으로 인상됩니다.\n\n---\n\n# Store Update\n\n## Token Shop Price Reductions\n\n> All prices below are for a **1-week duration**.\n>\n> * Model Color: ~~80 Tokens~~ → **25 Tokens**\n> * Rainbow Model: ~~100 Tokens~~ → **50 Tokens**\n> * Tracer: ~~50 Tokens~~ → **40 Tokens**\n> * 1.6 Radio: ~~80 Tokens~~ → **50 Tokens**\n\n## New Radios Added\n\n> * CSO Idol Miho Radio\n> * CSO Anemone Radio\n> * CSO Alpaca Anemone Radio\n> * CSO Gladius Radio\n\n## New Radio Launch Discount\n\n> New radio prices are also for a **1-week duration**.\n>\n> * Launch Discount Price: **75 Tokens**\n> * The price will increase to **150 Tokens** next week.\n\n@Ze Player",
-      "publishedAt": "2026-08-04T09:11:18.707000+00:00",
-      "editedAt": "2026-08-04T09:11:48.739000+00:00",
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1534126577238020147",
       "attachments": []
     },
     {
