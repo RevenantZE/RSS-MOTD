@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T04:46:47.766000+00:00",
+  "updatedAt": "2026-09-26T09:50:04.996000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,134 @@
     }
   ],
   "items": [
+    {
+      "id": "1553342635316613226",
+      "title": "서버 인포그래픽 공유해드립니다",
+      "content": "[한국어 바로가기](https://discordapp.com/channels/850664390779731978/1168514920539758683/1553342444412604426)\n---\n\n# Here's our server infographic!\n\n[Here](https://discordapp.com/channels/850664390779731978/1168514920539758683/1553342493183975424)\n\n@Ze Player  @Mg Player",
+      "publishedAt": "2026-09-26T09:49:03.970000+00:00",
+      "editedAt": null,
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1553342635316613226",
+      "attachments": []
+    },
+    {
+      "id": "1553342493183975424",
+      "title": "English",
+      "content": "# English",
+      "publishedAt": "2026-09-26T09:48:30.083000+00:00",
+      "editedAt": "2026-09-26T09:50:04.996000+00:00",
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1553342493183975424",
+      "attachments": [
+        {
+          "filename": "07_1213.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342488524361759/07_1213.png?ex=6ab8e66c&is=6ab794ec&hm=93c8eeb2f5a12b47535f8c744f3ac48be2696008d5c48b4461933a93222f1eed&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "08_1415.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489090457621/08_1415.png?ex=6ab8e66d&is=6ab794ed&hm=e9269216cf3c5a7da4ea21c43ddf8f941ced38cb3622a04c5934e348e09b2191&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "09_1617.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489618817114/09_1617.png?ex=6ab8e66d&is=6ab794ed&hm=cbed4271c4f136f34e39c82de7662d500810723a0fc4301c6e41254f57b839b1&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "01_01.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490046632037/01_01.png?ex=6ab8e66d&is=6ab794ed&hm=c3997d97664b2bf6e2448b6985360291b501c726697ebb575a607e99d68e843b&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "02_0203.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490503806977/02_0203.png?ex=6ab8e66d&is=6ab794ed&hm=634de4d73fb2e7355d2baff57fb337c3b5d22c5688a325b3640d01386e8ae7ca&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "03_0405.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491053523004/03_0405.png?ex=6ab8e66d&is=6ab794ed&hm=4cc6f2a273e06053d40f80d12484fda3058ac00e22079fa480558dc237a0e964&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "04_0607.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491669962832/04_0607.png?ex=6ab8e66d&is=6ab794ed&hm=eb2546cb81582400f62002d916eb31970532558c57fa492390720025f5d712f1&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "05_0809.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492265680926/05_0809.png?ex=6ab8e66d&is=6ab794ed&hm=2a305472ddbf1834cc9e4cb00564ce38ec0787ba65542b5db6f8e60bf09c4bad&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "06_1011.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492886302730/06_1011.png?ex=6ab8e66e&is=6ab794ee&hm=18d3c7a5f655016cfea323a260acfc9427423f9134c5f4e147d64be175c2fc53&",
+          "contentType": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "1553342444412604426",
+      "title": "한국어",
+      "content": "# 한국어",
+      "publishedAt": "2026-09-26T09:48:18.455000+00:00",
+      "editedAt": null,
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1553342444412604426",
+      "attachments": [
+        {
+          "filename": "01_01.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342438754623558/01_01.png?ex=6ab8e661&is=6ab794e1&hm=4089d0fc42c4103450d17785bb8e7c11216da4754987c4c9f0a0746f867e73e5&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "02_0203.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342439509590046/02_0203.png?ex=6ab8e661&is=6ab794e1&hm=0b0e73430a297b91cdb25902db3a4a30fec8bc0740b931dc4262e2063cedf8d0&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "03_0405.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440088273019/03_0405.png?ex=6ab8e661&is=6ab794e1&hm=37861334068f6c6e8112501c9204bf3997ffe727b627c1835e083eaddd02f5db&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "04_0607.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440679940257/04_0607.png?ex=6ab8e661&is=6ab794e1&hm=e1a78f31e9363f5e2df3ff37ccf1e99e28e81368163c63c8f5d4141c8180bca5&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "05_0809.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441246031882/05_0809.png?ex=6ab8e661&is=6ab794e1&hm=105351e502fe8c81fe955e40ad9ce8a51d3db78dc49e1912020663decaefdb26&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "06_1011.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441875046430/06_1011.png?ex=6ab8e661&is=6ab794e1&hm=7670cc640e09d3bf0283951c0a7e3baf8e87618d9cc2c4b3fc168634ccd98e7e&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "07_1213.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342442542207077/07_1213.png?ex=6ab8e662&is=6ab794e2&hm=484a8b0832c072ed35d8cc8107fceffa5356cebab679455624a2a762c03d4162&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "08_1415.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342443322343424/08_1415.png?ex=6ab8e662&is=6ab794e2&hm=d58c1c0e754af15f7f96a4cb7d3f4e1e0fa293b35d3141c3144396d812d66725&",
+          "contentType": "image/png"
+        },
+        {
+          "filename": "09_1617.png",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342444110618674/09_1617.png?ex=6ab8e662&is=6ab794e2&hm=9e02bf390e708dda66344bb05f825a8d6c0ff5856f07e3d5ec0f462f6614c190&",
+          "contentType": "image/png"
+        }
+      ]
+    },
     {
       "id": "1552519626888446053",
       "title": "RSS 에셋 업데이트",
@@ -456,42 +584,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1517759297130594425",
-      "attachments": []
-    },
-    {
-      "id": "1517572266429513769",
-      "title": "인간스킨 프리뷰 및 팔 스킨 프리뷰가 추가 되었습니다(Add human skin preview)",
-      "content": "https://discord.com/channels/850664390779731978/1517461614356594700\n\n# 좀비스킨 프리뷰 및 팔 스킨 프리뷰가 추가 되었습니다(Add zombie skin preview)\nhttps://discord.com/channels/850664390779731978/1517475506771984574",
-      "publishedAt": "2026-06-19T16:50:23.446000+00:00",
-      "editedAt": "2026-06-20T00:38:28.628000+00:00",
-      "author": "``Asmodeus``",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1517572266429513769",
-      "attachments": []
-    },
-    {
-      "id": "1517188296462041188",
-      "title": "몰랐어",
-      "content": "# 몰랐어",
-      "publishedAt": "2026-06-18T15:24:37.872000+00:00",
-      "editedAt": null,
-      "author": "bunnyhop",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1517188296462041188",
-      "attachments": []
-    },
-    {
-      "id": "1514964005989384263",
-      "title": "알아",
-      "content": "# 알아",
-      "publishedAt": "2026-06-12T12:06:05.698000+00:00",
-      "editedAt": null,
-      "author": "bunnyhop",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1514964005989384263",
       "attachments": []
     }
   ]
