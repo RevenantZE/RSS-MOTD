@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T09:50:04.996000+00:00",
+  "updatedAt": "2026-10-01T07:50:30.641000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1555120303217053747",
+      "title": "RSS ZE 플러그인 패치노트 (2/2)",
+      "content": "# 설정 개편\n\n- `!settings`에서 하이드 / 사운드 / 기능 / HUD 설정을 관리합니다.\n- 상세·간편 화면과 한국어 / English / 日本語를 지원합니다.\n- 변경한 설정은 저장되며 기존 채팅 명령어도 계속 사용할 수 있습니다.\n- 메뉴 위치를 4:3 / 16:9 / 16:10 화면 비율에 맞게 조절할 수 있습니다. (4:3은 버그 발생으로 조치 예정입니다.)\n\n# HUD 추가 및 개편\n\n- 총으로 상대를 맞히면 데미지 숫자가 조준점 근처에 표시됩니다. `!hitdamage`에서 끔 / 타격만 / 타격+합산을 선택할 수 있습니다.\n- 디펜스 현황 패널(TDRANK)에서 내 순위와 누적 피해를 볼 수 있습니다. 기본값은 OFF입니다.\n- 쇼네임은 화면 가운데 글자 대신 전용 패널에 표시됩니다.\n- 맵 콘솔 메시지를 전용 패널로 볼 수 있습니다. 시간 안내에는 카운트다운이 붙습니다.\n- 엔트와치·콘솔·디펜스 현황·플레이어 이름·보스 HUD의 위치를 미리보기와 X/Y 값으로 조절할 수 있습니다.\n- 라운드 종료 시 TOP DEFENDER / TOP BOSS DEALER 요약이 표시됩니다.\n\n# 기타 수정\n\n- 다음 맵 확정 후 `!ve`가 작동하지 않던 문제를 수정했습니다. 자동 연장 투표와 `!ve`는 서버 투표 창으로 표시됩니다.\n- 가챠 픽업 대상 지정 시 “처리 불가”가 뜨던 문제를 수정했습니다.\n- 인벤토리에서 커스텀 라디오가 보이지 않던 문제를 수정했습니다.\n- 스킨 모델 교체·감염 처리 중 발생할 수 있는 크래시를 보완했습니다.\n\n> - 이번 커스텀 패널은 **포제션과 NODE KZ 서버의 지원을 받아 완성했습니다.**\n\n---\n\n# RSS ZE Plugin Patch Notes (2/2)\n\n# Settings Overhaul\n\n- Use `!settings` to manage Hide / Sound / Features / HUD options.\n- Full-size and compact modes support 한국어 / English / 日本語.\n- Settings are saved, and existing chat commands still work.\n- Adjust menu placement for 4:3 / 16:9 / 16:10 displays.\n\n# New & Improved HUD\n\n- Damage numbers appear near your crosshair when you hit an opponent with a gun. Use `!hitdamage` to choose Off / Hit Only / Hit + Total.\n- The Defense Status panel (TDRANK) shows your rank and total damage. It is OFF by default.\n- Showname now appears in a dedicated panel instead of center-screen text.\n- Map console messages can appear in a dedicated panel. Timed messages include a countdown.\n- Adjust the positions of EntWatch, console messages, Defense Status, player names, and the boss HUD using a preview and X/Y controls.\n- A TOP DEFENDER / TOP BOSS DEALER summary appears at the end of each round.\n\n# Other Fixes\n\n- Fixed `!ve` not working after the next map had been decided. Automatic extension votes and `!ve` now use the server vote panel.\n- Fixed the “Cannot process” error when selecting a Gacha pickup target.\n- Fixed custom radio items not appearing in the inventory.\n- Improved stability during skin model changes and infection.\n\n> - **This custom panel was completed with support from Possession and the NODE KZ server. Thank you!**\n\n@Ze Player",
+      "publishedAt": "2026-10-01T07:32:53.025000+00:00",
+      "editedAt": "2026-10-01T07:50:30.641000+00:00",
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1555120303217053747",
+      "attachments": []
+    },
+    {
+      "id": "1555120211189960845",
+      "title": "RSS ZE 패치노트 (1/2)",
+      "content": "# 스토어 개편\n\n- `!store`의 스킨 상점 / 토큰 상점 / 가챠가 개편되고 인벤토리 / 배틀패스 / VIP 탭이 추가됐습니다.\n- 마우스 또는 번호 키로 조작합니다. 하단 `8`번으로 상세 창 ↔ 간편 메뉴를 전환합니다.\n- 창에서 한국어 / English / 日本語를 바로 변경할 수 있습니다.\n\n## 스킨·토큰 상점\n\n- 인간 / 좀비 / 주무기 / 보조무기 / 근접무기 / 투척무기로 스킨을 분류합니다.\n- 토큰 상점에서 모델 컬러, 레인보우, 트레이서, 태그, 수류탄 트레일, 라디오를 구매할 수 있습니다.\n- 토큰 → 크레딧 교환은 금액을 미리 확인한 뒤 확정합니다.\n\n## 인벤토리·미개봉\n\n- 보유 아이템의 남은 기간·만료일·영구 여부를 확인하고 장착·연장할 수 있습니다.\n- 가챠의 기간제 아이템은 `인벤토리 > 미개봉`으로 지급됩니다.\n- **미개봉 상태에서는 사용 기간이 흐르지 않습니다.** 개봉할 때 기간이 시작됩니다.\n- 같은 아이템을 기간제로 보유 중이라면 개봉한 기간이 기존 기간 뒤에 더해집니다.\n- 일반 스킨 구매 시 `미개봉으로 구매`를 선택할 수도 있습니다.\n- 기간제 히든 스킨은 이벤트 지급분을 포함해 연장할 수 없습니다.\n- 태그 색, 모델·트레일 RGB, 커스텀 라디오도 인벤토리에서 관리할 수 있습니다.\n\n# 가챠 개편\n\n- 배너: 상시 캐릭터 / 상시 무기 / 대상 지정 픽업(히든)\n- 1회 5,500 크레딧, 10회(10연차) 55,000 크레딧입니다. 뽑기권이 있으면 먼저 사용합니다.\n- 배너별 60회 천장으로 영구제가 확정적으로 획득할 수 있습니다.\n- 픽업 배너에서 영구제가 나오면 75%는 픽업 대상, 25%는 상시입니다. 상시 영구제가 나오면 다음 영구제는 픽업 대상이 확정됩니다.\n- 픽업 영구제는 배틀패스 시즌당 최대 2회입니다.\n- **히든 스킨은 가챠에서 기간제로 나오지 않습니다.** 픽업 배너에서 지정한 히든을 영구제로만 획득할 수 있습니다.\n- 픽업 대상은 관전 중이나 웜업 종료 후에도 바꿀 수 있습니다. 실제로 영구 보유한 스킨은 지정할 수 없습니다.\n\n> 확률: 꽝 3% / 7일 12.7% / 14일 38% / 21일 34% / 35일 8% / 60일 2.5% / 90일 1% / 영구 0.8%\n\n---\n\n# RSS ZE Patch Notes (1/2)\n\n# Store Overhaul\n\n- The Skin Shop, Token Shop, and Gacha in `!store` have been redesigned. Inventory, Battle Pass, and VIP tabs have been added.\n- Navigate with your mouse or number keys. Press `8` to switch between the full-size panel and compact menu.\n- Switch between 한국어 / English / 日本語 in the panel.\n\n## Skin & Token Shops\n\n- Skins are grouped into Human / Zombie / Primary / Secondary / Melee / Throwable.\n- The Token Shop offers model colors, rainbow effects, tracers, tags, grenade trails, and radio items.\n- Preview the amount before confirming a token-to-credit exchange.\n\n## Inventory & Unopened Items\n\n- Check an item's remaining time, expiration date, or permanent status, and equip or extend it.\n- Time-limited Gacha items are delivered to `Inventory > Unopened`.\n- **An unopened item's duration does not count down.** It starts when you open the item.\n- If you already own the same time-limited item, opening another adds its duration to your remaining time.\n- You can choose `Purchase Unopened` when buying a regular skin.\n- Time-limited hidden skins, including event rewards, cannot be extended.\n- Manage tag colors, model and trail RGB colors, and custom radio settings in your inventory.\n\n# Gacha Overhaul\n\n- Banners: Standard Character / Standard Weapon / Targeted Pickup (Hidden)\n- One pull costs 5,500 credits; 10 pulls cost 55,000 credits. Tickets are used first if available.\n- A permanent reward is guaranteed within 60 pulls on each banner.\n- When a permanent reward appears on the pickup banner, there is a 75% chance it is your selected target and a 25% chance it is a standard reward. If you receive a standard permanent reward, your next permanent reward is guaranteed to be your pickup target.\n- You can obtain up to two permanent pickup rewards per Battle Pass season.\n- **Hidden skins are never awarded temporarily through Gacha.** Your selected hidden skin can only be obtained as a permanent reward on the pickup banner.\n- You can change your pickup target while spectating or after warmup. Skins you permanently own cannot be selected.\n\n> Rates: No reward 3% / 7 days 12.7% / 14 days 38% / 21 days 34% / 35 days 8% / 60 days 2.5% / 90 days 1% / Permanent 0.8%",
+      "publishedAt": "2026-10-01T07:32:31.084000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1555120211189960845",
+      "attachments": []
+    },
     {
       "id": "1553342635316613226",
       "title": "서버 인포그래픽 공유해드립니다",
@@ -464,30 +488,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1537444566368522280",
-      "attachments": []
-    },
-    {
-      "id": "1535868713310617660",
-      "title": "RSS 업데이트",
-      "content": "@Ze Player\n\n## 밸런스 패치 ##\n- 모든 세팅의 최대, 최소 경직이 10% 감소하였습니다.\n> 하드 세팅 예시\n> 이전 **76%** ▶️ 조정 후** 68%**\n> 이전 **73%** ▶️ 조정 후 **65% **\n\n# RSS Update #\n\n## Balance Patch ##\n- Maximum and minimum tagging for all settings has been decreased by 10%.\n> Hard Setting Example\n> Previous 76% ▶️ Adjusted 68%\n> Previous 73% ▶️ Adjusted 65%",
-      "publishedAt": "2026-08-09T04:33:56.314000+00:00",
-      "editedAt": "2026-08-11T21:26:45.504000+00:00",
-      "author": "Mentalspin",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1535868713310617660",
-      "attachments": []
-    },
-    {
-      "id": "1535757332091510844",
-      "title": "RSS 에셋 업데이트 안내",
-      "content": "## 가챠 시스템 개선\n- 가챠 웜업 시간이 2분으로 조정\n- 서버 인원이 20명 미만이면 모든 가챠 결과가 전체 채팅에 출력\n- 히든 캐릭터 영구제 획득 시 캐릭터별 전용 결과 음성이 재생\n- 가챠 도중 라운드 종료·웜업 종료·연결 종료가 발생해도 보상 안내가 유지\n\n# 신규 캐릭터 스킨이 추가되었습니다\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1535741975079428228\n- 치사 수영복 (명조)\n- 호루스 (에테르 게이저)\n- 여우의 별자리 (명조)\n- 레미엘 댄 (젠존제)\n- 이누바시리 모미지 (동방 프로젝트)\n- 이자요이 사쿠야 (동방 프로젝트)\n- 야마카제 (함대 컬렉션)\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1535744178544181288\n- 카멜탈 (명조) [H]\n- 치사 수영복 장발 (명조) [H]\n- 데이드릭 (스카이림) [H]\n- 호루스 완벽한 합주 (에테르 게이저) [H]\n- 나기사 수영복 (블루아카이브) [H]\n- 레미엘 댄 달밤의 속삭임 (젠존제) [H]\n- 레미엘 댄 그림자 위의 독무 (젠존제) [H]\n\n# 신규 커스텀 무기가 추가되었습니다\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1535741294624776232\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1535752839278886943\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1535752330014887946\n- BO3 Weevil P90\n- CX9 Miko (M4A4)\n- Dresden40 Bizon\n- Fartooth AK47\n- Hanna MP7\n- Hoshino XM1014\n- kaltsit_ak47\n- Summer UMP45\n- ba_Ushio Noa Katana\n- ba_Kayoko_elite\n- Kurumi UMP45\n- Miyako MP9\n- ba_Noa Classic Knife\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1535738660949860362\n- Bizon Printstream\n- Hiyuki MP9\n- Lacrimosa MP7\n- Momoi MP5\n- Virtuosa MP9\n\n### 히든 무기는 상점 구매 목록에서 숨겨지며 가챠를 통해 획득할 수 있습니다.\n\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n---\n\n# RSS Asset Update\n\n## Gacha System Improvements\n- The gacha warm-up time has been adjusted to 2 minutes.\n- If the server has fewer than 20 players, all gacha results will be displayed in global chat.\n- When obtaining a permanent hidden character, a character-specific voice line will play for the result.\n- Reward information will remain displayed even if the round ends, the warm-up ends, or the player disconnects during the gacha.\n\n# New human skin added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1535741975079428228\n- Chisa Swimsuit (WuWa)\n- Horus (Aether Gazer)\n- Hsin (WuWa)\n- Remielle Dan (ZZZ)\n- Inubashiri Momiji (Touhou Project)\n- Izayoi Sakuya (Touhou Project)\n- Yamakaze (Kantai Collection)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1535744178544181288\n- Camellya Brainrot (WuWa) [H]\n- Chisa Swimsuit LongH (WuWa) [H]\n- Daedric (Skyrim) [H]\n- Horus Perfect Ensemble (Aether Gazer) [H]\n- Nagisa Swimsuit (Blue Archive) [H]\n- Remielle Dan Black (ZZZ) [H]\n- Remielle Dan Swimsuit (ZZZ) [H]\n\n# New Custom weapon skin added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635405691654438/1535741294624776232\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1535752839278886943\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1535752330014887946\n- BO3 Weevil P90\n- CX9 Miko (M4A4)\n- Dresden40 Bizon\n- Fartooth AK47\n- Hanna MP7\n- Hoshino XM1014\n- kaltsit_ak47\n- Summer UMP45\n- ba_Ushio Noa Katana\n- ba_Kayoko_elite\n- Kurumi UMP45\n- Miyako MP9\n- ba_Noa Classic Knife\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1535738660949860362\n- Bizon Printstream\n- Hiyuki MP9\n- Lacrimosa MP7\n- Momoi MP5\n- Virtuosa MP9\n\n### Hidden weapons are hidden from the shop's purchase list and can only be obtained through the gacha system.\n\n### If you're experiencing an error, please subscribe using the link below and restart the game\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3766981414\n\n@Ze Player",
-      "publishedAt": "2026-08-08T21:11:20.962000+00:00",
-      "editedAt": "2026-08-08T21:13:17.010000+00:00",
-      "author": "``Asmodeus``",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1535757332091510844",
       "attachments": []
     },
     {
