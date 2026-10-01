@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-09-24T02:52:46.413000+00:00",
+  "updatedAt": "2026-10-01T14:17:40.097000+00:00",
   "items": [
     {
       "id": "001",
@@ -3701,6 +3701,29 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/161-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "order": 162,
+      "name": "Kashima (Kantai Collection)",
+      "nameKo": "카시마 (함대 컬렉션)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1555222126246494208",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/162-third.webp",
+          "width": 800,
+          "height": 1001
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/162-first.webp",
           "width": 1280,
           "height": 720
         }

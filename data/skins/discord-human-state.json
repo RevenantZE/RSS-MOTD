@@ -1611,6 +1611,16 @@
       ],
       "name": "Arabella (CZN)",
       "nameKo": "아라벨라 (카오스 제로 나이트메어)"
+    },
+    "1555222126246494208": {
+      "skinId": "162",
+      "imageMessageId": "1555222170580426853",
+      "attachmentIds": [
+        "1555222125004984421",
+        "1555222168760090714"
+      ],
+      "name": "Kashima (Kantai Collection)",
+      "nameKo": "카시마 (함대 컬렉션)"
     }
   }
 }
