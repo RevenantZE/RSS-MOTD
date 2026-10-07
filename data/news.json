@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T14:30:48.733000+00:00",
+  "updatedAt": "2026-10-07T18:11:19.827000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1557455300783640717",
+      "title": "RSS VIP 히든 스킨 로테이션 안내",
+      "content": "기존의 **히든 스킨 전체 무료 사용 혜택이 종료**됩니다. 앞으로 VIP는 매주 선정된 히든 스킨 7종을 대여해 사용할 수 있습니다.\n\n- 인간 스킨 3종\n- 주무기·보조무기·근접무기·투척무기 각 1종\n\n# 첫 회차 기간\n\n<t:1791385200:f> ~ <t:1791730800:f>\n한국시간 10월 8일 00:00 ~ 10월 12일 00:00\n\n첫 회차 이후에는 **매주 월요일 00:00(KST)**에 대여 목록이 교체됩니다.\n\n# 이번 회차 대여 스킨\n\n- 인간: #901 키프펠 (VRCHAT) / #902 닭둘기 / #903 카멜탈 (명조)\n- 주무기: #203 hiyuki_mp9\n- 보조무기: #239 L4D2_Overly_DualM9\n- 근접무기: #181 cosmic_apex_karambit_yellow\n- 투척무기: #925 Block MG\n\n- 스토어 VIP 탭에서 이번 주 대여 목록을 확인할 수 있습니다.\n- 인벤토리에는 `VIP 대여` 표시와 종료 시각이 나옵니다.\n- 대여는 기간 중 장착·사용할 수 있는 혜택이며 **스킨을 소유하게 되는 것은 아닙니다.**\n- VIP가 먼저 만료되면 대여 혜택도 함께 종료됩니다.\n- 기존 비히든 VIP 무료 혜택은 유지됩니다.\n- 직접 보유한 스킨의 소유권은 로테이션의 영향을 받지 않습니다.\n\n---\n\n# RSS VIP Hidden Skin Rotation\n\nThe previous **free access to every hidden skin has ended**. VIP members can now rent a rotating selection of seven hidden skins each week:\n\n- Three human skins\n- One primary, secondary, melee, and throwable skin\n\n# First Rotation\n\n<t:1791385200:f> to <t:1791730800:f>\nOctober 8, 00:00 to October 12, 00:00 KST\n\nAfter the first rotation, the selection changes **every Monday at 00:00 KST**.\n\n# This Rotation's Skins\n\n- Human: #901 키프펠 (VRCHAT) / #902 닭둘기 / #903 카멜탈 (WuWa)\n- Primary: #203 hiyuki_mp9\n- Secondary: #239 L4D2_Overly_DualM9\n- Melee: #181 cosmic_apex_karambit_yellow\n- Throwable: #925 Block MG\n\n- Check the current selection in the store's VIP tab.\n- Your inventory shows `VIP Rental` and the rental end time.\n- A rental lets you equip and use a skin during its rotation. **It does not grant ownership.**\n- If your VIP status expires first, rental access ends with it.\n- Existing free access to non-hidden VIP skins remains unchanged.\n- Skins you personally own are not affected by the rotation.\n\n@Ze Player @Mg Player @Kz Player",
+      "publishedAt": "2026-10-07T18:11:19.827000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1557455300783640717",
+      "attachments": []
+    },
+    {
+      "id": "1557454973585981541",
+      "title": "RSS ZE 플러그인 패치노트",
+      "content": "# 스토어·인벤토리 개선\n\n- 상세 스토어에 `번호로 찾기`를 추가했습니다. 분류와 #번호를 선택해 검색할 수 있습니다.\n- 검색 결과로 이동하면 해당 항목이 3초간 강조됩니다. `뒤로`를 누르면 검색 전 분류·페이지로 돌아갑니다.\n- 목록에 #번호를 표시합니다. 같은 번호라도 인간·좀비·무기는 별도 분류입니다.\n- 기본 정렬은 번호순입니다. 가격 낮은순·높은순, 무기는 총기별, 근접무기는 종류별 정렬도 지원합니다.\n- 인벤토리에 등급별 정렬을 추가했습니다.\n- 구매·연장 확인창을 닫아도 기존 분류·정렬·페이지가 유지됩니다.\n- 셔플 화면에 ON/OFF 상태와 등록 개수를 표시합니다.\n\n#  콘솔 허드 알림 개편\n\n기존 사용자의 표시 방식은 유지되며 선택 번호만 0~7로 변경됩니다. 신규 사용자는 5번이 기본입니다.\n\n- 0: 패널 OFF, 원문 채팅\n- 1: 패널 OFF, 원문 + 번역 채팅\n- 2: 원문 + 구 패널\n- 3: 번역 + 구 패널\n- 4: 원문 + 구 패널 번역\n- 5: 원문 + 신규 패널\n- 6: 번역 + 신규 패널\n- 7: 원문 + 신규 패널 번역\n\n- 4·7번은 패널 안의 맵 안내도 번역합니다. 패널 번역은 한국어 설정에서 적용됩니다.\n- 번역이 준비되지 않은 문장은 원문으로 먼저 표시될 수 있습니다.\n- 신규 패널은 카드형 알림과 카운트다운 막대를 사용합니다. 폭을 360px로 넓히고 긴 문장은 줄바꿈합니다.\n\n# 설정·표시 개선\n\n- 설정 화면의 콘솔 미리보기가 실제 선택한 표시 방식과 일치하도록 수정했습니다.\n- 데미지 숫자에 `합산만`을 추가했습니다. OFF / 타격만 / 합산만 / 타격+합산 중 선택할 수 있습니다.\n- 엔트와치의 여러 항목 줄바꿈을 보강하고 HUD 오른쪽 스크롤 표시를 숨겼습니다.\n- 먼 플레이어의 쇼네임이 몸에서 지나치게 벗어난 곳에 표시되지 않도록 판정 범위를 줄였습니다. 벽 너머 차단은 유지됩니다.\n- 모델 컬러 변경에 10초 대기 시간을 적용했습니다. 명령어와 스토어에 같은 제한이 적용됩니다.\n\n---\n\n# RSS ZE Plugin Patch Notes\n\n# Store & Inventory Improvements\n\n- Added `Search by Number` to the full-size store. Select a category and enter an item's #number to search.\n- When you open a search result, the item is highlighted for three seconds. Press `Back` to return to your previous category and page.\n- #numbers are now shown in item lists. Human, zombie, and weapon numbers belong to separate categories.\n- Items are sorted by number by default. You can also sort by price, weapon type, or melee type.\n- Added rarity sorting to the inventory.\n- Closing a purchase or extension confirmation now preserves your category, sorting, and page.\n- The Shuffle screen now shows its ON/OFF state and the number of registered items.\n\n# Console HUD Notifications Overhaul\n\nExisting players keep their selected display behavior; only the option numbers change to 0–7. New players default to option 5.\n\n- 0: Panel OFF, original text in chat\n- 1: Panel OFF, original + translated text in chat\n- 2: Original text + old panel\n- 3: Translated text + old panel\n- 4: Original text + translation in the old panel\n- 5: Original text + new panel\n- 6: Translated text + new panel\n- 7: Original text + translation in the new panel\n\n- Options 4 and 7 also translate map announcements inside the panel. Panel translation applies when Korean is selected.\n- Text without a prepared translation may appear in its original language first.\n- The new panel uses notification cards and a countdown bar. Cards are now 360px wide and wrap long text.\n\n# Settings & Display Improvements\n\n- The console preview in Settings now matches the selected display mode.\n- Added `Total Only` to damage numbers. Choose OFF / Hit Only / Total Only / Hit + Total.\n- Improved line wrapping for multiple EntWatch entries and hid the scrollbar on the right side of the HUD.\n- Narrowed long-range Showname detection so names do not appear too far from a player's body. Blocking through walls remains active.\n- Model color changes now have a 10-second cooldown for both chat commands and the store.\n\n@Ze Player",
+      "publishedAt": "2026-10-07T18:10:01.817000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1557454973585981541",
+      "attachments": []
+    },
     {
       "id": "1555225478359556109",
       "title": "RSS 에셋 업데이트",
@@ -479,18 +503,6 @@
       "attachments": []
     },
     {
-      "id": "1537762617332994139",
-      "title": "RSS 서버 에셋 업데이트 안내",
-      "content": "## 에셋 구조 개편\n\n### 기존 통합 에셋을 용도별로 분할\n- **Core** : 공용 리소스\n- **Character** : 캐릭터 모델\n- **Weapon** : 일반 커스텀 무기\n- **Weapon2** : 전용 애니메이션 커스텀 무기\n\n### 에셋 분할 이후 최초 접속 시 추가 다운로드가 발생할 수 있습니다.\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요.\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n# 신규 캐릭터 스킨 추가\n## -일반 -\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1537837113746133034\n- 베스퍼 (젠레스 존 제로)\n- 엘렌 조 교복 (젠레스 존 제로)\n- 마를렌 수영복 (이터널 리턴)\n- 스텔라 (플라워 나이트 걸)\n- 츠키유키 미야코 수영복 (블루 아카이브)\n\n## -히든-\n- 마치 키츠네 (VRCHAT)\n\n# 신규 커스텀 무기 추가\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1537840667932368997\n- Apex Octane Balisong [A][H]\n- Apex Octane Balisong Printstream [A][H]\n- BlueArchive Shiroko Doll MP5-SD(mp5) [F][A][H]\n\n### 해당 애니메이션 무기는 VIP 는 당분간 무료로 사용이 가능합니다.\n\n## 전용 커스텀 무기 히든 -> 일반 전환\n## -일반-\n- CSO:NataKnife[A]\n\n### 3000 크레딧에 구매 가능합니다.\n\n---\n\n# RSS Server Asset Update Notice\n\n## Asset Structure Reorganization\n\n### The existing integrated assets have been divided by purpose\n- **Core**: Shared resources\n- **Character**: Character models\n- **Weapon**: Standard custom weapons\n- **Weapon2**: Custom weapons with dedicated animations\n\n### Additional downloads may occur when connecting for the first time after the asset split.\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n# New Character Skins\n\n## -Standard-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1537837113746133034\n- Vesper (Zenless Zone Zero)\n- Ellen Joe School Uniform (Zenless Zone Zero)\n- Marlene Swimsuit (Eternal Return)\n- Stella (Flower Knight Girl)\n- Tsukiyuki Miyako Swimsuit (Blue Archive)\n\n## -Hidden-\n- Machi Kitsune (VRCHAT)\n\n# New Custom Weapons\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1537840667932368997\n- Apex Octane Balisong [A][H]\n- Apex Octane Balisong Printstream [A][H]\n- BlueArchive Shiroko Doll MP5-SD(mp5) [F][A][H]\n\n### These animated weapons will be available to VIP members for free until further notice.\n\n## Dedicated Custom Weapon Changed from Hidden to Standard\n\n## -Standard-\n- CSO:NataKnife[A]\n\n### Available for purchase for 3,000 Credits.\n\n@Ze Player",
-      "publishedAt": "2026-08-14T09:59:38.220000+00:00",
-      "editedAt": "2026-08-15T17:53:29.771000+00:00",
-      "author": "Somast",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1537762617332994139",
-      "attachments": []
-    },
-    {
       "id": "1525101351162613891",
       "title": "서버가 복구되었습니다.일부맵은 cs2 업데이트로 인해 비활성화 해뒀습니다.",
       "content": "@Ze Player\n\nserver has been restored. Some maps have been disabled due to the CS2 update\n\n비활성화 된 맵리스트\nDisabled Map list\n\n-  ze_raccoon_facility_p\n-  ze_random_escape_p\n-  ze_random_p",
@@ -572,18 +584,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1520009829328879706",
-      "attachments": []
-    },
-    {
-      "id": "1517759297130594425",
-      "title": "디스코드를 소소하게 개편하였습니다.#",
-      "content": "@Ze Player\n\n# (Minor Discord Server Updates) #\n\n각 카테고리 채널들의 아이콘및 폰트를 일관성있게 통일하고\n오랫동안 사용하지 않은 채널들을 삭제하였으며 새로운 채널들을 추가하였습니다.\n(We have organized our channels by category, unifying icons and fonts for consistency.\nInactive channels have been removed, and several new channels have been added.)\n\n## 기존 사용하던 채널을 개편하였습니다. ##\n## (Existing Channels Updated) ##\n\n> https://discord.com/channels/850664390779731978/1321861335520120882\n> 최초로 접속을 시도할 때 도움이 되는 정보를 추가하였습니다.\n> (Added helpful information for first-time players connecting to the server.)\n>\n> https://discord.com/channels/850664390779731978/1268569844522025032\n> 기존 내용을 정리하고 깔끔하게 변경하였습니다.\n> (Cleaned up and reorganized the existing content for better readability.)\n>\n\n## 새로운 채널 추가되었습니다. ##\n## (New Channels Added) ##\n>\n> https://discord.com/channels/850664390779731978/1517557720373395456\n> 서버 파일 프리로드 및 빠른 접속에 도움을 주는 채널입니다.\n> (A channel dedicated to preloading server assets and helping you connect faster.)\n>\n> https://discord.com/channels/850664390779731978/1517439835160313917\n> 서버 명령어들을 모아둔 채널입니다.\n> (A channel where all server commands are listed.)\n\n## 이외에도 디스코드및 서버 업데이트에 따라 종합 정보 모음도 개편했으니 시간이 나거나 궁금한게 있을때 참고해주세요. ##\n## (In addition, we have updated the General Info guide to reflect the latest ##\n## Discord and server updates. Please check it out whenever you have time or have any questions) ##\n https://discord.com/channels/850664390779731978/1512727610881474700",
-      "publishedAt": "2026-06-20T05:13:35.040000+00:00",
-      "editedAt": null,
-      "author": "Mentalspin",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1517759297130594425",
       "attachments": []
     }
   ]
