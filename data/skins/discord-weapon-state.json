@@ -1698,6 +1698,15 @@
         "1552514532482490448"
       ],
       "name": "CSO_Songpyeon_Grenade[A][E]"
+    },
+    "1557706636569739308": {
+      "skinId": "weapon-primary-092",
+      "subcategory": "primary",
+      "mediaMessageId": "1557706636569739308",
+      "attachmentIds": [
+        "1557706636230004848"
+      ],
+      "name": "Miyu Garand [F][A] (SSG 08)"
     }
   }
 }

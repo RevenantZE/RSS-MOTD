@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-10-01T14:17:40.097000+00:00",
+  "updatedAt": "2026-10-08T10:39:35.916000+00:00",
   "items": [
     {
       "id": "001",
@@ -3724,6 +3724,236 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/162-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "order": 163,
+      "name": "Silver Wolf (Honkai: Star Rail)",
+      "nameKo": "은랑 (스타레일)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557701481455689838",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/163-third.webp",
+          "width": 800,
+          "height": 1050
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/163-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "order": 164,
+      "name": "Sparxie (Honkai: Star Rail)",
+      "nameKo": "스파키 (붕괴: 스타레일)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557702009459576900",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/164-third.webp",
+          "width": 800,
+          "height": 968
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/164-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "order": 165,
+      "name": "Vesna (Genshin Impact)",
+      "nameKo": "베스나 (원신)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557702226561073174",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/165-third.webp",
+          "width": 800,
+          "height": 972
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/165-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "order": 166,
+      "name": "Shirao Eri (Blue Archive)",
+      "nameKo": "시라오 에리 (블루아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557702461769261056",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/166-third.webp",
+          "width": 800,
+          "height": 988
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/166-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "order": 167,
+      "name": "Band Kazusa (Blue Archive) [C]",
+      "nameKo": "밴드 카즈사 (블루아카이브) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557702758654804008",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/167-third.webp",
+          "width": 677,
+          "height": 1065
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/167-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "order": 168,
+      "name": "Vodyanitsa (Genshin Impact)",
+      "nameKo": "보댜니챠 (원신)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557702974665662515",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/168-third.webp",
+          "width": 800,
+          "height": 950
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/168-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "order": 169,
+      "name": "BAMiku (Blue Archive)",
+      "nameKo": "BA미쿠 (블루아카이브)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557703239087034489",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/169-third.webp",
+          "width": 800,
+          "height": 963
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/169-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "order": 170,
+      "name": "Cheerleader Yuuka (Blue Archive) [C]",
+      "nameKo": "치어리더 유우카 (블루아카이브) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557703514258407466",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/170-third.webp",
+          "width": 800,
+          "height": 987
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/170-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "order": 171,
+      "name": "Kasumizawa Miyu (Blue Archive) [C]",
+      "nameKo": "카스미자와 미유 (블루아카이브) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557703772703170633",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/171-third.webp",
+          "width": 800,
+          "height": 912
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/171-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "order": 172,
+      "name": "Sweet Devil Leni (Eternal Return)",
+      "nameKo": "스위트 데빌 레니 (이터널리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1557703989145894912",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/172-third.webp",
+          "width": 800,
+          "height": 1030
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/172-first.webp",
           "width": 1280,
           "height": 720
         }
