@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-10-08T10:39:35.916000+00:00",
+  "updatedAt": "2026-10-11T06:09:29.619000+00:00",
   "items": [
     {
       "id": "001",
@@ -3954,6 +3954,75 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/172-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "order": 173,
+      "name": "Final Lap Rozzi (Eternal Return)",
+      "nameKo": "파이널 랩 로지 (이터널 리턴)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1558722498202177548",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/173-third.webp",
+          "width": 800,
+          "height": 892
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/173-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "order": 174,
+      "name": "Silverwing N-EX (Honkai Impact 3rd)",
+      "nameKo": "차생의 은익 (붕괴 3rd)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1558722904349220965",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/174-third.webp",
+          "width": 800,
+          "height": 821
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/174-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "order": 175,
+      "name": "Vita (Honkai Impact 3rd)",
+      "nameKo": "비타 (붕괴 3rd)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1558723166191231079",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/175-third.webp",
+          "width": 800,
+          "height": 868
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/175-first.webp",
           "width": 1280,
           "height": 720
         }

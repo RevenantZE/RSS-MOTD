@@ -1721,6 +1721,36 @@
       ],
       "name": "Sweet Devil Leni (Eternal Return)",
       "nameKo": "스위트 데빌 레니 (이터널리턴)"
+    },
+    "1558722498202177548": {
+      "skinId": "173",
+      "imageMessageId": "1558722664833622088",
+      "attachmentIds": [
+        "1558722497963233393",
+        "1558722664443543595"
+      ],
+      "name": "Final Lap Rozzi (Eternal Return)",
+      "nameKo": "파이널 랩 로지 (이터널 리턴)"
+    },
+    "1558722904349220965": {
+      "skinId": "174",
+      "imageMessageId": "1558722933109686392",
+      "attachmentIds": [
+        "1558722903854546984",
+        "1558722932782661662"
+      ],
+      "name": "Silverwing N-EX (Honkai Impact 3rd)",
+      "nameKo": "차생의 은익 (붕괴 3rd)"
+    },
+    "1558723166191231079": {
+      "skinId": "175",
+      "imageMessageId": "1558723196067520603",
+      "attachmentIds": [
+        "1558723166145089586",
+        "1558723195735900191"
+      ],
+      "name": "Vita (Honkai Impact 3rd)",
+      "nameKo": "비타 (붕괴 3rd)"
     }
   }
 }
