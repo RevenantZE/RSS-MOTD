@@ -1,7 +1,7 @@
 {
   "version": 5,
   "category": "human",
-  "updatedAt": "2026-10-11T06:09:29.619000+00:00",
+  "updatedAt": "2026-10-16T16:28:20.707000+00:00",
   "items": [
     {
       "id": "001",
@@ -4023,6 +4023,121 @@
           "type": "image",
           "role": "firstPerson",
           "src": "assets/skins/175-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "order": 176,
+      "name": "Morwyn (Azur Promilia)",
+      "nameKo": "모르윈 (아주르 프로밀리아)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1560689732134895779",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/176-third.webp",
+          "width": 800,
+          "height": 923
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/176-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "order": 177,
+      "name": "Si (Endfield)",
+      "nameKo": "사 (엔드필드)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1560690058762129498",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/177-third.webp",
+          "width": 800,
+          "height": 954
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/177-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "order": 178,
+      "name": "Tushan Xiaoyu (Azur Promilia)",
+      "nameKo": "도산소옥 (아주르 프로밀리아)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1560690394684203148",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/178-third.webp",
+          "width": 800,
+          "height": 990
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/178-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "order": 179,
+      "name": "Hiro (Magical Girl Witch Trials) [C]",
+      "nameKo": "히로 (마법소녀의 마녀재판) [C]",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1560690658535276680",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/179-third.webp",
+          "width": 800,
+          "height": 991
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/179-first.webp",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "order": 180,
+      "name": "Plankton (SpongeBob SquarePants)",
+      "nameKo": "플랑크톤 (네모바지 스폰지밥)",
+      "sourceUrl": "https://discord.com/channels/574971804712435722/1517461614356594700/1560690853381546074",
+      "media": [
+        {
+          "type": "image",
+          "role": "thirdPerson",
+          "src": "assets/skins/180-third.webp",
+          "width": 697,
+          "height": 1017
+        },
+        {
+          "type": "image",
+          "role": "firstPerson",
+          "src": "assets/skins/180-first.webp",
           "width": 1280,
           "height": 720
         }

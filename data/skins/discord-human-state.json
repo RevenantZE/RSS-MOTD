@@ -1751,6 +1751,56 @@
       ],
       "name": "Vita (Honkai Impact 3rd)",
       "nameKo": "비타 (붕괴 3rd)"
+    },
+    "1560689732134895779": {
+      "skinId": "176",
+      "imageMessageId": "1560689756000485530",
+      "attachmentIds": [
+        "1560689732030300160",
+        "1560689755526537306"
+      ],
+      "name": "Morwyn (Azur Promilia)",
+      "nameKo": "모르윈 (아주르 프로밀리아)"
+    },
+    "1560690058762129498": {
+      "skinId": "177",
+      "imageMessageId": "1560690078307582124",
+      "attachmentIds": [
+        "1560690058443620525",
+        "1560690076948758709"
+      ],
+      "name": "Si (Endfield)",
+      "nameKo": "사 (엔드필드)"
+    },
+    "1560690394684203148": {
+      "skinId": "178",
+      "imageMessageId": "1560690423406534817",
+      "attachmentIds": [
+        "1560690394222567585",
+        "1560690422857338970"
+      ],
+      "name": "Tushan Xiaoyu (Azur Promilia)",
+      "nameKo": "도산소옥 (아주르 프로밀리아)"
+    },
+    "1560690658535276680": {
+      "skinId": "179",
+      "imageMessageId": "1560690680286937232",
+      "attachmentIds": [
+        "1560690658396737597",
+        "1560690680316043446"
+      ],
+      "name": "Hiro (Magical Girl Witch Trials) [C]",
+      "nameKo": "히로 (마법소녀의 마녀재판) [C]"
+    },
+    "1560690853381546074": {
+      "skinId": "180",
+      "imageMessageId": "1560690874466308108",
+      "attachmentIds": [
+        "1560690853020704829",
+        "1560690874118045796"
+      ],
+      "name": "Plankton (SpongeBob SquarePants)",
+      "nameKo": "플랑크톤 (네모바지 스폰지밥)"
     }
   }
 }
