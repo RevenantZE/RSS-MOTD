@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T20:07:23.123000+00:00",
+  "updatedAt": "2026-10-17T01:41:00.869000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1560829958266425446",
+      "title": "RSS ZE 패치노트",
+      "content": "# 3인칭 시점 개편\n\n- `!tp`: 캐릭터 바로 뒤 시점, 기본 거리 150\n- `!tpr`: 오른쪽 어깨 시점, 기본 거리 50\n- `!tpl`: 왼쪽 어깨 시점, 기본 거리 50\n- 명령어 뒤에 숫자를 붙여 거리를 15~150 사이로 조절할 수 있습니다. 예: `!tp 100`\n\n> - 같은 모드를 숫자 없이 다시 입력하면 3인칭이 꺼집니다.\n\n- 실제 사격은 캐릭터의 화면에서 나갑니다.(과거 CS:GO 랑 같음)\n- 어깨 시점은 화면 가운데 조준점과 실제 명중 위치가 좌우로 조금 어긋날 수 있습니다(캐릭터 기준). 정확한 사격에는 `!tp`를 권장합니다.\n- 사망·관전·팀 변경·좀비 감염 시 3인칭이 꺼집니다. 이모트와 동시에 사용할 수 없으며 ZM 모드에서는 사용할 수 없습니다.\n- 이제 3인칭 상태에서 E키 진행 및 E키 아이템을 사용할 수 있습니다.\n\n# 상점·가챠 표시\n\n- 히든 아이템 이름을 간편 상점, 가챠 결과, 픽업 대상 선택 화면에서 노란색으로 표시합니다.\n- 간편 상점에서 긴 이름은 `…`로 줄이되, 뒤의 `[H]`·`[F]` 같은 태그는 보이도록 개선했습니다.\n\n# 커스텀 무기 페이즈 추가\n\n- `[P]` 표시가 있는 커스텀 무기는 상세 스토어의 `외형 변경`에서 페이즈를 선택할 수 있습니다.\n- 페이즈를 고르면 현재 들고 있는 무기에 20초 동안 미리 적용됩니다. 이후 원래 외형으로 돌아갑니다.\n- `페이즈 저장`을 누르면 무기별로 선택한 외형이 저장되고 다음 장착부터 적용됩니다.\n- 일부 무기가 통합되었습니다.\n\n@Ze Player",
+      "publishedAt": "2026-10-17T01:41:00.869000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1560829958266425446",
+      "attachments": []
+    },
     {
       "id": "1558571670560833629",
       "title": "디스코드 채널 개편 안내",
@@ -512,18 +524,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1539925786407079996",
-      "attachments": []
-    },
-    {
-      "id": "1539322696062607451",
-      "title": "RSS 에셋 업데이트",
-      "content": "# 신규 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1539314711672266792\n- 이부키 (블루 아카이브)\n- 로시 (엔드필드)\n- 선택받은 불사자 (다크 소울)\n- 수수 (명조)\n\n# 신규 무기 스킨 추가\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1539316717778378872\n- CSO Custom SVD [F][H] (M4A4)\n- Blue Archive Mika Doll [F][A][H] (P90)\n- Energy Sword Halo [A][H]\n\n# 신규 스프레이 추가 예정\n\n- Call of Duty ZE4\n- Meccha Chameleon Doro\n\n### 에러 뜨시는 분들은 아래 링크 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# New Character Skins added\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1539314711672266792\n- Ibuki (Blue Archive)\n- Rossi (Endfield)\n- Chosen Undead (Dark Souls)\n- Suisui (WuWa)\n\n# New Weapon Skins added\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1539316717778378872\n- CSO Custom SVD [F][H](M4A4)\n- Blue Archive Mika Doll [F][A][H] (P90)\n- Energy Sword Halo [A][H]\n\n## New Sprays soon added\n\n- Call of Duty ZE4\n- Meccha Chameleon Doro\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@Ze Player",
-      "publishedAt": "2026-08-18T17:18:49.974000+00:00",
-      "editedAt": "2026-08-18T17:19:02.144000+00:00",
-      "author": "``Asmodeus``",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1539322696062607451",
       "attachments": []
     },
     {
