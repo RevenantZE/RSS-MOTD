@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T15:41:27.111000+00:00",
+  "updatedAt": "2026-10-19T04:59:40.824000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1561604729912692736",
+      "title": "제3차 RSS 설문조사 안내",
+      "content": "RSS 서버 운영 및 개선을 위한 **제3차 설문조사**를 진행합니다.\n\n## 설문조사 안내\n\n- **참여 기간:** <t:1792940340:F>까지\n- **마감까지 남은 시간:** <t:1792940340:R>\n- **참여 보상:** 없음\n- **설문 링크:** [링크](https://forms.gle/diGY35Kx6XrTj2mV7)\n\n## 설문 응답 공개 범위\n\n**이번 설문조사의 개별 응답 내용은 저 혼자만 열람합니다.**\n\n따라서 서버를 이용하면서 느꼈던 불편함이나 개선이 필요한 부분, 평소 전달하기 어려웠던 의견도 부담 없이 작성해 주시기 바랍니다.\n\n## 설문조사 결과 공개 안내\n\n이번 제3차 설문조사가 종료된 이후, **제1차·제2차·제3차 설문조사에 대한 답변을 한 번에 정리하여 공개할 예정입니다.**\n\n공개되는 내용은 설문에 대한 운영자의 답변 및 개선 방향을 중심으로 정리할 예정입니다.\n\n또한 **이번 설문조사에는 별도의 참여 보상이 없습니다.**\n\n---\n\n## Notice for Non-Korean Speakers\n\nThe **3rd RSS Survey** is now open.\n\n- **Deadline:** <t:1792940340:F>\n- **Time Remaining:** <t:1792940340:R>\n- **Rewards:** No rewards will be provided.\n- **Privacy:** Individual survey responses will only be viewed by the server owner.\n- **Link:** [link](https://forms.gle/diGY35Kx6XrTj2mV7)\n\nAfter this survey closes, responses and feedback covering all three RSS surveys (1st, 2nd, and 3rd) will be published together.\n\n**Due to the length of the upcoming announcement, an official English translation will not be provided.**\n\nIf you would like to read it in English, please use a translation tool of your choice.\n\n@Ze Player @KR",
+      "publishedAt": "2026-10-19T04:59:40.824000+00:00",
+      "editedAt": null,
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1561604729912692736",
+      "attachments": []
+    },
     {
       "id": "1561401479825457177",
       "title": "세팅이 변경됩니다.",
@@ -572,18 +584,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1522473337710968873",
-      "attachments": []
-    },
-    {
-      "id": "1520407393278623795",
-      "title": "[필독 / NOTICE] 채널 이용 절대 주의 사항",
-      "content": "@everyone\n\nhttps://discord.com/channels/850664390779731978/1520384402369024020\n\n> **이 채널은 서버 해킹 및 스팸 방지를 위해 추가된 채널입니다. 아래 내용을 반드시 숙지해 주십시오.**\n\n### 채널에 절대 메시지를 남기지 마세요\n* 이 채널에 메시지를 전송할 경우, 시스템에 의해 **즉시 메시지가 자동 삭제되며 서버에서 추방(Kick)** 처리됩니다.\n* 실수가 없도록 각별히 주의하시기 바랍니다.\n\n---\n\n# [IMPORTANT] DO NOT SEND ANY MESSAGES HERE\n\nhttps://discord.com/channels/850664390779731978/1520384402369024020\n\n> **This channel is strictly for server security and anti-spam protection. Please read the following rules carefully.**\n\n### NEVER leave any messages or links in this channel!\n* If you send any message here, it will be **automatically deleted, and you will be KICKED from the server** immediately by the security system.\n* Please be cautious not to make any mistakes.",
-      "publishedAt": "2026-06-27T12:36:10.361000+00:00",
-      "editedAt": "2026-06-27T12:38:45.115000+00:00",
-      "author": "킁",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1520407393278623795",
       "attachments": []
     }
   ]
