@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T07:35:37.160000+00:00",
+  "updatedAt": "2026-10-22T12:24:12.354000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1562803619265511496",
+      "title": "신규 후원 잠시 막겠습니다",
+      "content": "후원시스템 재정비 중이라 추후에 완료되면 공지하겠습니다\n\n기존 후원자는 그대로 이용하시면 됩니다",
+      "publishedAt": "2026-10-22T12:23:38.320000+00:00",
+      "editedAt": "2026-10-22T12:24:12.354000+00:00",
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1562803619265511496",
+      "attachments": []
+    },
+    {
+      "id": "1562801832236163134",
+      "title": "서버 오픈했습니다.",
+      "content": "서버 CPU 업그레이드했습니다\n\n기존 7900x -> 9950x3d\n\n@Ze Player @Mg Player @Kz Player",
+      "publishedAt": "2026-10-22T12:16:32.259000+00:00",
+      "editedAt": null,
+      "author": "투온전도사",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1562801832236163134",
+      "attachments": []
+    },
     {
       "id": "1562731136826744873",
       "title": "공지",
@@ -560,30 +584,6 @@
       "channelId": "1168514920539758683",
       "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
       "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1540646811709218908",
-      "attachments": []
-    },
-    {
-      "id": "1525101351162613891",
-      "title": "서버가 복구되었습니다.일부맵은 cs2 업데이트로 인해 비활성화 해뒀습니다.",
-      "content": "@Ze Player\n\nserver has been restored. Some maps have been disabled due to the CS2 update\n\n비활성화 된 맵리스트\nDisabled Map list\n\n-  ze_raccoon_facility_p\n-  ze_random_escape_p\n-  ze_random_p",
-      "publishedAt": "2026-07-10T11:28:17.130000+00:00",
-      "editedAt": null,
-      "author": "Mentalspin",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1525101351162613891",
-      "attachments": []
-    },
-    {
-      "id": "1524702888348221600",
-      "title": "금일 진행된 CS2 업데이트로 인해 현재 서버 플러그인들이 정상적으로 작동하지 않는 오류가 발생해 서버를 닫아둘 예정입니다.",
-      "content": "### Due to today's CS2 update, an error occurred where the server plugins are not functioning properly, so the server will be closed for the time being.",
-      "publishedAt": "2026-07-09T09:04:56.192000+00:00",
-      "editedAt": null,
-      "author": "킁",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1524702888348221600",
       "attachments": []
     }
   ]
