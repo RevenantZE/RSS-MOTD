@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T12:24:12.354000+00:00",
+  "updatedAt": "2026-10-23T10:54:08.069000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1563143482665734165",
+      "title": "금일 CS2 업데이트 이후, 맵이 바뀌면 보이스가 들리지 않는 문제가 있습니다.",
+      "content": "보이스가 안 들리거나 전달되지 않으면 CS2를 완전히 껐다 켠 뒤 다시 접속해야합니다.\nCS2 자체 문제라 Valve가 패치하기 전까지는 위의 방법으로 해결해야 합니다.\n\nSince today's CS2 update, players may lose voice chat after a map change.\nIf you can't hear others or they can't hear you, fully restart CS2 and reconnect to the server.\nThis is a CS2 issue, so please use this workaround until Valve fixes it.\n\n@Ze Player @Mg Player",
+      "publishedAt": "2026-10-23T10:54:08.069000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1563143482665734165",
+      "attachments": []
+    },
     {
       "id": "1562803619265511496",
       "title": "신규 후원 잠시 막겠습니다",
@@ -219,47 +231,47 @@
       "attachments": [
         {
           "filename": "07_1213.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342488524361759/07_1213.png?ex=6adbd62c&is=6ada84ac&hm=50651e40c2927d15ea71f09e4da09b9ed4d09462a2ee60110868043322dabc03&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342488524361759/07_1213.png?ex=6adc7eec&is=6adb2d6c&hm=d1930c0cd45f45a98390db7a7abafbb66fc4414135d3caa8b99a5701d672efb2&",
           "contentType": "image/png"
         },
         {
           "filename": "08_1415.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489090457621/08_1415.png?ex=6adbd62d&is=6ada84ad&hm=280ad615334eedfed0499947fe94747913625ac30ebd86e91dbef55cec4637b6&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489090457621/08_1415.png?ex=6adc7eed&is=6adb2d6d&hm=c4e4f849545ba50744128812d49aa21fda19d8b956b4b0fdc4b783d07e3fca0c&",
           "contentType": "image/png"
         },
         {
           "filename": "09_1617.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489618817114/09_1617.png?ex=6adbd62d&is=6ada84ad&hm=ec585b38eaae2576412dc3165108cf1664a646c57c3ebe769e5316c25311cf88&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342489618817114/09_1617.png?ex=6adc7eed&is=6adb2d6d&hm=27c119a4d42f4d7b478b5336b649a7b5a38222c1a085229ff3279ab7a1fcd086&",
           "contentType": "image/png"
         },
         {
           "filename": "01_01.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490046632037/01_01.png?ex=6adbd62d&is=6ada84ad&hm=97651d9ba4a2782c2fd9224a508c4d15c54ac31b0c1b99cc1abd9e9e6ef39b0e&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490046632037/01_01.png?ex=6adc7eed&is=6adb2d6d&hm=662aa267390029638ebc21f60307c1077ace18fd238a8b6808185d0fea66f108&",
           "contentType": "image/png"
         },
         {
           "filename": "02_0203.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490503806977/02_0203.png?ex=6adbd62d&is=6ada84ad&hm=72c7e9774890138dd3fc825f3daf785440c247d9f456c078e219298bec6f1604&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342490503806977/02_0203.png?ex=6adc7eed&is=6adb2d6d&hm=6d842ad6d3ccfeb85db58c6c5d57805c62f9e27e835c831fdfbb53b0fda3d5e6&",
           "contentType": "image/png"
         },
         {
           "filename": "03_0405.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491053523004/03_0405.png?ex=6adbd62d&is=6ada84ad&hm=f3c330cb6aed6d3092c731d28bdd1b2b9bfbdffbb2349ead01ce4c79237857d7&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491053523004/03_0405.png?ex=6adc7eed&is=6adb2d6d&hm=b2b1051a2e11ae4094fef2963a099c25e128685b3179fdeab14eabaad5efcec7&",
           "contentType": "image/png"
         },
         {
           "filename": "04_0607.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491669962832/04_0607.png?ex=6adbd62d&is=6ada84ad&hm=8e5ea58d58491bfb7b757155f8c914a4607d4c814ee95f69de0971cfee789945&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342491669962832/04_0607.png?ex=6adc7eed&is=6adb2d6d&hm=aadf641176e4a653918a38bccc3c7c833d381355067df785db70668393bc51f8&",
           "contentType": "image/png"
         },
         {
           "filename": "05_0809.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492265680926/05_0809.png?ex=6adbd62d&is=6ada84ad&hm=6816b48b89465c24ad8d1dc1f492e0c0eae2e66a50917be796cdf63dadab621a&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492265680926/05_0809.png?ex=6adc7eed&is=6adb2d6d&hm=828d6618d0f6521944fb90459a0f933d3a7e16782cacd7fd9ae0dd93f0cdf0fe&",
           "contentType": "image/png"
         },
         {
           "filename": "06_1011.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492886302730/06_1011.png?ex=6adbd62e&is=6ada84ae&hm=8d409d114e93b1b6cd8f28db93e9be97502c3016dd512070334933dd70c9e272&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342492886302730/06_1011.png?ex=6adc7eee&is=6adb2d6e&hm=8a9097b304dd753ea800e278786d95548cb1631ed59c2f328014215db7960d03&",
           "contentType": "image/png"
         }
       ]
@@ -277,47 +289,47 @@
       "attachments": [
         {
           "filename": "01_01.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342438754623558/01_01.png?ex=6adbd621&is=6ada84a1&hm=7c5f06a5db2c2115b1a9fa07e0ba74cd0a06f1cfbf43c573c9f267511f164a50&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342438754623558/01_01.png?ex=6adc7ee1&is=6adb2d61&hm=1263e32e2ebe08c3682b29b468b89e818b0f05481b2699bcd1abdb06a7962bab&",
           "contentType": "image/png"
         },
         {
           "filename": "02_0203.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342439509590046/02_0203.png?ex=6adbd621&is=6ada84a1&hm=f3b305fdcec856a388b7e6ccb0153b8709ca43738b897149e0d64d1311b5786a&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342439509590046/02_0203.png?ex=6adc7ee1&is=6adb2d61&hm=8d9ba1cc5040df3da7ed5e6c55a6919152c6de0994196e6b3a0e1c4e30990286&",
           "contentType": "image/png"
         },
         {
           "filename": "03_0405.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440088273019/03_0405.png?ex=6adbd621&is=6ada84a1&hm=052caffaae814d272ca1e8b75acd65d77cb342878d43332dcd7d9ff0ed5fa62b&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440088273019/03_0405.png?ex=6adc7ee1&is=6adb2d61&hm=be20e4ff59651a146eac6cbbdcd8f1877de73366595555831436f5573e8a2f7f&",
           "contentType": "image/png"
         },
         {
           "filename": "04_0607.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440679940257/04_0607.png?ex=6adbd621&is=6ada84a1&hm=0662dbaf70db440c3ead83b8127dd5cb2276563842956400c7e99c9786de95fe&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342440679940257/04_0607.png?ex=6adc7ee1&is=6adb2d61&hm=d065b3b456860e16a95f6bdcb08d107341efc5006c4b0aedc0e08ffdb820d55a&",
           "contentType": "image/png"
         },
         {
           "filename": "05_0809.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441246031882/05_0809.png?ex=6adbd621&is=6ada84a1&hm=40a088a114aadf754bb9ec4777c860811339aa63855bceef166f0b276bc68606&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441246031882/05_0809.png?ex=6adc7ee1&is=6adb2d61&hm=f6a7b2807366b246424078ebcd9e1c828793b1b2dc7d64aaaa8d05e05e055e0b&",
           "contentType": "image/png"
         },
         {
           "filename": "06_1011.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441875046430/06_1011.png?ex=6adbd621&is=6ada84a1&hm=4e4f7295dd01d89384666550ac6b628493f2318ec40b1d42abf2484f72769faa&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342441875046430/06_1011.png?ex=6adc7ee1&is=6adb2d61&hm=01721f04a247ac0aadf6fd639e6b750678cb2f8ea74f882c1a82f12a350bad1d&",
           "contentType": "image/png"
         },
         {
           "filename": "07_1213.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342442542207077/07_1213.png?ex=6adbd622&is=6ada84a2&hm=b2178cdd054360f57805e170390b05929e29188d3d9dd85c74cf6ece930046c9&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342442542207077/07_1213.png?ex=6adc7ee2&is=6adb2d62&hm=5ca9fd91b9dc05d97a03b42b006430adba1d0652d987068ad390b8eb329fe2fa&",
           "contentType": "image/png"
         },
         {
           "filename": "08_1415.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342443322343424/08_1415.png?ex=6adbd622&is=6ada84a2&hm=a96fe5ca0c6bc263c7d34f67e866f945006a89b06f082d759d5f1ab414bc18f4&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342443322343424/08_1415.png?ex=6adc7ee2&is=6adb2d62&hm=2af48d1203fd15eae20c5b54cada3235e8bc47766fb55e5041ea74fb48e8d957&",
           "contentType": "image/png"
         },
         {
           "filename": "09_1617.png",
-          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342444110618674/09_1617.png?ex=6adbd622&is=6ada84a2&hm=27193b6b75c2ddadfb72cc796e22ab2ab5e155fc1e71e39c58f7542daac9d680&",
+          "url": "https://cdn.discordapp.com/attachments/1168514920539758683/1553342444110618674/09_1617.png?ex=6adc7ee2&is=6adb2d62&hm=e8203fd8eaeaa20ec70ba28df02993dcd5faa2105f5918a590b392c286200777&",
           "contentType": "image/png"
         }
       ]
@@ -572,18 +584,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1540950772924284979",
-      "attachments": []
-    },
-    {
-      "id": "1540646811709218908",
-      "title": "📢중요 공지",
-      "content": "@Ze Player\n\n# [2차 설문조사 하러가기 (2nd Survey Form Link)](https://forms.gle/Bik6pj6Ww5n3cDie6) #\n\n안녕하세요, RSS 좀비탈출 서버를 즐겨주시는 유저분들께 안내드립니다.\n\n또 다시 한번 플레이 환경 개선 및 기타 사항에 대한 종합 2차 설문조사를 진행하고자 합니다.\n\n설문조사는 총 13개 문항으로 구성되어 있으며, 익명으로 진행됩니다.\n\n보내주신 모든 답변은 향후 서버 운영 및 업데이트에 소중한 자료로 활용될 예정입니다.\n\n이전에 작성하셨던 설문조사 보상은 8월 23일 새벽에 일괄로 지급해 드립니다. 늦어서 죄송합니다.\n\n# 📅설문조사 기간 #\n<t:1787389200:F> ~ <t:1788102000:F> (<t:1788102000:R>)\n\n# 🎁설문조사 보상 #\n## `5,000크레딧`##\n\n설문 완료 후 안내되는 링크를 통해 보상 지급 폼을 작성해주시면 됩니다.\n많은 참여 부탁드립니다. 감사합니다.\n\n# 📢 IMPORTANT ANNOUNCEMENT #\nHello to all players who enjoy the RSS Zombie Escape server.\n\nOnce again, we are conducting a 2nd comprehensive survey regarding improvements to the gameplay environment and other matters.\n\nThe survey consists of 13 questions in total and will be completely anonymous.\n\nAll your responses will serve as valuable input for future server operations and updates.\n\nThe rewards for the previous survey will be distributed all at once in the early morning of August 23rd. We apologize for the delay.\n\n# 📅 Survey Period #\n<t:1787389200:F> ~ <t:1788102000:F> (<t:1788102000:R>)\n\n# 🎁 Survey Reward #\n## `5,000 Credits` ##\n\nAfter completing the survey, please fill out the reward claim form via the link provided at the end.\nThank you for your valuable feedback and support\n\n# [2차 설문조사 하러가기 (2nd Survey Form Link)](https://forms.gle/Bik6pj6Ww5n3cDie6) #",
-      "publishedAt": "2026-08-22T09:00:23.745000+00:00",
-      "editedAt": "2026-08-30T08:06:17.808000+00:00",
-      "author": "Mentalspin",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1540646811709218908",
       "attachments": []
     }
   ]
