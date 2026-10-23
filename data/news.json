@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T10:54:08.069000+00:00",
+  "updatedAt": "2026-10-23T16:29:35.698000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1563227904060559453",
+      "title": "RSS ZE 플러그인 패치노트",
+      "content": "# 스토어 일반 스킨 , 히든 스킨 미리보기 카드탭 추가\n\n- 스킨 상점에 `미리보기` 탭이 추가됐습니다. 좌측 위 상시 스킨을 구매 전에 확인할 수 있습니다.\n- 가챠에는 `히든 미리보기` 탭이 추가됐습니다. 미리보기는 본인에게만 보입니다.\n\n#  배틀패스 표시 개선\n\n- 4:3 해상도에서 임무 카드가 2열로 표시되고 보상 카드가 겹치지 않도록 수정했습니다.\n- 4:3 해상도에서 메뉴 위치를 16:9로 설정했을 때 카드가 화면 밖으로 잘리던 문제를 수정했습니다.\n- 일일·주간 임무의 XP 진행도와 상한이 표시됩니다.\n\n# 가챠 개선\n\n- 접속 인원이 20명 미만이면 가챠를 언제든 이용할 수 있습니다.\n\n# 커스텀 바이존 패널 추가\n\n- 무기 종류별 구매 쿨타임을 실시간으로 볼 수 있습니다.\n- 로드아웃 설정에 없어도 구매가 가능합니다. (CT,T 상관없이)\n- 커스텀 바이존 패널에서는 서버 가격과 구매 제한이 동일하게 적용됩니다.\n\n# 하이드 예외 추가 (화이트리스트 하이드)\n\n- `!hidewl` 또는 `!하이드예외`로 하이드 예외 대상을 최대 10명까지 지정할 수 있습니다.\n- 지정한 사람은 하이드·ZHide를 사용 중이어도 원래 모델로 표시됩니다.\n\n# 기타 개선\n\n- 사운드 설정에서 끈 다른 사람의 장전·칼 소리가 작동하지 않던 문제를 해결했습니다.\n- 이모트 중 3인칭 카메라를 개선했습니다.\n- 인원이 많은 맵에서 개인 HUD·패널 전송과 하이드 처리를 최적화 했습니다.\n- VIP 로테이션이 끝난 스킨이 셔플 목록에 남던 문제를 수정했습니다.\n\n@Ze Player",
+      "publishedAt": "2026-10-23T16:29:35.698000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1563227904060559453",
+      "attachments": []
+    },
+    {
+      "id": "1563219673712169053",
+      "title": "일부 캐릭터 스킨 회수 및 보상 안내",
+      "content": "- 운영상의 이유로 아래 캐릭터 스킨 8종을 회수하고 보상합니다.\n```\n바냐 / 이안 마츠리 / 띠아 수영복 / 데비 교복 / 마를렌 수영복 / 코렐라인 / 스위트 데빌 레니 / 파이널 랩 로지\n```\n\n## 보상\n- 기간제 및 미개봉 보유 : 남은 기간 1일당 약 60크레딧 (10/24 기준)\n- 영구제 보유 대상 : 원하는 상시 스킨 영구제 지급\n\n- 대상자\n```\n89 바냐          76561198100895604 (테토)\n93 띠아 수영복   76561198141285271 (희망찬)\n```\n\n## 지급 방법\n- 보상 크레딧은 서버에 다음에 접속할 때 자동으로 지급됩니다. 따로 신청할 필요가 없습니다.\n- 영구제 보유 대상자는 디스코드 문의글 작성 바랍니다.\n\n이용에 불편을 드려 죄송합니다.\n\n---\n\n# Character Skin Removal & Compensation\n\n- For operational reasons, the following 8 character skins will be removed, and owners will be compensated.\n```\nVanya / Lyanh Matsuri / Tia Swimsuit / Debi School Uniform / Marlene Swimsuit / Coraline / Sweet Devil Leni / Final Lap Rosie\n```\n\n## Compensation\n- Timed and unopened skins: about 60 credits per remaining day (as of Oct 24)\n- Permanent skin owners: a permanent version of any regular skin of your choice\n\n- Eligible permanent owners\n```\n89 Vanya          76561198100895604 (테토)\n93 Tia Swimsuit   76561198141285271 (희망찬)\n```\n\n## How to receive\n- Credits are added automatically the next time you join the server. No request is needed.\n- Permanent skin owners, please open a support post on Discord.\n\nWe apologize for the inconvenience.\n\n@Ze Player",
+      "publishedAt": "2026-10-23T15:56:53.430000+00:00",
+      "editedAt": null,
+      "author": "Somast",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1563219673712169053",
+      "attachments": []
+    },
     {
       "id": "1563143482665734165",
       "title": "금일 CS2 업데이트 이후, 맵이 바뀌면 보이스가 들리지 않는 문제가 있습니다.",
@@ -551,18 +575,6 @@
       "attachments": []
     },
     {
-      "id": "1541274871764619264",
-      "title": "서버 이전 작업 때문에 금일 12시부터 서버닫아놓습니다",
-      "content": "오픈 시각은 미정입니다\n\n@Ze Player",
-      "publishedAt": "2026-08-24T02:36:04.931000+00:00",
-      "editedAt": null,
-      "author": "투온전도사",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1541274871764619264",
-      "attachments": []
-    },
-    {
       "id": "1541029263149506560",
       "title": "RSS 에셋 업데이트",
       "content": "# 캐릭터 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- 호시미 미야비 (젠존제)\n- 유우카 (블루 아카이브)\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- 레이븐 (이환) [H]\n\n# 무기 스킨 추가\n\n## -일반-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -히든-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - 해당 무기스킨은 이벤트 참여로 얻으실 수 있습니다\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## 비활성화된 무기 스킨\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - 크래쉬로 인한 비활성화\n\n### 에러 뜨시는 분들은 아래 링크를 구독 후 게임을 재시작 해주세요\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n---\n\n# RSS Asset Update\n\n# Added Character Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1517461614356594700/1541021621475745792\n- Hoshimi Miyabi (Zenless Zone Zero)\n- Yuuka  (Blue Archive)\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778592100646962/1541022533069971506\n- Raven (NTE) [H]\n\n# Added Weapon Skins\n\n## -Normal-\nhttps://discord.com/channels/850664390779731978/1476635695958462554/1541025072947535892\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1541023173540192296\n- Blue Archive Aris Butterfly Knife\n- CSO Dual Infinity [F][A][E]\n- CSO Dual Infinity Final [F][A][E]\n\n## -Hidden-\nhttps://discord.com/channels/850664390779731978/1533778687600754708/1541023545692520468\n- Blue Archive Mecha Aris (MP7) [F][A][H]\n- Blue Archive Noa (PP-Bizon) [F][A][H]\n\n### ※ CSO Dual Infinity, CSO Dual Infinity Final - This weapon skin can be obtained by participating in the event.\nhttps://discord.com/channels/850664390779731978/851039309691355147/1540955102456844389\n\n## Disabled Weapon skin\nhttps://discord.com/channels/850664390779731978/1476629319605555324/1533786271074488401\n- miku_pa (ursus) - Disabled due to crashes\n\n### If you encounter any errors, subscribe to the items at the links below and restart the game.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782730321\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731016\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782731693\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3782732358\n\n@Ze Player",
@@ -572,18 +584,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1541029263149506560",
-      "attachments": []
-    },
-    {
-      "id": "1540950772924284979",
-      "title": "RSS 플러그인 업데이트",
-      "content": "## 맵 효과 개인 설정\n\n맵의 블룸 및 후처리 효과를 사용자별로 설정할 수 있는 기능을 추가했습니다.\n\n### 설정 방법\n\n- 설정 메뉴 → 기능 메뉴 → 맵 후처리 효과\n- 명령어: !맵효과, !postprocess\n- 신규 사용자 기본값은 ON\n\n### OFF 적용 대상\n\n- post_processing_volume\n- env_tonemap_controller\n- env_tonemap_controller2\n\n> 일부 안개, 볼류메트릭 및 라이트맵 효과는 남을 수 있습니다.\n\n## 보스딜량 1위 혜택 추가\n\n- 보스 딜 1등은 다음 라운드 숙주 감염 면제(28명 이상일 때만)\n\n## 플레이타임 토큰 보상 변경\n\n- 1시간 플레이: 15-> 25 Tokens\n- 2시간 플레이: 10-> 20 Tokens\n- 기존 3시간 보상(10) 제거\n\n## 무기 스킨 착용 표시\n\n* 무기 스킨 메뉴에서 현재 사용 중인 스킨 옆에 착용 상태가 표시됩니다.\n\n---\n\n# RSS Plugin Update\n\n## Per-Player Map Effect Settings\n\nA new feature has been added that allows each player to configure map bloom and post-processing effects individually.\n\n### How to Configure\n\n- Settings Menu → Function Menu → Map Post-Processing Effects\n- Commands:  !postprocess\n- Default setting for new players: ON\n\n### Entities Disabled When Set to OFF\n\n- post_processing_volume\n- env_tonemap_controller\n- env_tonemap_controller2\n\n> Some fog, volumetric, and lightmap effects may remain.\n\n## New Benefit for the Top Boss Damage Dealer\n\n- The player who ranks first in boss damage will be immune to becoming a mother zombie in the next round.\n- This benefit is only enabled when there are at least 28 players.\n\n## Playtime Token Reward Changes\n\n- 1 hour of playtime: 15 → 25 Tokens\n- 2 hours of playtime: 10 → 20 Tokens\n- The previous 3-hour reward of 10 Tokens has been removed.\n\n## Equipped Weapon Skin Indicator\n\nThe weapon skin menu now displays an equipped indicator next to the skin currently in use.\n\n@Ze Player",
-      "publishedAt": "2026-08-23T05:08:13.746000+00:00",
-      "editedAt": "2026-08-23T05:24:04.768000+00:00",
-      "author": "투온전도사",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1540950772924284979",
       "attachments": []
     }
   ]
