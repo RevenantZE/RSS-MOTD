@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T06:18:37.446000+00:00",
+  "updatedAt": "2026-10-25T06:07:12.105000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1563796049410396182",
+      "title": "설문조사 마감까지 <t:1792940399:R> 많은 참여 부탁드립니다",
+      "content": "[설문조사링크](https://forms.gle/diGY35Kx6XrTj2mV7)\n\n---\n\nThe survey closes <t:1792940399:R>. We'd really appreciate your participation\n\n[Survey link](https://forms.gle/diGY35Kx6XrTj2mV7)\n\n@Ze Player",
+      "publishedAt": "2026-10-25T06:07:12.105000+00:00",
+      "editedAt": null,
+      "author": "Mentalspin",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1563796049410396182",
+      "attachments": []
+    },
     {
       "id": "1563436536073166859",
       "title": "세팅이 변경됩니다.",
@@ -560,18 +572,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1542481734614917180",
-      "attachments": []
-    },
-    {
-      "id": "1541413522972614677",
-      "title": "서버 정상 오픈했습니다.",
-      "content": "ip가 바뀌어서 즐겨찾기 새로 하셔야됩니다.\n\n좀탈 : rsscs2.kr:27015\n좀탈 테섭 : rsscs2.kr:27016\n미겜 : rsscs2.kr:27017\n미겜 테섭 : rsscs2.kr:27019\n\n@Ze Player",
-      "publishedAt": "2026-08-24T11:47:01.955000+00:00",
-      "editedAt": null,
-      "author": "투온전도사",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1541413522972614677",
       "attachments": []
     },
     {
