@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T00:51:57.642000+00:00",
+  "updatedAt": "2026-11-10T11:32:34.243000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,30 @@
     }
   ],
   "items": [
+    {
+      "id": "1569675283303235716",
+      "title": "支援受付再開とVIPリニューアルのお知らせ",
+      "content": "今回のリニューアルで、VIPは **Tier 2（$4）** と **Tier 3（$8）** の2種類になります。\n各Tierの特典と価格は支援ページでご確認ください。\n<https://rsscs2.kr/donate/>\nKo-fi: <https://ko-fi.com/rssze>\n\n## 今年（10月22日まで）の支援者にVIP Tier 3を1か月付与\n- 2026年に一度でも支援してくださった方には、**VIP Tier 3を1か月分**付与します。\n\n## 累計支援額の確認\n- <https://rsscs2.kr/donate/me/> にSteamでログインすると、ご自身の支援履歴と**累計支援額**を確認できます。\n- 累計額は、CS2サーバーを開始した**2024年1月以降**の支援を合算したものです。\n- 金額は韓国ウォンで表示されます。\n\n## 永久VIP\n- 累計支援額が **$160（20万ウォン）以上** の方は、**永久VIP（Tier 3）** に切り替わります。\n- 基準額は今年いっぱい$160、2027年からは$200で、その後さらに上がる可能性があります。\n- $160以上支援された方で返金をご希望の方がいらっしゃいましたら、返金いたします。\n\n## 既存の支援者\n- 現在ご利用中のVIPはすべてTier 3となり、残り期間はそのまま引き継がれます。",
+      "publishedAt": "2026-11-10T11:29:10.696000+00:00",
+      "editedAt": "2026-11-10T11:32:19.801000+00:00",
+      "author": "STONE",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1569675283303235716",
+      "attachments": []
+    },
+    {
+      "id": "1569675258108186667",
+      "title": "Donations Reopened & VIP Update",
+      "content": "VIP is now split into two tiers: **Tier 2 ($4)** and **Tier 3 ($8)**.\nYou can check the perks and prices of each tier on the support page.\n<https://rsscs2.kr/donate/>\nKo-fi: <https://ko-fi.com/rssze>\n\n## 1 month of VIP Tier 3 for this year's supporters (before October 22)\n- Everyone who supported us at least once in 2026 receives **1 month of VIP Tier 3**.\n\n## Check your total support\n- Log in with Steam at <https://rsscs2.kr/donate/me/> to see your support history and your **total support**.\n- The total counts all support since **January 2024**, when the CS2 server started.\n- Amounts are shown in KRW.\n\n## Lifetime VIP\n- Supporters whose total reaches **$160** are upgraded to **lifetime VIP (Tier 3)**.\n- The threshold is $160 through the end of this year and $200 (250,000 KRW) from 2027. It may go up further after that.\n- If you have supported $160 or more and would like a refund, let us know and we will refund you.\n\n## Existing supporters\n- All current VIPs are Tier 3, and your remaining time carries over as is.",
+      "publishedAt": "2026-11-10T11:29:04.689000+00:00",
+      "editedAt": "2026-11-10T11:32:34.243000+00:00",
+      "author": "STONE",
+      "channelId": "1168514920539758683",
+      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
+      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1569675258108186667",
+      "attachments": []
+    },
     {
       "id": "1569514922252046429",
       "title": "후원 재개 및 VIP 개편 안내",
@@ -476,30 +500,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1548546970639929468",
-      "attachments": []
-    },
-    {
-      "id": "1548293346298957877",
-      "title": "서버 모드별 역할 분리 안내 / Server Mode Roles Update",
-      "content": "@everyone\n\n- 새로운 모드 서버들이 추가됨에 따라, 원하시는 소식과 알림만 선택해서 받으실 수 있도록 역할(Role)을 세분화하였습니다.\n\n아래 링크로 이동하셔서 원하시는 모드의 이모지를 누르고 역할을 부여받아 주시기 바랍니다.\n\n- We have separated server roles (ZE, MG, KZ) so you can receive notifications only for the modes you play.\n\nPlease visit the link below and react with the corresponding emojis to get your roles.\n\n## [**역할 받으러 가기 / Get Your Roles Here:**](https://discord.com/channels/850664390779731978/851917252022239272/1548146660767567914)\n\n### 또한 KZ, 버니합, 서프(Surf) 관련 서버 관리를 함께 도와주실 분을 찾고 있습니다.\n관심 있으신 분은 @sj58320 님에게 DM 부탁드립니다.",
-      "publishedAt": "2026-09-12T11:24:59.657000+00:00",
-      "editedAt": "2026-09-12T11:44:08.336000+00:00",
-      "author": "킁",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1548293346298957877",
-      "attachments": []
-    },
-    {
-      "id": "1547555610051215392",
-      "title": "어드민 추가",
-      "content": "새로운 어드민 @겨울 님이 추가되었습니다.\n\n앞으로 잘 부탁드립니다.",
-      "publishedAt": "2026-09-10T10:33:29.629000+00:00",
-      "editedAt": null,
-      "author": "킁",
-      "channelId": "1168514920539758683",
-      "channelName": "📢┆𝐍𝐨𝐭𝐢𝐜𝐞",
-      "url": "https://discord.com/channels/850664390779731978/1168514920539758683/1547555610051215392",
       "attachments": []
     },
     {
