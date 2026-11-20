@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T11:32:34.243000+00:00",
+  "updatedAt": "2026-11-20T17:02:17.096000+00:00",
   "source": "discord",
   "guildId": "850664390779731978",
   "channels": [
@@ -14,6 +14,18 @@
     }
   ],
   "items": [
+    {
+      "id": "1573382566512435334",
+      "title": "RSS ZE 플러그인 패치노트",
+      "content": "# 사운드팩 명령어 추가\n\n- `!사운드팩`으로 사운드팩 마운트 ON/OFF를 전환할 수 있습니다. (기본값 OFF)\n- `!사운드팩다운로드`로 워크샵을 따로 구독하지 않아도 사운드팩을 바로 다운로드할 수 있습니다.\n- `!사운드팩링크`로 사운드팩 워크샵 링크를 개인 채팅으로 제공받습니다.\n\n# 사운드팩 적용 방식\n\n- 사운드팩을 켠 플레이어에게만 선택적으로 다운로드·마운트되며, 다운로드 후 1회 재접속으로 자동 적용됩니다.\n\n> - 기존에 사운드관련 편의기능을 사용하시던 분들은 사운드팩을 활성화(ON)을 해두셔야지 적용이됩니다.\n> - 해당패치는 좀탈을 제외한 타섭 및 뉴비들을위한 접근성을 위해 진행했습니다.\n\n워크숍 링크 : https://steamcommunity.com/sharedfiles/filedetails/?id=3833477212\n\n@Ze Player",
+      "publishedAt": "2026-11-20T17:00:35.891000+00:00",
+      "editedAt": "2026-11-20T17:02:17.096000+00:00",
+      "author": "Somast",
+      "channelId": "853637982552326144",
+      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
+      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1573382566512435334",
+      "attachments": []
+    },
     {
       "id": "1569675283303235716",
       "title": "支援受付再開とVIPリニューアルのお知らせ",
@@ -572,18 +584,6 @@
       "channelId": "853637982552326144",
       "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
       "url": "https://discord.com/channels/850664390779731978/853637982552326144/1542481734614917180",
-      "attachments": []
-    },
-    {
-      "id": "1541304217245847562",
-      "title": "RSS 업데이트",
-      "content": "## 밸런스 패치 ##\n\n## 경직 콘솔값을 변경하였습니다. ##\n> - mp_tagging_scale 9 ▶️  mp_tagging_scale 500\n\n## 하드와 노말 세팅의 최대, 최소 경직이 3% 감소하였습니다. ##\n>  하드 세팅\n> - 이전 최대경직 **68%** ▶️ 조정 후** 65%**\n> - 이전 최소경직 **65%** ▶️ 조정 후 **62% **\n>\n>  노말 세팅\n> - 이전 최대경직 **72%** ▶️ 조정 후** 69%**\n> - 이전 최소경직 **69%** ▶️ 조정 후 **66% **\n\n---\n\n# RSS Update #\n\nHuman Nerf / Zombie Buff\n\n## Balance Patch ##\n- Adjusted the console command values for tagging settings.\n> -mp_tagging_scale 9 ▶️  mp_tagging_scale 500\n\n- maximum and minimum tagging for Hard and Normal settings have been reduced by 3%.\n> Hard Setting\n> - Maximum tagging Previous **68%** ▶️ Adjusted ** 65%**\n> - Minimum tagging Previous **65%** ▶️ Adjusted **62% **\n>\n>  Normal Setting\n> - Maximum tagging Previous **72%** ▶️ Adjusted ** 69%**\n> - Minimum tagging Previous **69%** ▶️ Adjusted **66% **\n\n@Ze Player",
-      "publishedAt": "2026-08-24T04:32:41.439000+00:00",
-      "editedAt": "2026-08-24T06:12:27.382000+00:00",
-      "author": "Mentalspin",
-      "channelId": "853637982552326144",
-      "channelName": "🍀┆𝐙𝐄-𝐏𝐚𝐭𝐜𝐡𝐍𝐨𝐭𝐞-𝐊𝐑",
-      "url": "https://discord.com/channels/850664390779731978/853637982552326144/1541304217245847562",
       "attachments": []
     }
   ]
